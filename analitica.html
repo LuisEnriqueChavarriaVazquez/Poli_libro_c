@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" id="generalDocument">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Análisis de resultados</title>
+    <link rel="shortcut icon" href="img/ipn.ico" type="image/x-icon">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/scss/addsOn/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/scss/styles.css">
+    <link rel="stylesheet" href="css/scss/addsOn/driver.min.css">
+    <link rel="stylesheet" href="css/loadingLongTime/loadingNoUnit.css">
+    <link rel="stylesheet" href="css/loadingLongTime/loading.css">
+
+    <!--Colors-->
+    <link id="colorAdaptable" rel="stylesheet" href="css/colors/standarColors.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/materialize.min.js"></script>
+    <script defer src="js/activateComponentsMaterialize.js"></script>
+
+    <!--Scripts de análitica-->
+    <script defer src="js/stats/calificacionPorUnidadBarra.js"></script>
+    <script defer src="js/stats/tiempoPromedio.js"></script>
+    <script defer src="js/stats/intentosPromedio.js"></script>
+    <script defer src="js/stats/probabilidadAprobar.js"></script>
+    <script defer src="js/stats/calificacionPorUnidad.js"></script>
+    <script defer src="js/stats/examenesHechos.js"></script>
+
+    <!--Componentes inyectables-->
+    <script defer src="js/components/header.js"></script>
+    <script defer src="js/components/footer.js"></script>
+
+    <!--Scripts de configuraciones-->
+    <script defer src="js/configuraciones/modoLuz.js"></script>
+    <script defer src="js/configuraciones/modoLectura.js"></script>
+    <script defer src="js/loading/loadingPolilibro.js"></script>
+    <script defer src="js/loading/loadingCuestionario.js"></script>
+    <script defer src="js/noCopy.js"></script>
+
+    <!--Tutorial interactivo-->
+    <script defer src="js/driver.min.js"></script>
+    <script defer src="js/tutorialAnalitica.js"></script>
+
+</head>
+
+<body class="clw">
+
+    <!--Pantalla de carga para los cuestionarios en caso de que tarde mucho-->
+    <section id="bookLoading" class="clgreyl1">
+        <div class="book">
+            <div class="book__pg-shadow"></div>
+            <div class="book__pg"></div>
+            <div class="book__pg book__pg--2"></div>
+            <div class="book__pg book__pg--3"></div>
+            <div class="book__pg book__pg--4"></div>
+            <div class="book__pg book__pg--5"></div>
+        </div>
+        <div class="clbktx textoStandar clgreyl2 border1 textoDeCarga">Preparando estadísticas</div>
+    </section>
+
+    <section>
+        <!--Navbar superior-->
+        <div class="nav-superior cl1" id="nav-superior"></div>
+        <!--Navbar principal-->
+        <!--Navbar principal-->
+        <nav>
+            <div class="nav-wrapper cl2">
+                <a href="polilibro.html" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i
+                        class="material-icons">arrow_back</i></a>
+                <a class="brand-logo titleUnity">Análisis de resultados</a>
+            </div>
+        </nav>
+    </section>
+
+    <!--Contenidos de los datos-->
+    <section class="contenedorDatos_padre clw">
+        
+        <!--Datos generales-->
+        <section class="contenedorDatos_general">
+            <!--Calificaciones-->
+            <div class="clgreyl1 border1 shadow2 generalCardData" id="general_1">
+                <p class="textoTitulo clbktx">Calificaciones</p>
+                <div class="border1 textoStandar clw generalCardData_son"> 
+                    <div class="clbktx generalCardData_son1">U1</div> 
+                    <div class="clwtx generalCardData_son2 barraGraficaStats1" id="calU1Stats">10</div>
+                </div>
+                <div class="border1 textoStandar clw generalCardData_son"> 
+                    <div class="clbktx generalCardData_son1">U2</div> 
+                    <div class="clwtx generalCardData_son2 barraGraficaStats2" id="calU2Stats">10</div>
+                </div>
+                <div class="border1 textoStandar clw generalCardData_son"> 
+                    <div class="clbktx generalCardData_son1">U3</div> 
+                    <div class="clwtx generalCardData_son2 barraGraficaStats3" id="calU3Stats">10</div>
+                </div>
+                <div class="border1 textoStandar clw generalCardData_son"> 
+                    <div class="clbktx generalCardData_son1">U4</div> 
+                    <div class="clwtx generalCardData_son2 barraGraficaStats4" id="calU4Stats">10</div>
+                </div>
+                <div class="border1 textoStandar clw generalCardData_son"> 
+                    <div class="clbktx generalCardData_son1">U5</div> 
+                    <div class="clwtx generalCardData_son2 barraGraficaStats5" id="calU5Stats">10</div>
+                </div>
+            </div>
+            <!--Examenes respondidos-->
+            <div class="clgreyl1 border1 shadow2 generalCardData" id="general_2">
+                <p class="textoGrande clbktx"><span id="dato_examenes_hechos">0</span>/5</p>
+                <p class="textoStandar clbktx">Exámenes respondidos</p>
+            </div>
+            <div class="clgreyl1 border1 shadow2 generalCardData" id="general_3">
+                <p class="textoGrande clbktx"><span id="dato_tiempoPromedio">0</span> mins</p>
+                <p class="textoStandar clbktx">Promedio por examen</p>
+            </div>
+            <div class="clgreyl1 border1 shadow2 generalCardData" id="general_4">
+                <p class="textoGrande clbktx"><span id="dato_intentos_examen">0</span> intentos</p>
+                <p class="textoStandar clbktx">Promedio por examen</p>
+            </div>
+            <div class="clgreyl1 border1 shadow2 generalCardData" id="general_5">
+                <p class="textoGrande clbktx"><span id="dato_probabilidad_pasar"></span>%</p>
+                <p class="textoStandar clbktx">índice de aprobación</p>
+            </div>
+        </section>
+
+        <!--Grafica de los puntos-->
+        <section class="contenedorDatos_graficas">
+            <div class="clgreyl1 border1 shadow2 graficaCardData" id="grafica_1">
+                <p class="textoTitulo clbktx">Gráfica de calificaciones</p>
+                <!--Grafica-->
+                <section class="contenedorGraficaMain clw border1">
+                    <div class="plano">
+                        <div class="verticalPlano">
+                            <div class="v-backgroundPlano clbktx">
+                                <div>1</div>
+                            </div>
+                            <div class="v-backgroundPlano clbktx">
+                                <div>2</div>
+                            </div>
+                            <div class="v-backgroundPlano clbktx">
+                                <div>3</div>
+                            </div>
+                            <div class="v-backgroundPlano clbktx">
+                                <div>4</div>
+                            </div>
+                            <div class="v-backgroundPlano clbktx">
+                                <div>5</div>
+                            </div>
+                            <div class="v-backgroundPlano clbktx">
+                                <div>6</div>
+                            </div>
+                            <div class="v-backgroundPlano clbktx">
+                                <div>7</div>
+                            </div>
+                            <div class="v-backgroundPlano clbktx">
+                                <div>8</div>
+                            </div>
+                            <div class="v-backgroundPlano clbktx">
+                                <div>9</div>
+                            </div>
+                            <div class="v-backgroundPlano clbktx">
+                                <div>10</div>
+                            </div>
+                        </div>
+                        
+                        <div class="horizontalPlano">
+                            <div class="h-backgroundPlano clbktx">
+                                <div>U1</div>
+                            </div>
+                            <div class="h-backgroundPlano clbktx">
+                                <div>U2</div>
+                            </div>
+                            <div class="h-backgroundPlano clbktx">
+                                <div>U3</div>
+                            </div>
+                            <div class="h-backgroundPlano clbktx">
+                                <div>U4</div>
+                            </div>
+                            <div class="h-backgroundPlano clbktx">
+                                <div>U5</div>
+                            </div>
+                        </div>
+
+                        <div class="containerBarras">
+                            <div class="h-containerBarras clbktx">
+                                <div id="unidad1CalificacionBarra" class="barraGraficaStats1"></div>
+                            </div>
+                            <div class="h-containerBarras clbktx">
+                                <div id="unidad2CalificacionBarra" class="barraGraficaStats2"></div>
+                            </div>
+                            <div class="h-containerBarras clbktx">
+                                <div id="unidad3CalificacionBarra" class="barraGraficaStats3"></div>
+                            </div>
+                            <div class="h-containerBarras clbktx">
+                                <div id="unidad4CalificacionBarra" class="barraGraficaStats4"></div>
+                            </div>
+                            <div class="h-containerBarras clbktx">
+                                <div id="unidad5CalificacionBarra" class="barraGraficaStats5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+    </section>
+
+    <br><br><br><br><br><br><br><br>
+
+    <!--Boton de tutorial-->
+    <a class="waves-effect waves-light btn-large botonPolilibro border1 cl4 hide-on-med-and-down scale-transition"
+    id="buttonComputerHelp"><i class="material-icons left">help</i>Ayuda</a>
+
+    <!--Inyectamos componente de footer-->
+    <section id="footerListener"></section>
+
+
+
+</body>
+
+</html>

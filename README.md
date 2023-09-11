@@ -1,1 +1,1 @@
-"# Poli_libro_c" 
+# Poli_libro

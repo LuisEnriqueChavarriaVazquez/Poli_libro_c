@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" id="generalDocument">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <title>Inicio</title>
+  <link rel="shortcut icon" href="img/ipn.ico" type="image/x-icon">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="css/scss/addsOn/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/scss/styles.css">
+  <link rel="stylesheet" href="css/scss/addsOn/driver.min.css">
+
+  <!--Colors-->
+  <link id="colorAdaptable" rel="stylesheet" href="css/colors/standarColors.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script defer src="js/jquery.min.js"></script>
+  <script defer src="js/materialize.min.js"></script>
+  <script defer src="js/activateComponentsMaterialize.js"></script>
+
+  <!--Componentes inyectables-->
+  <script defer src="js/components/header.js"></script>
+  <script defer src="js/components/footer.js"></script>
+
+  <!--Scripts propios-->
+  <script defer src="js/configuraciones/modoLuz.js"></script>
+  <script defer src="js/configuraciones/modoLectura.js"></script>
+  <script defer src="js/loading/loadScreen.js"></script>
+  <script defer src="js/tabSticky.js"></script>
+  <script defer src="js/noCopy.js"></script>
+
+  <!--Tutorial interactivo-->
+  <script defer src="js/driver.min.js"></script>
+  <script defer src="js/tutorialInteractive.js"></script>
+
+</head>
+
+<body>
+
+  <section>
+    <!--Navbar superior-->
+    <div class="nav-superior cl1" id="nav-superior"></div>
+    <!--Navbar principal-->
+    <nav>
+      <div class="nav-wrapper cl2">
+        <a href="#" data-target="mobile-demo" id="a12tutorialButton" class="sidenav-trigger show-on-large cl2"><i
+            class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li id="a1tutorialButton"><a class='btn waves-effect waves-light border1 white-text cl4' href='polilibro.html'>Polilibro<i
+                class="material-icons right">menu_book</i></a></li>
+          <li id="a2tutorialButton"><a class='btn waves-effect waves-light border1 white-text cl4' href='glosario.html'>Glosario<i
+                class="material-icons right">library_books</i></a></li>
+          <li id="a3tutorialButton"><a class='btn waves-effect waves-light border1 white-text cl3' href='contacto.html'>Contacto<i
+                class="material-icons right">alternate_email</i></a></li>
+          <li id="a4tutorialButton"><a class='btn waves-effect waves-light border1 white-text cl3' href='manual.html'>Manual<i
+                class="material-icons right">help</i></a></li>
+          <li id="a5tutorialButton"><a class='btn waves-effect waves-light border1 white-text cl4' href='configuracion.html'>Configuración<i
+                class="material-icons right">settings</i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <a class='botonPolilibro btn-large waves-effect waves-light border1 white-text light-blue darken-4'
+      href='/polilibro'>Polilibro<i class="material-icons right">menu_book</i></a> -->
+
+    <ul id="mobile-demo" class="sidenav clgreyl1 leftBorderMenuPrincipal">
+      <p class="textoTitulo white-text lateralMenuAdjustTextTitlePrincipal">Secciones</p>
+      <li><a class="clbktx textoStandar clw border0 activeButtonTextLateralPrincipal" href="index.html"><i class="material-icons clbktx">home</i>Inicio</a></li>
+      <li><a class="clbktx textoStandar clw border0" href="polilibro.html"><i class="material-icons clbktx">menu_book</i>Polilibro</a></li>
+      <li><a class="clbktx textoStandar clw border0" href="glosario.html"><i class="material-icons clbktx">library_books</i>Glosario</a></li>
+      <li><a class="clbktx textoStandar clw border0" href="contacto.html"><i class="material-icons clbktx">alternate_email</i>Contacto</a></li>
+      <li><a class="clbktx textoStandar clw border0" href="manual.html"><i class="material-icons clbktx">help</i>Manual</a></li>
+      <li><a class="clbktx textoStandar clw border0" href="configuracion.html"><i class="material-icons clbktx">settings</i>Configuración</a></li>
+      <!-- <li><a class="clbktx textoStandar clw border0" href="apk/polilibro_n.apk" onclick="M.toast({html: 'Descarga de aplicación iniciada 📁'})" download><i class="material-icons clbktx">android</i>Descargar app</a></li> -->
+    </ul>
+
+    <!--Menu para los contenidos en tiempo real-->
+    <ul id="tabs-swipe-demo" class="tabs cl2">
+      <li class="tab col s3 cl2" id="a6tutorialButton"><a class="white-text" href="#test-swipe-1">Bienvenida</a></li>
+      <li class="tab col s3 cl2" id="a7tutorialButton"><a class="white-text" href="#test-swipe-3">Metodología</a></li>
+      <li class="tab col s3 cl2" id="a8tutorialButton"><a class="white-text" href="#test-swipe-2">Unidad de competencia</a></li>
+      <li class="tab col s3 cl2" id="a9tutorialButton"><a class="white-text" href="#test-swipe-4">Evaluación de los aprendizajes</a></li>
+      <li class="tab col s3 cl2" id="a10tutorialButton"><a class="white-text" href="#test-swipe-5">Requerimientos</a></li>
+      <li class="tab col s3 cl2" id="a11tutorialButton"><a class="white-text" href="#test-swipe-6">Fuentes de consulta</a></li>
+    </ul>
+  </section>
+
+  <!--Contenidos principales de la página-->
+  <section class="mainContent">
+    <!--Seccion de bienvenida-->
+    <div id="test-swipe-1" class="mainTabs col s12 clgreyl1">
+      <div class="cardDesign clw shadow2 border1">
+
+        <section class="readyContentScreen">
+          <p class="textoTitulo clbktx">Bienvenida</p>
+          <p class="textoStandar clbktx">
+            Recibe la más cordial bienvenida a este recurso didáctico digital (RDD) de la Unidad de Aprendizaje (UA) de
+            Administración de Proyectos que se imparte en la Escuela Superior de Cómputo del Instituto Politécnico
+            Nacional. Este RDD fue construido con el propósito de promover el aprendizaje autónomo, así como de
+            facilitar,
+            enriquecer y fortalecer los procesos de enseñanza-aprendizaje de la UA en cuestión en la modalidad
+            escolarizada.
+          </p>
+
+          <div class="defaultImage">
+            <div class="defaultImageContent" id="bienvenida"></div>
+          </div>
+          <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+              href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+              href="https://icons8.com/illustrations/">Ouch!</a></span>
+        </section>
+
+        <!--Contenido de carga de la página-->
+        <section class="loadContentScreen"></section>
+
+      </div>
+    </div>
+    <!--Seccion de metodologia-->
+    <div id="test-swipe-3" class="mainTabs col s12 clgreyl1">
+      <div class="cardDesign clw shadow2 border1">
+
+        <section class="readyContentScreen">
+          <p class="textoTitulo clbktx">Metodología</p>
+          <p class="textoStandar clbktx">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, obcaecati recusandae dignissimos
+            consequuntur itaque assumenda voluptas dicta aspernatur iusto suscipit quas! Quidem iusto beatae quaerat
+            cupiditate eum fuga omnis maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum labore
+            minima excepturi incidunt voluptatibus culpa expedita quod explicabo, cumque voluptatum accusamus, similique
+            laboriosam magnam! Obcaecati harum nemo molestias adipisci quas?
+          </p>
+          <div class="defaultImage">
+            <div class="defaultImageContent" id="metodologia"></div>
+          </div>
+          <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+              href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+              href="https://icons8.com/illustrations/">Ouch!</a></span>
+        </section>
+
+        <!--Contenido de carga de la página-->
+        <section class="loadContentScreen"></section>
+
+      </div>
+    </div>
+    <!--Seccion de la unidad de competencia-->
+    <div id="test-swipe-2" class="mainTabs col s12 clgreyl1">
+      <div class="cardDesign clw shadow2 border1">
+
+        <section class="readyContentScreen">
+          <p class="textoTitulo clbktx">Unidad de competencia</p>
+          <p class="textoStandar clbktx">
+            El propósito de la Unidad de Aprendizaje (UA) Administración de Proyectos es: formula el estudio
+            mercadológico, técnico y financiero de un proyecto de inversión, con base en la metodología de generación y
+            evaluación de proyectos. Para lograr el propósito planteado, la presente UA se abordará a partir de la
+            estrategia de aprendizaje orientada a proyectos así como del método heurístico.
+
+          </p>
+          <p class="textoStandar clbktx">
+            Con el fin de obtener mejores resultados en cuanto a tu autoaprendizaje, te recomendamos estudiar cada una
+            de
+            las unidades temáticas en la secuencia en la que aparecen. Si deseas profundizar aún más en algún tema, te
+            sugerimos consultar la bibliografía detallada en el programa académico.
+          </p>
+          <div class="defaultImage">
+            <div class="defaultImageContent" id="unidadCompetencia"></div>
+          </div>
+          <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+              href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+              href="https://icons8.com/illustrations/">Ouch!</a></span>
+        </section>
+
+        <!--Contenido de carga de la página-->
+        <section class="loadContentScreen"></section>
+
+      </div>
+    </div>
+    <!--Seccion de la evaluación de los aprendizajes-->
+    <div id="test-swipe-4" class="mainTabs col s12 clgreyl1">
+      <div class="cardDesign clw shadow2 border1">
+
+        <section class="readyContentScreen">
+          <p class="textoTitulo clbktx">Evaluación de los aprendizajes</p>
+          <p class="textoStandar clbktx">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, obcaecati recusandae dignissimos
+            consequuntur itaque assumenda voluptas dicta aspernatur iusto suscipit quas! Quidem iusto beatae quaerat
+            cupiditate eum fuga omnis maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum labore
+            minima excepturi incidunt voluptatibus culpa expedita quod explicabo, cumque voluptatum accusamus, similique
+            laboriosam magnam! Obcaecati harum nemo molestias adipisci quas?
+          </p>
+          <div class="defaultImage">
+            <div class="defaultImageContent" id="evaluacionAprendizajes"></div>
+          </div>
+          <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+              href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+              href="https://icons8.com/illustrations/">Ouch!</a></span>
+        </section>
+
+        <!--Contenido de carga de la página-->
+        <section class="loadContentScreen"></section>
+
+      </div>
+    </div>
+    <!--Sección de los requerimientos-->
+    <div id="test-swipe-5" class="mainTabs col s12 clgreyl1">
+      <div class="cardDesign clw shadow2 border1">
+
+        <section class="readyContentScreen">
+          <p class="textoTitulo clbktx">Requerimientos</p>
+          <p class="textoStandar clbktx">
+            Para acceder y hacer uso de este curso se requiere
+          </p>
+          <p class="textoStandar clbktx">a. Conexión a internet</p>
+          <p class="textoStandar clbktx">b. Navegador a internet</p>
+          &nbsp;&nbsp;&nbsp;<p class="textoStandar clbktx">⬛ Navegador a internet 1</p>
+          &nbsp;&nbsp;&nbsp;<p class="textoStandar clbktx">⬛ Navegador a internet 2</p>
+          &nbsp;&nbsp;&nbsp;<p class="textoStandar clbktx">⬛ Navegador a internet 3</p>
+          &nbsp;&nbsp;&nbsp;<p class="textoStandar clbktx">⬛ Navegador a internet 4</p>
+          <div class="defaultImage">
+            <div class="defaultImageContent" id="requerimientos"></div>
+          </div>
+          <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+              href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+              href="https://icons8.com/illustrations/">Ouch!</a></span>
+        </section>
+
+        <!--Contenido de carga de la página-->
+        <section class="loadContentScreen"></section>
+
+      </div>
+    </div>
+    <!--Seccion de las fuentes de consulta-->
+    <div id="test-swipe-6" class="mainTabs col s12 clgreyl1">
+      <div class="cardDesign clw shadow2 border1">
+
+        <section class="readyContentScreen">
+          <p class="textoTitulo clbktx">Fuentes de consulta</p>
+          <p class="textoStandar clbktx">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, obcaecati recusandae dignissimos
+            consequuntur itaque assumenda voluptas dicta aspernatur iusto suscipit quas! Quidem iusto beatae quaerat
+            cupiditate eum fuga omnis maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum labore
+            minima excepturi incidunt voluptatibus culpa expedita quod explicabo, cumque voluptatum accusamus, similique
+            laboriosam magnam! Obcaecati harum nemo molestias adipisci quas?
+          </p>
+          <div class="defaultImage">
+            <div class="defaultImageContent" id="fuentes"></div>
+          </div>
+          <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+              href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+              href="https://icons8.com/illustrations/">Ouch!</a></span>
+        </section>
+
+        <!--Contenido de carga de la página-->
+        <section class="loadContentScreen"></section>
+
+      </div>
+    </div>
+  </section>
+
+  <!--Boton de tutorial-->
+  <a class="waves-effect waves-light btn-large botonPolilibro border1 cl4 hide-on-small-only" id="buttonComputerHelp"><i class="material-icons left">help</i>Ayuda</a>
+  
+  <!--Inyectamos componente de footer-->
+  <section id="footerListener"></section>
+
+</body>
+
+</html>
