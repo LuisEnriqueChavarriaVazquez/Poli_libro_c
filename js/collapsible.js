@@ -5,8 +5,10 @@ for(var i = 0; i <= collapsibleHeader.length; i++){
         let elemento = event.target;
         if(elemento.classList.contains('collapsible-header-clicked')){
             elemento.classList.remove('collapsible-header-clicked');
+            console.log('clicked removed')
         }else{
             elemento.classList.add('collapsible-header-clicked');
+            console.log("clicked added")
         }
     })
 }
