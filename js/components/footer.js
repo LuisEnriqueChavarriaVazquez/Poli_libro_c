@@ -2,36 +2,27 @@ function inyectFooter(){
     let footer = `
     <footer class="footerDesign clgreyl2 clborder">
         <div class="footerContainerOne">
-            <a class='btn waves-effect waves-light border1 clgreyl4 black-text'
-                href='https://github.com/LuisEnriqueChavarriaVazquez/Poli_libro'>Repositorio del polilibro<i
-                class="material-icons right">code</i></a>
 
             <!--Licencia-->
-            <section class="licenciaDeLaPagina textoFooter clbktx">
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-                    <img alt="Licencia Creative Commons" style="border-width:0" src="img/cc.png" />
-                </a>
-                <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
-                    Polilibro académico de formulación y evaluación de proyectos informáticos por Eduardo Rodríguez Flores, Josefina Hernández Jaime & Yasmín Ivette Jiménez Galán
-                </span> 
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-                    Se distribuye bajo una Licencia Creative Commons Atribución-NoComercial 4.0 Internacional
-                </a>
-                <a xmlns:dct="http://purl.org/dc/terms/" href="https://luisenriquechavarriavazquez.github.io/Poli_libro/" rel="dct:source">
-                Basada en una obra en https://luisenriquechavarriavazquez.github.io/Poli_libro/
-                </a>
-                <a xmlns:cc="http://creativecommons.org/ns#" href="https://luisenriquechavarriavazquez.github.io/Poli_libro/" rel="cc:morePermissions">
-                    Permisos más allá del alcance de esta licencia pueden estar disponibles en https://luisenriquechavarriavazquez.github.io/Poli_libro/
-                </a>
+            <section class="licencia_resaltada">
+                <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+                </a><br>
+                <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Recurso didáctico digital: Unidad I. La empresa y su entorno</span><br>
+                by Josefina Hernández Jaime, Eduardo Rodríguez Flores & Yasmín Ivette Jiménez Galán
+                <br>is licensed under a 
+                <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                    Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+                </a>.
             </section>
             <section class="clgreyl1 border1 shadow2 tabFechaElaboracion clbktx">
-                Fecha de elaboración: Marzo del 2023
+                Fecha de elaboración: Mayo del 2023
             </section>
         </div>
         <div class="footerContainerTwo">
-        <a class='btn waves-effect waves-light border1 clgreyl4 black-text' style="z-index: 0;" href='#!'>Manual<i
+        <a class='btn waves-effect waves-light border1 clgreyl4 black-text' style="z-index: 0;" href='manual.html'>Manual<i
             class="material-icons right">help</i></a>
-        <a class='btn waves-effect waves-light border1 clgreyl4 black-text' style="z-index: 0;" href='/contacto'>Contacto<i
+        <a class='btn waves-effect waves-light border1 clgreyl4 black-text' style="z-index: 0;" href='contacto.html'>Contacto<i
             class="material-icons right">alternate_email</i></a>
         </div>
     </footer>

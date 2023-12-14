@@ -74,109 +74,92 @@ function collectAnswers(definicion, concepto, numeroPregunta, idPregunta){
 let questionsDragAndDrop = [
   [
     {
-        concepto: "Concepto 1.1",
-        definicion: "Lorem ipsum dolorignissimos. Minus molestias idofficia ipsum corrupti impedit.",
+        concepto: "Tesorería",
+        definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
     },
     {
-        concepto: "Concepto 1.2",
-        definicion: "Ullam dignissimos. Minus molestias idofficia ipsum corrupti impedit. ullam dignissimos. Minus molestias.",
+        concepto: "Contraloría",
+        definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
     },
     {
-        concepto: "Concepto 1.3",
-        definicion: "Illum quos perspiciatis, voluptatum veritatis error nihil laboriosam earum voluptatem aliquid, facilis consequatur.",
+        concepto: "Finanzas",
+        definicion: "Área de una empresa que tiene como funciones obtener y dirigir la asignación eficiente de fondos dentro de la organización",
     },
     {
-        concepto: "Concepto 1.4",
-        definicion: "Ameconsectetur aliquam dignissimos porro explicabo.",
+      concepto: "Proveedores",
+      definicion: "De acuerdo con las NIF es el nombre que reciben las entidades que venden a las empresas bienes (materia prima, equipo de cómputo, mobiliario y equipo de oficina) o prestan servicios (de internet, de mantenimiento y de servicios de facturación electrónica, entre otros)",
     },
     {
       id: "0"
     }
   ],
-  [
+  [ //Conceptos parafraseados
     {
-        concepto: "Concepto 2.1",
-        definicion: "Lorem ipsum dolor sit amet consect offcorrupti impedit.",
+      concepto: "Ética",
+      definicion: "Trata sobre lo que se considera un comportamiento humano correcto, basado en la práctica de valores. En el ámbito financiero, implica que todas las acciones relacionadas con el manejo del dinero deben ser honestas, claras, transparentes y dignas de confianza.",
     },
     {
-        concepto: "Concepto 2.2",
-        definicion: "Ullam dignissimos. Minus molestias idoffi Minus molestias.",
+      concepto: "Economía",
+      definicion: "Ciencia que se enfoca en satisfacer las necesidades humanas y en generar y administrar la riqueza. Está estrechamente relacionada con las finanzas, ya que estas últimas son parte integral de la economía.",
     },
     {
-        concepto: "Concepto 2.3",
-        definicion: "Illum quos perspiciatis, voluptatum vertem aliquid, facilis consequatur.",
+      concepto: "Derecho",
+      definicion: "Conjunto de leyes que regulan las actividades financieras. En caso de no acatar o cumplir con estas leyes, existen sanciones legales.",
     },
     {
-        concepto: "Concepto 2.4",
-        definicion: "Ameconsectetur aliquam dignissimos porro explicabo.",
+      concepto: "Clientes",
+      definicion: "Personas que compran bienes o adquieren servicios de la empresa.",
     },
+
     {
       id: "1"
     }
   ],
   [
     {
-        concepto: "Concepto 3.1",
-        definicion: "Lorem ipsum dolor sit amet consect sdm,dsmsdm sd,msd,msd, offcorrupti impedit.",
+      concepto: "Proveedores",
+      definicion: "Entidades que venden bienes o prestan servicios a la empresa, como materia prima, equipo de cómputo, mobiliario, servicios de internet, etc.",
     },
     {
-        concepto: "Concepto 3.2",
-        definicion: "Ullam dignissimos. Minus molestias idoffi Minus molestias.",
+      concepto: "Competidores",
+      definicion: "Empresas que ofrecen el mismo producto o productos sustitutos, cubriendo la misma necesidad aunque no sean idénticos.",
     },
     {
-        concepto: "Concepto 3.3",
-        definicion: "Illum quos perspiciatis, voluptatum vertem aliquid, facilis consequatur.",
+      concepto: "Entidades financieras",
+      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
     },
     {
-        concepto: "Concepto 3.4",
-        definicion: "Ameconsectetur aliquam dignissimos porro explicabo.",
+      concepto: "Comunidad",
+      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
     },
+
     {
       id: "2"
     }
   ],
   [
     {
-        concepto: "Concepto 4.1",
-        definicion: "Lorem ipsum dolor sit amet consect offcorrupti impedit.",
+      concepto: "Tesorería",
+      definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
     },
     {
-        concepto: "Concepto 4.2",
-        definicion: "Ullam dignissimos. Minus molestias idoffi Minus molestias.",
+      concepto: "Contraloría",
+      definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
     },
     {
-        concepto: "Concepto 4.3",
-        definicion: "Illum quos perspiciatis, voluptatum vertem aliquid, facilis consequatur.",
+      concepto: "Entidades financieras",
+      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
     },
     {
-        concepto: "Concepto 4.4",
-        definicion: "Ameconsectetur aliquam dignissimos porro explicabo.",
+      concepto: "Comunidad",
+      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
     },
+
     {
       id: "3"
     }
   ],
-  [
-    {
-        concepto: "Concepto 5.1",
-        definicion: "Lorem ipsum dolor sit amet consect offcorrupti impedit.",
-    },
-    {
-        concepto: "Concepto 5.2",
-        definicion: "Ullam dignissimos. Minus molestias idoffi Minus molestias.",
-    },
-    {
-        concepto: "Concepto 5.3",
-        definicion: "Illum quos perspiciatis, voluptatum vertem aliquid, facilis consequatur.",
-    },
-    {
-        concepto: "Concepto 5.4",
-        definicion: "Ameconsectetur aliquam dignissimos porro explicabo.",
-    },
-    {
-      id: "4"
-    }
-  ]
+
 ];
 
 //Mezclamos el array de opciones

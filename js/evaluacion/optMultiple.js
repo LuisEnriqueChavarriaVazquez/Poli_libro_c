@@ -1,29 +1,24 @@
 function pregunta(numero) {
     //Respuestas para las preguntas
-    let respuestasId = [0, "pregunta1_opt3"
-        , "pregunta2_opt1", "pregunta3_opt3"
-        , "pregunta4_opt1", "pregunta5_opt2"
-        , "pregunta6_opt2", "pregunta7_opt3"
-        , "pregunta8_opt2", "pregunta9_opt2"
-        , "pregunta10_opt1", "pregunta11_opt1"
-        , "pregunta12_opt1", "pregunta13_opt2"
-        , "pregunta14_opt3", "pregunta15_opt3"
-        , "pregunta16_opt3", "pregunta17_opt2"
-        , "pregunta18_opt1", "pregunta19_opt2"
-        , "pregunta20_opt3"];
+    let respuestasId = [0, "pregunta1_opt2"
+        , "pregunta2_opt3", "pregunta3_opt1"
+        , "pregunta4_opt3", "pregunta5_opt2"
+        , "pregunta6_opt2", "pregunta7_opt1"
+        , "pregunta8_opt1", "pregunta9_opt3"
+        , "pregunta10_opt3",];
 
     //Explicaciones de las preguntas
-    let respuestasExplicacion = [0, "Valor del dinero en el tiempo"
-        , "Valor presente", "Valor del dinero en el tiempo"
-        , "Flujos de efectivo", "Anualidad"
-        , "Interés compuesto", "Principal"
-        , "$121,665", "Capitalizarla trimestralmente"
-        , "Es falso", "Ordinarias, vencidas o diferidas"
-        , "Programa de amortización", "Periodo de Recuperación de la inversión"
-        , "Tasa Interna de Rendimiento (TIR)", "índice de rentabilidad  (IR)"
-        , "Relación beneficio-costo", "Hay utilidad"
-        , "25,454", "TIR mayor que TMAR"
-        , "VAN o VPN"];
+    let respuestasExplicacion = [0, ["Recuerda que en la Sociedad Cooperativa cada socio goza de un voto sin importar el monto de su aportación; sin embargo, en la Sociedad Anónima cada acción tiene derecho a un voto, pero cada socio puede tener más de una acción.","En efecto, en la Asociación Civil, en la Sociedad Civil y en la Sociedad Cooperativa cada socio goza de un voto, sin importar el monto de su aportación.","Recuerda que en la Asociación civil cada socio goza de un voto sin importar el monto de su aportación; sin embargo, en la Sociedad de Responsabilidad Limitada por cada mil pesos o el múltiplo de esta cantidad, que se hubiere determinado, se tiene derecho a un voto."]
+        , ["Recuerda que en la Sociedad Civil la toma de decisiones no está en función del capital aportado; en cambio, en la Sociedad de Responsabilidad Limitada la toma de decisiones sí está en función del capital aportado.","Recuerda que tanto en la Asociación Civil como en la Sociedad Civil la toma de decisiones no está en función del capital aportado.","Tu respuesta es correcta, en la Sociedad de Responsabilidad Limitada (S. de R.L) y en la Sociedad Anónima (S.A) la toma de decisiones está en función del capital aportado."]
+        , ["Tu respuesta es correcta, en efecto las sociedades que no tributan son la Asociación Civil siempre y cuando su finalidad no sea económica y la Sociedad Cooperativa cuando es de consumo.","Las Asociaciones Civiles que tienen una finalidad económica sí tributan. De igual manera las Sociedades Cooperativas que no sean de consumo también pagan impuestos.","Recuerda que tanto la Sociedad Anónima (S.A) como las Sociedad por Acciones Simplificada (S.A.S) sí tributan, es decir están obligadas a pagar impuestos."]
+        , ["Para constituir una Asociación Civil se requiere solicitar acta constitutiva ante notario público.","Para constituir una Sociedad Civil se requiere solicitar acta constitutiva ante notario público.","En efecto, para constituir una S.A.S no se requiere solicitar acta constitutiva, dicha sociedad se constituye bajo los estatutos de la Secretaría de Economía mediante el sistema electrónico de constitución."]
+        , ["Las reformas en el esquema laboral se incluyen dentro de los factores político-legales y estos pertenecen al macroentorno o macroambiente.","Tu respuesta es correcta, las reformas en materia laboral se incluyen dentro de los factores político-legales y estos pertenecen al macroentorno o macroambiente.",""]
+        , ["Recuerda que una persona moral es el conjunto de personas físicas, que se unen para la realización de un fin colectivo, a quien la ley otorga capacidad jurídica para tener derechos y obligaciones.","Tu respuesta es correcta, de acuerdo con el S.A.T una persona física es el individuo que realiza cualquier actividad económica (vendedor, comerciante, empleado, profesionista, etc.), el cual tiene derechos y obligaciones.",""]
+        , ["Tu respuesta es correcta, a la obtención de recursos mediante diferentes fuentes se le conoce como financiamiento.","Recuerda que las actividades de inversión están dirigidas a incrementar el capital de los accionistas e inversionistas y las de financiamiento a la obtención de recursos mediante diferentes fuentes.","Actividades empresariales es un término que podría abarcar múltiples actividades; la obtención de recursos mediante diferentes fuentes se refiere específicamente a actividades de financiamiento."]
+        , ["Tu respuesta es correcta, la compra de maquinaria y equipo, la compra o ampliación de una planta productiva y las mejoras en el proceso productivo, entre otras, son consideradas actividades de inversión.","Recuerda que las actividades de financiamiento están encaminadas a la obtención de recursos provenientes de una o varias fuentes; en cambio las actividades de inversión van dirigidas a incrementar el capital de los accionistas e inversionistas.",""]
+        , ["Los factores político-legales, económicos y medio ambientales son factores del macroambiente o macroentorno.","Los factores demográficos, tecnológicos y socio-culturales son parte del macroambiente o macroentorno.","Tu respuesta es correcta, los proveedores, clientes, comunidad y alcaldías o municipios son factores del microambeinte o microentorno."]
+        , ["La planeación y el control son dos de las fases del proceso administrativo; en cambio, la inversión y el financiamiento son dos de las funciones o actividades principales de las finanzas.","La planeación y la organización son dos de las fases del proceso administrativo; en cambio; la inversión y el financiamiento son dos de las funciones o actividades principales de las finanzas.","Tu respuesta es correcta, la inversión y el financiamiento son dos de las funciones o actividades principales de las finanzas."]
+        , ];
 
     let respuestaCorrectaId = respuestasId[numero]
     let contenedor = document.getElementById("pregunta" + String(numero))
@@ -37,17 +32,27 @@ function pregunta(numero) {
     let contenedorPrincipalOPTMULTIPLE = document.getElementById(`pregunta${numero}`);
     contenedorPrincipalOPTMULTIPLE.setAttribute('resultadoFinal',`${respuestaAlumnoContent.value}`)
 
+    //Para la asignacion de la retroalimentación correspondiente
+    const regex=/pregunta(\d+)_opt(\d+)/;
+    var matches = respuestaAlumnoId.match(regex)
+
+    if (matches){
+        var num_pregunta=matches[1];
+        var num_retro=matches[2]-1;
+    }else{
+        console.log("Formato incorrecto")
+    }
+
     //Evaluacion de las preguntas
-    //console.log(respuestaAlumnoId)
     if (respuestaCorrectaId == respuestaAlumnoId) {
-        retroalimentacion.innerHTML = `<span class="estadoPreguntaAzar">Correcto</span>` + ", la respuesta es: " + `&nbsp;<span class="respuestaCorrectaPreguntaAzar">${respuestasExplicacion[numero]}</span>`;
+        retroalimentacion.innerHTML = `<span class="estadoPreguntaAzar">Correcto: </span>` + `&nbsp;<span class="respuestaCorrectaPreguntaAzar">${respuestasExplicacion[num_pregunta][num_retro]}</span>`;
         retroalimentacion.classList.add('mensajeCorrecta');
 
         //IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
         puntajeTotal++;
         preguntasContestadasTotal++;
     } else {
-        retroalimentacion.innerHTML = `<span class="estadoPreguntaAzar">Incorrecto</span>` +", la respuesta es: " + `&nbsp;<span class="respuestaCorrectaPreguntaAzar">${respuestasExplicacion[numero]}</span>`;
+        retroalimentacion.innerHTML = `<span class="estadoPreguntaAzar">Incorrecto: </span>`  + `&nbsp;<span class="respuestaCorrectaPreguntaAzar">${respuestasExplicacion[num_pregunta][num_retro]}</span>`;
         retroalimentacion.classList.add('mensajeIncorrecta');
 
         //IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
@@ -93,85 +98,45 @@ const preguntas_aleatorias_indices = [0]
 const preguntas = [
     0,
     {
-        "enunciado": "Técnica que parte de la premisa de que el dinero actual tiene un valor mayor que el que se recibirá en una fecha futura",
-        "opciones": ['Valor presente', 'Valor futuro', 'Valor del dinero en el tiempo'],
+        "enunciado": "Sociedades en las que cada socio goza de un voto, sin importar el monto de su aportación",
+        "opciones": ['Sociedad Cooperativa y Sociedad Anónima', 'Asociación Civil, Sociedad Civil y Sociedad Cooperativa', 'Sociedad de Responsabilidad Limitada y Asociación Civil'],
     },
     {
-        "enunciado": "Técnica que utiliza una tasa de descuento",
-        "opciones": ['Valor presente', 'Valor futuro', 'Valor del dinero en el tiempo'],
+        "enunciado": "Sociedades en las que el rumbo de la empresa (toma de decisiones) será definido en función del capital aportado",
+        "opciones": ['Sociedad Civil (S.C) y Sociedad de Responsabilidad Limitada (S. de R.L)', 'Asociación Civil (A.C) y Sociedad Civil (S.C)', 'Sociedad de Responsabilidad Limitada (S. de R.L) y Sociedad Anónima (S.A)'],
     },
     {
-        "enunciado": "Utiliza la capitalización para encontrar el valor de cada flujo de efectivo al final de la vida de la inversión",
-        "opciones": ['Valor presente', 'Valor futuro', 'Valor del dinero en el tiempo'],
+        "enunciado": "Son sociedades que no tributan",
+        "opciones": ['Asociación Civil (A.C) sin finalidad económica y Sociedad Cooperativa de consumo', 'Todas las asociaciones civiles y las sociedades cooperativas', 'La Sociedad Anónima (S.A)  y la Sociedad por Acciones Simplificada (S.A.S)'],
     },
     {
-        "enunciado": "El valor presente y el valor futuro se determinan a partir de:",
-        "opciones": ['Flujos de efectivo','Ingresos', 'Egresos'],
+        "enunciado": "Sociedad que no requiere solicitar acta constitutiva ante un fedatario público y se constituye bajo los estatutos de la Secretaría de Economía mediante el sistema electrónico de constitución",
+        "opciones": ['Asociación Civil (A.C)','Sociedad Civil', 'Sociedad por Acciones Simplificada (S.A.S)'],
     },
     {
-        "enunciado": "Se denomina así a los importes iguales que se repiten durante un periodo determinado de tiempo",
-        "opciones": ['Cantidad única', 'Anualidad', 'Principal o capital'],
+        "enunciado": "En 2021 hubo una reforma, en el esquema laboral, que prohíbe la subcontratación de personal (outsourcing). Dicha reforma, se considera un factor del:",
+        "opciones": ['Microentorno o microambiente', 'Macroentorno o macroambiente', 'Macroentorno o microambiente'],
     },
     {
-        "enunciado": "Interés que se gana en un depósito dado y que se vuelve parte del principal al final de un periodo específico",
-        "opciones": ['Interés simple', 'Interés compuesto', 'Interés intermedio'],
+        "enunciado": "De acuerdo con el SAT es el Individuo con capacidad para contraer obligaciones y ejercer derechos; puede prestar servicios, realizar actividades comerciales, arrendar bienes inmuebles y trabajar por salarios",
+        "opciones": ['Persona moral', 'Persona física', 'Empleador y empleado'],
     },
     {
-        "enunciado": "Nombre técnico que recibe la cantidad de dinero sobre la que se pagan intereses",
-        "opciones": ['Depósito', 'Inversión', 'Principal'],
+        "enunciado": "Corresponde a la obtención de recursos mediante diferentes fuentes; por ejemplo: compras a crédito, préstamos de la banca de primer piso, préstamos de la banca se segundo piso, préstamo de los socios, crowdfunding, entre otras",
+        "opciones": ['Actividades de financiamiento', 'Actividades de inversión', 'Actividades empresariales'],
     },
     {
-        "enunciado": "Supongamos que el día de hoy realizas un depósito de $100,000 en una cuenta bancaria que te dará un interés anual del 4%. Al cabo de 5 años ¿Cuánto dinero recibirás aproximadamente?",
-        "opciones": ['$150,000', '$121,665', '$122,000'],
+        "enunciado": "La compra de maquinaria y equipo, la compra o ampliación de una planta productiva y las mejoras en el proceso productivo, son consideradas:",
+        "opciones": ['Actividades de inversión', 'Actividades de financiamiento ', 'Actividades empresariales'],
     },
     {
-        "enunciado": "En el supuesto de que tengas una inversión ¿Cuál de las siguientes opciones te conviene más?",
-        "opciones": ['Capitalizarla anualmente', 'Capitalizarla trimestralmente', 'Capitalizarla semestralmente'],
+        "enunciado": "Son considerados elementos del microambiente o microentorno",
+        "opciones": ['Factores político-legales, económicos, medio ambientales', 'Demográficos, tecnológicos y socio-culturales', 'Proveedores, clientes, comunidad, alcaldías o municipios'],
     },
     {
-        "enunciado": "Entre más largo sea el período de capitalización de una inversión se ganan más rendimientos",
-        "opciones": ['Es falso', 'Es verdadero', 'Depende de la tasa de interés'],
+        "enunciado": "Son consideradas como las dos funciones o actividades principales de las finanzas",
+        "opciones": ['Planeación y control', 'Planeación y organización', 'Inversión y financiamiento'],
     },
-    {
-        "enunciado": "Este tipo de anualidades son las más comunes en finanzas",
-        "opciones": ['Ordinarias, vencidas o diferidas', 'Anticipadas', 'Amortizables'],
-    },
-    {
-        "enunciado": "Muestra en forma precisa cómo será pagado un préstamo, determina el pago requerido en cada fecha y especifica qué cantidad se está pagando de intereses y qué cantidad se paga a principal",
-        "opciones": ['Programa de amortización','Programa de anualidades', 'Cálculo de anualidades'],
-    },
-    {
-        "enunciado": "Método que también se puede calcular sin tomar en cuenta el valor del dinero en el tiempo",
-        "opciones": ['Tasa Interna de Rendimiento ', 'Periodo de Recuperación de la inversión', 'Valor Presente Neto (VPN)'],
-    },
-    {
-        "enunciado": "Es una tasa de descuento que hace posible igualar el valor presente de los ingresos con el valor presente de los egresos",
-        "opciones": ['Valor Presente Neto (VPN)', 'Periodo de recuperación', 'Tasa Interna de Rendimiento (TIR)'],
-    },
-    {
-        "enunciado": "Se obtiene dividiendo el valor presente de los flujos netos de efectivo entre la inversión inicial del proyecto",
-        "opciones": ['Tasa Promedio de Rentabilidad (TPR)', 'Relación Ventas sobre Utilidad (RVU)', 'Índice de Rentabilidad  (IR)'],
-    },
-    {
-        "enunciado": "Se obtiene dividiendo el valor presente de los beneficios (ingresos) entre el valor presente de los costos",
-        "opciones": ['Relación ventas sobre utilidad (RVU)', 'Rentabilidad sobre la inversión inicial (RSI)', 'Relación beneficio-costo'],
-    },
-    {
-        "enunciado": "Si la suma de ingresos actualizados es de $748,710 y la suma de egresos actualizados es de $722,604 ¿Cuál es la relación beneficio-costo?",
-        "opciones": ['Hay equilibrio operativo', 'Hay utilidad', 'Hay pérdida'],
-    },
-    {
-        "enunciado": "Por una inversión al cabo de un año recibirás 28,000 pesos; considerando una tasa de descuento del 10% ¿Cuánto dinero tendrás que invertir?",
-        "opciones": ['25,454','25,250', '24,330'],
-    },
-    {
-        "enunciado": "Condición en la que se podría aceptar un proyecto de inversión",
-        "opciones": ['TIR=TMAR','TIR mayor que TMAR','TIR menor que TMAR'],
-    },
-    {
-        "enunciado": "Se puede definir como el valor monetario que resulta de restar la suma de los flujos descontados (flujos de efectivo del proyecto a valor presente) a la inversión inicial",
-        "opciones": ['TMAR','TIR','VAN o VPN']
-    }
 ];
 
 function preguntas_aleatorias() {

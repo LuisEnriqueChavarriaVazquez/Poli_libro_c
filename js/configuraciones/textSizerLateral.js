@@ -46,9 +46,10 @@ let textoReadingElementsH2 = document.getElementsByClassName('textoReadingH2');
 let textoReadingElementsH2Arr = [...textoReadingElementsH2];
 let textoReadingElementsH1Arr = [...textoReadingElementsH1];
 let textoReadingElementsH3Arr = [...textoReadingElementsH3];
-
+            
 //Cantidad de textos
 let totalTextosDinamicos = (textoReadingElementsH2.length + textoReadingElementsH1.length + textoReadingElementsH3.length)/3;
+        
 
 //Botones para el tamaño del texto
 let textSizeOne = document.getElementsByClassName('textSizeOne');
@@ -62,6 +63,8 @@ let textSizeThreeArr = [...textSizeThree];
 
 //Reemplazo de textos
 function reemplazoH2H3porH1(){
+    console.log('textoReadingElementsH2Arr: ', textoReadingElementsH2Arr);
+    console.log('textoReadingElementsH3Arr: ', textoReadingElementsH3Arr);
     for(var i = 0; i < totalTextosDinamicos; i++){
         textoReadingElementsH2Arr.map(a => {
             a.classList.add('textoReadingH1');
@@ -82,6 +85,8 @@ function reemplazoH2H3porH1(){
 
 
 function reemplazoH1H2porH3(){
+    console.log('textoReadingElementsH2Arr: ', textoReadingElementsH2Arr);
+    console.log('textoReadingElementsH1Arr: ', textoReadingElementsH1Arr);
     for(var i = 0; i < totalTextosDinamicos; i++){
         textoReadingElementsH2Arr.map(a => {
             a.classList.add('textoReadingH3');
@@ -122,8 +127,8 @@ function reemplazoH1H3porH2(){
             a.classList.remove('textoReadingH3');
             a.classList.remove('textoReadingH1');
         });
-
     }
+    console.log("Texto H2")
 }
 
 //Cambios en los botones cuando son presionados (Estilos)
@@ -332,7 +337,6 @@ $('#adjustFont_8').click( function() {
     $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").toggleClass('textSpaceLineOwn')
 });
 
-
 //Align texts
 $('#adjustFont_7').click( function() {
     $(this).toggleClass('activeButtonTextLateral');
@@ -354,6 +358,7 @@ $('#adjustFont_7').click( function() {
     $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").toggleClass('textAlignLeftOwn')
 });
 
+
 //Highlight
 $('#adjustFont_6').click( function() {
     $(this).toggleClass('activeButtonTextLateral');
@@ -374,4 +379,126 @@ $('#adjustFont_6').click( function() {
     }
 });
 
+
+//Función para refrescar los estilos
+function refreshStyles(){
+    //Verificamos el valor guardado en local storage
+    if(stateCero != 0){
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_1').addClass('shadow2');
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").addClass('textBoldOwn');
+    }else{
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_1').removeClass('shadow2');   
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").removeClass('textBoldOwn');
+    }
+
+    //Verificamos el valor guardado en local storage
+    if(stateOne != 0){
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_2').addClass('shadow2');
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").addClass('textItalicOwn');
+    }else{
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_2').removeClass('shadow2');   
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").removeClass('textItalicOwn');
+    }
+    
+    //Verificamos el valor guardado en local storage
+    if(stateFour != 0){
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_6').addClass('shadow2');
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".keyWord").addClass('textWordHelp');
+    }else{
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_6').removeClass('shadow2');   
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".keyWord").removeClass('textWordHelp');
+    }
+
+    //Verificamos el valor guardado en local storage
+    if(stateTwo != 0){
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_3').addClass('shadow2');
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").addClass('textLineSubOwn');
+    }else{
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_3').removeClass('shadow2');   
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").removeClass('textLineSubOwn');
+    }
+
+    //Verificamos el valor guardado en local storage
+    if(stateThree != 0){
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_8').addClass('shadow2');
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").addClass('textSpaceLineOwn');
+    }else{
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_8').removeClass('shadow2');   
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").removeClass('textSpaceLineOwn');
+    }
+
+    //Verificamos el valor guardado en local storage
+    if(stateFive != 0){
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_7').addClass('shadow2');
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").addClass('textAlignLeftOwn');
+    }else{
+        //Agregamos los estilos de los botones laterales en cuanto carga la pagina
+        $('#adjustFont_7').removeClass('shadow2');   
+        //Modificamos los textos con los estilos que estan actualmente
+        $(".textoDinamicoIdentificador,.textoReadingH1,.textoReadingH2,.textoReadingH3").removeClass('textAlignLeftOwn');
+    }
+
+
+    // setTimeout(() => {
+    //     console.log('stateSize: ', stateSize);
+    //     checkMemoryButtonState(stateSize,'adjustFont_size');
+    // },10)
+}
+
+//IMPORTANTE
+/**
+ * Sirve para refrescar los estilos cuando 
+ * cargamos nuestra página.
+*/
+window.onload = function() {
+    refreshStyles();
+}
+
+//IMPORTANTE
+/**
+ * Sirve para refrescar los estilos cada que accedemos a
+ * una nueva sección
+ */
+//Accedemos al contenedor que tiene las opciones para el menu en computadora.
+let buttonContent = document.getElementById("lateralUnityMenuSectionContainer");
+let buttonContentMobile = document.getElementsByClassName("mobileOptionsContainer");
+
+//Debemos refrescar los estilos con un retraso, para que primero se cargue el contenido y luego se refresquen los estilos.
+//Si tiene dudas revisar el tema de Call stack del navegador
+buttonContent.addEventListener('click', () => {
+    setTimeout(() => {
+        refreshStyles();
+    }, 10);
+});
+
+//Lo mismo pero para los botones de moviles
+for(var i = 0; i <= buttonContentMobile.length; i++){
+    buttonContentMobile[i].addEventListener('click', () => {
+        setTimeout(() => {
+            refreshStyles();
+        }, 10);
+    });
+}
 
