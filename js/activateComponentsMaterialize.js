@@ -8,4 +8,4 @@ $(document).ready(function () {
     $('.tooltipped').tooltip();
     $('.pushpin').pushpin();
     $('.collapsible').collapsible();
-});s
+});
