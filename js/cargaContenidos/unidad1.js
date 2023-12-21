@@ -598,191 +598,324 @@ const contenidosUnidad = [
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.4. Factores del micro y macro ambiente que
-        impactan a la empresa y a sus finanzas</div>
+    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.3 Formulación de un proyecto informático </div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-            La <i class="keyWord">empresa es un sistema abierto porque tiene elementos interrelacionados entre sí y con
-                el entorno;</i> es decir no existe en forma aislada, sino que interactúa con su entorno existiendo un
-            impacto bidireccional. <i class="keyWord">El entorno se conforma por el micro y macro ambiente.</i>
+            La formulación de un proyecto se puede entender como una metodología, ya que, deberás seguir una serie de pasos que te permitirán elaborar 
+            un proyecto de forma congruente y ordenada respondiendo a un objetivo y buscando un resultado único, preciso y medible.<br><br>
+
+            Cuando formules un proyecto de software, debes considerar que tendrás que hacer una asignación y un uso eficiente de los recursos 
+            (recursos humanos, recursos tecnológicos y recursos financieros).<br><br>
+
+            Así, puedes, cuando desarrollas esa serie de pasos que integran la metodología de formulación de un proyecto de software, 
+            se convierte en la planeación o definición del proyecto, la cual puede ser similar a un plan de trabajo que responderá a una necesidad 
+            humana y resolverá de manera puntual o parcial una problemática planteada.<br><br>
+            
+            A continuación, encontrarás una propuesta de metodología de siete pasos que te permitirá formular un proyecto de software de manera 
+            coherente y ordenada y así alcanzar los objetivos planteados en tu proyecto:<br>
+            
+           
+            <br>
+            <div class="shadow2 border1 clgreyl1">
+            
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" >
+                    <li>Planteamiento del problema y alternativas de solución</li>
+                    <li>Descripción del proyecto</li>
+                    <li>Identificación de actividades y subtareas</li>
+                    <li>Planificación del cronograma de actividades</li>
+                    <li>Asignación de recursos</li>
+                    <li>Elaboración del presupuesto</li>
+                    <li>Seguimiento y control del proyecto</li>
+                </ol>
+               
+            </div>
+            
         </p>
-
-        <div class="imagenDefaultContainer">
-            <p class="titleImageMine">Figura 1.4 Macroentorno y microentorno</p>
-            <div class="imageZoomedContainer">
-                <img class="materialboxed shadow2 border3 imageZoomed"
-                    data-caption="Aspectos del macroentorno y microentorno" src="img/entornos.png">
-            </div>
-            <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-        </div>
-
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer cl1 white-text border1Sup">Microentorno</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                    Representado por elementos que <i class="keyWord">tienen relación directa con la empresa e influyen
-                        en ella,</i> como por ejemplo: <i class="keyWord">proveedores, clientes, competidores, entidades
-                        financieras, comunidad y alcaldías o municipios.</i>
-                </p>
-            </div>
-        </div>
-        <br>
-        <section class="cardDesign_container">
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Proveedores</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Son las entidades que <i class="keyWord">venden bienes o prestan servicios a la empresa.</i> Por
-                        ejemplo: <i class="keyWord">materia prima, equipo de cómputo, mobiliario y equipo de oficina,
-                            servicios de internet, servicios de mantenimiento, etc.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Clientes</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Son quienes <i class="keyWord">compran bienes o adquieren servicios de la empresa.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Competidores</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        <i class="keyWord">Ofrecen el mismo producto o productos sustitutos</i> (cubren la misma
-                        necesidad, aunque no son idénticos).
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Entidades financieras</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Las <i class="keyWord">entidades financieras más comunes son los bancos, estos son una fuente de
-                            financiamiento importante, prestan dinero y a cambio cobran una tasa de interés.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Comunidad</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        La <i class="keyWord">comunidad en la que se inserta la empresa tiene ciertas
-                            características,</i> tales como: <i class="keyWord">ideología, costumbres, inquietud por el
-                            medio ambiente y en general un estilo de vida.</i> Dichos aspectos definitivamente influyen
-                        en la empresa.
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Alcaldías y municipios</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Las empresas <i class="keyWord">al realizar algunos trámites y permisos tienen relación con las
-                            alcaldías o municipios.</i> Por ejemplo: trámite de uso de suelo y permisos de apertura, por
-                        mencionar algunos.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <br>
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer cl2 white-text border1Sup">Macroentorno</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                    Conformado por todos aquellos factores que tienen una gran influencia en la empresa, como por
-                    ejemplo: <i class="keyWord">económicos, tecnológicos, político-legales, demográficos, socio
-                        culturales y medioambientales.</i>
-                </p>
-            </div>
-        </div>
-        <br>
-        <section class="cardDesign_container">
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Económicos</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        <i class="keyWord">La inflación, las tasas de interés, y el tipo de cambio,</i> entre otros, son
-                        factores que <i class="keyWord">inciden en los costos y por tanto en el precio y en el resultado
-                            de la empresa.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Tecnológicos</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Las <i class="keyWord">nuevas tecnologías no solo facilitan y/o automatizan el trabajo, también
-                            abren nuevas oportunidades de negocio.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Político-legales</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        <i class="keyWord">Las iniciativas, la legislación y en general las decisiones del gobierno
-                            afectan a las empresas.</i> <br><br> Por ejemplo: en materia laboral, impuestos e inversión
-                        extranjera, por mencionar algunos.
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Demográficos</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        La <i class="keyWord">información sobre la población,</i> como por ejemplo: <i
-                            class="keyWord">edad, cantidad de hombres y de mujeres, nivel de ingresos, nivel
-                            socioeconómico,</i> entre otros, son datos en los que las empresas <i
-                            class="keyWord">podrían apoyarse para identificar ¿qué vender? ¿a quién vender? y ¿dónde se
-                            localizan los clientes?,</i> entre otras interrogantes.
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Socio culturales</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Corresponde a los <i class="keyWord">estilos de vida, costumbres, hábitos alimenticios, religión
-                            y demás aspectos que condicionan el comportamiento de las personas.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Medioambientales</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Hoy día existe una <i class="keyWord">preocupación mundial por minimizar el impacto medio
-                            ambiental, lo que supone un esfuerzo y un costo para las empresas.</i> Existen leyes que
-                        regulan aspectos ambientales y quienes no las cumplan son acreedores a sanciones.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <br>
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            Es momento de aplicar lo que has aprendido en esta unidad temática, realiza la siguiente actividad de
-            aprendizaje:
-        </blockquote>
-
-        <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf"
-            target="_blank">
-            <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                <div class="linkToResourceContainer_title clbktx">Actividad 1.3 La empresa, sus finanzas y su relación
-                    con el entorno</div>
-
-                <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                    <span class="material-icons">
-                        link
-                    </span>
-                </div>
-            </div>
-        </a>
     </div>
 </div>`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.3.1 Planteamiento del problema y técnicas de análisis</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            Primeramente, para poder identificar el problema deberás responder algunas preguntas como:
+            ¿Cuál es la necesidad real de las personas ante una situación? ¿Cuáles son los motivos que están generando tal situación? 
+            ¿Cuáles son las consecuencias?
+           Implica el descubrimiento del tema o cuestión que se pretende abordar, así como sus posibles orígenes o los factores que inciden 
+           en su existencia. El problema puede ser de naturaleza práctica o teórica.<br><br>
+           
+           Posteriormente pasarás al planteamiento del problema, por lo que tendrás que hacer una revisión de los antecedentes del tema, 
+           es decir, de los estudios previos que otros autores o investigadores hayan realizado sobre el problema que se está abordando. 
+           Esto te permitirá conocer el nivel de conocimiento o información actualizada que existe sobre el tema en cuestión.<br><br>
+
+           Con esta información tendrás que delimitar el problema y lo harás abordando el tema de lo general a lo particular. 
+           Es decir, primero explicarás las variables que afectan el problema a escala global (planeta, país, etc.), y luego te debes 
+           ir acercando al contexto inmediato del problema (la ciudad, el barrio, la empresa, la escuela, etc.).<br><br>
+
+           Una vez que ya delimitaste el problema tendrás que trabajar en la justificación del problema, que consiste en la evaluación de 
+           la pertinencia, importancia o relevancia del problema identificado. ¿Por qué se eligió ese tema? ¿Por qué el investigador lo considera 
+           importante? ¿Cuáles son las razones detrás de esa elección? Considerando que un proyecto informático es una inversión de tiempo y recursos,
+            lo esperado es que la solución del problema abordado sea relevante en el ámbito en el que se desarrolle dicho proyecto.<br><br>
+
+           Posteriormente se plantea el problema, para ello deberás describir claramente el problema a resolver; se puede redactar de manera 
+           interrogativa o expositiva; es decir, argumentando el problema que se abordará.<br><br>
+           
+           <b>Técnicas para analizar problema</b> <br>
+           Hay una gran variedad de técnicas que te permiten analizar una problemática, a continuación, hablaremos de tres de ellas: <br>
+
+            <div class="shadow2 border1 clgreyl1">
+            
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" style="list-style-type: lower-alpha;">
+                    <li>Análisis de contrastes</li>
+                    <li>Árbol de problemas</li>
+                    <li>Análisis de causa efecto </li>
+                </ol>
+               
+            </div>
+        </p>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Técnica de análisis de contrastes</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Para que puedas identificar claramente los problemas, puedes utilizar, entre otras, la técnica de análisis de contrastes, 
+                    en donde tendrás que definir un problema como la brecha que existe entre el estado actual y el estado que se pretende alcanzar. 
+                    Para que desarrolles esta técnica es necesario que elabores un listado de elementos y características de la situación que conforman 
+                    esta brecha, es decir, que identifiquen la distancia entre esos dos estados.<br><br>
+                    Las siguientes preguntas te ayudarán a clarificar el problema, ya que podrás hacer una comparación más clara de la situación.<br>
+
+                </p>
+                <table class="striped highlight responsive-table clw border1 shadow2">
+                    <thead>
+                        <tr>
+                            <th class="clbktx textoStandarTable"><b>Estado actual</b></th>
+                            <th class="clbktx textoStandarTable"><b>Estado deseado</b></th>
+
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td class="textoStandarTable" >Quién es (cuándo se habla de alguna persona)</td>
+                            <td class="textoStandarTable">Quién debe ser (ejemplo: persona ideal para un puesto)</td>
+
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Qué es (lo que se tiene aquí y ahora)</td>
+                            <td class="textoStandarTable">Qué debería ser (objetivo a lograr)</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Cuándo es (qué se ha logrado hasta ahora)</td>
+                            <td class="textoStandarTable">Cuándo deberá ser o hacerse (cuándo es el tiempo límite en que debería lograrse)</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Dónde es (en qué lugar está el proyecto actualmente)</td>
+                            <td class="textoStandarTable">Dónde debería ser o estar (en qué lugar espera que se encuentre el proyecto)</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Cómo es (descripción actual)</td>
+                            <td class="textoStandarTable">Cómo debe ser o estar (descripción de lo esperado)</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Cuánto es (se refiere a los indicadores de resultados actuales)</td>
+                            <td class="textoStandarTable">Cuánto debería ser (se refiere a los indicadores de resultados esperados)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    El resultado de esa lista de elementos diferenciadores te permitirá tener una visión más clara el problema identificado,
+                     permitiéndote ampliar el análisis de causas y ver con facilidad los puntos clave para la solución.
+
+                </p>
+            </div>
+        </div>
+        <br><br>
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Árbol de problemas</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    El árbol de problemas es una herramienta que te ayudará a entender un problema determinado y que pudieras resolver. 
+                    Es una representación con la forma de un árbol, donde podrás expresa las condiciones negativas reveladas por las personas 
+                    que se encuentran involucradas en una problemática en particular.<br><br>
+
+                    Ya que hayas precisado todas las condiciones, deberás ordenar todos los problemas principales para desarrollar el proyecto 
+                    en forma de objetivos. Una vez que tengas claro los problemas el proyecto tendrás un diseño, donde se efectuará una 
+                    preliminar de supuestos durante la ejecución del proyecto.<br><br>
+
+                    Ya que finalizaste el proyecto, debes hacer una revisión detallada y sencilla de la efectividad de las medidas para 
+                    atacar la resolución de los problemas.<br><br>
+
+                    Esta técnica te permitirá expresar un problema por medio de un diagrama en forma de árbol. Es una forma de representar un problema 
+                    de tal manera que puedas entender lo que está sucediendo, las causas de por qué ocurre y cuáles son los 
+                    efectos que está ocasionando.<br><br>
+
+                    Este tipo representación te puede servir para:<br><br>
+                    Que puedas desglosar el problema, las causas y los efectos lo que te permitirá hacer un mejor análisis.<br><br>
+                    Facilitarte la comprensión del problema al separar las causas y las consecuencias.<br><br>
+                    Ayudarte a la ejecución de otros componentes significativos de un proyecto durante su fase de planificación.<br><br>
+                    Que construyas el objetivo general del proyecto, y así mismo obtengas información relevante del problema y puedas 
+                    entender el contexto donde está sucediendo (Pacheco, 2021)
+
+                </p>
+            </div>
+        </div>
+        <br><br>
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Análisis de causa-efecto</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Su creador fue Kaoru Ishikawa, por lo que esta metodología toma el nombre de diagrama de Ishikawa, también es conocido como 
+                    esqueleto de pescado, por su similitud gráfica.<br><br>
+
+                    Esta técnica fue tomada de los procesos de calidad, te servirá para identificar, de manera ordenada, las posibles causas que 
+                    originan o influyen en un problema específico o los efectos que estos tienen sobre el problema. <br><br>
+
+                    Sus pasos son:<br><br>
+                                
+                        <div class="shadow2 border1 clw">
+                        
+                            <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" style="list-style-type: lower-alpha;">
+                                <li>Definir y delimitar el problema.</li>
+                                <li>Participación del equipo a través de lluvia de ideas.</li>
+                                <li>Anotar todas las causas posibles aun cuando suenen ilógicas.</li>
+                                <li>Hacer una depuración y clasificación de causas (en función de viabilidad y operatividad).</li>
+                                <li>Definir categorías para clasificar las causas. Una de las clasificaciones más comunes es la siguiente:<br>
+                                    <ol>
+                                        <li>Personal</li>
+                                        <li>Materiales</li>
+                                        <li>Métodos y procedimientos</li>
+                                        <li>Medio ambiente</li>
+                                        <li>Instalaciones y equipo</li>
+                                    
+                                    </ol>
+                                </li>
+                                <li>Ordenar las causas por categorías.</li>
+                                <li>Valorar las causas y las categorías</li>
+                            </ol>
+                        
+                        </div>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>`
+,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.3.2 Antecedentes y situación actual</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            Uno de los elementos más importantes para los involucrados en el proyecto son los antecedentes, debido a que les proporcionarán información 
+            para entender el contexto del proyecto. En los antecedentes puedes incluir estudios significativos y relevantes. 
+            Esto te permitirá fundamentar tu proyecto.
+            Por otro lado, los antecedentes te ayudarán a analizar el planteamiento del problema y la justificación, así mismo te permiten 
+            conectar la introducción con el tema del proyecto y asegura el flujo lógico de las ideas. En consecuencia, ayuda a los 
+            involucrados a comprender las razones para realizar el proyecto. <br><br>
+
+            De tal manera que cualquier persona podrá entender el proyecto y su importancia. El alcance y los detalles de los antecedentes 
+            también dependen del grado que necesitas para demostrar su comprensión del proyecto a desarrollar (Enago Academy, 2022)<br><br>
+
+
+            Las siguientes preguntas te ayudarán a redactar los antecedentes para tu proyecto:<br><br>
+
+            ¿Existen teorías, conceptos, términos e ideas que puedan ser desconocidos para el público objetivo?<br><br>
+
+            ¿Hay algún dato histórico que deba compartirse para proporcionar un contexto sobre la razón por la que surgió el problema actual?<br><br>
+
+
+            ¿Hay algún concepto que pueda haber sido tomado de otras disciplinas que pueda ser desconocido para el equipo de desarrollo y 
+            los involucrados y necesite una explicación?<br><br>
+
+            ¿Tu proyecto de software necesita incorporar una explicación adicional? Por ejemplo, puede haber usado un método completamente 
+            nuevo (Enago Academy, 2023).<br><br>
+
+            Después de haber realizado el estudio exploratorio, deberás hacer una descripción detallada sobre el comportamiento o funcionamiento 
+            actual del objeto en estudio, la cual   te servirá para que puedas identificar cuáles son los aspectos críticos que enfrenta una sociedad, 
+            una organización, un proceso etc. al momento de estarlo usando. Para ello necesitas evaluar los factores del entorno interno y externo 
+            que están impactan sobre dicho objeto de estudio. (factores jurídicos o normativos, económicos, políticos, culturales, demográficos, 
+            sociológicos, tecnológicos y medioambientales).
+            Teniendo claro cuál es la situación actual del objeto en estudio es necesario que proyectar en el corto plazo cual será la situación 
+            bajo el efecto de la alternativa de solución que propones.<br><br>
+
+            Esto quizá te resulte más claro si tomas en cuenta que al aplicar la alternativa de solución que se considere factible generará 
+            cambios significativos (propuesta de valor) a como se presentan las cosas en la situación actual.<br><br>
+
+            Por otra parte, también se describen todas las características físicas y operacionales del proyecto.<br><br>
+
+        </p>
+    </div>
+</div>          
+`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.3.3 Identificación y selección de alternativas</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+
+            Se puede entender la identificación y selección de alternativas como el proceso donde se plantean una o más estrategias que den 
+            solución a la problemática planteada. (Ingenio Empresa 2023).
+            A continuación, encontraras 4 pasos que te ayudaran a identificar y seleccionar una alternativa que de solución a 
+            una problemática planteada. <br><br>
+           
+           Paso 1: Tendrás que identificar alternativas que pueden ser estrategias del proyecto.
+           Considera que las alternativas pueden ser un conjunto de medios emanados del objetivo general del proyecto y que puedes considerarlos 
+           para trabajarlos como alternativas de solución.
+           Con esto claro, enfócate en cada uno de los medios evaluando las alternativas de solución que se derivan.<br><br>
+           
+           Puedes analizar cada alternativa preguntándote:<br><br>
+           
+           ¿Esta alternativa tiene un impacto sobre la problemática?<br>
+           ¿Aporta una solución total o parcial a la problemática planteada?<br>
+           ¿Esta alternativa nos llevaría al cumplimiento del objetivo del proyecto?<br><br>
+           
+           Al contestar estas preguntas empezaras a tener numerosas ideas de alternativas. El propósito es que identifiques alternativas que no 
+           son realizables o deseables y que puedas tener estrategias que pasaran por un “filtro de alternativas” para ser estrategias óptimas.<br><br>
+           
+           Paso 2: Deberás definir criterios apropiados, relevantes y congruente para escoger estrategias a utilizar.<br>
+           Los criterios dependerán de la naturaleza del proyecto o de la situación problemática que se aborda.<br><br>
+           
+           Paso 3: Aplicarás filtros sobre las alternativas seleccionadas inicialmente<br>
+           La aplicación de los criterios o filtros te permitirá ir descartando alternativas que no son factibles para solucionar la problemática 
+           y así puedas contar con una o más estrategias de solución para el proyecto <br><br>
+           
+           Paso 4: Determinando una o más estrategias óptimas para el proyecto<br>
+           Pero ¿son óptimas?<br><br>
+           
+           En esta etapa se realizan todos los estudios adicionales para definir la viabilidad y factibilidad de las estrategias obtenidas 
+           en el paso 3.<br><br>
+           
+           Puede no ser un paso obligatorio y que baste con la aplicación de los filtros del paso 3, pero no siempre es así.<br><br>
+           
+           El resultado: Estrategias óptimas. (stephanie pamela 2017)
+           
+
+        </p>
+    </div>
+</div>          
+`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.4	Gestión de la integración del proyecto informático </div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            
+            En la gestión de la integración de proyectos deberás involucrar a todos los elementos del proyecto informático de una manera coordinada, 
+            tendrás que incluir las tareas, los recursos, los interesados, así como los entregables. El propósito de la gestión de la integración 
+            de proyectos es garantizar que los procesos se lleven a cabo de manera correcta y que se alcancen los objetivos previamente establecidos.
+            Cuando desarrolles la gestión de la integración del proyecto tendrás que incluye los procesos y actividades necesarios para que puedas 
+            identificar, definir, combinar, unificar y coordinar los diversos procesos y actividades de dirección del proyecto dentro de los grupos 
+            de procesos de la dirección de proyectos.<br><br>
+
+            La Gestión de la Integración del Proyecto conlleva la toma de decisiones en cuanto a la asignación de recursos, equilibrar objetivos y 
+            alternativas contrapuestas y manejar las interdependencias entre las Áreas de Conocimiento de la dirección de proyectos. 
+            (Guía del PMBOK. 2013) <br><br>
+
+
+           
+
+        </p>
+    </div>
+</div>          
+`
+,
 `<section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Material de apoyo</div>
     <section class="gridActividadesAprendizaje">
