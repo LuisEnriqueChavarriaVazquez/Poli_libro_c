@@ -1,0 +1,149 @@
+<script defer src="js/lectorLibros/codigoPropio.js"></script>
+<div class="book-section">
+     <div class="container">
+        <div class="right">
+             <figure class="back" id="back-cover"></figure>
+             <figure class="front" style="background-image: url('img/escom_backgrounds.jpg');"></figure>
+         </div>
+         <div class="right">
+             <figure class="back" style="background-image: url('img/escom_backgrounds.jpg');"></figure>
+             <figure class="front" style="background-image: url('https://pixabay.com/get/gb46f858d834c467d012d890214ee584025e70645dce58f87ef359bc4186c324cf80799862710eed4631eaf0464a6a3c6_1280.jpg');"></figure>
+         </div>
+         <div class="right">
+             <figure class="back" style="background-image: url('https://pixabay.com/get/gb46f858d834c467d012d890214ee584025e70645dce58f87ef359bc4186c324cf80799862710eed4631eaf0464a6a3c6_1280.jpg');"></figure>
+             <figure class="front" style="background-image: url('https://pixabay.com/get/g4df987b5bfa39878c10050859486a03f198027e2212376a2ccf6355644691efde0afe432da7e6644dd54fa12b3454a38_1280.jpg');"></figure>
+         </div>
+         <div class="right">
+             <figure class="back" style="background-image: url('https://pixabay.com/get/g4df987b5bfa39878c10050859486a03f198027e2212376a2ccf6355644691efde0afe432da7e6644dd54fa12b3454a38_1280.jpg');"></figure>
+             <figure class="front" style="background-image: url('https://pixabay.com/get/g21bf4539dcf9431362b0cdf0abd78d2578e9be101332dde74784aa43999043165f97edf8cbeffb236be99665f51bb560_1280.jpg');"></figure>
+         </div>
+         <div class="right">
+             <figure class="back" style="background-image: url('https://pixabay.com/get/g21bf4539dcf9431362b0cdf0abd78d2578e9be101332dde74784aa43999043165f97edf8cbeffb236be99665f51bb560_1280.jpg');"></figure>
+             <figure class="front" style="background-image: url('https://pixabay.com/get/ge136176f664b9cbc9bcb02ab48ec235083d9c4d7d7acee2f5a95098484cfb887e98c58aa4084f9f8bd6fc8c015be7ca0_1280.png');"></figure>
+         </div>
+         <div class="right">
+             <figure class="back" style="background-image: url('https://pixabay.com/get/ge136176f664b9cbc9bcb02ab48ec235083d9c4d7d7acee2f5a95098484cfb887e98c58aa4084f9f8bd6fc8c015be7ca0_1280.png');"></figure>
+             <figure class="front" id="cover">
+                 <h1>Book Title</h1>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, modi.</p>
+             </figure>
+         </div>
+     </div>
+     <button onclick="turnLeft()">Prev</button> <button onclick="turnRight()">Next</button>
+     <br/>
+ </div>
+
+ <style>
+    body{
+            margin:0;
+            background-color: #e9e9e9;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .book-section{
+            height: 100vh;
+            width: 100%;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .book-section > .container{
+            height: 400px;
+            width: 500px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2%;
+            margin-bottom: 30px;
+            perspective: 1200px;
+        }
+        .container > .right{
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            transition: 0.7s ease-in-out;
+            transform-style: preserve-3d;
+        }
+        .book-section > .container > .right{
+            right:0;
+            transform-origin: left;
+            border-radius: 10px 0 0 10px;
+        }
+        .right > figure.front, .right > figure.back{
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left:0;
+            top:0;
+            background-size: 200%;
+            background-repeat: no-repeat;
+            backface-visibility: hidden;
+            background-color: white;
+            overflow: hidden;
+        }
+        .right > figure.front{
+            background-position: right;
+            border-radius: 0 10px 10px 0;
+            box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.2);
+        }
+        .right > figure.back{
+            background-position: left;
+            border-radius: 10px 0 0 10px;
+            box-shadow: -2px 2px 15px -2px rgba(0,0,0,0.2);
+            transform: rotateY(180deg);
+        }
+        .flip{
+            transform: rotateY(-180deg);
+        }
+        .flip::before{
+            content: "";
+            position: absolute;
+            top:0;
+            left:0;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            border-radius: 0 10px 10px 0;
+            background-color: rgba(0,0,0,0.1);
+        }
+        .book-section > button{
+            border: 2px solid #ef9f00;
+            background-color: transparent;
+            color: #ef9f00;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            transition: 0.3s ease-in-out;
+        }
+        .book-section > button:focus, .book-section > button:active{
+            outline: none;
+        }
+        .book-section > p{
+            color: rgba(0,0,0,0.7);
+            font-family: calibri;
+            font-size: 24px;
+        }
+        .book-section > p > a{
+            text-decoration: none;
+            color: #ef9f00;
+        }
+        .book-section > button:hover{
+            background-color: #ef9f00;
+            color: #fff;
+        }
+        .front#cover, .back#back-cover{
+            background-color: #ffcb63;
+            font-family: calibri;
+            text-align: left;
+            padding: 0 30px;
+        }
+        .front#cover h1{
+            color: #fff;
+        }
+        .front#cover p{
+            color: rgba(0,0,0,0.8);
+            font-size: 14px;
+        }
+ </style>
