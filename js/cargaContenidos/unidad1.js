@@ -18,7 +18,7 @@ const contenidosUnidad = [
 <div id="test-swipe-1" class="tabsContentContainerInfo">
 
     <div class="shadow4 border1 clw">
-        <div class="textoTitulo titleContainer white-text cl2 border1Sup">Bienvenida</div>
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 Estimados estudiantes que cursan la unidad de aprendizaje '', que se imparte en la
@@ -44,7 +44,7 @@ const contenidosUnidad = [
 <div id="test-swipe-2" class="tabsContentContainerInfo" style="display: none;">
 
     <div class="shadow4 border1 clw">
-        <div class="textoTitulo titleContainer white-text cl2 border1Sup">Unidad de competencia</div>
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 Identifica los aspectos generales de la <i class="keyWord">formulación de proyectos informáticos</i> a
@@ -64,7 +64,7 @@ const contenidosUnidad = [
 <div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
 
     <div class="shadow4 border1 clw">
-        <div class="textoTitulo titleContainer white-text cl2 border1Sup">Metodología</div>
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 <i class="keyWord">El uso de este RDD de la unidad 1: Aspectos generales de un proyecto y el análisis
@@ -157,7 +157,7 @@ const contenidosUnidad = [
 <div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
 
     <div class="shadow4 border1 clw">
-        <div class="textoTitulo titleContainer white-text cl2 border1Sup">Evaluación de los aprendizajes</div>
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Evaluación de los aprendizajes</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 La evaluación de los aprendizajes de esta unidad temática se llevará a cabo como se muestra a
@@ -213,7 +213,7 @@ const contenidosUnidad = [
 <div id="test-swipe-5" class="tabsContentContainerInfo" style="display: none;">
 
     <div class="shadow4 border1 clw">
-        <div class="textoTitulo titleContainer white-text cl2 border1Sup">Requerimientos</div>
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 Para acceder y hacer uso de este recurso se requiere:
@@ -249,7 +249,7 @@ const contenidosUnidad = [
 </div>`,
 `
 <div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">Introducción</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
     <div class="cardDesign clw border1Inf">
         <!--Card con un ejemplo-->
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -286,7 +286,7 @@ const contenidosUnidad = [
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.1 Proyectos </div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1 Proyectos </div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
             A lo largo de tu trayectoria académica te han pedido que desarrolles una gran variedad de proyectos, por lo
@@ -359,7 +359,7 @@ const contenidosUnidad = [
 </div>`,
 `<div class="shadow4 border1 clw">
 
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.1.1 Clasificación</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.1 Clasificación</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
             Si buscas en la bibliografía encontrarás una gran variedad de <i class="keyWord">criterios para clasificar
@@ -371,7 +371,7 @@ const contenidosUnidad = [
                 de su capital:</i><br>
 
         </p>
-        <div class="shadow2 border1 clgreyl1">
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
             
             <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" style="list-style-type: lower-alpha;">
                 <li>Proyectos de inversión privada </li>
@@ -385,7 +385,7 @@ const contenidosUnidad = [
             Clasificación de acuerdo con su <i class="keyWord">propósito estratégico y/o a las causas que lo generan</i> 
         </p>
 
-        <div class="shadow2 border1 clgreyl1">
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
          
             <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" style="list-style-type: lower-alpha;">
                 <li>Proyectos de cambio tecnológico</li>
@@ -402,7 +402,7 @@ const contenidosUnidad = [
             Clasificación de acuerdo con <i class="keyWord">la relación que los proyectos tienen entre si</i>   
         </p>
 
-        <div class="shadow2 border1 clgreyl1">
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
          
             <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" style="list-style-type: lower-alpha;">
                 <li>Proyectos mutuamente excluyentes</li>
@@ -419,7 +419,7 @@ const contenidosUnidad = [
 </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
         1.1.2 Proyecto informático     
     </div>
     <div class="cardDesign clw border1Inf">
@@ -449,7 +449,7 @@ const contenidosUnidad = [
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.1.3 Elementos de un proyecto</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.3 Elementos de un proyecto</div>
     <div class="cardDesign clw border1Inf">
 
 
@@ -468,30 +468,41 @@ const contenidosUnidad = [
 
         </p>
         <div class="shadow2 border1 clgreyl1">
-         
-            <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" style="list-style-type: lower-alpha;">
-                <li>
-                    Formulación del proyecto. La formulación de un proyecto de software debe responder a una problemática planteada 
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Formulación del proyecto.</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    La formulación de un proyecto de software debe responder a una problemática planteada 
                     cuya solución habrá de satisfacer de manera puntual una necesidad humana. La formulación de proyectos es el procedimiento 
                     por seguir, como el que veremos para recopilar toda la información de un sistema o conjunto de actividades orientadas a 
                     perseguir un objetivo concreto (Sinnap, 2020)
-                </li><br>
-                <li>
-                    Desarrollo del sistema. El desarrollo de software se refiere al conjunto de actividades informáticas dedicadas 
+                </p>
+            </div>
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Desarrollo del sistema.</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    El desarrollo de software se refiere al conjunto de actividades informáticas dedicadas 
                     al proceso de creación, diseño, despliegue y compatibilidad de software (IBM, 2023).
-                </li><br>
-                <li>
-                    Evaluación financiera del proyecto. La Evaluación de un proyecto debe tener como base el análisis 
+                </p>
+            </div>
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Evaluación financiera del proyecto.</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    La Evaluación de un proyecto debe tener como base el análisis 
                     con el que se mide la rentabilidad económica. Esta evaluación permite no sólo conocer los montos de 
                     inversión del proyecto, sino también los costos y gastos asociados al mismo (Profima, 2023)
-                </li>
-            </ol>
-           
+                </p>
+            </div>
         </div><br>
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
         1.2 Ciclo de vida de los proyectos y del software
     </div>
     <div class="cardDesign clw border1Inf">
@@ -598,25 +609,29 @@ const contenidosUnidad = [
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.3 Formulación de un proyecto informático </div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Formulación de un proyecto informático </div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
             La formulación de un proyecto se puede entender como una metodología, ya que, deberás seguir una serie de pasos que te permitirán elaborar 
-            un proyecto de forma congruente y ordenada respondiendo a un objetivo y buscando un resultado único, preciso y medible.<br><br>
+            un proyecto de forma congruente y ordenada respondiendo a un objetivo y buscando un resultado único, preciso y medible.<br>
+        </p>
 
+        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
             Cuando formules un proyecto de software, debes considerar que tendrás que hacer una asignación y un uso eficiente de los recursos 
             (recursos humanos, recursos tecnológicos y recursos financieros).<br><br>
 
             Así, puedes, cuando desarrollas esa serie de pasos que integran la metodología de formulación de un proyecto de software, 
             se convierte en la planeación o definición del proyecto, la cual puede ser similar a un plan de trabajo que responderá a una necesidad 
-            humana y resolverá de manera puntual o parcial una problemática planteada.<br><br>
-            
+            humana y resolverá de manera puntual o parcial una problemática planteada.<br>
+        </blockquote>
+        
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
             A continuación, encontrarás una propuesta de metodología de siete pasos que te permitirá formular un proyecto de software de manera 
-            coherente y ordenada y así alcanzar los objetivos planteados en tu proyecto:<br>
-            
+            coherente y ordenada y así alcanzar los objetivos planteados en tu proyecto:
+        </p><br>
            
-            <br>
-            <div class="shadow2 border1 clgreyl1">
+            
+            <div class="shadow2 border1 clgreyl1 simpleCardText">
             
                 <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" >
                     <li>Planteamiento del problema y alternativas de solución</li>
@@ -634,7 +649,7 @@ const contenidosUnidad = [
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.3.1 Planteamiento del problema y técnicas de análisis</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.1 Planteamiento del problema y técnicas de análisis</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
             Primeramente, para poder identificar el problema deberás responder algunas preguntas como:
@@ -662,7 +677,7 @@ const contenidosUnidad = [
            <b>Técnicas para analizar problema</b> <br>
            Hay una gran variedad de técnicas que te permiten analizar una problemática, a continuación, hablaremos de tres de ellas: <br>
 
-            <div class="shadow2 border1 clgreyl1">
+            <div class="shadow2 border1 clgreyl1 simpleCardText">
             
                 <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" style="list-style-type: lower-alpha;">
                     <li>Análisis de contrastes</li>
@@ -802,7 +817,7 @@ const contenidosUnidad = [
 </div>`
 ,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.3.2 Antecedentes y situación actual</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.2 Antecedentes y situación actual</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
             Uno de los elementos más importantes para los involucrados en el proyecto son los antecedentes, debido a que les proporcionarán información 
@@ -847,7 +862,7 @@ const contenidosUnidad = [
 </div>          
 `,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.3.3 Identificación y selección de alternativas</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.3 Identificación y selección de alternativas</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
 
@@ -893,7 +908,7 @@ const contenidosUnidad = [
 </div>          
 `,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.4	Gestión de la integración del proyecto informático </div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.4	Gestión de la integración del proyecto informático </div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
             
@@ -982,7 +997,7 @@ const contenidosUnidad = [
 </section>
 `,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text cl2 border1Sup">Cierre de la unidad temática</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
             ¡Felicidades! Has concluido esta unidad temática. Ahora tienes más elementos que te ayudarán a reconocer la

@@ -28,11 +28,15 @@
     border-left: #583b3e 20px solid !important;
 }
 
-.activeLinkOptionsContentUnit2{
-    background-color: #9b666c;
-    border-left: #5f3f42 20px solid !important;
-    color: #fff;
+.activeLinkOptionsContentUnit2 {
+    background-color: #754e52;
+    border-left: #442d2f 20px solid !important;
     font-weight: 600;
+    color: #fff !important;
+}
+
+.activeLinkOptionsContentUnit2 > p, .activeLinkOptionsContentUnit2 > i{
+    color: #fff !important;
 }
 
 .leftBorderOnUnit2{
@@ -199,4 +203,30 @@
 .input-field textarea.valid ~ .helper-text::after,
 .input-field textarea.valid:focus ~ .helper-text::after {
     color: #a0686e;
+}
+
+/* Estilos el nav (barra inferior) y para el menu de contenidos cuando se le hace click */
+li.indicator {
+    height: 4px !important;
+    background-color: #664346 !important;
+}
+
+.collapsible-header-clicked{
+    background-color: #664346 !important;
+    color: #dfdfdf !important;
+    font-weight: 600;
+}
+
+/*Estilos para el color del titulo de las cards de contenido*/
+.colorCardTitleContent{
+    background-color: #805458 !important;
+}
+
+/*Para el elemento de blockquote*/
+blockquote {
+    margin: 0 0 20px 0 !important;
+    border-left: 5px solid #805458;
+    font-weight: 500 !important;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
 }

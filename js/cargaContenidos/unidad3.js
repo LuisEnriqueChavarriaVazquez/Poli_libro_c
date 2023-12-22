@@ -16,7 +16,7 @@ const contenidosUnidad = [
   <div id="test-swipe-1" class="tabsContentContainerInfo">
   
       <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text cl2 border1Sup">Bienvenida</div>
+          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
           <div class="cardDesign clw border1Inf">
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
               Estimados estudiantes que cursan la unidad de aprendizaje Finanzas empresariales, que se imparte en la
@@ -41,7 +41,7 @@ const contenidosUnidad = [
   <div id="test-swipe-2" class="tabsContentContainerInfo" style="display: none;">
   
       <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text cl2 border1Sup">Unidad de competencia</div>
+          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
           <div class="cardDesign clw border1Inf">
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                   Reconoce el <i class="keyWord">papel de las finanzas</i> a partir del <i class="keyWord">contexto empresarial.</i>
@@ -60,7 +60,7 @@ const contenidosUnidad = [
   <div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
   
       <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text cl2 border1Sup">Metodología</div>
+          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
           <div class="cardDesign clw border1Inf">
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                   <i class="keyWord">El uso de este RDD de la unidad 1: la empresa y su entorno</i>, te permitirá <i class="keyWord">estudiar los contenidos</i> en la secuencia indicada en el programa de estudios de <i class="keyWord">la Unidad de aprendizaje Finanzas empresariales</i>. Para abordar dicha unidad temática se requieren seis horas de teoría y dos horas de <i class="keyWord">aprendizaje autónomo</i>. 
@@ -114,7 +114,7 @@ const contenidosUnidad = [
   <div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
   
       <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text cl2 border1Sup">Evaluación de los aprendizajes</div>
+          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Evaluación de los aprendizajes</div>
           <div class="cardDesign clw border1Inf">
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                   La evaluación de los aprendizajes de esta unidad temática se llevará a cabo como se muestra a continuación:
@@ -169,7 +169,7 @@ const contenidosUnidad = [
   <div id="test-swipe-5" class="tabsContentContainerInfo" style="display: none;">
   
       <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text cl2 border1Sup">Requerimientos</div>
+          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
           <div class="cardDesign clw border1Inf">
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                   Para acceder y hacer uso de este recurso se requiere:
@@ -204,7 +204,7 @@ const contenidosUnidad = [
   </div>`,
     `
     <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text cl2 border1Sup">Introducción</div>
+          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
           <div class="cardDesign clw border1Inf">
               <!--Card con un ejemplo-->
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -228,7 +228,7 @@ const contenidosUnidad = [
           </div>
   </div>`,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.1 La empresa</div>
+      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1 La empresa</div>
       <div class="cardDesign clw border1Inf">
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
           Independientemente del lugar en donde te encuentres en este momento, <i class="keyWord">mira a tu alrededor y notarás la existencia de una gran cantidad de satisfactores (bienes).</i> Estos son <i class="keyWord">producidos y/o distribuidos por diferentes empresas.</i>
@@ -258,7 +258,7 @@ const contenidosUnidad = [
   </div>`,
     `<div class="shadow4 border1 clw">
       
-      <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.1.1 Constitución jurídica</div>
+      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.1 Constitución jurídica</div>
       <div class="cardDesign clw border1Inf">
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
               <i class="keyWord">En México de acuerdo con el Servicio de Administración Tributaria (SAT)</i> para fines fiscales existen las siguientes figuras: <i class="keyWord">personas físicas y personas morales.</i><br>
@@ -388,7 +388,7 @@ const contenidosUnidad = [
       </div>
   </div>`,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.1.2 El área financiera en la estructura organizacional</div>
+      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.2 El área financiera en la estructura organizacional</div>
       <div class="cardDesign clw border1Inf">
           <!--Card con un ejemplo-->
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -438,7 +438,7 @@ const contenidosUnidad = [
       </div>
   </div>`,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.2 Función y objetivo de las finanzas empresariales</div>
+      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.2 Función y objetivo de las finanzas empresariales</div>
       <div class="cardDesign clw border1Inf">
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
               <b class="clgreyl3 subTitleCard">¿Qué son las finanzas?</b>
@@ -551,7 +551,7 @@ const contenidosUnidad = [
       </div>
   </div>`,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.3 Las finanzas empresariales y su relación con otras disciplinas (Ética, Economía, Derecho, Matemáticas, etc.)</div>
+      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Las finanzas empresariales y su relación con otras disciplinas (Ética, Economía, Derecho, Matemáticas, etc.)</div>
       <div class="cardDesign clw border1Inf">
           <section class="cardDesign_container">
               <div class="shadow2 border1 clgreyl1">
@@ -590,7 +590,7 @@ const contenidosUnidad = [
       </div>
   </div>`,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text cl2 border1Sup">1.4. Factores del micro y macro ambiente que impactan a la empresa y a sus finanzas</div>
+      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.4. Factores del micro y macro ambiente que impactan a la empresa y a sus finanzas</div>
       <div class="cardDesign clw border1Inf">
           <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
               La <i class="keyWord">empresa es un sistema abierto porque tiene elementos interrelacionados entre sí y con el entorno;</i> es decir no existe en forma aislada, sino que interactúa con su entorno existiendo un impacto bidireccional. <i class="keyWord">El entorno se conforma por el micro y macro ambiente.</i>
@@ -667,7 +667,7 @@ const contenidosUnidad = [
   
           <br>
           <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer cl2 white-text border1Sup">Macroentorno</div>
+              <div class="textoTitulo titleContainer colorCardTitleContent white-text border1Sup">Macroentorno</div>
               <div class="cardDesign clgreyl1 border1Inf">
                   <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
                       Conformado por todos aquellos factores que tienen una gran influencia en la empresa, como por ejemplo: <i class="keyWord">económicos, tecnológicos, político-legales, demográficos, socio culturales y medioambientales.</i>
@@ -808,7 +808,7 @@ const contenidosUnidad = [
   </section>
   `,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text cl2 border1Sup">Cierre de la unidad temática</div>
+      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
       <div class="cardDesign clw border1Inf">
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
               ¡Felicidades! Has concluido esta unidad temática. Ahora tienes más elementos que te ayudarán a reconocer la relevancia que tienen las finanzas en todas las organizaciones y en específico en las empresas, independientemente de su constitución, tamaño y giro.

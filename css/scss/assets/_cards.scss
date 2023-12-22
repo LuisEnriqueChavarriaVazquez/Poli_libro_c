@@ -198,3 +198,16 @@
 	grid-template-columns: 1fr;
 	grid-template-rows: auto;
 }
+
+
+//Card simple para texto plano
+.simpleCardText{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 20px;
+
+	ol{
+		margin: 0 !important;
+	}
+}
