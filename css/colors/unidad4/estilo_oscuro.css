@@ -223,6 +223,15 @@ li.indicator {
     background-color: #ac655d !important;
 }
 
+/*Estilos del boton de ayuda*/
+.colorButtonHelpUnit {
+    background-color: #ac655d !important;
+    
+    &:hover{
+        background-color: #804942 !important;
+    }
+}
+
 /*Para el elemento de blockquote*/
 blockquote {
     margin: 0 0 20px 0 !important;
