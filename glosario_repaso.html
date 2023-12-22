@@ -35,6 +35,7 @@
     <script defer src="js/browserStyle.js"></script>
     <script defer src="js/buscador.js"></script>
     <script defer src="js/noCopy.js"></script>
+    <script defer src="js/seleccionadorTarjetasGlosario.js"></script>
 
 </head>
 
@@ -50,28 +51,40 @@
                         class="material-icons">arrow_back</i></a>
                 <a class="brand-logo titleUnity">Repaso de glosario</a>
             </div>
+            <div class="input-field cl2 inputSelectUnitConcepts">
+                <select class="clbktx" id="unitSelect">
+                    <option id="primeraUnidadSelect" value="u1" selected>Unidad 1</option>
+                    <option value="u2">Unidad 2</option>
+                    <option value="u3">Unidad 3</option>
+                    <option value="u4">Unidad 4</option>
+                    <option value="u5">Unidad 5</option>
+                </select>
+            </div>
         </nav>
     </section>
 
     <!--Tarjetas con los conceptos-->
-    <section class="swiper-container-father">
+    <section class="swiper-container-father" identificador_select="u1">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Proyecto</div>
-                    <div class="swiper-slide-definition">Es un esfuerzo temporal con un inicio y fin definidos, orientado a la
+                    <div class="swiper-slide-definition">Es un esfuerzo temporal con un inicio y fin definidos,
+                        orientado a la
                         creación de un producto, servicio o resultado único, gestionado mediante procesos y recursos
                         (Project Management Institute [PMI], 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Valor Agregado</div>
-                    <div class="swiper-slide-definition">Diferencia distintiva que proporciona un proyecto en comparación con
+                    <div class="swiper-slide-definition">Diferencia distintiva que proporciona un proyecto en
+                        comparación con
                         otros, resolviendo la misma problemática o necesidad, y que contribuye significativamente a su
                         éxito.</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Necesidad Humana</div>
-                    <div class="swiper-slide-definition">Requiere una solución inteligente que mejore la calidad de vida, siendo
+                    <div class="swiper-slide-definition">Requiere una solución inteligente que mejore la calidad de
+                        vida, siendo
                         también una oportunidad de negocio, abordada a través de un proyecto (Pressman, 2014).</div>
                 </div>
                 <div class="swiper-slide">
@@ -81,144 +94,214 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Presupuestos</div>
-                    <div class="swiper-slide-definition">Limitación de recursos financieros asignados a un proyecto (Kloppenborg, 2019).</div>
+                    <div class="swiper-slide-definition">Limitación de recursos financieros asignados a un proyecto
+                        (Kloppenborg, 2019).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Periodo de Tiempo</div>
-                    <div class="swiper-slide-definition">Marco temporal en el cual se ejecuta un proyecto, con un inicio y un final (Kerzner, 2017).</div>
+                    <div class="swiper-slide-definition">Marco temporal en el cual se ejecuta un proyecto, con un inicio
+                        y un final (Kerzner, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Reglamentación Legal o Formal</div>
-                    <div class="swiper-slide-definition">Normas y regulaciones que guían la ejecución de un proyecto (Schwalbe, 2018).</div>
+                    <div class="swiper-slide-definition">Normas y regulaciones que guían la ejecución de un proyecto
+                        (Schwalbe, 2018).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Satisfacción del Cliente</div>
-                    <div class="swiper-slide-definition">Garantizar que el producto, servicio o resultado cumple con la calidad suficiente para satisfacer al cliente (PMBOK Guide, 2017).</div>
+                    <div class="swiper-slide-definition">Garantizar que el producto, servicio o resultado cumple con la
+                        calidad suficiente para satisfacer al cliente (PMBOK Guide, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Clasificación de Proyectos</div>
-                    <div class="swiper-slide-definition">La organización de proyectos según criterios específicos, como la procedencia del capital, el propósito estratégico, las causas que lo generan o la relación entre los proyectos entre sí (Kerzner, 2017).</div>
+                    <div class="swiper-slide-definition">La organización de proyectos según criterios específicos, como
+                        la procedencia del capital, el propósito estratégico, las causas que lo generan o la relación
+                        entre los proyectos entre sí (Kerzner, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Proyectos de Inversión</div>
-                    <div class="swiper-slide-definition">Se clasifican en privados, públicos o mixtos según la procedencia de su capital (PMBOK Guide, 2017).</div>
+                    <div class="swiper-slide-definition">Se clasifican en privados, públicos o mixtos según la
+                        procedencia de su capital (PMBOK Guide, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Proyectos de Propósito Estratégico</div>
-                    <div class="swiper-slide-definition">Clasificación que considera el cambio tecnológico, el potencial competitivo, el potencial financiero, el crecimiento de mercado, ordenamientos legales y consideraciones sociales como categorías (Kerzner, 2017).</div>
+                    <div class="swiper-slide-definition">Clasificación que considera el cambio tecnológico, el potencial
+                        competitivo, el potencial financiero, el crecimiento de mercado, ordenamientos legales y
+                        consideraciones sociales como categorías (Kerzner, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Relación entre Proyectos</div>
-                    <div class="swiper-slide-definition">Clasificación que incluye proyectos mutuamente excluyentes, proyectos independientes y proyectos contingentes o dependientes entre sí (Kerzner, 2017).</div>
+                    <div class="swiper-slide-definition">Clasificación que incluye proyectos mutuamente excluyentes,
+                        proyectos independientes y proyectos contingentes o dependientes entre sí (Kerzner, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Proyecto Informático</div>
-                    <div class="swiper-slide-definition">Sistema de cursos de acción simultáneos y/o secuenciales que involucra personas, hardware, software y comunicaciones, enfocado en obtener resultados deseables sobre un sistema de información (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Sistema de cursos de acción simultáneos y/o secuenciales que
+                        involucra personas, hardware, software y comunicaciones, enfocado en obtener resultados
+                        deseables sobre un sistema de información (Pressman, 2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Gestión de Proyectos Informáticos</div>
-                    <div class="swiper-slide-definition">Coordinación, control, presupuestación y documentación de actividades relacionadas con un proyecto informático, con el objetivo de alcanzar objetivos específicos según requisitos y restricciones (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Coordinación, control, presupuestación y documentación de
+                        actividades relacionadas con un proyecto informático, con el objetivo de alcanzar objetivos
+                        específicos según requisitos y restricciones (Pressman, 2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Elementos de un Proyecto Informático</div>
-                    <div class="swiper-slide-definition">Componentes fundamentales necesarios para el desarrollo exitoso de un proyecto informático, incluyendo recursos tecnológicos, humanos y financieros (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Componentes fundamentales necesarios para el desarrollo exitoso
+                        de un proyecto informático, incluyendo recursos tecnológicos, humanos y financieros (Pressman,
+                        2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Ciclo de Vida del Proyecto</div>
-                    <div class="swiper-slide-definition">División del proyecto en fases que conectan el inicio con el fin, permitiendo identificar, administrar y planificar recursos necesarios para alcanzar el objetivo (PMBOK Guide, 2017).</div>
+                    <div class="swiper-slide-definition">División del proyecto en fases que conectan el inicio con el
+                        fin, permitiendo identificar, administrar y planificar recursos necesarios para alcanzar el
+                        objetivo (PMBOK Guide, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Fases del Proyecto de Software</div>
-                    <div class="swiper-slide-definition">Etapas del desarrollo del proyecto de software, como inicio, proceso de desarrollo y producto final, que pueden subdividirse en etapas adicionales según el tamaño, complejidad y restricciones del presupuesto (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Etapas del desarrollo del proyecto de software, como inicio,
+                        proceso de desarrollo y producto final, que pueden subdividirse en etapas adicionales según el
+                        tamaño, complejidad y restricciones del presupuesto (Pressman, 2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Formulación del Proyecto</div>
-                    <div class="swiper-slide-definition">Procedimiento para recopilar información orientada a abordar una problemática planteada y satisfacer una necesidad humana en el contexto de un proyecto informático (Schwalbe, 2018).</div>
+                    <div class="swiper-slide-definition">Procedimiento para recopilar información orientada a abordar
+                        una problemática planteada y satisfacer una necesidad humana en el contexto de un proyecto
+                        informático (Schwalbe, 2018).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Desarrollo del Sistema</div>
-                    <div class="swiper-slide-definition">Conjunto de actividades dedicadas a la creación, diseño, despliegue y compatibilidad de software en el marco del desarrollo de un proyecto informático (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Conjunto de actividades dedicadas a la creación, diseño,
+                        despliegue y compatibilidad de software en el marco del desarrollo de un proyecto informático
+                        (Pressman, 2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Evaluación Financiera del Proyecto</div>
-                    <div class="swiper-slide-definition">Análisis que mide la rentabilidad económica de un proyecto, considerando montos de inversión, costos y gastos asociados, con el objetivo de tomar decisiones informadas (Kerzner, 2017).</div>
+                    <div class="swiper-slide-definition">Análisis que mide la rentabilidad económica de un proyecto,
+                        considerando montos de inversión, costos y gastos asociados, con el objetivo de tomar decisiones
+                        informadas (Kerzner, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Fase de Planificación</div>
-                    <div class="swiper-slide-definition">Etapa inicial del proyecto donde se valoran las necesidades, se establecen los objetivos, se realiza un estudio de viabilidad, se analizan riesgos y se planifican las siguientes fases (Schwalbe, 2018).</div>
+                    <div class="swiper-slide-definition">Etapa inicial del proyecto donde se valoran las necesidades, se
+                        establecen los objetivos, se realiza un estudio de viabilidad, se analizan riesgos y se
+                        planifican las siguientes fases (Schwalbe, 2018).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Estudio de Viabilidad</div>
-                    <div class="swiper-slide-definition">Evaluación de aspectos técnicos, financieros y legales para determinar si el proyecto puede realizarse en tiempo y con los recursos disponibles (Kerzner, 2017).</div>
+                    <div class="swiper-slide-definition">Evaluación de aspectos técnicos, financieros y legales para
+                        determinar si el proyecto puede realizarse en tiempo y con los recursos disponibles (Kerzner,
+                        2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Análisis de Riesgos</div>
-                    <div class="swiper-slide-definition">Identificación y evaluación de posibles contratiempos en el proyecto, con la previsión de alternativas de solución (Schwalbe, 2018).</div>
+                    <div class="swiper-slide-definition">Identificación y evaluación de posibles contratiempos en el
+                        proyecto, con la previsión de alternativas de solución (Schwalbe, 2018).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Planificación del Proyecto</div>
-                    <div class="swiper-slide-definition">Desarrollo de un plan detallado para cada fase del proyecto, asegurando el éxito en la realización de actividades y tareas (Kerzner, 2017).</div>
+                    <div class="swiper-slide-definition">Desarrollo de un plan detallado para cada fase del proyecto,
+                        asegurando el éxito en la realización de actividades y tareas (Kerzner, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Fase de Análisis</div>
-                    <div class="swiper-slide-definition">Etapa centrada en definir funciones y características específicas del software, asignar recursos y estimar costos para el desarrollo del proyecto (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Etapa centrada en definir funciones y características
+                        específicas del software, asignar recursos y estimar costos para el desarrollo del proyecto
+                        (Pressman, 2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Asignación de Recursos</div>
-                    <div class="swiper-slide-definition">Determinación de los recursos necesarios para cada fase del proyecto y la asignación formal de responsabilidades para cada tarea (Kloppenborg, 2019).</div>
+                    <div class="swiper-slide-definition">Determinación de los recursos necesarios para cada fase del
+                        proyecto y la asignación formal de responsabilidades para cada tarea (Kloppenborg, 2019).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Estimación de Costos</div>
-                    <div class="swiper-slide-definition">Tarea crítica que involucra presupuestar desde el inicio hasta el final, considerando imprevistos que puedan afectar tiempo, alcance y costos (Kerzner, 2017).</div>
+                    <div class="swiper-slide-definition">Tarea crítica que involucra presupuestar desde el inicio hasta
+                        el final, considerando imprevistos que puedan afectar tiempo, alcance y costos (Kerzner, 2017).
+                    </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Fase de Diseño y Estructura</div>
-                    <div class="swiper-slide-definition">Etapa donde se estudian alternativas, se establece la estructura de la base de datos, la lógica del flujo de datos y el diseño de la interfaz de usuario (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Etapa donde se estudian alternativas, se establece la
+                        estructura de la base de datos, la lógica del flujo de datos y el diseño de la interfaz de
+                        usuario (Pressman, 2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Estructura de Base de Datos</div>
-                    <div class="swiper-slide-definition">Proceso fundamental en el ciclo de vida del software para facilitar la implementación del proyecto y permitir al usuario gestionar información (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Proceso fundamental en el ciclo de vida del software para
+                        facilitar la implementación del proyecto y permitir al usuario gestionar información (Pressman,
+                        2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Lógica del Flujo de Datos</div>
-                    <div class="swiper-slide-definition">Elaboración de diagramas que trazan el flujo de información del proyecto de forma visual y detallada (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Elaboración de diagramas que trazan el flujo de información del
+                        proyecto de forma visual y detallada (Pressman, 2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Interfaz de Usuario</div>
-                    <div class="swiper-slide-definition">Diseño de un entorno intuitivo y fácil de usar, clave para el acceso y la navegación eficiente del usuario en el software desarrollado (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Diseño de un entorno intuitivo y fácil de usar, clave para el
+                        acceso y la navegación eficiente del usuario en el software desarrollado (Pressman, 2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Fase de Desarrollo</div>
-                    <div class="swiper-slide-definition">Etapa donde se inicia la tarea de programación, seleccionando el lenguaje de programación adecuado y siguiendo buenas prácticas para escalabilidad (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Etapa donde se inicia la tarea de programación, seleccionando
+                        el lenguaje de programación adecuado y siguiendo buenas prácticas para escalabilidad (Pressman,
+                        2014).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Fase de Pruebas</div>
-                    <div class="swiper-slide-definition">Etapa posterior al desarrollo donde se realizan pruebas para identificar y corregir errores, asegurando la calidad del software (Kerzner, 2017).</div>
+                    <div class="swiper-slide-definition">Etapa posterior al desarrollo donde se realizan pruebas para
+                        identificar y corregir errores, asegurando la calidad del software (Kerzner, 2017).</div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-slide-concept">Fase de Mantenimiento</div>
-                    <div class="swiper-slide-definition">Etapa en la que el software está en funcionamiento, se realizan mejoras, se corrigen fallos, y se atienden limitaciones o propuestas para mejorar (Pressman, 2014).</div>
+                    <div class="swiper-slide-definition">Etapa en la que el software está en funcionamiento, se realizan
+                        mejoras, se corrigen fallos, y se atienden limitaciones o propuestas para mejorar (Pressman,
+                        2014).</div>
                 </div>
             </div>
-          </div>
+        </div>
     </section>
 
+    <section class="swiper-container-father hiddenCard" identificador_select="u2">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-slide-concept">Concepto de prueba U2</div>
+                    <div class="swiper-slide-definition">Etapa en la que el software está en funcionamiento, se realizan
+                        mejoras, se corrigen fallos, y se atienden limitaciones o propuestas para mejorar (Pressman,
+                        2014).</div>
+                </div>
 
+                <div class="swiper-slide">
+                    <div class="swiper-slide-concept">Concepto de prueba U2</div>
+                    <div class="swiper-slide-definition">Etapa en la que el software está en funcionamiento, se realizan
+                        mejoras, se corrigen fallos, y se atienden limitaciones o propuestas para mejorar (Pressman,
+                        2014).</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Inyectamos componente de footer-->
     <section id="footerListener"></section>
 
-
+    <!--Boton para acceder a la página de analítica-->
+    <a data-target="slide-out"
+        class="border5 cl3 shadow2 white-text waves-effect waves-light buttonMenuMobile">
+        <i class="material-icons">shuffle</i>
+    </a>
 
 </body>
 
-    <!--Codigo para que funcione el swiper-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            effect: "cards",
-            grabCursor: true,
-        });
-    </script>
+<!--Codigo para que funcione el swiper-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+    });
+</script>
 
 </html>
