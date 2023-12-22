@@ -48,6 +48,18 @@
     border-radius: 0 0 10px 10px;
 }
 
+.buttonContainerDownloadActividadAprendizaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    a{
+        margin: 0 5px;
+        width: 50%;
+    }
+}
+
 .buttonDownloadActividadAprendizaje{
     margin: 20px 0 10px 0;
     padding: 10px;

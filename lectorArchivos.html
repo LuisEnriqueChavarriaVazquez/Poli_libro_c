@@ -1,161 +1,249 @@
-<script defer src="js/lectorLibros/codigoPropio.js"></script>
-<div class="book-section">
-     <div class="container">
-        <div class="right">
-             <figure class="back" id="back-cover"></figure>
-             <figure class="front" style="background-image: url('img/escom_backgrounds.jpg');"></figure>
-         </div>
-         <div class="right">
-             <figure class="back" style="background-image: url('img/escom_backgrounds.jpg');"></figure>
-             <figure class="front" style="background-image: url('https://pixabay.com/get/gb46f858d834c467d012d890214ee584025e70645dce58f87ef359bc4186c324cf80799862710eed4631eaf0464a6a3c6_1280.jpg');"></figure>
-         </div>
-         <div class="right">
-            <figure class="back" style="background-image: url('img/escom_backgrounds.jpg');"></figure>
-            <figure class="front" style="background-image: url('https://pixabay.com/get/gb46f858d834c467d012d890214ee584025e70645dce58f87ef359bc4186c324cf80799862710eed4631eaf0464a6a3c6_1280.jpg');"></figure>
-        </div>
-        <div class="right">
-            <figure class="back" style="background-image: url('img/escom_backgrounds.jpg');"></figure>
-            <figure class="front" style="background-image: url('https://pixabay.com/get/gb46f858d834c467d012d890214ee584025e70645dce58f87ef359bc4186c324cf80799862710eed4631eaf0464a6a3c6_1280.jpg');"></figure>
-        </div>
-        <div class="right">
-            <figure class="back" style="background-image: url('img/escom_backgrounds.jpg');"></figure>
-            <figure class="front" style="background-image: url('https://pixabay.com/get/gb46f858d834c467d012d890214ee584025e70645dce58f87ef359bc4186c324cf80799862710eed4631eaf0464a6a3c6_1280.jpg');"></figure>
-        </div>
-         <div class="right">
-             <figure class="back" style="background-image: url('https://pixabay.com/get/gb46f858d834c467d012d890214ee584025e70645dce58f87ef359bc4186c324cf80799862710eed4631eaf0464a6a3c6_1280.jpg');"></figure>
-             <figure class="front" style="background-image: url('https://pixabay.com/get/g4df987b5bfa39878c10050859486a03f198027e2212376a2ccf6355644691efde0afe432da7e6644dd54fa12b3454a38_1280.jpg');"></figure>
-         </div>
-         <div class="right">
-             <figure class="back" style="background-image: url('https://pixabay.com/get/g4df987b5bfa39878c10050859486a03f198027e2212376a2ccf6355644691efde0afe432da7e6644dd54fa12b3454a38_1280.jpg');"></figure>
-             <figure class="front" style="background-image: url('https://pixabay.com/get/g21bf4539dcf9431362b0cdf0abd78d2578e9be101332dde74784aa43999043165f97edf8cbeffb236be99665f51bb560_1280.jpg');"></figure>
-         </div>
-         <div class="right">
-             <figure class="back" style="background-image: url('https://pixabay.com/get/g21bf4539dcf9431362b0cdf0abd78d2578e9be101332dde74784aa43999043165f97edf8cbeffb236be99665f51bb560_1280.jpg');"></figure>
-             <figure class="front" style="background-image: url('https://pixabay.com/get/ge136176f664b9cbc9bcb02ab48ec235083d9c4d7d7acee2f5a95098484cfb887e98c58aa4084f9f8bd6fc8c015be7ca0_1280.png');"></figure>
-         </div>
-         <div class="right">
-             <figure class="back" style="background-image: url('https://pixabay.com/get/ge136176f664b9cbc9bcb02ab48ec235083d9c4d7d7acee2f5a95098484cfb887e98c58aa4084f9f8bd6fc8c015be7ca0_1280.png');"></figure>
-             <figure class="front" id="cover">
-                 <h1>Book Title</h1>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, modi.</p>
-             </figure>
-         </div>
-     </div>
-     <button onclick="turnLeft()">Prev</button> <button onclick="turnRight()">Next</button>
-     <br/>
- </div>
+<!DOCTYPE html>
+<html lang="en" id="generalDocument">
 
- <style>
-    body{
-            margin:0;
-            background-color: #e9e9e9;
-        }
-        *{
-            box-sizing: border-box;
-        }
-        .book-section{
-            height: 100vh;
-            width: 100%;
-            padding: 40px 0;
-            text-align: center;
-        }
-        .book-section > .container{
-            height: 400px;
-            width: 500px;
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-            border-radius: 2%;
-            margin-bottom: 30px;
-            perspective: 1200px;
-        }
-        .container > .right{
-            position: absolute;
-            height: 100%;
-            width: 50%;
-            transition: 0.7s ease-in-out;
-            transform-style: preserve-3d;
-        }
-        .book-section > .container > .right{
-            right:0;
-            transform-origin: left;
-            border-radius: 10px 0 0 10px;
-        }
-        .right > figure.front, .right > figure.back{
-            margin: 0;
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            left:0;
-            top:0;
-            background-size: 200%;
-            background-repeat: no-repeat;
-            backface-visibility: hidden;
-            background-color: white;
-            overflow: hidden;
-        }
-        .right > figure.front{
-            background-position: right;
-            border-radius: 0 10px 10px 0;
-            box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.2);
-        }
-        .right > figure.back{
-            background-position: left;
-            border-radius: 10px 0 0 10px;
-            box-shadow: -2px 2px 15px -2px rgba(0,0,0,0.2);
-            transform: rotateY(180deg);
-        }
-        .flip{
-            transform: rotateY(-180deg);
-        }
-        .flip::before{
-            content: "";
-            position: absolute;
-            top:0;
-            left:0;
-            z-index: 10;
-            width: 100%;
-            height: 100%;
-            border-radius: 0 10px 10px 0;
-            background-color: rgba(0,0,0,0.1);
-        }
-        .book-section > button{
-            border: 2px solid #ef9f00;
-            background-color: transparent;
-            color: #ef9f00;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin: 10px;
-            transition: 0.3s ease-in-out;
-        }
-        .book-section > button:focus, .book-section > button:active{
-            outline: none;
-        }
-        .book-section > p{
-            color: rgba(0,0,0,0.7);
-            font-family: calibri;
-            font-size: 24px;
-        }
-        .book-section > p > a{
-            text-decoration: none;
-            color: #ef9f00;
-        }
-        .book-section > button:hover{
-            background-color: #ef9f00;
-            color: #fff;
-        }
-        .front#cover, .back#back-cover{
-            background-color: #ffcb63;
-            font-family: calibri;
-            text-align: left;
-            padding: 0 30px;
-        }
-        .front#cover h1{
-            color: #fff;
-        }
-        .front#cover p{
-            color: rgba(0,0,0,0.8);
-            font-size: 14px;
-        }
- </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Polilibro</title>
+    <link rel="shortcut icon" href="img/ipn.ico" type="image/x-icon">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/scss/addsOn/lectorLibros.css">
+
+    <!--Codigo para el lector de libros-->
+    <script defer src="js/lectorLibros/codigoPropio.js"></script>
+</head>
+
+<body>
+    <div class="demo-block bg-light pt-3 pb-3 overflow-hidden">
+        <div class="container mb-3 text-center" id="buttonDemoSelection">
+            <div class="btn-group" role="group" aria-label="">
+                <button type="button" class="btn btn-primary" data-dest="html">HTML</button>
+                <button type="button" class="btn btn-secondary" data-dest="canvas">CANVAS</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="htmlBook">
+                <div class="flip-book html-book stf__wrapper --landscape" id="htmlBookExample"
+                    style="min-width: 350px; min-height: 467px; width: 100%; max-width: 1400px; display: block; padding-bottom: 66.6364%;">
+                    <div class="stf__block">
+                        <div class="page stf__item" style="display: none; z-index: 1;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 1</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2013/04/03/21/25/cereals-100263__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">1</div>
+                            </div>
+                        </div>
+                        <div class="page stf__item" style="display: none; z-index: 1;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 2</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2016/01/08/17/06/poppy-1128683__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">2</div>
+                            </div>
+                        </div>
+                        <div class="page stf__item --left --simple" style="display: none;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 3</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2013/01/27/18/41/meadow-76358__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">3</div>
+                            </div>
+                        </div>
+                        <div class="page stf__item --right --simple" style="display: none;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 4</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2018/05/04/15/23/poppies-3374193__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">4</div>
+                            </div>
+                        </div>
+                        <div class="page stf__item"
+                            style="position: absolute; left: 0px; top: 0px; box-sizing: border-box; display: none; z-index: 1;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 5</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2018/06/01/16/45/red-3446714__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">5</div>
+                            </div>
+                        </div>
+                        <div class="page stf__item"
+                            style="position: absolute; left: 0px; top: 0px; box-sizing: border-box; display: none; z-index: 1;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 6</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2018/08/03/11/40/poppy-3581709__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">6</div>
+                            </div>
+                        </div>
+                        <div class="page stf__item"
+                            style="position: absolute; left: 0px; top: 0px; box-sizing: border-box; display: none; z-index: 1;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 7</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2019/06/02/11/22/poppy-flower-4246241__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">7</div>
+                            </div>
+                        </div>
+                        <div class="page stf__item"
+                            style="position: absolute; left: 0px; top: 0px; box-sizing: border-box; display: none; z-index: 1;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 8</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2019/06/02/21/18/red-poppy-4247574__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">8</div>
+                            </div>
+                        </div>
+                        <div class="page stf__item --left"
+                            style="position: absolute; display: block; height: 739.664px; left: 0px; top: 0.168182px; width: 555px; z-index: 1;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 9</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2017/03/15/18/41/poppies-2147082__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">9</div>
+                            </div>
+                        </div>
+                        <div class="page stf__item --right"
+                            style="position: absolute; display: block; height: 739.664px; left: 555px; top: 0.168182px; width: 555px; z-index: 1;">
+                            <div class="page-content">
+                                <h2 class="page-header">Page header - 10</h2>
+                                <div class="page-image"
+                                    style="background-image: url(https://cdn.pixabay.com/photo/2017/08/03/22/16/poppy-2578514__340.jpg)">
+                                </div>
+                                <div class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    cursus mollis nibh, non convallis ex convallis eu. Suspendisse potenti. Aenean vitae
+                                    pellentesque erat. Integer non tristique quam. Suspendisse rutrum, augue ac
+                                    sollicitudin mollis, eros velit viverra metus, a venenatis tellus tellus id magna.
+                                    Aliquam ac nulla rhoncus, accumsan eros sed, viverra enim. Pellentesque non justo
+                                    vel nibh sollicitudin pharetra suscipit ut ipsum. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. In cursus mollis nibh, non convallis ex convallis eu.
+                                    Suspendisse potenti. Aenean vitae pellentesque erat. Integer non tristique quam.
+                                    Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra metus, a
+                                    venenatis tellus tellus id magna.</div>
+                                <div class="page-footer">10</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="canvasBook" style="display: none">
+                <div class="flip-book canvas-book stf__wrapper --portrait" id="canvasBookExample"
+                    style="min-width: 350px; min-height: 467px; width: 100%; max-width: 1400px; display: block; padding-bottom: 133.273%;">
+                    <canvas class="stf__canvas" width="100" height="100"></canvas></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="text-center mt-3 mb-2">
+                <button type="button" class="btn btn-info btn-sm btn-book-prev">Regresas página</button>
+                [<span class="page-count">10</span> of <span class="page-total">10</span>]
+                <button type="button" class="btn btn-info btn-sm btn-book-next">Siguiente página</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

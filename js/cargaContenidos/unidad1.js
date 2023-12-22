@@ -939,12 +939,21 @@ const contenidosUnidad = [
         <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
             <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Lectura 1</p>
             <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las organizaciones y la empresa</p>
-            <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
-                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                    <i class="material-icons clbktx">download</i>
-                    <span class="clbktx">Descargar</span>
-                </div>
-            </a>
+            
+            <div class="buttonContainerDownloadActividadAprendizaje">
+                <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
+                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                        <i class="material-icons clbktx">download</i>
+                        <span class="clbktx">Descargar</span>
+                    </div>
+                </a>
+                <a href="lectorArchivos.html?document=lectura1_unidad1">
+                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                        <i class="material-icons clbktx">visibility</i>
+                        <span class="clbktx">Vizualizar</span>
+                    </div>
+                </a>
+            </div>
         </div>
 
 
@@ -959,24 +968,43 @@ const contenidosUnidad = [
         <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
             <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.1</p>
             <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa y su constitución jurídica</p>
-            <a href="./pdf/actividades/Actividad 1.1 La empresa y su constitucion juridica.pdf" target="_blank">
-                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                    <i class="material-icons clbktx">download</i>
-                    <span class="clbktx">Descargar</span>
-                </div>
-            </a>
+
+            <div class="buttonContainerDownloadActividadAprendizaje">
+                <a href="./pdf/actividades/Actividad 1.1 La empresa y su constitucion juridica.pdf" target="_blank">
+                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                        <i class="material-icons clbktx">download</i>
+                        <span class="clbktx">Descargar</span>
+                    </div>
+                </a>
+                <a href="lectorArchivos.html?document=actividad1_unidad1">
+                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                        <i class="material-icons clbktx">visibility</i>
+                        <span class="clbktx">Vizualizar</span>
+                    </div>
+                </a>
+            </div>
+
         </div>
 
         <!--Tarjeta 2-->
         <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
             <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.2</p>
             <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las finanzas y su importancia</p>
-            <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf" target="_blank">
-                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                    <i class="material-icons clbktx">download</i>
-                    <span class="clbktx">Descargar</span>
-                </div>
-            </a>
+
+            <div class="buttonContainerDownloadActividadAprendizaje">
+                <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf" target="_blank">
+                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                        <i class="material-icons clbktx">download</i>
+                        <span class="clbktx">Descargar</span>
+                    </div>
+                </a>
+                <a href="lectorArchivos.html?document=actividad2_unidad1">
+                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                        <i class="material-icons clbktx">visibility</i>
+                        <span class="clbktx">Vizualizar</span>
+                    </div>
+                </a>
+            </div>
         </div>
 
         <!--Tarjeta 3-->
@@ -984,13 +1012,22 @@ const contenidosUnidad = [
             <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.3</p>
             <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa, sus finanzas y su relación con el
                 entorno</p>
-            <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf"
-                target="_blank">
-                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                    <i class="material-icons clbktx">download</i>
-                    <span class="clbktx">Descargar</span>
-                </div>
-            </a>
+
+            <div class="buttonContainerDownloadActividadAprendizaje">
+                <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf"
+                    target="_blank">
+                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                        <i class="material-icons clbktx">download</i>
+                        <span class="clbktx">Descargar</span>
+                    </div>
+                </a>
+                <a href="lectorArchivos.html?document=actividad3_unidad1">
+                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                        <i class="material-icons clbktx">visibility</i>
+                        <span class="clbktx">Vizualizar</span>
+                    </div>
+                </a>
+            </div>
         </div>
 
     </section>
