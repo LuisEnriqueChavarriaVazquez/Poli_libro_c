@@ -653,21 +653,21 @@ const contenidosUnidad = [
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
             Primeramente, para poder identificar el problema deberás responder algunas preguntas como:
-            ¿Cuál es la necesidad real de las personas ante una situación? ¿Cuáles son los motivos que están generando tal situación? 
-            ¿Cuáles son las consecuencias?
+            <i class="keyWord">¿Cuál es la necesidad real de las personas ante una situación? ¿Cuáles son los motivos que están generando tal situación? 
+            ¿Cuáles son las consecuencias?</i>
            Implica el descubrimiento del tema o cuestión que se pretende abordar, así como sus posibles orígenes o los factores que inciden 
            en su existencia. El problema puede ser de naturaleza práctica o teórica.<br><br>
            
            Posteriormente pasarás al planteamiento del problema, por lo que tendrás que hacer una revisión de los antecedentes del tema, 
            es decir, de los estudios previos que otros autores o investigadores hayan realizado sobre el problema que se está abordando. 
-           Esto te permitirá conocer el nivel de conocimiento o información actualizada que existe sobre el tema en cuestión.<br><br>
+           Esto te permitirá <i class="keyWord">conocer el nivel de conocimiento o información actualizada que existe sobre el tema en cuestión</i>.<br><br>
 
            Con esta información tendrás que delimitar el problema y lo harás abordando el tema de lo general a lo particular. 
            Es decir, primero explicarás las variables que afectan el problema a escala global (planeta, país, etc.), y luego te debes 
            ir acercando al contexto inmediato del problema (la ciudad, el barrio, la empresa, la escuela, etc.).<br><br>
 
-           Una vez que ya delimitaste el problema tendrás que trabajar en la justificación del problema, que consiste en la evaluación de 
-           la pertinencia, importancia o relevancia del problema identificado. ¿Por qué se eligió ese tema? ¿Por qué el investigador lo considera 
+           Una vez que ya delimitaste el problema tendrás que trabajar en <i class="keyWord">la justificación del problema, que consiste en la evaluación de 
+           la pertinencia, importancia o relevancia del problema identificado.</i> ¿Por qué se eligió ese tema? ¿Por qué el investigador lo considera 
            importante? ¿Cuáles son las razones detrás de esa elección? Considerando que un proyecto informático es una inversión de tiempo y recursos,
             lo esperado es que la solución del problema abordado sea relevante en el ámbito en el que se desarrolle dicho proyecto.<br><br>
 
@@ -693,7 +693,8 @@ const contenidosUnidad = [
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                     Para que puedas identificar claramente los problemas, puedes utilizar, entre otras, la técnica de análisis de contrastes, 
-                    en donde tendrás que definir un problema como la brecha que existe entre el estado actual y el estado que se pretende alcanzar. 
+                    en donde tendrás que <i class="keyWord">definir un problema como la brecha que existe entre el estado actual y el estado que se pretende alcanzar. 
+                    en donde tendrás que <i class="keyWord">definir un problema como la brecha que existe entre el estado actual y el estado que se pretende alcanzar.</i> 
                     Para que desarrolles esta técnica es necesario que elabores un listado de elementos y características de la situación que conforman 
                     esta brecha, es decir, que identifiquen la distancia entre esos dos estados.<br><br>
                     Las siguientes preguntas te ayudarán a clarificar el problema, ya que podrás hacer una comparación más clara de la situación.<br>
@@ -749,7 +750,7 @@ const contenidosUnidad = [
             <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Árbol de problemas</div>
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    El árbol de problemas es una herramienta que te ayudará a entender un problema determinado y que pudieras resolver. 
+                    <i class="keyWord">El árbol de problemas es una herramienta que te ayudará a entender un problema determinado y que pudieras resolver. </i>
                     Es una representación con la forma de un árbol, donde podrás expresa las condiciones negativas reveladas por las personas 
                     que se encuentran involucradas en una problemática en particular.<br><br>
 
@@ -760,7 +761,7 @@ const contenidosUnidad = [
                     Ya que finalizaste el proyecto, debes hacer una revisión detallada y sencilla de la efectividad de las medidas para 
                     atacar la resolución de los problemas.<br><br>
 
-                    Esta técnica te permitirá expresar un problema por medio de un diagrama en forma de árbol. Es una forma de representar un problema 
+                    Esta técnica te permitirá <i class="keyWord">expresar un problema por medio de un diagrama en forma de árbol.</i> Es una forma de representar un problema 
                     de tal manera que puedas entender lo que está sucediendo, las causas de por qué ocurre y cuáles son los 
                     efectos que está ocasionando.<br><br>
 
@@ -779,11 +780,11 @@ const contenidosUnidad = [
             <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Análisis de causa-efecto</div>
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    Su creador fue Kaoru Ishikawa, por lo que esta metodología toma el nombre de diagrama de Ishikawa, también es conocido como 
-                    esqueleto de pescado, por su similitud gráfica.<br><br>
+                    <i class="keyWord">Su creador fue Kaoru Ishikawa, por lo que esta metodología toma el nombre de diagrama de Ishikawa, también es conocido como 
+                    esqueleto de pescado, por su similitud gráfica.</i><br><br>
 
-                    Esta técnica fue tomada de los procesos de calidad, te servirá para identificar, de manera ordenada, las posibles causas que 
-                    originan o influyen en un problema específico o los efectos que estos tienen sobre el problema. <br><br>
+                    Esta técnica fue tomada de los procesos de calidad, te servirá para <i class="keyWord">identificar, de manera ordenada, las posibles causas que 
+                    originan o influyen en un problema específico o los efectos que estos tienen sobre el problema.</i> <br><br>
 
                     Sus pasos son:<br><br>
                                 
@@ -820,11 +821,11 @@ const contenidosUnidad = [
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.2 Antecedentes y situación actual</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-            Uno de los elementos más importantes para los involucrados en el proyecto son los antecedentes, debido a que les proporcionarán información 
-            para entender el contexto del proyecto. En los antecedentes puedes incluir estudios significativos y relevantes. 
+            Uno de los elementos más importantes para los involucrados en el proyecto son los antecedentes, debido a que les <i class="keyWord">proporcionarán información 
+            para entender el contexto del proyecto. En los antecedentes puedes incluir estudios significativos y relevantes. </i>
             Esto te permitirá fundamentar tu proyecto.
-            Por otro lado, los antecedentes te ayudarán a analizar el planteamiento del problema y la justificación, así mismo te permiten 
-            conectar la introducción con el tema del proyecto y asegura el flujo lógico de las ideas. En consecuencia, ayuda a los 
+            Por otro lado, los antecedentes te ayudarán a <i class="keyWord">analizar el planteamiento del problema y la justificación, así mismo te permiten 
+            conectar la introducción con el tema del proyecto y asegura el flujo lógico de las ideas.</i> En consecuencia, ayuda a los 
             involucrados a comprender las razones para realizar el proyecto. <br><br>
 
             De tal manera que cualquier persona podrá entender el proyecto y su importancia. El alcance y los detalles de los antecedentes 
@@ -866,8 +867,8 @@ const contenidosUnidad = [
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
 
-            Se puede entender la identificación y selección de alternativas como el proceso donde se plantean una o más estrategias que den 
-            solución a la problemática planteada. (Ingenio Empresa 2023).
+            Se puede entender la identificación y selección de alternativas como <i class="keyWord">el proceso donde se plantean una o más estrategias que den 
+            solución a la problemática planteada. (Ingenio Empresa 2023).</i>
             A continuación, encontraras 4 pasos que te ayudaran a identificar y seleccionar una alternativa que de solución a 
             una problemática planteada. <br><br>
            
@@ -912,12 +913,12 @@ const contenidosUnidad = [
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
             
-            En la gestión de la integración de proyectos deberás involucrar a todos los elementos del proyecto informático de una manera coordinada, 
-            tendrás que incluir las tareas, los recursos, los interesados, así como los entregables. El propósito de la gestión de la integración 
+            En la gestión de la integración de proyectos <i class="keyWord">deberás involucrar a todos los elementos del proyecto informático de una manera coordinada, 
+            tendrás que incluir las tareas, los recursos, los interesados, así como los entregables.</i> El propósito de la gestión de la integración 
             de proyectos es garantizar que los procesos se lleven a cabo de manera correcta y que se alcancen los objetivos previamente establecidos.
             Cuando desarrolles la gestión de la integración del proyecto tendrás que incluye los procesos y actividades necesarios para que puedas 
-            identificar, definir, combinar, unificar y coordinar los diversos procesos y actividades de dirección del proyecto dentro de los grupos 
-            de procesos de la dirección de proyectos.<br><br>
+            <i class="keyWord">identificar, definir, combinar, unificar y coordinar los diversos procesos y actividades de dirección del proyecto dentro de los grupos 
+            de procesos de la dirección de proyectos.</i><br><br>
 
             La Gestión de la Integración del Proyecto conlleva la toma de decisiones en cuanto a la asignación de recursos, equilibrar objetivos y 
             alternativas contrapuestas y manejar las interdependencias entre las Áreas de Conocimiento de la dirección de proyectos. 
