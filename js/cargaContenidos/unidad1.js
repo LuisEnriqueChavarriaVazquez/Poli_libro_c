@@ -805,7 +805,7 @@ const contenidosUnidad = [
                                     
                                     </ol>
                                 </li>
-                                <li>Ordenar las causas por categorías.</li>
+                                <li>Ordenar las causas por categorías</li>
                                 <li>Valorar las causas y las categorías</li>
                             </ol>
                         
@@ -872,7 +872,7 @@ const contenidosUnidad = [
             A continuación, encontraras 4 pasos que te ayudaran a identificar y seleccionar una alternativa que de solución a 
             una problemática planteada. <br><br>
            
-           Paso 1: Tendrás que identificar alternativas que pueden ser estrategias del proyecto.
+           <i class="clgreyl3 subTitleCard">⚫ Paso 1:</i> Tendrás que identificar alternativas que pueden ser estrategias del proyecto.
            Considera que las alternativas pueden ser un conjunto de medios emanados del objetivo general del proyecto y que puedes considerarlos 
            para trabajarlos como alternativas de solución.
            Con esto claro, enfócate en cada uno de los medios evaluando las alternativas de solución que se derivan.<br><br>
@@ -886,14 +886,14 @@ const contenidosUnidad = [
            Al contestar estas preguntas empezaras a tener numerosas ideas de alternativas. El propósito es que identifiques alternativas que no 
            son realizables o deseables y que puedas tener estrategias que pasaran por un “filtro de alternativas” para ser estrategias óptimas.<br><br>
            
-           Paso 2: Deberás definir criterios apropiados, relevantes y congruente para escoger estrategias a utilizar.<br>
+           <i class="clgreyl3 subTitleCard">⚫ Paso 2:</i> Deberás definir criterios apropiados, relevantes y congruente para escoger estrategias a utilizar.<br>
            Los criterios dependerán de la naturaleza del proyecto o de la situación problemática que se aborda.<br><br>
            
-           Paso 3: Aplicarás filtros sobre las alternativas seleccionadas inicialmente<br>
+           <i class="clgreyl3 subTitleCard">⚫ Paso 3:</i> Aplicarás filtros sobre las alternativas seleccionadas inicialmente<br>
            La aplicación de los criterios o filtros te permitirá ir descartando alternativas que no son factibles para solucionar la problemática 
            y así puedas contar con una o más estrategias de solución para el proyecto <br><br>
            
-           Paso 4: Determinando una o más estrategias óptimas para el proyecto<br>
+           <i class="clgreyl3 subTitleCard">⚫ Paso 4:</i> Determinando una o más estrategias óptimas para el proyecto<br>
            Pero ¿son óptimas?<br><br>
            
            En esta etapa se realizan todos los estudios adicionales para definir la viabilidad y factibilidad de las estrategias obtenidas 
