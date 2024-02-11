@@ -1,897 +1,874 @@
 const contenidosUnidad = [
-    `
-  <!--Menu para los contenidos en tiempo real-->
-  <div class="mainTabsContent" id="tabsContentID">
-      <ul id="tabs-swipe-demo" class="tabs clgreyl2 shadow4">
-          <li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Bienvenida</a></li>
-          <li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a>
-          <li class="tab clgreyl2" id="a7tutorialButton"><a class="clbktx" href="#test-swipe-2">Unidad de competencia</a></li>
-          </li>
-          <li class="tab clgreyl2" id="a9tutorialButton"><a class="clbktx" href="#test-swipe-4">Evaluación de los aprendizajes</a></li>
-          <li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a>
-          </li>
-      </ul>
-  </div>
-  
-  <div id="test-swipe-1" class="tabsContentContainerInfo">
-  
-      <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
-          <div class="cardDesign clw border1Inf">
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Estimados estudiantes que cursan la unidad de aprendizaje Finanzas empresariales, que se imparte en la
-              <i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
-              bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 1: la empresa y su entorno</i>,
-              correspondiente a la unidad de aprendizaje Finanzas empresariales.
-              Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la unidad
-              en cuestión, esperamos que les sea de gran ayuda.
-              </p>
-  
-  
-              <div class="defaultImage">
-                  <div class="defaultImageContent" id="bienvenida"></div>
-              </div>
-              <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-              <a href="https://icons8.com/illustrations/illustration/pixeltrue-welcome" target="_blank">Ouch!</a>
-              </span>
-          </div>
-      </div>
-  
-  </div>
-  <div id="test-swipe-2" class="tabsContentContainerInfo" style="display: none;">
-  
-      <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
-          <div class="cardDesign clw border1Inf">
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                  Reconoce el <i class="keyWord">papel de las finanzas</i> a partir del <i class="keyWord">contexto empresarial.</i>
-              </p>
-  
-              <div class="defaultImage">
-                  <div class="defaultImageContent" id="unidadCompetencia"></div>
-              </div>
-              <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-              <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-              </span>
-          </div>
-      </div>
-  
-  </div>
-  <div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
-  
-      <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
-          <div class="cardDesign clw border1Inf">
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                  <i class="keyWord">El uso de este RDD de la unidad 1: la empresa y su entorno</i>, te permitirá <i class="keyWord">estudiar los contenidos</i> en la secuencia indicada en el programa de estudios de <i class="keyWord">la Unidad de aprendizaje Finanzas empresariales</i>. Para abordar dicha unidad temática se requieren seis horas de teoría y dos horas de <i class="keyWord">aprendizaje autónomo</i>. 
-                  Este RDD se construyó con la intención de <i class="keyWord">apoyarte en tu proceso de aprendizaje tanto dentro como fuera del aula</i>; está disponible en el momento que lo requieras consultar, adaptándose a tu propio ritmo de aprendizaje, con los que se pretende <i class="keyWord">facilitar el aprendizaje autónomo</i> con miras a lograr los objetivos de aprendizaje de esta unidad temática 1: la empresa y su entorno.
-                  
-              
-                  <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                      El menú de navegación está conformado por: <i class="keyWord">inicio, manual de usuario, contenidos, glosario, material de apoyo, actividades de aprendizaje, evaluación, cierre de la unidad temática, referencias y contacto</i>. ¿Qué encontrarás al hacer clic en cada uno de los botones antes mencionados?
-                  </blockquote>
-  
-                  <div class="cardDesign clgreyl1 border1 shadow2">
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Inicio.</b> Aquí encontrarás el encuadre del curso conformado por la bienvenida, la metodología de trabajo, la unidad de competencia que desarrollarás, la evaluación de los aprendizajes y los requerimientos para acceder y hacer uso de este recurso didáctico digital (RDD).</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Manual de usuario.</b> Al dar clic en este botón podrás visualizar o bien descargar el manual de usuario que te guiará en el uso de este recurso didáctico digital.</p>
-  
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Contenidos.</b> En este apartado encontrarás los fundamentos teóricos y algunas figuras alusivas al tema tratado.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Glosario.</b> Esta parte del menú encontrarás el significado de algunos términos debidamente referenciados que
-                          te facilitarán la comprensión del tema.</p>
-  
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Material de apoyo.</b> En esta sección podrás leer y descargar una lectura, en la que encontrarás información relevante y
-                          de interés sobre las organizaciones y en particular sobre la empresa.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Actividades de aprendizaje.</b> 
-                          En esta parte podrás visualizar y descargar las actividades de aprendizaje que se realizarán en el aula (en el horario de clases); se desarrollarán en forma individual o en equipo en función de la estrategia didáctica, y la evidencia de aprendizaje se subirá a la plataforma indicada por el profesor(a). Es importante mencionar que la actividad 1.1 es formativa (no tendrá valor para la evaluación), en tanto que las actividades 1.2 y 1.3 sí tienen valor para la evaluación. 
-                      </p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Evaluación.</b> En este apartado encontrarás reactivos de tres tipos (opción múltiple, falso y verdadero y de arrastrar conceptos); al comprobar tus respuestas podrás visualizar la retroalimentación respectiva. Una vez terminada la evaluación podrás descargar tus resultados en formato PDF, mismo que enviarás a tu profesor(a) por el medio que te indique.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Cierre de la unidad temática.</b> Aquí podrás leer un texto en el que se indica que has concluido con el estudio de los contenidos de la unidad temática 1, enfatizando la importancia que tienen las empresas en nuestra vida cotidiana y finalmente, se hace mención de los temas que abordarás en la unidad temática 2.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Referencias.</b> En esta opción del menú están enlistadas las fuentes de consulta que se utilizaron para el
-                          desarrollo de esta unidad temática.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Contacto.</b> En este último apartado encontrarás los datos de contacto y una breve semblanza  de los coautores de este RDD.</p>
-  
-                  </div>
-              </p>
-  
-              <div class="defaultImage">
-                  <div class="defaultImageContent" id="metodologia"></div>
-              </div>
-              <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-              <a href="https://icons8.com/illustrations/illustration/pixeltrue-idea" target="_blank">Ouch!</a>
-              </span>
-          </div>
-  
-      </div>
-  
-  </div>
-  <div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
-  
-      <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Evaluación de los aprendizajes</div>
-          <div class="cardDesign clw border1Inf">
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                  La evaluación de los aprendizajes de esta unidad temática se llevará a cabo como se muestra a continuación:
-              </p>
-  
-              <div class="cardDesign clgreyl2 border1">
-                  <table class="striped highlight responsive-table clw border1 shadow2">
-                      <thead>
-                          <tr>
-                              <th class="clbktx textoStandarTable">Unidad</th>
-                              <th class="clbktx textoStandarTable">Actividad de aprendizaje</th>
-                              <th class="clbktx textoStandarTable">Evidencia de aprendizaje</th>
-                              <th class="clbktx textoStandarTable">Valor en la evaluación</th>
-                          </tr>
-                      </thead>
-              
-                      <tbody>
-                          <tr>
-                              <td class="cellCenter textoStandarTable" rowspan="4">Unidad 1</td>
-                              <td class="cellCenter textoStandarTable">Actividad 1.1  La empresa y su constitución jurídica</td>
-                              <td class="textoStandarTable">Cuestionario en formato Tangram</td>
-                              <td class="cellCenter textoStandarTable">Sin valor para la evaluación</td>
-                          </tr>
-                          <tr>
-                              <td class="cellCenter textoStandarTable">Actividad 1.2  Las finanzas y su importancia</td>
-                              <td class="textoStandarTable">Infografía</td>
-                              <td class="cellCenter textoStandarTable">10 puntos</td>
-                          </tr>
-                          <tr>
-                              <td class="cellCenter textoStandarTable">Actividad 1.3  La empresa, sus finanzas y su relación con el entorno</td>
-                              <td class="textoStandarTable">Reporte</td>
-                              <td class="cellCenter textoStandarTable">10 puntos</td>
-                          </tr>
-                          <tr>
-                              <td class="cellCenter textoStandarTable" colspan="2">Total</td>
-                              <td class="cellCenter textoStandarTable">20 puntos</td>
-                          </tr>
-                      </tbody>
-                  </table>
-              </div>
-  
-              <div class="defaultImage">
-                  <div class="defaultImageContent" id="evaluacionAprendizajes"></div>
-              </div>
-              <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-              <a href="https://icons8.com/illustrations/illustration/pixeltrue-teaching" target="_blank">Ouch!</a>
-              </span>
-          </div>
-      </div>
-  
-  </div>
-  <div id="test-swipe-5" class="tabsContentContainerInfo" style="display: none;">
-  
-      <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
-          <div class="cardDesign clw border1Inf">
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                  Para acceder y hacer uso de este recurso se requiere:
-              </p>
-                  <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
-                      <li>Conexión a internet</li>
-                      <li>
-                          Navegador de internet:
-                          <ul class="browser-default">
-                              <li>Microsoft Edge (version 85 o superior)</li>
-                              <li>Google Chrome (version 85 o superior)</li>
-                              <li>Mozilla Firefox (version 80 o superior)</li>
-                              <li>Vivaldi (version 3.3 o superior)</li>
-                              <li>Opera 70 o superior</li>
-                          </ul>
-                      </li>
-  
-                  </ul>
-  
-              
-              
-              <div class="defaultImage">
-                  <div class="defaultImageContent" id="requerimientos"></div>
-              </div>
-              <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-              <a href="https://icons8.com/illustrations/illustration/pixeltrue-web-development" target="_blank">Ouch!</a>
-              </span>
-          </div>
-      </div>
-  
-  
-  </div>`,
-    `
+`
+<!--Menu para los contenidos en tiempo real-->
+<div class="mainTabsContent" id="tabsContentID">
+    <ul id="tabs-swipe-demo" class="tabs clgreyl2 shadow4">
+        <li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Bienvenida</a></li>
+        <li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a>
+        <li class="tab clgreyl2" id="a7tutorialButton"><a class="clbktx" href="#test-swipe-2">Unidad de competencia</a>
+        </li>
+        </li>
+        <li class="tab clgreyl2" id="a9tutorialButton"><a class="clbktx" href="#test-swipe-4">Evaluación de los
+                aprendizajes</a></li>
+        <li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a>
+        </li>
+    </ul>
+</div>
+
+<div id="test-swipe-1" class="tabsContentContainerInfo">
+
     <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
-          <div class="cardDesign clw border1Inf">
-              <!--Card con un ejemplo-->
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                <i class="keyWord">Las empresas son la base del sistema económico</i>, debido a que se encargan de <i class="keyWord">la producción, comercialización y distribución de bienes</i> que satisfacen las múltiples necesidades la sociedad. Más allá de su infraestructura, tamaño y giro <i class="keyWord">toda empresa debe constituirse de acuerdo con la legislación vigente</i> que le otorga una personalidad jurídica propia e independiente de sus dueños; para su funcionamiento <i class="keyWord">requiere de recursos financieros, tecnológicos y humanos</i> los cuales deben ser administrados eficientemente para cumplir con sus objetivos.
-              </p>
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Estimados estudiantes que cursan la unidad de aprendizaje Finanzas empresariales, que se imparte en la
+                <i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>,
+                reciban la mejor de las
+                bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 1: la
+                    empresa y su entorno</i>,
+                correspondiente a la unidad de aprendizaje Finanzas empresariales.
+                Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la
+                unidad
+                en cuestión, esperamos que les sea de gran ayuda.
+            </p>
+
+
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="bienvenida"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-welcome" target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
+
+</div>
+<div id="test-swipe-2" class="tabsContentContainerInfo" style="display: none;">
+
+    <div class="shadow4 border1 clw">
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Reconoce el <i class="keyWord">papel de las finanzas</i> a partir del <i class="keyWord">contexto
+                    empresarial.</i>
+            </p>
+
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="unidadCompetencia"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
+
+</div>
+<div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
+
+    <div class="shadow4 border1 clw">
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                <i class="keyWord">El uso de este RDD de la unidad 1: la empresa y su entorno</i>, te permitirá <i
+                    class="keyWord">estudiar los contenidos</i> en la secuencia indicada en el programa de estudios de
+                <i class="keyWord">la Unidad de aprendizaje Finanzas empresariales</i>. Para abordar dicha unidad
+                temática se requieren seis horas de teoría y dos horas de <i class="keyWord">aprendizaje autónomo</i>.
+                Este RDD se construyó con la intención de <i class="keyWord">apoyarte en tu proceso de aprendizaje tanto
+                    dentro como fuera del aula</i>; está disponible en el momento que lo requieras consultar,
+                adaptándose a tu propio ritmo de aprendizaje, con los que se pretende <i class="keyWord">facilitar el
+                    aprendizaje autónomo</i> con miras a lograr los objetivos de aprendizaje de esta unidad temática 1:
+                la empresa y su entorno.
+
+
+            <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+                El menú de navegación está conformado por: <i class="keyWord">inicio, manual de usuario, contenidos,
+                    glosario, material de apoyo, actividades de aprendizaje, evaluación, cierre de la unidad temática,
+                    referencias y contacto</i>. ¿Qué encontrarás al hacer clic en cada uno de los botones antes
+                mencionados?
+            </blockquote>
+
+            <div class="cardDesign clgreyl1 border1 shadow2">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫
+                        Inicio.</b> Aquí encontrarás el encuadre del curso conformado por la bienvenida, la metodología
+                    de trabajo, la unidad de competencia que desarrollarás, la evaluación de los aprendizajes y los
+                    requerimientos para acceder y hacer uso de este recurso didáctico digital (RDD).</p>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Manual de
+                        usuario.</b> Al dar clic en este botón podrás visualizar o bien descargar el manual de usuario
+                    que te guiará en el uso de este recurso didáctico digital.</p>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫
+                        Contenidos.</b> En este apartado encontrarás los fundamentos teóricos y algunas figuras alusivas
+                    al tema tratado.</p>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫
+                        Glosario.</b> Esta parte del menú encontrarás el significado de algunos términos debidamente
+                    referenciados que
+                    te facilitarán la comprensión del tema.</p>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Material
+                        de apoyo.</b> En esta sección podrás leer y descargar una lectura, en la que encontrarás
+                    información relevante y
+                    de interés sobre las organizaciones y en particular sobre la empresa.</p>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫
+                        Actividades de aprendizaje.</b>
+                    En esta parte podrás visualizar y descargar las actividades de aprendizaje que se realizarán en el
+                    aula (en el horario de clases); se desarrollarán en forma individual o en equipo en función de la
+                    estrategia didáctica, y la evidencia de aprendizaje se subirá a la plataforma indicada por el
+                    profesor(a). Es importante mencionar que la actividad 1.1 es formativa (no tendrá valor para la
+                    evaluación), en tanto que las actividades 1.2 y 1.3 sí tienen valor para la evaluación.
+                </p>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫
+                        Evaluación.</b> En este apartado encontrarás reactivos de tres tipos (opción múltiple, falso y
+                    verdadero y de arrastrar conceptos); al comprobar tus respuestas podrás visualizar la
+                    retroalimentación respectiva. Una vez terminada la evaluación podrás descargar tus resultados en
+                    formato PDF, mismo que enviarás a tu profesor(a) por el medio que te indique.</p>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Cierre de
+                        la unidad temática.</b> Aquí podrás leer un texto en el que se indica que has concluido con el
+                    estudio de los contenidos de la unidad temática 1, enfatizando la importancia que tienen las
+                    empresas en nuestra vida cotidiana y finalmente, se hace mención de los temas que abordarás en la
+                    unidad temática 2.</p>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫
+                        Referencias.</b> En esta opción del menú están enlistadas las fuentes de consulta que se
+                    utilizaron para el
+                    desarrollo de esta unidad temática.</p>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫
+                        Contacto.</b> En este último apartado encontrarás los datos de contacto y una breve semblanza de
+                    los coautores de este RDD.</p>
+
+            </div>
+            </p>
+
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="metodologia"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-idea" target="_blank">Ouch!</a>
+            </span>
+        </div>
+
+    </div>
+
+</div>
+<div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
+
+    <div class="shadow4 border1 clw">
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Evaluación de los
+            aprendizajes</div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                La evaluación de los aprendizajes de esta unidad temática se llevará a cabo como se muestra a
+                continuación:
+            </p>
+
+            <div class="cardDesign clgreyl2 border1">
+                <table class="striped highlight responsive-table clw border1 shadow2">
+                    <thead>
+                        <tr>
+                            <th class="clbktx textoStandarTable">Unidad</th>
+                            <th class="clbktx textoStandarTable">Actividad de aprendizaje</th>
+                            <th class="clbktx textoStandarTable">Evidencia de aprendizaje</th>
+                            <th class="clbktx textoStandarTable">Valor en la evaluación</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="cellCenter textoStandarTable" rowspan="4">Unidad 1</td>
+                            <td class="cellCenter textoStandarTable">Actividad 1.1 La empresa y su constitución jurídica
+                            </td>
+                            <td class="textoStandarTable">Cuestionario en formato Tangram</td>
+                            <td class="cellCenter textoStandarTable">Sin valor para la evaluación</td>
+                        </tr>
+                        <tr>
+                            <td class="cellCenter textoStandarTable">Actividad 1.2 Las finanzas y su importancia</td>
+                            <td class="textoStandarTable">Infografía</td>
+                            <td class="cellCenter textoStandarTable">10 puntos</td>
+                        </tr>
+                        <tr>
+                            <td class="cellCenter textoStandarTable">Actividad 1.3 La empresa, sus finanzas y su
+                                relación con el entorno</td>
+                            <td class="textoStandarTable">Reporte</td>
+                            <td class="cellCenter textoStandarTable">10 puntos</td>
+                        </tr>
+                        <tr>
+                            <td class="cellCenter textoStandarTable" colspan="2">Total</td>
+                            <td class="cellCenter textoStandarTable">20 puntos</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="evaluacionAprendizajes"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-teaching" target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
+
+</div>
+<div id="test-swipe-5" class="tabsContentContainerInfo" style="display: none;">
+
+    <div class="shadow4 border1 clw">
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Para acceder y hacer uso de este recurso se requiere:
+            </p>
+            <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                <li>Conexión a internet</li>
+                <li>
+                    Navegador de internet:
+                    <ul class="browser-default">
+                        <li>Microsoft Edge (version 85 o superior)</li>
+                        <li>Google Chrome (version 85 o superior)</li>
+                        <li>Mozilla Firefox (version 80 o superior)</li>
+                        <li>Vivaldi (version 3.3 o superior)</li>
+                        <li>Opera 70 o superior</li>
+                    </ul>
+                </li>
+
+            </ul>
+
+
+
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="requerimientos"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-web-development"
+                    target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
+
+
+</div>`,
+`
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
+    <div class="cardDesign clw border1Inf">
+        <!--Card con un ejemplo-->
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            <i class="keyWord">Las empresas son la base del sistema económico</i>, debido a que se encargan de <i
+                class="keyWord">la producción, comercialización y distribución de bienes</i> que satisfacen las
+            múltiples necesidades la sociedad. Más allá de su infraestructura, tamaño y giro <i class="keyWord">toda
+                empresa debe constituirse de acuerdo con la legislación vigente</i> que le otorga una personalidad
+            jurídica propia e independiente de sus dueños; para su funcionamiento <i class="keyWord">requiere de
+                recursos financieros, tecnológicos y humanos</i> los cuales deben ser administrados eficientemente para
+            cumplir con sus objetivos.
+        </p>
+
+        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+            Las empresas <i class="keyWord">juegan un papel fundamental en cualquier economía;</i> sin embargo, son
+            afectadas por diferentes <i class="keyWord">factores presentes en el micro y macroentorno</i> que las
+            obligan a tomar decisiones con el propósito de permanecer vigentes en el mercado. Por otro lado, <i
+                class="keyWord">una buena o mala administración de los recursos se verá reflejada en las finanzas,</i>
+            que se encargan de la distribución y el uso que se le da al dinero.
+        </blockquote>
+
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Los contenidos abordados en este RDD están dirigidos a lograr la siguiente unidad de competencia o
+            aprendizajes esperados de la unidad 1: <i class="keyWord">reconoce el papel de las finanzas a partir del
+                contexto empresarial</i>, por lo que su construcción fue totalmente intencionada en aras de <i
+                class="keyWord">favorecer y apoyarte en tu proceso de aprendizaje</i>.
+        </p>
+
+        <div class="defaultImage">
+            <div class="defaultImageContent" id="intro"></div>
+        </div>
+        <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+            <a href="https://icons8.com/illustrations/illustration/pixeltrue-vision" target="_blank">Ouch!</a>
+        </span>
+    </div>
+</div>`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1 Innovación</div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Hoy en día uno de los factores de más impacto en las organizaciones es la innovación, que muchas veces ha
+            llegado a considerarse como
+            sinónimo de tecnología, de algo nuevo o disruptivo y no necesariamente es así.<br><br>
+            De acuerdo con Tundidor (2016)
+        </p>
+        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+            “Innovar es transformar en valor una oportunidad de mejora, introduciendo un cambio en un sistema de
+            referencia”.
+        </blockquote>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+
+            Para López (2007) la innovación es el proceso a través del cual la empresa genera nuevos o mejoras en sus
+            productos, o nuevas maneras de organización o comercialización con el propósito de adaptarse
+            al mercado y generar ventajas competitivas sostenibles.<br><br>
+            Por otro lado, la OCDE en su manual de Frascati define la innovación como la transformación de una idea en
+            un producto o
+            servicio comercializable, un procedimiento de fabricación o distribución operativo, nuevo o mejorado, o un
+            nuevo método de
+            proporcionar un servicio social.<br><br>
+            Como puedes ver y considerando las definiciones anteriores es indudable que innovar no necesariamente
+            significa desarrollar algo
+            sofisticado o tecnológico; una idea por buena que parezca no será una innovación sino hasta que sea llevada
+            al mercado, se venda y
+            sea adoptada e incorporada en la vida diaria de las personas (lo que pudiera traducirse en una decisión de
+            compra periódica y permanente).
+            Un rasgo característico de la innovación es que debe tener un valor; es decir, aquello por lo que el cliente
+            está dispuesto a pagar.<br><br>
+            La innovación no tiene límites, es infinita y aplicable a cualquier actividad que el ser humano desarrolle,
+            independientemente del área o campo del conocimiento: agricultura, educación, negocios, economía,
+            sociología, salud, arquitectura, ingeniería, por mencionar algunos.
+        </p>
+
+    </div>
+</div>`,
+`<div class="shadow4 border1 clw">
+
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.2 Design thinking metodología
+        de innovación</div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            La metodología Design Thinking fue creada e implementada en los años 70 por la empresa IDEO. Es una
+            metodología que aumenta la probabilidad
+            de una innovación revolucionaria y la podrás utilizar para innovar productos, servicios y modelos de
+            negocio; consta de 5 fases que
+            te permitirán combinar procesos de diferentes tipos de una manera ordenada. Algunas fases de esta
+            metodología pueden ser divergentes o
+            expansivas, y otras convergentes, esto posibilitará explorar y ampliar tu visión de los retos y las
+            soluciones, y en otras fases podrás
+            llegar con facilidad a la concreción/selección y prueba de las mejores ideas. Si bien en el proceso las
+            fases las encuentras de una
+            manera secuencial, el proceso lo podrás hacer iterativo, por lo que podrás volver hacia atrás cuantas veces
+            consideres necesario.<br><br>
+
+            Dicha metodología, te permitirá utilizar de manera ordenada técnicas de creatividad con sentido práctico
+            durante todo el ciclo.<br><br>
+
+            La metodología Desingn ThinKing la puedes aplicar principalmente en el diseño de nuevos productos, nuevos
+            servicios,
+            así como en modelos de negocio; se centra en el usuario y en sus necesidades; se puede utilizar también
+            cuando se está ante problemas
+            complejos, poco definidos o son complicados, por ejemplo:
+
+        </p>
+
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
+
+            <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                <li>El reto/problema a resolver no está del todo claro, es complejo</li>
+                <li>El mercado es nuevo, desconocido, impredecible</li>
+                <li>El cliente/usuario no sabe bien lo que quiere</li>
+            </ul>
+
+        </div>
+
+
+    </div>
+</div>`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.1 Empatizar con el usuario y
+        explorar el mercado </div>
+    <div class="cardDesign clw border1Inf">
+
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            En esta primera fase, lo que se pretende es que comprendas el problema o las necesidades y el contexto de
+            los usuarios implicados en la
+            solución que pretendes desarrollar. Ponerte en su lugar con el propósito de generar soluciones que les
+            satisfagan. De lo que se trata
+            es que conozcas más a detalle el desafío o reto que te has o te han planteado resolver, debes empatizar con
+            los usuarios y obtener
+            información valiosa (kamein, s.f)<br><br>
+
+            Para la fase de empatizar podrás utilizar una gran variedad de técnicas, por ejemplo: la observación y la
+            encuesta. Es importante observar
+            la situación y el contexto en torno al problema, sin hacer juicios previos y a través de la encuesta
+            preguntar detalles,
+            lo que podrá permitir crear un vínculo más estrecho entre el usuario y la futura solución.<br><br>
+
+            Con la información que obtengas aplicando una o varias de las técnicas de obtención de información podrás
+            tener una mejor definición
+            del problema; debes exponer y cuestionar los supuestos; ver que intenciones hay detrás; ir a la raíz de lo
+            que se desea;
+            descubrir motivaciones personales, que a veces no son tan obvias; mirar el problema desde sus detalles;
+            verlo desde el punto
+            de vista del cliente, usuario, proveedor, empresa, etc. En la fase de empatizar se recopilan hechos y datos:
+            lo que sabemos,
+            lo que no sabemos, si ha pasado antes, cuándo ha pasado, cómo lo han resuelto otros, etc. Recoger
+            información de las necesidades
+            explícitas e Implícitas de los involucrados en el problema, va a permitir tener un abanico más amplio de
+            soluciones.
+
+        </p>
+
+
+    </div>
+</div>`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.2 Definir necesidades del
+        usuario</div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            En esta segunda fase, tendrás que depurar la información que obtuviste en la fase anterior
+            (empatizar/descubrir) con la finalidad de
+            quedarte con la información que realmente aporta valor. Aquí podrás darle sentido y definir las revelaciones
+            (“insights”) a partir de
+            las observaciones y la información resultante en la primera fase.<br><br>
+
+            Es necesario que interpretes lo que hasta ahora conoces y has aprendido y así definir bien el problema. Es
+            una fase que toma mayor
+            importancia, debido a que trazará la directriz y calidad de la solución. Un problema mal formulario te puede
+            hacer
+            diseñar soluciones que nadie necesita.<br><br>
+
+            En esta fase tendrás que trabajar sobre:
+        </p><br>
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
+
+            <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                <li>Las necesidades tanto emocionales como físicas de los usuarios. Buscarás lo que realmente necesita
+                    cada usuario específico.</li>
+                <li>Identificar las revelaciones (“insights”) que aparecen, no solo las obvias, sino aquellas que pueden
+                    contribuir a generar nuevos planteamientos.</li>
+                <li>La definición del problema, de una forma clara, que constituirá el punto de vista compartido por el
+                    equipo, que es lo que inspira al equipo, que supone un marco de referencia común, y guía los
+                    esfuerzos de innovación. Ayudará a tomar decisiones para guiar/centrar esfuerzos, seleccionar ideas.
+                </li>
+                <li>¿Cuáles son los supuestos recogidos, siguen siendo válidos?</li>
+            </ul>
+
+
+        </div><br><br>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">Para trabajar la fase de definir puedes utilizar
+            diferentes técnicas como:</p><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">a. Compartir historias</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Esta técnica consiste en que deberás crear una historia para transmitir al equipo de desarrollo e interesados en el proyecto 
+                    lo que nos han contado los usuarios o las personas que tienen el problema. Lo que hemos visto, lo que hemos aprendido y 
+                    sentido, para poder extraer todos los matices. En general todos aquellos detalles personales de las historias (lo que le 
+                    gusta, lo que no le gusta, lo que le frustra, emociona y motiva).<br><br>
+
+                    Las personas que escuchan y ven esta historia deberán indicarte que es lo que ven nuevo, lo que les sorprende, preguntan, 
+                    y completan. Te funcionará bien ir anotando toda la información, y luego agrupar los elementos con diferentes criterios.<br>
+                    
+                </p>
+            </div>
+        </div><br>
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">b. Mapa de empatía</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Esta técnica te permite hacer un esquema de las personas que entrevistamos enfatizando cuáles son sus pensamientos, sus emociones, 
+                    sus aspiraciones, sus características de consumo, entre otros.<br><br>
+                    Para trabajar el mapa de empatía deberás:<br>
+
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                        <li>Dibujar un mapa para un segmento de mercado.</li>
+                        <li>Anotar lo que dice y lo que hace el usuario, así como otros datos más subjetivos, lo que cree, que piensa y que siente.</li>
+                        <li>Detectar necesidades a partir de usuarios concretos (target).</li>
+                        <li>Observar contradicciones, entre lo que hacen y lo que dicen los usuarios.</li>
+                        <li>Identificar sus necesidades y las revelaciones (por qué lo necesitan).</li>
+                        <li>Encontrar una revelación profunda, emocional, cuanto más inesperada mejor, detecta algo en lo que valga la pena trabajar, para orientar los esfuerzos de la innovación.</li>
+                    </ul>
+                    
+                </p>
+            </div>
+        </div><br>
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">c. Plantea la pregunta jugando</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    En este juego encontrarás tres elementos claves:<br>
+                </p>
+                    
+                    <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" style="list-style-type: lower-alpha;">
+                        <li>El usuario. Es la persona que entrevistamos, encuestamos o que nos brindó información </li>
+                        <li>La necesidad. La carencia o escasez de algo que el usuario considera imprescindible. Para redactar la necesidad deberás de utilizar verbos.</li>
+                        <li>Las revelaciones(“insights”). Deben ser declaraciones concretas que permitan pensar en la solución.</li>
+                    </ol><br>
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    <b>[Usuario]</b> necesita <b>[Necesidad]</b> porque <b>[POV – Punto de vista del usuario, deseo profundo, la revelación de lo que verdaderamente le preocupa]</b>
+                </p>
                 
-              <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2"> 
-                  Las empresas <i class="keyWord">juegan un papel fundamental en cualquier economía;</i> sin embargo, son afectadas por diferentes <i class="keyWord">factores presentes en el micro y macroentorno</i> que las obligan a tomar decisiones con el propósito de permanecer vigentes en el mercado. Por otro lado, <i class="keyWord">una buena o mala administración de los recursos se verá reflejada en las finanzas,</i> que se encargan de la distribución y el uso que se le da al dinero.
-              </blockquote>
-              
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Los contenidos abordados en este RDD están dirigidos a lograr la siguiente unidad de competencia o aprendizajes esperados de la unidad 1: <i class="keyWord">reconoce el papel de las finanzas a partir del contexto empresarial</i>, por lo que su construcción fue totalmente intencionada en aras de <i class="keyWord">favorecer y apoyarte en tu proceso de aprendizaje</i>.
-              </p>
-              
-              <div class="defaultImage">
-                  <div class="defaultImageContent" id="intro"></div>
-              </div>
-              <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-                  <a href="https://icons8.com/illustrations/illustration/pixeltrue-vision" target="_blank">Ouch!</a>
-              </span> 
-          </div>
-  </div>`,
-    `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1 La empresa</div>
-      <div class="cardDesign clw border1Inf">
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-          Independientemente del lugar en donde te encuentres en este momento, <i class="keyWord">mira a tu alrededor y notarás la existencia de una gran cantidad de satisfactores (bienes).</i> Estos son <i class="keyWord">producidos y/o distribuidos por diferentes empresas.</i>
-          </p>
-  
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2"> 
-              Algunas definiciones de empresa son:
-          </blockquote>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Definiciones</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                      <li><i class="keyWord">Acción de emprender una cosa</i> con un riesgo implícito (Münch, 2017).</li>
-                      <li><i class="keyWord">Unidad económica de producción dedicada a actividades industriales, mercantiles o de prestación de servicios,</i> cuyo objetivo dependerá del sistema de organización económica en que se desarrolle. En una economía de mercado, el <i class="keyWord">fin de la empresa consiste en la obtención del máximo beneficio o lucro (Graue, 2009).</i></li>
-                  </ol>
-              </div>
-          </div>
-  
-          <div class="defaultImage">
-              <div class="defaultImageContent" id="empresa"></div>
-          </div>
-          <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-          <a href="https://icons8.com/illustrations/illustration/pixeltrue-plan" target="_blank">Ouch!</a>
-          </span>
-      </div>
-  </div>`,
-    `<div class="shadow4 border1 clw">
-      
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.1 Constitución jurídica</div>
-      <div class="cardDesign clw border1Inf">
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">En México de acuerdo con el Servicio de Administración Tributaria (SAT)</i> para fines fiscales existen las siguientes figuras: <i class="keyWord">personas físicas y personas morales.</i><br>
-          </p>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Persona física</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                      <i class="keyWord">"Individuo que realiza cualquier actividad económica (vendedor, comerciante, empleado, profesionista, etc.),</i> el cual tiene derechos y obligaciones" (SAT, s.f).
-                  </p>
-  
-                  <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                      En el siguiente link conoce las actividades que como persona física se pueden realizar:
-                  </blockquote>
-  
-                  <a href="https://www.sat.gob.mx/consulta/09788/emprendedor,-conoce-los-regimenes-fiscales-de-las-personas-fisicas" target="_blank">
-                      <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                          <div class="linkToResourceContainer_title clbktx">Regímenes fiscales</div>
-                          
-                          <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                              <span class="material-icons">
-                                  link
-                              </span>
-                          </div>
-                      </div>
-                  </a>
-              </div>
-          </div>
-          <br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Persona moral</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                      <i class="keyWord">"Es el conjunto de personas físicas, que se unen para la realización de un fin colectivo,</i> son entes creados por el derecho, no tienen una realidad material o corporal (no se pueden tocar como tal como en el caso de una persona física), sin embargo, la ley les otorga capacidad jurídica para tener derechos y obligaciones" (SAT, s.f).
-                      <br>
-                  </p>
-  
-                  <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                      Cabe señalar que la <i class="keyWord">persona moral es una agrupación de personas que pueden constituirse jurídicamente como sociedades o asociaciones,</i> a continuación se mencionan algunas:
-                  </blockquote>
-  
-                      <table class="table table-dark table-bordered col-7 mx-auto clw shadow2 border1">
-  
-                          <!-- <caption style="caption-side: top;" class="text-center">Tabla 1.1 Constitución jurídica de las personas morales</caption> -->
-  
-                          <thead>
-                              <tr>
-                                  <th class="clbktx textoStandarTable font-weight-bold"><b>Sociedad/Asociación:</b></th>
-                                  <!-- <th class="clbktx textoStandarTable font-weight-bold">Regulada por:</th> -->
-                              </tr>
-                          </thead>
-  
-                          <tbody style="margin: 10px;">
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad en nombre colectivo (S.N.C)</td>
-                                  <!-- <td rowspan="7" class="clbktx textoStandarTable text-center align-middle">Ley General de Sociedades Mercantiles (L.G.S.M)</td> -->
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad en comandita simpe (S.C.S)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad de responsabilidad limitada (S.R.L)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad anónima (S.A)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad en comandita por acciones (S.C.A)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad por acciones simplificada (S.A.S)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad cooperativa</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Asociación civil (A.C)</td>
-                                  <!-- <td rowspan="2" class="clbktx textoStandarTable text-center align-middle">Código Civil</td> -->
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad civil (S.C)</td>
-                              </tr>
-                          </tbody>
-  
-                          <!-- <caption style="caption-side: bottom;" class="text-center">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023). Con base en la Ley General de Sociedades Mercantiles, Ley General de Sociedades Cooperativas y Código Civil.</caption> -->
-  
-                      </table>
-              </div>
-          </div><br>
-          <br>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">Es importante señalar que algunas de las sociedades antes mencionadas han caído en desuso,</i> tal es el caso de la sociedad en nombre colectivo, la sociedad en comandita simple y la sociedad en comandita por acciones.<br><br>
-              En la siguiente lectura encontrarás más información sobre las empresas y su constitución jurídica.    
-          </p>
-  
-          <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
-              <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                  <div class="linkToResourceContainer_title clbktx">Lectura</div>
-                  
-                  <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                      <span class="material-icons">
-                          link
-                      </span>
-                  </div>
-              </div>
-          </a>
-          <br>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Una vez que has estudiado los contenidos y leído la lectura anterior, realiza la siguiente actividad de aprendizaje.
-          </p>
-          <br>
-          <a href="./pdf/actividades/Actividad 1.1 La empresa y su constitucion juridica.pdf" target="_blank">
-              <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                  <div class="linkToResourceContainer_title clbktx">Actividad 1.1 La empresa y su constitución jurídica</div>
-                  
-                  <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                      <span class="material-icons">
-                          link
-                      </span>
-                  </div>
-              </div>
-          </a>
-  
-  
-      </div>
-      </div>
-  </div>`,
-    `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.2 El área financiera en la estructura organizacional</div>
-      <div class="cardDesign clw border1Inf">
-          <!--Card con un ejemplo-->
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Para explicar en qué consiste <i class="keyWord">la estructura organizacional usaremos la siguiente analogía:</i> el ser <i class="keyWord">humano tiene un sistema óseo que le permite tener movimiento,</i> <i class="keyWord">un sistema respiratorio que le proporciona el oxígeno para vivir;</i> <i class="keyWord">un sistema digestivo que le suministra nutrientes;</i> <i class="keyWord">un sistema circulatorio que transporta la sangre y distribuye nutrientes;</i> <i class="keyWord">un sistema excretor que lo limpia de impurezas;</i> <i class="keyWord">un cerebro que rige el funcionamiento general del organismo; entre otros,</i> del mismo modo las organizaciones requieren de una estructura para su funcionamiento.
-          </p>
-          
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              Así como no hay dos personas iguales, <i class="keyWord">tampoco hay dos estructuras organizacionales iguales.</i> La estructura organizacional se diseña en función de las necesidades de cada organización considerando aspectos como el tamaño, el giro y el tipo de organización. <i class="keyWord">Por lo que es un hecho que entre más grande sea la empresa su organización será más robusta.</i>
-          </blockquote>
-          
-          <div class="imagenDefaultContainer">
-              <p class="titleImageMine">Figura 1.1: Ejemplo de estructura organizacional</p>
-              <div class="imageZoomedContainer">
-                  <img class="materialboxed shadow2 border3 imageZoomed"
-                      data-caption="Ejemplo de estructura organizacional" src="img/1.1.2-figura-1.png">
-              </div>
-              <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-          </div>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-          A partir de este momento, por ser el tema central de este recurso didáctico digital, <i class="keyWord">solo nos enfocaremos en el área financiera la cual se lleva a cabo mediante dos actividades importantes: Tesorería y Contraloría.</i>
-          </p><br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Tesorería</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                      Se enfoca en el <i class="keyWord">manejo de los recursos financieros.</i>
-                  </p>
-              </div>
-          </div>
-          <br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Contraloría</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                      La <i class="keyWord">contraloría es la responsable de la actividad contable, la planeación, los presupuestos y la auditoría interna,</i> mismas que se describen a continuación:
-                      <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                          <li><i class="keyWord">Contabilidad:</i> se encarga del <i class="keyWord">registro, en tiempo y forma, de todas las operaciones realizadas</i> en la organización.</li>
-                          <li><i class="keyWord">Presupuestos:</i> <i class="keyWord">planifica, coordina y evalúa todas las actividades en términos financieros, analiza y compara los gastos del presupuesto</i> anterior con el presupuesto vigente, a fin de determinar acciones para el ajuste del presupuesto de la organización.</li>
-                          <li><i class="keyWord">Auditoría:</i> se encarga de <i class="keyWord">revisar, examinar y evaluar los resultados de la gestión de una dependencia o entidad.</i></li>
-                      </ol>
-                  </p>
-              </div>
-          </div><br>
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">La organización delimita las actividades y la toma de decisiones en cada una de las áreas.</i> Cabe destacar que todas las organizaciones, independientemente de su tamaño y giro cuentan con un área financiera. Las demás áreas de la empresa <i class="keyWord">(capital humano, ventas, manufactura, marketing y sistemas, etc.)</i> están en constante comunicación con el área financiera, por ejemplo, para justificar sus requerimientos de recursos humanos y negociar diferentes presupuestos operativos, entre otros.
-          </blockquote>
-      </div>
-  </div>`,
-    `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.2 Función y objetivo de las finanzas empresariales</div>
-      <div class="cardDesign clw border1Inf">
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              <b class="clgreyl3 subTitleCard">¿Qué son las finanzas?</b>
-          </p>
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              Finanzas es un término que seguramente has escuchado con mucha frecuencia y de hecho en tu vida diaria, de algún modo, realizas actividades relacionadas con dicha disciplina. <i class="keyWord">Hay tantas definiciones del término finanzas como autores al respecto, en la figura 1.4 se rescatan algunas de ellas.</i>
-          </blockquote>
-  
-          <div class="imagenDefaultContainer">
-              <p class="titleImageMine">Figura 1.2: ¿Qué son las finanzas?</p>
-              <div class="imageZoomedContainer">
-                  <img class="materialboxed shadow2 border3 imageZoomed"
-                      data-caption="Descripción del concepto de finanzas" src="img/1.2-figura-1.png">
-              </div>
-              <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-          </div><br>
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">Siguiendo a Gitman (2012) las finanzas son el arte y la ciencia de administrar el dinero.</i> Al respecto, el autor enfatiza que las finanzas afectan las decisiones tanto de los individuos como de las empresas, ya que ambos en algún momento se enfrentan a la decisión de cuánto dinero gastar, cuánto ahorrar y cómo invertir los ahorros.
-          </blockquote>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Específicamente en la empresa las finanzas se enfocan en:
-              <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style:square;">
-                  <li>Cómo incrementar el dinero de los inversionistas</li>
-                  <li>Cómo invertir el dinero para maximizar las utilidades</li>
-                  <li>De qué modo conviene reinvertir las ganancias de la empresa o distribuirlas entre los inversionistas</li>
-              </ol>
-          </p>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">Para lograr lo anterior se requiere del financiamiento y de la inversión,</i> ambas son consideradas como las funciones principales de las finanzas. En este sentido, se entiende por <i class="keyWord">financiamiento la obtención de recursos provenientes de una o varias fuentes de financiamiento;</i> en tanto que la inversión se refiere propiamente a la utilización que se hace de dichos recursos.
-          </p>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Ejemplo</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      En el caso de una organización podría invertir en infraestructura <i class="keyWord">(instalaciones, bodegas, maquinaria, equipo, entre otros)</i> a este tipo de inversión se le conoce como inversión fija; y también podría invertir en el proceso operativo del negocio.
-                  </p>
-              </div>
-          </div>
-  
-          <br>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Hablar de finanzas implica hablar de contabilidad. <i class="keyWord">La contabilidad se encarga principalmente del registro de las operaciones de la entidad, de la elaboración de los estados financieros, de la elaboración de reportes con información financiera y de calcular y pagar impuestos;</i> por lo que constituye el principal sistema de información cuantitativa de la organización.<br>
-          </p>
-          
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              La contabilidad forma parte del área financiera y la función financiera se lleva a cabo mediante dos actividades importantes:
-          </blockquote>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Tesorería</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                  Básicamente <i class="keyWord">se enfoca al manejo de los recursos financieros,</i> entre sus principales actividades se encuentran:
-                      <ol class=" clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                          <li><i class="keyWord">Administración del flujo de efectivo</i></li>
-                          <li><i class="keyWord">Inversiones</i></li>
-                          <li><i class="keyWord">Presupuestos</i></li>
-                          <li><i class="keyWord">Financiamiento</i></li>
-                      </ol>
-                  </p>
-              </div>
-          </div><br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Contraloría</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                  Área <i class="keyWord">encargada de coordinar y dirigir las siguientes actividades:</i>
-                      <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                          <li><i class="keyWord">Contabilidad</i></li>
-                          <li><i class="keyWord">Pronósticos</i></li>
-                          <li><i class="keyWord">Administración de riesgos</i></li>
-                          <li><i class="keyWord">Verificar que le Administración esté de acuerdo con los objetivos de la empresa</i></li>
-                          <li><i class="keyWord">Auditoría interna</i></li>
-                          <li><i class="keyWord">Desarrollo de políticas y procedimientos</i></li>
-                      </ol>
-                  </p>
-              </div>
-          </div><br>
-          <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-              Para que la función financiera se lleve a cabo en forma adecuada requiere de <i class="keyWord">información verídica y confiable proporcionada por el área contable.</i>
-          </p>
-          
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              En la figura 1.3 encontrarás algunas de las principales funciones de las áreas contable y financiera.
-          </blockquote>
-          <div class="imagenDefaultContainer">
-              <p class="titleImageMine">Figura 1.3 La contabilidad y las finanzas</p>
-              <div class="imageZoomedContainer">
-                  <img class="materialboxed shadow2 border3 imageZoomed"
-                      data-caption="Contabilidad y finanzas" src="img/1.2-figura-2.png">
-              </div>
-              <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-          </div>
-          <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-              Como se puede apreciar en la figura 1.3 la función contable debe considerarse como un insumo necesario para la función financiera.<br><br>
-              Después de haber leído el tema, ya cuentas con los conocimientos necesarios para desarrollar la siguiente actividad de aprendizaje:
-          </p><br>
-          <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf" target="_blank">
-              <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                  <div class="linkToResourceContainer_title clbktx">Actividad 1.2 Las finanzas y su importancia</div>
-                  
-                  <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                      <span class="material-icons">
-                          link
-                      </span>
-                  </div>
-              </div>
-          </a>
-      </div>
-  </div>`,
-    `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Las finanzas empresariales y su relación con otras disciplinas (Ética, Economía, Derecho, Matemáticas, etc.)</div>
-      <div class="cardDesign clw border1Inf">
-          <section class="cardDesign_container">
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Ética</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      La <i class="keyWord">ética trata sobre lo que se considera un comportamiento humano correcto;</i> es decir, con la práctica de valores. Todo lo relacionado con las <i class="keyWord">finanzas y el manejo del dinero debe ser honesto, claro, transparente y digno de confianza.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Economía</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          La <i class="keyWord">economía es la ciencia que se centra en la satisfacción de las necesidades humanas,</i> así como en la <i class="keyWord">generación y administración de la riqueza por lo que tiene una relación estrecha con las finanzas.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Derecho</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          El <i class="keyWord">Derecho a través de diferentes leyes regula las actividades financieras y de no acatarse y/o cumplirse dichas leyes hay sanciones en materia legal.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Matemáticas</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Las matemáticas están tan estrechamente ligadas con las finanzas que incluso ha surgido <i class="keyWord">el término matemáticas financieras en las que se utilizan la aritmética y el álgebra en temas como valor presente, valor futuro, costo de capital y tasas de interés,</i> por mencionar algunos.
-                      </p>
-                  </div>
-              </div>
-          </section>
-      </div>
-  </div>`,
-    `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.4. Factores del micro y macro ambiente que impactan a la empresa y a sus finanzas</div>
-      <div class="cardDesign clw border1Inf">
-          <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-              La <i class="keyWord">empresa es un sistema abierto porque tiene elementos interrelacionados entre sí y con el entorno;</i> es decir no existe en forma aislada, sino que interactúa con su entorno existiendo un impacto bidireccional. <i class="keyWord">El entorno se conforma por el micro y macro ambiente.</i>
-          </p>
-  
-          <div class="imagenDefaultContainer">
-              <p class="titleImageMine">Figura 1.4 Macroentorno y microentorno</p>
-              <div class="imageZoomedContainer">
-                  <img class="materialboxed shadow2 border3 imageZoomed"
-                      data-caption="Aspectos del macroentorno y microentorno" src="img/entornos.png">
-              </div>
-              <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-          </div>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer cl1 white-text border1Sup">Microentorno</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                  Representado por elementos que <i class="keyWord">tienen relación directa con la empresa e influyen en ella,</i> como por ejemplo: <i class="keyWord">proveedores, clientes, competidores, entidades financieras, comunidad y alcaldías o municipios.</i>
-                  </p>
-              </div>
-          </div>
-          <br>
-          <section class="cardDesign_container">
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Proveedores</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      Son las entidades que <i class="keyWord">venden bienes o prestan servicios a la empresa.</i> Por ejemplo: <i class="keyWord">materia prima, equipo de cómputo, mobiliario y equipo de oficina, servicios de internet, servicios de mantenimiento, etc.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Clientes</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Son quienes <i class="keyWord">compran bienes o adquieren servicios de la empresa.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Competidores</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          <i class="keyWord">Ofrecen el mismo producto o productos sustitutos</i> (cubren la misma necesidad, aunque no son idénticos).
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Entidades financieras</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      Las <i class="keyWord">entidades financieras más comunes son los bancos, estos son una fuente de financiamiento importante, prestan dinero y a cambio cobran una tasa de interés.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Comunidad</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          La <i class="keyWord">comunidad en la que se inserta la empresa tiene ciertas características,</i> tales como: <i class="keyWord">ideología, costumbres, inquietud por el medio ambiente y en general un estilo de vida.</i> Dichos aspectos definitivamente influyen en la empresa.
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Alcaldías y municipios</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Las empresas <i class="keyWord">al realizar algunos trámites y permisos tienen relación con las alcaldías o municipios.</i> Por ejemplo: trámite de uso de suelo y permisos de apertura, por mencionar algunos.
-                      </p>
-                  </div>
-              </div>
-          </section>
-  
-          <br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer colorCardTitleContent white-text border1Sup">Macroentorno</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      Conformado por todos aquellos factores que tienen una gran influencia en la empresa, como por ejemplo: <i class="keyWord">económicos, tecnológicos, político-legales, demográficos, socio culturales y medioambientales.</i>
-                  </p>
-              </div>
-          </div>
-          <br>
-          <section class="cardDesign_container">
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Económicos</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          <i class="keyWord">La inflación, las tasas de interés, y el tipo de cambio,</i> entre otros, son factores que <i class="keyWord">inciden en los costos y por tanto en el precio y en el resultado de la empresa.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Tecnológicos</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Las <i class="keyWord">nuevas tecnologías no solo facilitan y/o automatizan el trabajo, también abren nuevas oportunidades de negocio.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Político-legales</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          <i class="keyWord">Las iniciativas, la legislación y en general las decisiones del gobierno afectan a las empresas.</i> <br><br> Por ejemplo: en materia laboral, impuestos e inversión extranjera, por mencionar algunos.
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Demográficos</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          La <i class="keyWord">información sobre la población,</i> como por ejemplo: <i class="keyWord">edad, cantidad de hombres y de mujeres, nivel de ingresos, nivel socioeconómico,</i> entre otros, son datos en los que las empresas <i class="keyWord">podrían apoyarse para identificar ¿qué vender? ¿a quién vender? y ¿dónde se localizan los clientes?,</i> entre otras interrogantes.
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Socio culturales</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Corresponde a los <i class="keyWord">estilos de vida, costumbres, hábitos alimenticios, religión y demás aspectos que condicionan el comportamiento de las personas.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Medioambientales</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Hoy día existe una <i class="keyWord">preocupación mundial por minimizar el impacto medio ambiental, lo que supone un esfuerzo y un costo para las empresas.</i> Existen leyes que regulan aspectos ambientales y quienes no las cumplan son acreedores a sanciones.
-                      </p>
-                  </div>
-              </div>
-          </section>
-  
-          <br>
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              Es momento de aplicar lo que has aprendido en esta unidad temática, realiza la siguiente actividad de aprendizaje:
-          </blockquote>
-  
-          <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf" target="_blank">
-              <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                  <div class="linkToResourceContainer_title clbktx">Actividad 1.3 La empresa, sus finanzas y su relación con el entorno</div>
-                  
-                  <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                      <span class="material-icons">
-                          link
-                      </span>
-                  </div>
-              </div>
-          </a>
-      </div>
-  </div>`,
-    `<section class="containerActividadAprendizajeFather">
-      <div class="textoTitulo clbktx">Material de apoyo</div>
-      <section class="gridActividadesAprendizaje">
-  
-          <!--Tarjeta 1-->
-          <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Lectura 1</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las organizaciones y la empresa</p>
-              <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div>
-          
-  
-      </section>
-  </section>
-  `,
-    `<!--Tarjeta con las actividades-->
-  <section class="containerActividadAprendizajeFather">
-      <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
-      <section class="gridActividadesAprendizaje">
-          <!--Tarjeta 1-->
-          <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.1</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa y su constitución jurídica</p>
-              <a href="./pdf/actividades/Actividad 1.1 La empresa y su constitucion juridica.pdf" target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div>
-  
-          <!--Tarjeta 2-->
-          <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.2</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las finanzas y su importancia</p>
-              <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf"  target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div>
-  
-          <!--Tarjeta 3-->
-          <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.3</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa, sus finanzas y su relación con el entorno</p>
-              <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf" target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div>
-  
-      </section>
-  </section>
-  `,
-    `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
-      <div class="cardDesign clw border1Inf">
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              ¡Felicidades! Has concluido esta unidad temática. Ahora tienes más elementos que te ayudarán a reconocer la relevancia que tienen las finanzas en todas las organizaciones y en específico en las empresas, independientemente de su constitución, tamaño y giro.
-          </p>
-  
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              Recuerda que las empresas son indispensables en nuestras vidas y que constituyen la columna vertebral de la economía. En este sentido, la productividad, la rentabilidad y la competitividad se han convertido en tres de las principales pretensiones de muchas empresas. Para lograr dichas pretensiones se requiere, entre otros aspectos, de la toma de decisiones basadas en información financiera verídica, confiable y oportuna que se verá reflejada en los estados financieros, tema que estudiarás en la unidad temática 2.
-          </blockquote>
-  
-          <div class="defaultImage">
-              <div class="defaultImageContent" id="cierre"></div>
-          </div>
-          <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-          <a href="https://icons8.com/illustrations/illustration/pixeltrue-success" target="_blank">Ouch!</a>
-          </span>
-      </div>
-  </div>
-  `,
-    `11 (referencias)`,
-    `12`,
-    `13`,
-    `14`,
-    `15`,
-    `16`,
-  ];
-  
-  console.log("contenidosUnidad: ", contenidosUnidad.length);
-  
-  /////////////////////////////////////
-  //Object delegation para los botones
-  /////////////////////////////////////
-  
-  //Accedemos al contenedor de los textos
-  let contenedorParaElContenidoDeLaUnidad = document.getElementById(
-    "lateralUnityContent"
-  );
-  
-  //Cargamos por defecto el contenido para la unidad
-  (() => {
-    contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad[0];
-  })();
-  
-  //Accedemos al contenedor que tiene las opciones para el menu en computadora.
-  let buttonContaineChargeContent = document.getElementById(
-    "lateralUnityMenuSectionContainer"
-  );
-  buttonContaineChargeContent.addEventListener("click", function (event) {
-    if (event.target.classList.contains("deskOption")) {
-      console.log(event.target);
-      let buttonIndex = event.target.getAttribute("contador");
-      if(contenidosUnidad[buttonIndex] == undefined){
-          let a1tutorialButton = document.getElementById('a1tutorialButton');
-          a1tutorialButton.click();
-      }else{
-          contenedorParaElContenidoDeLaUnidad.innerHTML =
-          contenidosUnidad[buttonIndex];
-      }
-    }
-  });
-  
-  //Accedemos al contenedor que tiene las opciones para el menu en celular.
-  let buttonContaineChargeContentMobile = document.getElementsByClassName(
-    "mobileOptionsContainer"
-  );
-  for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
-    buttonContaineChargeContentMobile[i].addEventListener(
-      "click",
-      function (event) {
-        if (event.target.classList.contains("mobileOption")) {
-          console.log(event.target);
-          let buttonIndex = event.target.getAttribute("contador");
-          contenedorParaElContenidoDeLaUnidad.innerHTML =
-            contenidosUnidad[buttonIndex];
-  
-          if(contenidosUnidad[buttonIndex] == undefined){
-              let a1tutorialButton = document.getElementById('a1tutorialButton');
-              a1tutorialButton.click();
-          }else{
-              contenedorParaElContenidoDeLaUnidad.innerHTML =
-              contenidosUnidad[buttonIndex];
-          }
-        }
-      }
-    );
-  }
-  
+            </div>
+        </div><br>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Conseguir sintetizar claramente las necesidades llega a ser complicado, por lo regular vamos a lo evidente, lo que ya conocíamos, por 
+            lo que es conveniente perseverar.
+        </p>
+
+    </div>
+</div>`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.3 Idear con propuesta de valor </div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Esta tercera fase se considera que es de carácter divergente debido a que es un proceso que se usa para generar múltiples ideas 
+            diferentes y creativas para desarrollar un gran número de soluciones posibles ante la solución de un problema. Es importante que 
+            tengas presente que no existe la solución perfecta.<br><br> 
+            En esta fase podrás aplicar técnicas de creatividad como:<br>
+           
+        </p><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">a.	Brainstorming (también conocido como lluvia de ideas o tormenta de ideas)</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Es una técnica creativa grupal con la cual podrás generar nuevas ideas acerca de un tema o problema concreto; la puedes 
+                    utilizar para diversas cosas, pero te puede resultar especialmente útil si necesitas:
+                </p><br>
+                <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li>
+                        <b>Recopilar una gran cantidad de ideas.</b> Imagina que quieres lanzar un blog de tu negocio, pero no tienes del todo claro sobre 
+                        qué temáticas publicar. Hacer un brainstorming puede ser de gran ayuda al momento de proponer ideas para tu estrategia de 
+                        marketing de contenidos.
+                    </li>
+                    <li>
+                        <b>Trabajar la creatividad.</b> Por ejemplo, a la hora de pensar en el nombre de tu marca o trabajar en el logo.
+                    </li>
+                    <li>
+                        <b>Mejorar procesos de la empresa o solucionar problemas.</b> Habilitar la conversación con diferentes miembros de tu equipo te 
+                        ayudará a encontrar soluciones creativas y a mirar a tus problemas desde todos los ángulos posibles.
+                    </li>
+                </ul>
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Definitivamente, si aplicas la técnica del brainstorming puedes obtener una gran variedad de beneficios, como por ejemplo: 
+                    te ayudará a resolver inconvenientes y sobre todo a encontrar soluciones a los problemas, asimismo te ayudará a superar 
+                    el conformismo en determinadas situaciones, e incluso puedes encontrar algunas oportunidades de negocio.<br><br>
+                    Cuando hagas uso de esta técnica es importante que sigas ciertas reglas:
+                    
+                </p><br>
+
+                <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li>No debes juzgar ni criticar las ideas que surjan.</li>
+                    <li>Los participantes deben pensar libremente, y cualquier idea se debe tomar en cuenta y se agrupan por afinidades. </li>
+                    <li>La cantidad de preguntas es importante por lo que se deben formular muchas preguntas.</li>
+                    <li>Debes seguir un orden, una sola idea cada vez.</li>
+                    <li>Puedes combinar ideas para mejorarlas y así potenciar el efecto multiplicador. </li>
+                </ul>
+                    
+                
+            </div>
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">b.	SCAMPER</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    La técnica scamper es una técnica creativa de lluvia de ideas que te ayudará a explorar tu creatividad desde siete ángulos 
+                    diferentes. Lo que busca es que una equipo o persona sea capaz de enfrentarse a una situación o a un problema de una forma 
+                    innovadora, original y completamente diferente.<br><br>
+
+                    Esta técnica la puedes utilizar cuando requieras mejorar un servicio o un producto. Para ello, necesitas aplicar una serie 
+                    de preguntas relacionadas y con las respuestas debes intentar sacar diferentes ideas.<br><br>
+
+                    Esas preguntas y respuestas se convierten en una lista de verificación (checklist) y se basa en verbos de acción que pueden 
+                    generar cambios en el producto o servicio que se esté analizando, al mismo tiempo te ayudará a tener una idea más clara para 
+                    desarrollar uno nuevo.<br><br>
+
+                    El método SCAMPER se traduce en los siguientes verbos:
+                </p><br>
+
+                <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li>Sustituir: podrás sustituir algún elemento de los que intervienen: Quién, qué, lugar, elementos, momentos, qué ocurre si cambio y lo sustituyo. </li>
+                    <li>Combinar: qué puedes combinar para conseguir mejores resultados, cambiar X por Y. </li>
+                    <li>Adaptar, ajustar o añadir: puedes cambiar algún componente, añadir otro componente, de otro negocio, copiar, etc.</li>
+                    <li>Modificar, magnificar o minimizar: puedes acortar algún elemento o lo puedes ampliar, puedes cambiar la forma o el color, etc.</li>
+                    <li>Poner en otros usos: podrías utilizarlo para otras funciones, para otros usuarios, implementarlo en otros sitios, de otra forma, para diferentes usos. </li>
+                    <li>Eliminar o transformar: puedes quitar componentes, cambiar el resultado.</li>
+                    <li>Reordenar o Invertir: cómo afectaría el producto si lo inviertes, le das la vuelta o lo reordenas, etc.</li>
+                </ul><br>
+                
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Ya que hayas generado varias ideas, ahora debes seleccionarlas y filtrarlas con el apoyo de diferentes técnicas, y quedarte con las 
+                    que consideres que resuelven de una mejor manera el problema. Considera que hay que tomar en cuenta los diferentes puntos de vista 
+                    de los participantes, y aplicar con flexibilidad y objetividad los criterios y tratar de evitar los intereses particulares.<br><br>
+
+                    Tienes que intentar seleccionar aquellas que sean técnicas económicamente viables, de alto impacto, y que encajen con los criterios 
+                    previamente definidos. Por ejemplo:<br><br>
+
+                    <b>Criterios cuantitativos:</b>
+                </p><br>
+
+                <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li><b>Deseable:</b> que resuelva el problema planteado.</li>
+                    <li><b>Factible:</b> ¿Se cuenta con la tecnología, los recursos y el tiempo necesarios para hacerlo?, que lo puedas lograr con tus propios recursos.</li>
+                    <li><b>Rentable:</b> que te permita recuperar la inversión del proyecto (precio, margen, TIR, etc.).</li>
+                </ul><br>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b>Criterios cualitativos:</b></p><br>
+
+                <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li>Lo que esté de moda y sea más atractivo </li>
+                    <li>La que se considera más innovador y original</li>
+                    <li>La que podría tener un mayor éxito en el mercado</li>
+                </ul><br>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b>Criterios objetivos:</b></p><br>
+
+                <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li>Mayor consumo previsto</li>
+                    <li>Más barato</li>
+                    <li>Posibles mercados</li>
+                    <li>Valor social</li>
+                    <li>Menor impacto medioambiental</li>
+                    <li>Interés cultural, etc.</li>
+                </ul><br>
+
+                
+            </div>
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">c.	Da Vinci o morfológica</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Una vez que ya tienes el problema definido, el siguiente paso es idear la solución. Para ello, es necesario que formules 
+                    previamente la pregunta “¿Cómo podríamos…?”. Seguramente ya tienes formulada la pregunta, porque fue parte de la 
+                    actividad anterior.<br><br>
+
+                    En esta fase “Idear” recurrirás a tu imaginación y creatividad, para generar muchas ideas de alternativas de solución. 
+                    La ventaja de esta técnica es que te permite generar combinaciones, es decir, asociar o conectar partes que aparentemente 
+                    están desconectadas. Una gran variedad de los productos innovadores surge de la combinación de elementos que ya existían. 
+                    La técnica de generación de ideas creativas denominada Da Vinci o Morfológica es una técnica que te permite combinar un 
+                    conjunto de características y como consecuencias genera soluciones creativas e innovadoras para llevarlas a cabo. 
+                    
+                    
+                </p>
+            </div>
+        </div><br>
+    </div>
+</div>`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.4 Prototipar la idea</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            En esta cuarta fase, las ideas van a ser aterrizadas y a convertirse en tangibles. Para que de esa forma el usuario no solo imagine 
+            propuestas, sino que pueda verlas y con ello tener claridad del producto o servicio que se le va a proporcionar como solución a su problema. 
+            Para ello, debes construir prototipos o escenarios que te permitan visualizar con claridad y al mismo tiempo manipular 
+            las posibles soluciones, con el propósito de que identifiques aspectos que puedas mejorar antes de obtener el resultado final.<br><br>
+
+            El prototipado es una fase de modelado y experimentación donde deberás considerar cuatro aspectos fundamentales al momento de 
+            construir y presentar tu prototipo:
+
+        </p><br>
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
+            <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                <li>Los prototipos que desarrolles deben surgir de las ideas que resultaron de la fase anterior.</li>
+                <li>Los prototipos deben dar solución a la problemática planteada.</li>
+                <li>Los prototipos deben probarse y verificar que funcionen.</li>
+                <li>Los prototipos deben refinarse.</li>
+            </ol>
+        </div><br>
+
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            Estos aspectos te ayudan a probar cómo las soluciones interaccionan con los usuarios y su entorno, para ver sus reacciones y así obtener una 
+            retroalimentación de lo que ve, lo que siente, las ideas que le surgen, y las dudas que pudiera tener, entre otras.
+        </p>
+
+
+
+    </div>
+</div>`,
+
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.5 Testeo (validar)</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            En esta quinta fase se presenta el prototipo a los usuarios lo que significa solicitar y recoger sus opiniones y de acuerdo con ellas 
+            deberás de realizar los ajustes para mejorar el prototipo, el objetivo es que obtengas nuevas ideas para mejorar, a partir de críticas 
+            constructivas, dudas que te ayudarán a identificar errores, carencias y puntos débiles que puede tener el producto. Esto te permite 
+            seguir desarrollando colaborativamente la solución y presentar diversas mejoras al prototipo.<br><br>
+
+            Al momento de probar tus prototipos con los usuarios interesados en la solución que estás desarrollando podrás identificar 
+            mejoras significativas y fallos a resolver, para ello es necesario que consideres los siguientes aspectos: 
+            
+
+        </p><br>
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
+            <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                <li>
+                    Diseña test de prueba: qué quieres probar, qué suposición quieres validar, en qué entorno/contexto, qué recursos serán necesarios para ello, 
+                    cómo medirás los resultados de la prueba.
+                </li>
+                <li>Realiza la prueba: siguiendo el plan establecido, obtén y registra los resultados.</li>
+                <li>
+                    Analiza los resultados: toma decisiones (volver a idear, modificar/completar prototipo, avanzar la implementación, rechazar 
+                    el concepto/idea, etc.).
+                </li>
+                <li>Cuando los resultados así lo indiquen, debes rediseñar tu prototipo, recuerda que tu primera idea no es la solución ideal. </li>
+                <li>
+                    Es un proceso iterativo. Para que logres la mejor solución deberás aplicar alguna técnica que facilite que los usuarios puedan exponer puntos de vista a favor y en contra del prototipo con el propósito de que la solución planteada tenga una mejora para satisfacer sus necesidades. 
+                </li>
+            </ul>
+        </div><br>
+
+    </div>
+</div>`,
+
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.3 Modelo de negocios Canvas</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+
+            
+
+        </p><br>
+
+
+    </div>
+</div>`
+,
+`<section class="containerActividadAprendizajeFather">
+    <div class="textoTitulo clbktx">Material de apoyo</div>
+    <section class="gridActividadesAprendizaje">
+
+        <!--Tarjeta 1-->
+        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
+            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Lectura 1</p>
+            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las organizaciones y la empresa</p>
+            <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
+                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                    <i class="material-icons clbktx">download</i>
+                    <span class="clbktx">Descargar</span>
+                </div>
+            </a>
+        </div>
+
+
+    </section>
+</section>
+`,
+`<!--Tarjeta con las actividades-->
+<section class="containerActividadAprendizajeFather">
+    <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
+    <section class="gridActividadesAprendizaje">
+        <!--Tarjeta 1-->
+        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
+            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.1</p>
+            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa y su constitución jurídica</p>
+            <a href="./pdf/actividades/Actividad 1.1 La empresa y su constitucion juridica.pdf" target="_blank">
+                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                    <i class="material-icons clbktx">download</i>
+                    <span class="clbktx">Descargar</span>
+                </div>
+            </a>
+        </div>
+
+        <!--Tarjeta 2-->
+        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
+            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.2</p>
+            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las finanzas y su importancia</p>
+            <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf" target="_blank">
+                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                    <i class="material-icons clbktx">download</i>
+                    <span class="clbktx">Descargar</span>
+                </div>
+            </a>
+        </div>
+
+        <!--Tarjeta 3-->
+        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
+            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.3</p>
+            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa, sus finanzas y su relación con el
+                entorno</p>
+            <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf"
+                target="_blank">
+                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                    <i class="material-icons clbktx">download</i>
+                    <span class="clbktx">Descargar</span>
+                </div>
+            </a>
+        </div>
+
+    </section>
+</section>
+`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática
+    </div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            ¡Felicidades! Has concluido esta unidad temática. Ahora tienes más elementos que te ayudarán a reconocer la
+            relevancia que tienen las finanzas en todas las organizaciones y en específico en las empresas,
+            independientemente de su constitución, tamaño y giro.
+        </p>
+
+        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+            Recuerda que las empresas son indispensables en nuestras vidas y que constituyen la columna vertebral de la
+            economía. En este sentido, la productividad, la rentabilidad y la competitividad se han convertido en tres
+            de las principales pretensiones de muchas empresas. Para lograr dichas pretensiones se requiere, entre otros
+            aspectos, de la toma de decisiones basadas en información financiera verídica, confiable y oportuna que se
+            verá reflejada en los estados financieros, tema que estudiarás en la unidad temática 2.
+        </blockquote>
+
+        <div class="defaultImage">
+            <div class="defaultImageContent" id="cierre"></div>
+        </div>
+        <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+            <a href="https://icons8.com/illustrations/illustration/pixeltrue-success" target="_blank">Ouch!</a>
+        </span>
+    </div>
+</div>
+`,
+`11 (referencias)`,
+`12`,
+`13`,
+`14`,
+`15`,
+`16`,
+];
+
+console.log("contenidosUnidad: ", contenidosUnidad.length);
+
+/////////////////////////////////////
+//Object delegation para los botones
+/////////////////////////////////////
+
+//Accedemos al contenedor de los textos
+let contenedorParaElContenidoDeLaUnidad = document.getElementById(
+"lateralUnityContent"
+);
+
+//Cargamos por defecto el contenido para la unidad
+(() => {
+contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad[0];
+})();
+
+//Accedemos al contenedor que tiene las opciones para el menu en computadora.
+let buttonContaineChargeContent = document.getElementById(
+"lateralUnityMenuSectionContainer"
+);
+buttonContaineChargeContent.addEventListener("click", function (event) {
+if (event.target.classList.contains("deskOption")) {
+console.log(event.target);
+let buttonIndex = event.target.getAttribute("contador");
+if(contenidosUnidad[buttonIndex] == undefined){
+let a1tutorialButton = document.getElementById('a1tutorialButton');
+a1tutorialButton.click();
+}else{
+contenedorParaElContenidoDeLaUnidad.innerHTML =
+contenidosUnidad[buttonIndex];
+}
+}
+});
+
+//Accedemos al contenedor que tiene las opciones para el menu en celular.
+let buttonContaineChargeContentMobile = document.getElementsByClassName(
+"mobileOptionsContainer"
+);
+for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
+    buttonContaineChargeContentMobile[i].addEventListener( "click" , function (event) { if
+    (event.target.classList.contains("mobileOption")) { console.log(event.target); let
+    buttonIndex=event.target.getAttribute("contador");
+    contenedorParaElContenidoDeLaUnidad.innerHTML=contenidosUnidad[buttonIndex];
+    if(contenidosUnidad[buttonIndex]==undefined){ let a1tutorialButton=document.getElementById('a1tutorialButton');
+    a1tutorialButton.click(); }else{ contenedorParaElContenidoDeLaUnidad.innerHTML=contenidosUnidad[buttonIndex]; } } }
+    ); }
