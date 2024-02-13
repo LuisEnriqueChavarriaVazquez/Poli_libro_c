@@ -1,17 +1,17 @@
 function pregunta(numero) {
     //Respuestas para las preguntas
     let respuestasId = [0, "pregunta1_opt2"
-        , "pregunta2_opt3", "pregunta3_opt1"
-        , "pregunta4_opt3", "pregunta5_opt2"
+        , "pregunta2_opt3", "pregunta3_opt3"
+        , "pregunta4_opt1", "pregunta5_opt1"
         , "pregunta6_opt2", "pregunta7_opt1"
-        , "pregunta8_opt1", "pregunta9_opt3"
+        , "pregunta8_opt3", "pregunta9_opt1"
         , "pregunta10_opt3",];
 
     //Explicaciones de las preguntas
-    let respuestasExplicacion = [0, ["Recuerda que en la Sociedad Cooperativa cada socio goza de un voto sin importar el monto de su aportación; sin embargo, en la Sociedad Anónima cada acción tiene derecho a un voto, pero cada socio puede tener más de una acción.","En efecto, en la Asociación Civil, en la Sociedad Civil y en la Sociedad Cooperativa cada socio goza de un voto, sin importar el monto de su aportación.","Recuerda que en la Asociación civil cada socio goza de un voto sin importar el monto de su aportación; sin embargo, en la Sociedad de Responsabilidad Limitada por cada mil pesos o el múltiplo de esta cantidad, que se hubiere determinado, se tiene derecho a un voto."]
-        , ["Recuerda que en la Sociedad Civil la toma de decisiones no está en función del capital aportado; en cambio, en la Sociedad de Responsabilidad Limitada la toma de decisiones sí está en función del capital aportado.","Recuerda que tanto en la Asociación Civil como en la Sociedad Civil la toma de decisiones no está en función del capital aportado.","Tu respuesta es correcta, en la Sociedad de Responsabilidad Limitada (S. de R.L) y en la Sociedad Anónima (S.A) la toma de decisiones está en función del capital aportado."]
-        , ["Tu respuesta es correcta, en efecto las sociedades que no tributan son la Asociación Civil siempre y cuando su finalidad no sea económica y la Sociedad Cooperativa cuando es de consumo.","Las Asociaciones Civiles que tienen una finalidad económica sí tributan. De igual manera las Sociedades Cooperativas que no sean de consumo también pagan impuestos.","Recuerda que tanto la Sociedad Anónima (S.A) como las Sociedad por Acciones Simplificada (S.A.S) sí tributan, es decir están obligadas a pagar impuestos."]
-        , ["Para constituir una Asociación Civil se requiere solicitar acta constitutiva ante notario público.","Para constituir una Sociedad Civil se requiere solicitar acta constitutiva ante notario público.","En efecto, para constituir una S.A.S no se requiere solicitar acta constitutiva, dicha sociedad se constituye bajo los estatutos de la Secretaría de Economía mediante el sistema electrónico de constitución."]
+    let respuestasExplicacion = [0, ["la respuesta era la b"]
+        , ["la respuesta era la c","La respuesta era la c","la respuesta era la a"]
+        , ["la respuesta era la a","La respuesta era la b","la respuesta era la a"]
+        , ["la respuesta era la c","La respuesta era la a","la respuesta era la c"]
         , ["Las reformas en el esquema laboral se incluyen dentro de los factores político-legales y estos pertenecen al macroentorno o macroambiente.","Tu respuesta es correcta, las reformas en materia laboral se incluyen dentro de los factores político-legales y estos pertenecen al macroentorno o macroambiente.",""]
         , ["Recuerda que una persona moral es el conjunto de personas físicas, que se unen para la realización de un fin colectivo, a quien la ley otorga capacidad jurídica para tener derechos y obligaciones.","Tu respuesta es correcta, de acuerdo con el S.A.T una persona física es el individuo que realiza cualquier actividad económica (vendedor, comerciante, empleado, profesionista, etc.), el cual tiene derechos y obligaciones.",""]
         , ["Tu respuesta es correcta, a la obtención de recursos mediante diferentes fuentes se le conoce como financiamiento.","Recuerda que las actividades de inversión están dirigidas a incrementar el capital de los accionistas e inversionistas y las de financiamiento a la obtención de recursos mediante diferentes fuentes.","Actividades empresariales es un término que podría abarcar múltiples actividades; la obtención de recursos mediante diferentes fuentes se refiere específicamente a actividades de financiamiento."]
@@ -98,44 +98,44 @@ const preguntas_aleatorias_indices = [0]
 const preguntas = [
     0,
     {
-        "enunciado": "Sociedades en las que cada socio goza de un voto, sin importar el monto de su aportación",
-        "opciones": ['Sociedad Cooperativa y Sociedad Anónima', 'Asociación Civil, Sociedad Civil y Sociedad Cooperativa', 'Sociedad de Responsabilidad Limitada y Asociación Civil'],
+        "enunciado": "¿Cuál es una característica fundamental de la innovación?",
+        "opciones": ['Desarrollo de tecnología sofisticada.', 'Transformación de una oportunidad de mejora en valor.', 'Creación de productos completamente nuevos.'],
     },
     {
-        "enunciado": "Sociedades en las que el rumbo de la empresa (toma de decisiones) será definido en función del capital aportado",
-        "opciones": ['Sociedad Civil (S.C) y Sociedad de Responsabilidad Limitada (S. de R.L)', 'Asociación Civil (A.C) y Sociedad Civil (S.C)', 'Sociedad de Responsabilidad Limitada (S. de R.L) y Sociedad Anónima (S.A)'],
+        "enunciado": "¿Cuál es uno de los aspectos principales de la metodología Design Thinking?",
+        "opciones": ['Fases estrictamente secuenciales.', 'Enfoque exclusivo en la tecnología.', 'Consideración de las necesidades del usuario.'],
     },
     {
-        "enunciado": "Son sociedades que no tributan",
-        "opciones": ['Asociación Civil (A.C) sin finalidad económica y Sociedad Cooperativa de consumo', 'Todas las asociaciones civiles y las sociedades cooperativas', 'La Sociedad Anónima (S.A)  y la Sociedad por Acciones Simplificada (S.A.S)'],
+        "enunciado": "¿Cuál es el objetivo principal de la fase de empatizar/descubrir en Design Thinking?",
+        "opciones": ['Definir el problema de manera precisa.', 'Generar soluciones innovadoras.', 'Comprender las necesidades y el contexto de los usuarios.'],
     },
     {
-        "enunciado": "Sociedad que no requiere solicitar acta constitutiva ante un fedatario público y se constituye bajo los estatutos de la Secretaría de Economía mediante el sistema electrónico de constitución",
-        "opciones": ['Asociación Civil (A.C)','Sociedad Civil', 'Sociedad por Acciones Simplificada (S.A.S)'],
+        "enunciado": "¿Qué se busca en la fase de definir del Design Thinking?",
+        "opciones": ['Definir claramente el problema y las necesidades de los usuarios.','Identificar las necesidades emocionales de los usuarios.', 'Generar nuevas ideas para resolver el problema.'],
     },
     {
-        "enunciado": "En 2021 hubo una reforma, en el esquema laboral, que prohíbe la subcontratación de personal (outsourcing). Dicha reforma, se considera un factor del:",
-        "opciones": ['Microentorno o microambiente', 'Macroentorno o macroambiente', 'Macroentorno o microambiente'],
+        "enunciado": "¿Cuál es el propósito principal de la fase de idear en Design Thinking?",
+        "opciones": ['Desarrollar múltiples ideas creativas.', 'Definir claramente el problema.', 'Generar una solución perfecta.'],
     },
     {
-        "enunciado": "De acuerdo con el SAT es el Individuo con capacidad para contraer obligaciones y ejercer derechos; puede prestar servicios, realizar actividades comerciales, arrendar bienes inmuebles y trabajar por salarios",
-        "opciones": ['Persona moral', 'Persona física', 'Empleador y empleado'],
+        "enunciado": "¿Qué técnica creativa se utiliza para generar muchas ideas diferentes durante la fase de idear en Design Thinking?",
+        "opciones": ['Encuesta.', 'SCAMPER.', 'Entrevista.'],
     },
     {
-        "enunciado": "Corresponde a la obtención de recursos mediante diferentes fuentes; por ejemplo: compras a crédito, préstamos de la banca de primer piso, préstamos de la banca se segundo piso, préstamo de los socios, crowdfunding, entre otras",
-        "opciones": ['Actividades de financiamiento', 'Actividades de inversión', 'Actividades empresariales'],
+        "enunciado": "¿Qué se busca al aplicar la técnica Da Vinci o morfológica durante la fase de idear en Design Thinking?",
+        "opciones": ['Generar combinaciones de características para crear soluciones innovadoras.', 'Seleccionar las ideas más económicas.', 'Evaluar el impacto medioambiental de las ideas.'],
     },
     {
-        "enunciado": "La compra de maquinaria y equipo, la compra o ampliación de una planta productiva y las mejoras en el proceso productivo, son consideradas:",
-        "opciones": ['Actividades de inversión', 'Actividades de financiamiento ', 'Actividades empresariales'],
+        "enunciado": "¿Cuál es uno de los aspectos fundamentales a considerar al momento de construir y presentar un prototipo durante la fase de prototipar en Design Thinking?",
+        "opciones": ['La validación de la idea.', 'La creatividad del prototipo.', 'Que los prototipos den solución a la problemática planteada.'],
     },
     {
-        "enunciado": "Son considerados elementos del microambiente o microentorno",
-        "opciones": ['Factores político-legales, económicos, medio ambientales', 'Demográficos, tecnológicos y socio-culturales', 'Proveedores, clientes, comunidad, alcaldías o municipios'],
+        "enunciado": "¿Qué se busca al realizar el testeo (validar) de un prototipo durante la quinta fase del Design Thinking?",
+        "opciones": ['Recoger opiniones de los usuarios para obtener nuevas ideas de mejora.', 'Evaluar la creatividad del prototipo.'],
     },
     {
-        "enunciado": "Son consideradas como las dos funciones o actividades principales de las finanzas",
-        "opciones": ['Planeación y control', 'Planeación y organización', 'Inversión y financiamiento'],
+        "enunciado": "¿Por qué es importante realizar un proceso iterativo durante el testeo de un prototipo en Design Thinking?",
+        "opciones": ['Para incrementar el costo del proyecto.', 'Para validar la solución ideal en el primer intento.', 'Para recoger diferentes puntos de vista y mejorar la solución.'],
     },
 ];
 
