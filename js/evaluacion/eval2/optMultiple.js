@@ -8,10 +8,10 @@ function pregunta(numero) {
         , "pregunta10_opt3",];
 
     //Explicaciones de las preguntas
-    let respuestasExplicacion = [0, ["la respuesta era la b"]
-        , ["la respuesta era la c","La respuesta era la c","la respuesta era la a"]
-        , ["la respuesta era la a","La respuesta era la b","la respuesta era la a"]
-        , ["la respuesta era la c","La respuesta era la a","la respuesta era la c"]
+    let respuestasExplicacion = [0, ["la respuesta era la b",'respuesta correcta','la respuesta era la b']
+        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
+        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
+        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
         , ["Las reformas en el esquema laboral se incluyen dentro de los factores político-legales y estos pertenecen al macroentorno o macroambiente.","Tu respuesta es correcta, las reformas en materia laboral se incluyen dentro de los factores político-legales y estos pertenecen al macroentorno o macroambiente.",""]
         , ["Recuerda que una persona moral es el conjunto de personas físicas, que se unen para la realización de un fin colectivo, a quien la ley otorga capacidad jurídica para tener derechos y obligaciones.","Tu respuesta es correcta, de acuerdo con el S.A.T una persona física es el individuo que realiza cualquier actividad económica (vendedor, comerciante, empleado, profesionista, etc.), el cual tiene derechos y obligaciones.",""]
         , ["Tu respuesta es correcta, a la obtención de recursos mediante diferentes fuentes se le conoce como financiamiento.","Recuerda que las actividades de inversión están dirigidas a incrementar el capital de los accionistas e inversionistas y las de financiamiento a la obtención de recursos mediante diferentes fuentes.","Actividades empresariales es un término que podría abarcar múltiples actividades; la obtención de recursos mediante diferentes fuentes se refiere específicamente a actividades de financiamiento."]
@@ -131,7 +131,7 @@ const preguntas = [
     },
     {
         "enunciado": "¿Qué se busca al realizar el testeo (validar) de un prototipo durante la quinta fase del Design Thinking?",
-        "opciones": ['Recoger opiniones de los usuarios para obtener nuevas ideas de mejora.', 'Evaluar la creatividad del prototipo.'],
+        "opciones": ['Recoger opiniones de los usuarios para obtener nuevas ideas de mejora.', 'Evaluar la creatividad del prototipo.','Probar la viabilidad económica del prototipo.'],
     },
     {
         "enunciado": "¿Por qué es importante realizar un proceso iterativo durante el testeo de un prototipo en Design Thinking?",
