@@ -51,7 +51,7 @@ function crearPdf(){
 
     }else if(unidadActual == 'u2'){
 
-        tituloPDF = 'Unidad 2: Título de la unidad con un texto largo de prueba';
+        tituloPDF = 'Unidad 2: Innovación y la gestión del mercado';
         colorOnePDF = [128, 84, 88];
         colorTwoPDF = [160, 104, 110];
         colorThreePDF = [205, 140, 146];
