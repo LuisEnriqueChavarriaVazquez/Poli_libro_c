@@ -12,12 +12,12 @@ function pregunta(numero) {
         , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
         , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
         , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
-        , ["Las reformas en el esquema laboral se incluyen dentro de los factores político-legales y estos pertenecen al macroentorno o macroambiente.","Tu respuesta es correcta, las reformas en materia laboral se incluyen dentro de los factores político-legales y estos pertenecen al macroentorno o macroambiente.",""]
-        , ["Recuerda que una persona moral es el conjunto de personas físicas, que se unen para la realización de un fin colectivo, a quien la ley otorga capacidad jurídica para tener derechos y obligaciones.","Tu respuesta es correcta, de acuerdo con el S.A.T una persona física es el individuo que realiza cualquier actividad económica (vendedor, comerciante, empleado, profesionista, etc.), el cual tiene derechos y obligaciones.",""]
-        , ["Tu respuesta es correcta, a la obtención de recursos mediante diferentes fuentes se le conoce como financiamiento.","Recuerda que las actividades de inversión están dirigidas a incrementar el capital de los accionistas e inversionistas y las de financiamiento a la obtención de recursos mediante diferentes fuentes.","Actividades empresariales es un término que podría abarcar múltiples actividades; la obtención de recursos mediante diferentes fuentes se refiere específicamente a actividades de financiamiento."]
-        , ["Tu respuesta es correcta, la compra de maquinaria y equipo, la compra o ampliación de una planta productiva y las mejoras en el proceso productivo, entre otras, son consideradas actividades de inversión.","Recuerda que las actividades de financiamiento están encaminadas a la obtención de recursos provenientes de una o varias fuentes; en cambio las actividades de inversión van dirigidas a incrementar el capital de los accionistas e inversionistas.",""]
-        , ["Los factores político-legales, económicos y medio ambientales son factores del macroambiente o macroentorno.","Los factores demográficos, tecnológicos y socio-culturales son parte del macroambiente o macroentorno.","Tu respuesta es correcta, los proveedores, clientes, comunidad y alcaldías o municipios son factores del microambeinte o microentorno."]
-        , ["La planeación y el control son dos de las fases del proceso administrativo; en cambio, la inversión y el financiamiento son dos de las funciones o actividades principales de las finanzas.","La planeación y la organización son dos de las fases del proceso administrativo; en cambio; la inversión y el financiamiento son dos de las funciones o actividades principales de las finanzas.","Tu respuesta es correcta, la inversión y el financiamiento son dos de las funciones o actividades principales de las finanzas."]
+        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
+        , ["La respuesta era la b","respuesta correcta",'La respuesta era la b']
+        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
+        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
+        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
+        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
         , ];
 
     let respuestaCorrectaId = respuestasId[numero]
