@@ -639,65 +639,248 @@ const contenidosUnidad = [
         <br>
 
         <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup"> </div>
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup"> 6. Gestión de la calidad del proyecto</div>
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-
+                    La gestión de la calidad implica que el proyecto resuelva la problemática o cumpla las necesidades de la mejor manera, por 
+                    las cuales se emprendió. En términos generales describe los procesos necesarios para que el proyecto cumpla los objetivos 
+                    por los que ha sido emprendido. Para ello es necesario que consideres lo siguiente:<br>
                 </p>
+                <div class="shadow2 border1 clgreyl1 simpleCardText">
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" >
+                        <li>Convertir las necesidades y expectativas de los interesados en requisitos del proyecto.</li>
+                        <li>Lograr la satisfacción del cliente cuando el proyecto produzca lo planificado y el producto cubra las necesidades reales.</li>
+                        <li>Prevención mejor que inspección.</li>
+                        <li>Buscar en forma permanente la perfección: mejora continua.</li>
+
+                    </ul>
+                </div><br>
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                    Para llevar a cabo el proceso de la planificación de calidad es necesario que identifiques qué requisitos y normas de calidad son 
+                    relevantes para el producto y el proyecto, tendrás que determinar cómo satisfacerlos y documentando cómo se demostrará su 
+                    cumplimiento. Así como la gestión de las mejoras en los procesos de desarrollo del proyecto.<br><br>
+
+                    El concepto de calidad encuentra muchas definiciones posibles, pero lo que lo definiremos diciendo que la calidad es la 
+                    medida en que un producto o servicio satisface los requerimientos de una función dada. Otros aspectos que debes tener en 
+                    cuenta pueden ser la adecuación al uso y la ausencia de deficiencias.<br><br>
+
+                    Ahora nos preguntamos ¿Qué es la calidad de un producto de software? Para dar respuesta a esta pregunta vamos a mencionar 
+                    que existen dos enfoques posibles:
+
+                    <br>
+                </p>
+
+                <div class="shadow2 border1 clgreyl1 simpleCardText">
+                    <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="I">
+                        <li>
+                            Calidad funcional. Refleja en qué medida el software cumple con o se ajusta a un determinado diseño, basado en 
+                            requerimientos funcionales. Estos abarcan las actividades del software que involucran procesamiento de datos de entrada.
+                        </li>
+                        <li>
+                            Calidad estructural. Refleja en qué medida el software cumple con los requerimientos no funcionales, como rendimiento, 
+                            capacidad de mantenimiento o escalabilidad. 
+                        </li>
+                    </ol>
+                </div><br>
+
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                    El estándar ISO/IEC 9126 presenta la calidad interna y externa del software  como un conjunto de seis características globales:<br>
+                </p>
+
+                <div class="shadow2 border1 clgreyl1 simpleCardText">
+                    <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="a">
+                        <li>Funcionalidad. Las funciones del software son aquellas que buscan satisfacer las necesidades del usuario.</li>
+                        <li>
+                            Confiabilidad. La capacidad del software de mantener su rendimiento bajo ciertas condiciones durante ciertos periodos de tiempo.
+                        </li>
+                        <li>
+                            Usabilidad. Basada en el esfuerzo necesario para utilizar el software por parte de un grupo de usuarios.
+                        </li>
+                        <li>
+                           Eficiencia. Basada en la relación entre el nivel de rendimiento del software y el volumen de recursos utilizados bajo ciertas condiciones.
+                        </li>
+                        <li>Capacidad de mantenimiento. Basada en el esfuerzo necesario para realizar modificaciones específicas.</li>
+                        <li>
+                           Portabilidad. Basada en la capacidad del software para ser transferido de un entorno a otro.
+                        </li>
+                    </ol>
+                </div><br>
+
+                
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                    Así mismo la norma ISO/IEC 9126 presenta la calidad en uso del software como un conjunto de cuatro características globales:<br>
+                </p>
+
+                <div class="shadow2 border1 clgreyl1 simpleCardText">
+                    <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="a">
+                        <li>Efectividad. Es la capacidad del producto para alcanzar objetivos específicos con exactitud.  </li>
+                        <li>Productividad. La capacidad del software que permite a los usuarios utilizar un porcentaje adecuado a los recursos 
+                            con relación a la efectividad alcanzada.</li>
+                        <li>Seguridad. Es la capacidad del software para alcanzar niveles mínimos y aceptables del riesgo de producir daño al usuario o medio ambiente.</li>
+                        <li>Satisfacción. Es la capacidad que tiene el software para satisfacer las necesidades mínimas que tienen los usuarios al 
+                            utilizar el software. (Verity Consulting 2022)</li>
+                    </ol>
+                </div>
+
             </div>
         </div>
         <br>
 
         <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup"> </div>
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">7. Gestión de los recursos para el proyecto </div>
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                    Es el proceso donde se debe garantizar la disponibilidad de los recursos necesarios para el director y el equipo de proyecto, 
+                    en el momento y lugar adecuados.<br>
+                    Para el desarrollo de este punto es importante que consideres los siguientes tres aspectos:<br>
 
                 </p>
+
+                <div class="shadow2 border1 clgreyl1 simpleCardText">
+                    <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="a">
+                        <li>Describir los procesos para organizar y dirigir al equipo del, proyecto y los recursos materiales necesarios para su desarrollo.</li>
+                        <li>Hacer las gestiones necesarias para liberar los recursos y materiales que el proyecto requiere.</li>
+                        <li>
+                            Deberás echar mano de tus habilidades como líder y motivador, al mismo tiempo deberás desarrollar estrategias para 
+                            resolver los problemas que pudieran presentarse entre el personal de tu equipo, así mismo con los interesados 
+                            en el proyecto.
+                        </li>
+                    </ol>
+                </div>
+
             </div>
         </div>
         <br>
 
         <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup"> </div>
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">8. Gestión de las adquisiciones </div>
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                    En este proceso se deben describir los procedimientos para las compras o adquisiciones de productos o servicios incluyendo 
+                    la contratación de los procesos de dirección. Todos los recursos necesarios para desarrollar con éxito el proyecto, asumiendo 
+                    sus consecuencias legales y presupuestarias consideradas en la planificación del proyecto.<br><br>
+
+                    Es importante que sepas que para llevar a cabo cualquier proceso de gestión de las adquisiciones deberás celebrar un contrato 
+                    por productos o servicios ya que estos son documentos legales que se establecen entre un comprador y un vendedor y se 
+                    convierten en el medio por el cual se asigna la responsabilidad de gestionar o compartir posibles riesgos.<br><br>
+
+                    Para para llevar a cabo la gestión de las adquisiciones deberás considerar los siguientes cuatro procesos:<br>
 
                 </p>
+
+                <div class="shadow2 border1 clgreyl1 simpleCardText">
+                    <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="I">
+                        <li>
+                            Proceso de planificación de las adquisiciones, consiste en documentar las decisiones de compra para el proyecto, 
+                            especificar la forma de hacerlo e identificar posibles vendedores.
+                        </li>
+                        <li>
+                            Efectuar las adquisiciones es el proceso en el cual debes obtener las respuestas de los vendedores, 
+                            seleccionar un vendedor y adjudicar un contrato.
+                        </li>
+                        <li>
+                            Proceso para administrar las adquisiciones, este consiste en que deberás gestionar las relaciones de adquisiciones, 
+                            supervisar el desempeño del contrato y efectuar cambios y correcciones.
+                        </li>
+                        <li>
+                            Proceso de cierre de las adquisiciones es el proceso donde debes finalizar cada adquisición para el proyecto. 
+                            También debes considerar que se tienen que realizar actividades administrativas, tales como finalizar las 
+                            reclamaciones abiertas, actualizar registros a fin de reflejar los resultados finales y archivar dicha 
+                            información para su uso en el futuro.
+                        </li>
+                    </ol>
+                </div>
             </div>
         </div>
         <br>
 
         <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup"> </div>
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">9. Gestión del riesgo </div>
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                    Para gestionar el riesgo debes considerar que los riesgos de un proyecto se ubican siempre en el futuro. Un riesgo es un evento
+                     o condición incierta que, si sucede, tiene un efecto positivo o negativo en por lo menos uno de los objetivos del proyecto, 
+                     considerando que los objetivos pueden incluir el alcance, el cronograma, el costo y la calidad.<br><br>
 
+                    Los procesos que deberás considerar para gestionar los riesgos del proyecto son los procesos relacionados con llevar a 
+                    cabo la planificación de la gestión, la identificación, el análisis, la planificación de respuesta a los riesgos, así como 
+                    su monitoreo y control.<br>
+                    
                 </p>
+                <div class="shadow2 border1 clgreyl1 simpleCardText">
+                    <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="I">
+                        <li>
+                            Proceso para la planificación de la gestión de riesgos, en este proceso tendrás que definir las actividades a realizar 
+                            para gestionar los riesgos del proyecto, los riesgos técnicos y los riesgos del negocio. 
+                        </li>
+                        <li>
+                            Proceso para identificar los riesgos, es el proceso en donde deberás determinar los riesgos que pueden afectar el 
+                            proyecto y tendrás que documentar sus características.
+                        </li>
+                        <li>
+                            Realizar el análisis cualitativo de riesgos es el proceso en el cual vas a priorizar los riesgos para que 
+                            posteriormente puedas realizar otros análisis o acciones posteriores, evaluando y combinando la probabilidad de 
+                            ocurrencia y el impacto de dichos riesgos en el proyecto.
+                        </li>
+                        <li>
+                            Crear el análisis cuantitativo de riesgos es el siguiente proceso el cual consiste en llevar a cabo los pasos 
+                            que te permita analizar numéricamente el efecto de los riesgos identificados sobre los objetivos generales 
+                            del proyecto.
+                        </li>
+                        <li>
+                            La planificación que da respuesta a los riesgos es el proceso por el cual tendrás que dar respuesta a los 
+                            riesgos identificados del proyecto. En este punto deberás desarrollar opciones y acciones para mejorar las 
+                            oportunidades y reducir las amenazas a los objetivos del proyecto. 
+                        </li>
+                        <li>
+                            El último proceso en la gestión del riesgo es el monitoreo y controlar de los riesgos es el proceso donde deberás implementar 
+                            los planes de respuesta a los riesgos, tendrás que rastrear los riesgos identificados, los deberás monitorear y si es necesario 
+                            identificaras nuevos riesgos y por último vas a evaluar la efectividad del proceso contra los riesgos a través del proyecto.
+                        </li>
+                    </ol>
+                </div>
             </div>
         </div>
         <br>
 
         <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup"> </div>
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">10. Plan de gestión de los interesados.</div>
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-
+                    Para la gestión de los interesados del proyecto es necesario que incluyas los procesos que te permitan identificar a 
+                    las personas, grupos u organizaciones que pueden afectar o ser afectados por el proyecto de manera positiva o negativa, 
+                    para analizar las expectativas de los interesados y su impacto en el proyecto, y para desarrollar estrategias de gestión 
+                    adecuadas a fin de lograr la participación eficaz de los interesados en las decisiones, el desarrollo y ejecución del proyecto.<br>
                 </p>
+                <div class="shadow2 border1 clgreyl1 simpleCardText">
+                    <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="I">
+                        <li>
+                            Identificar a los Interesados: En este proceso tienes que identificar a las personas, grupos u organizaciones 
+                            que podrían afectar o ser afectados por una decisión, actividad o resultado del proyecto, así como de analizar 
+                            y documentar información relevante a sus intereses, participación, interdependencias, influencia y posible 
+                            impacto en el éxito del proyecto.
+                        </li>
+                        <li>
+                            Planificar la gestión de los interesados: En este proceso tendrás que desarrollar estrategias de gestión apropiadas 
+                            para lograr la participación efectiva de los interesados a lo largo del ciclo de vida del proyecto, con base en el 
+                            análisis de sus necesidades, intereses y el posible impacto en el éxito del proyecto.
+                        </li>
+                        <li>
+                            Gestionar la participación de los interesados: Es un proceso donde tendrás que comunicarte y trabajar con los 
+                            interesados para satisfacer sus necesidades/expectativas, abordar las eventualidades en el momento en que acontecen 
+                            y promover la participación apropiada de los interesados en las actividades del proyecto a lo largo del ciclo de 
+                            vida del mismo.
+                        </li>
+                        <li>
+                            Controlar la participación de los interesados: Es el proceso donde vas a monitorear de una manera integral 
+                            las relaciones de los interesados del proyecto y si es necesario tendrás que adaptar las estrategias y los planes 
+                            para involucrar de forma favorable a los interesados, para llevar a buen término el proyecto.
+                        </li>
+                    </ol>
+                </div>
             </div>
         </div>
         <br>
-
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup"> </div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-
-                </p>
-            </div>
-        </div>
-        <br>
-
 
 
     </div>
