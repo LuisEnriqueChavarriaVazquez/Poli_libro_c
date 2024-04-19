@@ -886,189 +886,277 @@ const contenidosUnidad = [
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.2 Función y objetivo de las
-        finanzas empresariales</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">3.2 Plan de desarrollo del software </div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            <b class="clgreyl3 subTitleCard">¿Qué son las finanzas?</b>
-        </p>
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            Finanzas es un término que seguramente has escuchado con mucha frecuencia y de hecho en tu vida diaria, de
-            algún modo, realizas actividades relacionadas con dicha disciplina. <i class="keyWord">Hay tantas
-                definiciones del término finanzas como autores al respecto, en la figura 1.4 se rescatan algunas de
-                ellas.</i>
-        </blockquote>
+            
+            Cuando se habla de lo que es el desarrollo de software se debe hacer mención a que es una serie de tareas informáticas dirigidas al 
+            proceso de creación, diseño, despliegue y compatibilidad de software.<br>
+            Para poder hablar de desarrollo del software primero debemos menciona que es el software, por lo que se dice que el software es el 
+            conjunto de programas o instrucciones que le van a indicar a una computadora lo que tiene que hacer. Este es independiente del hardware, 
+            lo que permite que las computadoras se puedan programar.<br>
 
-        <div class="imagenDefaultContainer">
-            <p class="titleImageMine">Figura 1.2: ¿Qué son las finanzas?</p>
-            <div class="imageZoomedContainer">
-                <img class="materialboxed shadow2 border3 imageZoomed"
-                    data-caption="Descripción del concepto de finanzas" src="img/1.2-figura-1.png">
-            </div>
-            <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
+            De acuerdo con (IBM. 2022). Existen tres tipos básicos de software:<br>
+
+
+        </p>
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
+            <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="I">
+                <li>
+                    Software del sistema. Es el software que va a proveer a la computadora las funciones básicas como lo son los sistemas operativos, 
+                    la 	administración de discos, servicios, administración de hardware y otras necesidades operacionales.
+                </li>
+                <li>
+                    Software de programación Ese software que ofrece a los programadores herramientas para crear código.
+                </li>
+                <li>
+                   Software de aplicación (aplicaciones o apps). Es el software dirigido a los usuarios parque a realicen tareas, como por ejemplo 
+                   las redes sociales, las páginas de comercio electrónico, las suites de productividad de Office entre otros. 
+                </li>
+            </ol>
         </div><br>
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            <i class="keyWord">Siguiendo a Gitman (2012) las finanzas son el arte y la ciencia de administrar el
-                dinero.</i> Al respecto, el autor enfatiza que las finanzas afectan las decisiones tanto de los
-            individuos como de las empresas, ya que ambos en algún momento se enfrentan a la decisión de cuánto dinero
-            gastar, cuánto ahorrar y cómo invertir los ahorros.
-        </blockquote>
+
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            Específicamente en la empresa las finanzas se enfocan en:
-        <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style:square;">
-            <li>Cómo incrementar el dinero de los inversionistas</li>
-            <li>Cómo invertir el dinero para maximizar las utilidades</li>
-            <li>De qué modo conviene reinvertir las ganancias de la empresa o distribuirlas entre los inversionistas
-            </li>
-        </ol>
+            
+            Ahora ya podemos decir que el desarrollo de software es una serie de tareas informáticas dirigidas al proceso de creación, diseño, 
+            despliegue y compatibilidad de software y que por lo general para que lo puedas llevar a cabo debes seguir los siguientes pasos:<br>
+
+
         </p>
-        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            <i class="keyWord">Para lograr lo anterior se requiere del financiamiento y de la inversión,</i> ambas son
-            consideradas como las funciones principales de las finanzas. En este sentido, se entiende por <i
-                class="keyWord">financiamiento la obtención de recursos provenientes de una o varias fuentes de
-                financiamiento;</i> en tanto que la inversión se refiere propiamente a la utilización que se hace de
-            dichos recursos.
-        </p>
-
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Ejemplo</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                    En el caso de una organización podría invertir en infraestructura <i class="keyWord">(instalaciones,
-                        bodegas, maquinaria, equipo, entre otros)</i> a este tipo de inversión se le conoce como
-                    inversión fija; y también podría invertir en el proceso operativo del negocio.
-                </p>
-            </div>
-        </div>
-
-        <br>
-        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            Hablar de finanzas implica hablar de contabilidad. <i class="keyWord">La contabilidad se encarga
-                principalmente del registro de las operaciones de la entidad, de la elaboración de los estados
-                financieros, de la elaboración de reportes con información financiera y de calcular y pagar
-                impuestos;</i> por lo que constituye el principal sistema de información cuantitativa de la
-            organización.<br>
-        </p>
-
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            La contabilidad forma parte del área financiera y la función financiera se lleva a cabo mediante dos
-            actividades importantes:
-        </blockquote>
-
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Tesorería</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                    Básicamente <i class="keyWord">se enfoca al manejo de los recursos financieros,</i> entre sus
-                    principales actividades se encuentran:
-                <ol class=" clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                    <li><i class="keyWord">Administración del flujo de efectivo</i></li>
-                    <li><i class="keyWord">Inversiones</i></li>
-                    <li><i class="keyWord">Presupuestos</i></li>
-                    <li><i class="keyWord">Financiamiento</i></li>
-                </ol>
-                </p>
-            </div>
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
+            <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="I">
+                <li>
+                    Seleccionar una metodología con el propósito de que puedas establecer las bases en el que se apliquen los pasos del desarrollo de software. 
+                    Describe un proceso de trabajo general o un plan de acción para el proyecto.
+                </li>
+                <li>
+                    Recopilar requisitos, es una tarea donde deberás extraer los requerimientos del software con el propósito de comprender y 
+                    documentar lo que requieren los usuarios y otros interesados
+                </li>
+                <li>
+                    Elegir o crear una arquitectura, en este paso debes incorporar consideraciones de la implementación tecnológica como por 
+                    ejemplo el hardware, la red, etc. Ya que será la estructura interna dentro de la cual operará el software.
+                </li>
+                <li>
+                    Desarrollar un diseño, este te permitirá plantear soluciones a los problemas presentados por los requisitos, que a menudo 
+                    involucran modelos de proceso y guiones gráficos.
+                </li>
+                <li>
+                   Crear un modelo, tendrás que utilizar lenguaje de modelado como SysML o UML para realizar la validación temprana, la 
+                   creación de prototipos y la simulación del diseño.
+                </li>
+                <li>
+                    Crear código, deberás seleccionar el lenguaje de programación para poder reducir el diseño a código.
+                </li>
+                <li>
+                    Realizar pruebas, este es el paso donde vas a comprobar que el software realice correctamente las tareas indicadas 
+                    en las especificaciones y además deberás realizar pruebas de rendimiento para simular pruebas de carga en el software.
+                </li>
+                <li>
+                    Desplegar el software para su uso, así mismo deberás responder y resolver problemas del usuario.
+                </li>
+                <li>
+                    Mantenimiento y soporte, con el propósito de mantener y mejorar el software 
+                </li>
+            </ol>
         </div><br>
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Contraloría</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                    Área <i class="keyWord">encargada de coordinar y dirigir las siguientes actividades:</i>
-                <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                    <li><i class="keyWord">Contabilidad</i></li>
-                    <li><i class="keyWord">Pronósticos</i></li>
-                    <li><i class="keyWord">Administración de riesgos</i></li>
-                    <li><i class="keyWord">Verificar que le Administración esté de acuerdo con los objetivos de la
-                            empresa</i></li>
-                    <li><i class="keyWord">Auditoría interna</i></li>
-                    <li><i class="keyWord">Desarrollo de políticas y procedimientos</i></li>
-                </ol>
-                </p>
-            </div>
-        </div><br>
-        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-            Para que la función financiera se lleve a cabo en forma adecuada requiere de <i class="keyWord">información
-                verídica y confiable proporcionada por el área contable.</i>
-        </p>
 
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            En la figura 1.3 encontrarás algunas de las principales funciones de las áreas contable y financiera.
-        </blockquote>
-        <div class="imagenDefaultContainer">
-            <p class="titleImageMine">Figura 1.3 La contabilidad y las finanzas</p>
-            <div class="imageZoomedContainer">
-                <img class="materialboxed shadow2 border3 imageZoomed" data-caption="Contabilidad y finanzas"
-                    src="img/1.2-figura-2.png">
-            </div>
-            <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-        </div>
-        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-            Como se puede apreciar en la figura 1.3 la función contable debe considerarse como un insumo necesario para
-            la función financiera.<br><br>
-            Después de haber leído el tema, ya cuentas con los conocimientos necesarios para desarrollar la siguiente
-            actividad de aprendizaje:
-        </p><br>
-        <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf" target="_blank">
-            <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                <div class="linkToResourceContainer_title clbktx">Actividad 1.2 Las finanzas y su importancia</div>
 
-                <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                    <span class="material-icons">
-                        link
-                    </span>
-                </div>
-            </div>
-        </a>
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Las finanzas empresariales y
-        su relación con otras disciplinas (Ética, Economía, Derecho, Matemáticas, etc.)</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">3.2.1 Actividades para el análisis de requerimientos y diseño de la arquitectura del software </div>
     <div class="cardDesign clw border1Inf">
-        <section class="cardDesign_container">
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Ética</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        La <i class="keyWord">ética trata sobre lo que se considera un comportamiento humano
-                            correcto;</i> es decir, con la práctica de valores. Todo lo relacionado con las <i
-                            class="keyWord">finanzas y el manejo del dinero debe ser honesto, claro, transparente y
-                            digno de confianza.</i>
-                    </p>
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            Posterior al levantamiento y documentación de los requerimientos la etapa que sigue es el análisis de los requerimientos del software.<br>
+
+            El análisis de requerimientos es una tarea en la que tienes que aplicar una serie de técnicas que te permitan el desglose y el análisis 
+            de los requisitos y sus partes, dentro de estas técnicas podemos mencionar el modelado de procesos, el modelado de dominio, 
+            el caso de uso, las inspecciones, las listas de chequeo y los prototipos.<br>
+
+            De acuerdo con (PMOInformatica, 2016) te presentaremos 8 Técnicas para analizar requerimientos de software.<br>
+
+            Es importante que tengas presente que las técnicas de análisis de requerimientos que a continuación se te presentan se desprenden 
+            de la especificación de requisitos del proyecto<br>
+
+        </p>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">1.	Descomposición funcional.</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <div class="shadow2 border1 clgreyl1 simpleCardText">
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" >
+                        <li>Esta técnica hace referencia al proceso donde tendrás que identificar y resolver las relaciones funcionales en sus partes que lo integran, 
+                            de tal manera que la función general pueda ser reconstruida a partir de sus partes.</li>
+                        <li>Aplicado a la Ingeniería de requisitos, radica en tomar los requerimientos de software, seccionarlos en partes y analizarlos individualmente. 
+                            Si consideras oportuno podrás fraccionarlos en más partes hasta logres un nivel adecuado de detalle.</li>
+                        <li>
+                            El propósito es dividir un sistema de tal forma que cada componente se pueda describir sin necesidad de referir a otro componente.
+                        </li>
+                        <li>
+                            De esta forma, cada parte del sistema tendrá funciones independientes, que pueden reusarse y reemplazarse.
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Economía</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        La <i class="keyWord">economía es la ciencia que se centra en la satisfacción de las necesidades
-                            humanas,</i> así como en la <i class="keyWord">generación y administración de la riqueza por
-                            lo que tiene una relación estrecha con las finanzas.</i>
-                    </p>
-                </div>
+        </div><br>
+        
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">2. Especificación vía sentencias textuales</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+                    Es la manera tradicional de cómo se usan la especificación de requerimientos de software.<br><br>
+
+                    Se emplean especificaciones textuales en lenguaje natural, las cuales se deben documentan utilizando matrices de trazabilidad 
+                    de requerimientos o definiciones del alcance.<br><br>
+
+                    El procedimiento consiste en que ocupes el requerimiento, resultado del levantamiento de información, para que desarrolles 
+                    una narrativa lo más detallada posible.<br><br>
+
+                    No es recomendable que uses herramientas visuales como los flujogramas o estructura como los casos de uso, simplemente debes 
+                    hacer una descripción lo más detallada que puedas del requerimiento utilizando lenguaje natural.
+
+                </p>
             </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Derecho</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        El <i class="keyWord">Derecho a través de diferentes leyes regula las actividades financieras y
-                            de no acatarse y/o cumplirse dichas leyes hay sanciones en materia legal.</i>
-                    </p>
-                </div>
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">3. Modelo del proceso </div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+                    Para que desarrolles esta técnica es importante que consideres loa siguientes aspectos: A partir de los requerimientos del 
+                    software deberás crear los diagramas de flujo del proceso (Flujogramas).<br><br>
+
+                    Debes tomar en cuenta que existen una gran variedad de herramientas de modelado de procesos, y que cada de ellas cuenta 
+                    con su propia simbología y reglas.<br><br>
+
+                    Te será de mucha utilidad para entender el proceso que se realiza en diversos pasos, tareas, roles y departamentos o 
+                    áreas que intervienen.<br><br>
+
+                    La visualización del flujograma te ayudara para que tengas una mejor comunicación con terceros y al mismo tiempo ellos tengan 
+                    una mejor comprensión.<br><br>
+                    Cuando tengas procesos muy grandes o complejos, debes desglosarlos en componentes más pequeños (subprocesos).
+
+                </p>
             </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Matemáticas</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Las matemáticas están tan estrechamente ligadas con las finanzas que incluso ha surgido <i
-                            class="keyWord">el término matemáticas financieras en las que se utilizan la aritmética y el
-                            álgebra en temas como valor presente, valor futuro, costo de capital y tasas de interés,</i>
-                        por mencionar algunos.
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">4. Modelo de dominio</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+                    Para la Ingeniería de software, el análisis de dominio consiste en analizar sistemas o software relacionados en un dominio, 
+                    con el propósito de que encuentres sus partes comunes y sus partes que los diferencian.<br><br>
+
+                    Tendrás que producir un modelo de contexto de negocio para todo el sistema.<br><br>
+
+                    Debes tomar en cuenta que un modelo de dominio debe incluir diagramas conceptuales que contemplen tanto el comportamiento 
+                    de un sistema como el de sus datos.<br><br>
+
+                    Dentro de modelo de dominio encontraras los diagramas de funcionalidades (Features Diagrams), los cuales son una 
+                    representación “compacta” del sistema o aplicación en términos de sus características.<br><br>
+
+                    El análisis de dominio te debe producir modelos orientados a objetos o modelos relacionales de datos, que pueden ser 
+                    usados por los desarrolladores de software como base de arquitecturas de software y aplicaciones.
+
                     </p>
-                </div>
             </div>
-        </section>
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">5. Casos de Uso</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+                    Para el Lenguaje de Modelado Unificado (UML), un caso de uso es una secuencia de interacciones entre un sistema y alguien o 
+                    algo que usa alguno de sus servicios.<br><br>
+
+                    En el ámbito profesional y académico, es una de las técnicas de mayor difusión para especificar el comportamiento del Sistema.<br><br>
+
+                    Esta técnica te proporcionara un formato simple y estructurado el cual lo podrás compartido entre usuarios y desarrolladores.<br><br>
+
+                    Además de que lo puedes usar para analizar los requerimientos de software, también puedes usarlo en el diseño del sistema e 
+                    inclusive para definir pruebas de caja negra (Testing).<br><br>
+
+                    Los diagramas de casos de uso los podrás utilizar en sistemas informáticos orientados a la funcionalidad (transacciones con 
+                    el usuario), que se van a implementar orientados a objetos y con UML.<br><br>
+
+                    No son la mejor opción en sistemas sin usuarios, o dominados fundamentalmente por requerimientos no funcionales.
+
+                </p>
+            </div>
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">6. Checklists</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+                    La lista de chequeo (Checklist) se basa en que tienes que elaborar una serie de preguntas o revisiones  sobre los requerimientos 
+                    de software, que no son presentados de forma escrita.<br><br>
+
+                    Una lista de chequeo la puedes realizar haciendo preguntas como:<br>
+
+                    ¿Se han especificado los requisitos de hardware y software?<br>
+                    ¿Se han realizado consideraciones de seguridad?<br>
+                    ¿El nivel de granularidad del requerimiento se ha incluido?<br>
+                    ¿Se ha incluido el código de referencia en para identificar el requisito en el desglose de requerimientos?<br>
+                    ¿Está escrito el requerimiento en un lenguaje claro y conciso?<br>
+                    ¿El requerimiento es único? (no existe duplicidad con otro requerimiento).<br><br>
+
+                    Y muchas preguntas más.<br><br>
+
+                    La lista de chequeo te servirá como marco de trabajo y procedimental para revisar el requerimiento, facilitándote su análisis 
+                    de forma estructurada.<br><br>
+
+                    Los requerimientos los puedes revisar utilizando la matriz de trazabilidad de requerimientos o sobre la definición del alcance.<br><br>
+
+                </p>
+            </div>
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">7. Inspección</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+                    Con esta técnica podrás hacer una revisión crítica no destructiva sobre los requerimientos de software. Por ejemplo:<br><br>
+
+                    Puedes hacer una inspección visual de un software para verificar que las pantallas requeridas se encuentran incluidas.<br><br>
+
+                    Puedes examinar y verificar que los campos necesarios para el ingreso de datos estén incluidos <br><br>
+
+                    Puedes verificar que los botones necesarios para iniciar la funcionalidad que ha sido requerida se hayan contemplado.<br><br>
+
+                    Puedes comprobar que el requerimiento se apega a los estándares definidos para la aplicación. Por ejemplo estándares de 
+                    navegación entre pantallas y estándares de interfaz gráfica.<br><br>
+
+                    De modo similar al uso de la lista de chequeo, la inspección consiste en que debes tomar el requerimiento definido en la matriz 
+                    de trazabilidad o definición de alcance, leerlo y producir un resultado para su corrección.<br>
+
+                </p>
+            </div>
+        </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">8. Prototipos</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+                    El prototipado o maquetado consiste en que elabores representaciones visuales (interfaz gráfica con el usuario) de 
+                    los requerimientos de software.<br><br>
+
+                    El prototipo se convierte en una herramienta muy útil y barata que además la puedes  validar con los usuarios, clientes e 
+                    interesados de proyecto, podrás mostrar a los interesados del proyecto  que el diseño funcional corresponde a los 
+                    requerimientos de software.<br><br>
+
+                    Esta técnica le permitirá a los desarrolladores y usuarios entender mejor los requerimientos, determinar cuáles son 
+                    indispensables y cuales deseables, e identificar riesgos de forma temprana.<br><br>
+
+                    El prototipo lo puedes enfocar en toda la solución o sólo en áreas específicas.<br><br>
+
+                    La construcción de prototipos ayuda para tener  iteraciones entre desarrolladores y usuarios, en los cuales deberás  
+                    elaborar varias versiones y someterlas a evaluación del cliente obteniendo posibles mejoras.
+                    
+                </p>
+            </div>
+        </div><br>
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
