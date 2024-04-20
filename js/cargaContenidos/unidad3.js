@@ -1160,191 +1160,361 @@ const contenidosUnidad = [
     </div>
 </div>`,
 `<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.4. Factores del micro y macro
-        ambiente que impactan a la empresa y a sus finanzas</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">3.2.2 Actividades para la programación</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-            La <i class="keyWord">empresa es un sistema abierto porque tiene elementos interrelacionados entre sí y con
-                el entorno;</i> es decir no existe en forma aislada, sino que interactúa con su entorno existiendo un
-            impacto bidireccional. <i class="keyWord">El entorno se conforma por el micro y macro ambiente.</i>
+            La programación de software se ha convertido en una tarea esencial en la era digital actual. Nos permíteme entender cómo ha cambiado 
+            la manera en que interactuamos con el mundo a nuestro alrededor.<br><br>
+
+            La programación de software podemos describirla como el proceso mediante el cual se desarrollan programas informáticos utilizando 
+            lenguajes de programación. Estos programas pueden ser de diferentes tipos, como aplicaciones móviles, programas de escritorio, 
+            páginas web, entre otros. El objetivo principal es crear soluciones informáticas que permitan automatizar procesos, mejorar la 
+            eficiencia en el trabajo y facilitar tareas cotidianas.<br><br>
+
+            ¿Cómo funciona?<br><br>
+
+            Escritura del código: Los programadores utilizan lenguajes como Java, Python, o C# para escribir el código que dará vida al software.<br><br>
+
+            Compilación: El código escrito se transforma en un lenguaje de máquina comprensible por el ordenador. Así, el software se convierte 
+            en un archivo ejecutable que puede instalarse en cualquier dispositivo.<br><br>
+
+            ¿Qué puede hacer un programador de software? Un programador de software es un profesional que: <br><br>
+
+            Desarrolla, diseña y mantiene aplicaciones informáticas.<br><br>
+
+            Comprende los requisitos del cliente y crea código que cumpla con esas especificaciones.<br><br>
+
+            Prueba y depura programas para garantizar su correcto funcionamiento.
         </p>
-
-        <div class="imagenDefaultContainer">
-            <p class="titleImageMine">Figura 1.4 Macroentorno y microentorno</p>
-            <div class="imageZoomedContainer">
-                <img class="materialboxed shadow2 border3 imageZoomed"
-                    data-caption="Aspectos del macroentorno y microentorno" src="img/entornos.png">
-            </div>
-            <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-        </div>
-
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer cl1 white-text border1Sup">Microentorno</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                    Representado por elementos que <i class="keyWord">tienen relación directa con la empresa e influyen
-                        en ella,</i> como por ejemplo: <i class="keyWord">proveedores, clientes, competidores, entidades
-                        financieras, comunidad y alcaldías o municipios.</i>
-                </p>
-            </div>
-        </div>
-        <br>
-        <section class="cardDesign_container">
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Proveedores</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Son las entidades que <i class="keyWord">venden bienes o prestan servicios a la empresa.</i> Por
-                        ejemplo: <i class="keyWord">materia prima, equipo de cómputo, mobiliario y equipo de oficina,
-                            servicios de internet, servicios de mantenimiento, etc.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Clientes</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Son quienes <i class="keyWord">compran bienes o adquieren servicios de la empresa.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Competidores</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        <i class="keyWord">Ofrecen el mismo producto o productos sustitutos</i> (cubren la misma
-                        necesidad, aunque no son idénticos).
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Entidades financieras</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Las <i class="keyWord">entidades financieras más comunes son los bancos, estos son una fuente de
-                            financiamiento importante, prestan dinero y a cambio cobran una tasa de interés.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Comunidad</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        La <i class="keyWord">comunidad en la que se inserta la empresa tiene ciertas
-                            características,</i> tales como: <i class="keyWord">ideología, costumbres, inquietud por el
-                            medio ambiente y en general un estilo de vida.</i> Dichos aspectos definitivamente influyen
-                        en la empresa.
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Alcaldías y municipios</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Las empresas <i class="keyWord">al realizar algunos trámites y permisos tienen relación con las
-                            alcaldías o municipios.</i> Por ejemplo: trámite de uso de suelo y permisos de apertura, por
-                        mencionar algunos.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <br>
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer colorCardTitleContent white-text border1Sup">Macroentorno</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                    Conformado por todos aquellos factores que tienen una gran influencia en la empresa, como por
-                    ejemplo: <i class="keyWord">económicos, tecnológicos, político-legales, demográficos, socio
-                        culturales y medioambientales.</i>
-                </p>
-            </div>
-        </div>
-        <br>
-        <section class="cardDesign_container">
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Económicos</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        <i class="keyWord">La inflación, las tasas de interés, y el tipo de cambio,</i> entre otros, son
-                        factores que <i class="keyWord">inciden en los costos y por tanto en el precio y en el resultado
-                            de la empresa.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Tecnológicos</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Las <i class="keyWord">nuevas tecnologías no solo facilitan y/o automatizan el trabajo, también
-                            abren nuevas oportunidades de negocio.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Político-legales</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        <i class="keyWord">Las iniciativas, la legislación y en general las decisiones del gobierno
-                            afectan a las empresas.</i> <br><br> Por ejemplo: en materia laboral, impuestos e inversión
-                        extranjera, por mencionar algunos.
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Demográficos</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        La <i class="keyWord">información sobre la población,</i> como por ejemplo: <i
-                            class="keyWord">edad, cantidad de hombres y de mujeres, nivel de ingresos, nivel
-                            socioeconómico,</i> entre otros, son datos en los que las empresas <i
-                            class="keyWord">podrían apoyarse para identificar ¿qué vender? ¿a quién vender? y ¿dónde se
-                            localizan los clientes?,</i> entre otras interrogantes.
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Socio culturales</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Corresponde a los <i class="keyWord">estilos de vida, costumbres, hábitos alimenticios, religión
-                            y demás aspectos que condicionan el comportamiento de las personas.</i>
-                    </p>
-                </div>
-            </div>
-            <div class="shadow2 border1 clgreyl1">
-                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Medioambientales</div>
-                <div class="cardDesign clgreyl1 border1Inf">
-                    <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                        Hoy día existe una <i class="keyWord">preocupación mundial por minimizar el impacto medio
-                            ambiental, lo que supone un esfuerzo y un costo para las empresas.</i> Existen leyes que
-                        regulan aspectos ambientales y quienes no las cumplan son acreedores a sanciones.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <br>
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            Es momento de aplicar lo que has aprendido en esta unidad temática, realiza la siguiente actividad de
-            aprendizaje:
-        </blockquote>
-
-        <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf"
-            target="_blank">
-            <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                <div class="linkToResourceContainer_title clbktx">Actividad 1.3 La empresa, sus finanzas y su relación
-                    con el entorno</div>
-
-                <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                    <span class="material-icons">
-                        link
-                    </span>
-                </div>
-            </div>
-        </a>
+    </div>
     </div>
 </div>`,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">3.2.3 Actividades para las pruebas e implementación</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            Las pruebas e implementación del software son dos procesos importantes que te servirán para asegurar la calidad y el funcionamiento de 
+            un producto o aplicación de software.<br><br>
+
+            La <b>prueba de software</b> las podemos definir como el proceso de evaluar y verificar que un producto o aplicación de software hace lo que 
+            se supone que debe hacer. Los beneficios de las pruebas incluyen entre otras cosas:  la prevención de errores, la reducción de los 
+            costos de desarrollo y la mejora del rendimiento.<br><br>
+
+            Existen varios tipos diferentes de pruebas de software, cada una con objetivos y estrategias específicos, estas son algunas de las 
+            actividades que se realizan en cada proceso:<br><br>
+            
+            Planificación de pruebas: Tendrás que definir el alcance de las pruebas, los casos de prueba, los criterios de aceptación y 
+            los recursos necesarios para llevar a cabo las pruebas de manera efectiva. 
+        </p>
+        <div class="cardDesign clw border1Inf">
+            <section class="cardDesign_container">
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Pruebas unitarias</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Es importante que verifiques que cada componente individual del software funcione como se espera, para ello hay que 
+                            realizar la escritura y ejecución de pruebas automatizadas para cada unidad de código.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Pruebas de integración</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Debes probar la interacción entre diferentes componentes del software y así asegurarte de que funcionen juntos 
+                            correctamente. Esto puede incluir pruebas de interfaz, pruebas de comunicación entre sistemas y pruebas 
+                            de flujo de datos.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Pruebas de sistema</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Estas pruebas son medulares para que verifiques que el sistema completo cumpla con los requisitos funcionales y 
+                            no funcionales especificados. Esto implica probar todas las funcionalidades del software que simule el entorno 
+                            de producción.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Pruebas de aceptación del usuario (UAT)</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Permitirán a los usuarios finales probar el software en un entorno controlado para verificar que cumple con sus 
+                            necesidades y expectativas. Esto puede incluir la participación de los usuarios en la revisión de requisitos y 
+                            la validación de las características implementadas.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Pruebas de regresión</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Después de realizar cambios en el software, se vuelven a ejecutar pruebas para asegurarse de que no se hayan 
+                            introducido nuevos errores y de que las funcionalidades existentes aún funcionen como se esperaba.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Pruebas de rendimiento</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Te servirán para evaluar el rendimiento del software bajo diferentes condiciones de carga, como el número de 
+                            usuarios simultáneos, el volumen de datos y la frecuencia de las transacciones.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Pruebas de seguridad</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Estas pruebas te servirán para identificar y abordar posibles vulnerabilidades de seguridad en el software, como 
+                            vulnerabilidades de inyección de SQL, ataques de cross-site scripting (XSS) o vulnerabilidades de control de acceso.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Implementación del software</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            En la implementación empezamos con el resultado del diseño e implementamos el sistema en término de componentes, es decir, 
+                            ficheros de código fuente, scripts, ficheros de código binario, ejecutables y similares.<br><br>
+
+                            La implementación es el centro durante las iteraciones de construcción, aunque también se lleva a cabo trabajo 
+                            de implementación durante la fase de elaboración, para crear la línea base ejecutable de la arquitectura, y durante 
+                            la fase de transición para tratar defectos tardíos.<br><br>
+
+                            En este flujo de trabajo se implementan las clases y objetos en ficheros fuente, binarios, ejecutables y demás. Además, 
+                            se deben hacer las pruebas de unidad, es decir, cada implementador es responsable de probar las unidades que produzca. 
+                            El resultado final de este flujo de trabajo es un sistema ejecutable.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Planificación de implementación</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Establecer un plan detallado para desplegar el software en el entorno de producción. Esto puede incluir la preparación 
+                            de los servidores, la configuración del software y la coordinación de la implementación con otros equipos o departamentos.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Despliegue del software</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Instalar y configurar el software en el entorno de producción de acuerdo con el plan de implementación establecido. 
+                            Esto puede incluir la migración de datos, la configuración de servidores y la integración con otros sistemas existentes
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Pruebas post-implementación</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Verificar que el software se haya desplegado correctamente y que funcione según lo esperado en el entorno de producción. 
+                            Esto puede incluir pruebas de integración final, pruebas de usuario final y monitoreo del rendimiento del sistema.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Capacitación de usuarios</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Proporcionar capacitación a los usuarios finales del software para asegurarse de que sepan cómo utilizarlo de manera 
+                            efectiva y aprovechar al máximo sus funcionalidades.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Soporte post-implementación</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Proporcionar soporte continuo a los usuarios finales para ayudarlos a resolver problemas, responder preguntas, proporcionar actualizaciones y 
+                            mejoras según sea necesario.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Monitoreo y mantenimiento continuo</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Establecer herramientas y procesos para monitorear el rendimiento y la disponibilidad del software en el entorno de producción, así como para abordar cualquier problema 
+                            que surja de manera oportuna.
+                        </p>
+                    </div>
+                </div>
+
+
+            </section><br>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                Estas actividades son fundamentales para garantizar que el software cumpla con los requisitos y expectativas del cliente y que 
+                se implemente de manera exitosa y sin problemas en el entorno de producción.
+            </p>
+        </div>
+    </div>
+    </div>
+</div>`
+,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">3.5.4 Implementación y pruebas</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+
+        </p>
+    </div>
+    </div>
+</div>`
+,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">3.2.5 Documentación</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            La documentación de software juega un papel imprescindible en el ciclo de vida del desarrollo de un programa. Te ayudará a entender 
+            de manera sencilla los programas y procesos, y con esto podrás evitar que el conocimiento se pierda. Visualicemos algunos 
+            aspectos clave:<br><br>
+
+            Te has preguntado ¿Qué es la documentación de software? Pues te vamos a decir que cuando hablamos de la documentación de software 
+            nos vamos a referir a la información orientada a la descripción del sistema o producto para quienes se encargan de desarrollarlo, 
+            implementarlo y utilizarlo. Incluye manuales, funciones de ayuda, versiones en línea y más. Además, te permitirá comprender el 
+            producto, su interfaz, capacidades y propiedades.<br><br>
+
+            A continuación te mencionaremos algunas de las características que debe tener la documentación de software:<br><br>
+            
+        </p>
+        <div class="shadow2 border1 clgreyl1 simpleCardText">
+            <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                <li>Describe el producto tecnológico y los procesos de creación.</li>
+                <li>Registra el proceso de desarrollo del sistema.</li>
+                <li>Ayuda en la solución de problemas.</li>
+                <li>Debe ser lo suficientemente detallada para facilitar su uso por parte de los usuarios finales y el equipo de desarrollo y soporte.</li>
+            </ul>
+        </div><br>
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            Tipos de documentación de software:
+        </p>
+        <div class="cardDesign clw border1Inf">
+            <section class="cardDesign_container">
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Requisitos</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Identifica atributos, capacidades y características del sistema. Describe las necesidades del cliente y las funcionalidades 
+                            requeridas por el software. Esto incluye documentos como el Documento de Requisitos del Usuario (URD), el Documento de 
+                            Requisitos Funcionales (FRD) y el Documento de Requisitos Técnicos (TRD). 
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Arquitectura/Diseño</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Ofrece una visión general del software. Describe la arquitectura y el diseño del software. Puede incluir diagramas de 
+                            arquitectura, diagramas de flujo, diagramas de clases, diagramas de secuencia, entre otros. También puede incluir una 
+                            descripción detallada de los componentes del sistema y sus interacciones.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Documentación de código</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Comentarios dentro del código fuente que explican la lógica detrás de cada función, clase o sección importante. También 
+                            puede incluir guías de estilo de codificación para mantener la consistencia en el código.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Documentación técnica</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Describe aspectos técnicos del software, como la instalación, configuración, integración con otros sistemas, APIs, etc. 
+                            Esta documentación es útil para los desarrolladores que necesitan entender cómo utilizar o extender el software.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Documentación de pruebas</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Describe los casos de prueba y los resultados de las pruebas realizadas durante el desarrollo del software. Esto puede 
+                            incluir documentos como el plan de pruebas, Informes de pruebas y matrices de rastreo de requisitos a pruebas.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Documentación de despliegue y operaciones</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Describe los procedimientos para implementar, mantener y operar el software en un entorno de producción. Puede incluir 
+                            guías de instalación, configuración, monitoreo y resolución de problemas.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Documentación del usuario</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Describe cómo utilizar el software desde la perspectiva del usuario final. Puede incluir manuales de usuario, tutoriales, 
+                            guías de inicio rápido, preguntas frecuentes, entre otros.
+                        </p>
+                    </div>
+                </div>
+                <div class="shadow2 border1 clgreyl1">
+                    <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Documentación de mantenimiento</div>
+                    <div class="cardDesign clgreyl1 border1Inf">
+                        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            Describe cómo mantener y actualizar el software a lo largo del tiempo. Puede incluir registros de cambios, hojas 
+                            de ruta de desarrollo, políticas de versión y parches, entre otros.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div><br>
+
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+            Es importante mantener esta documentación actualizada a lo largo del ciclo de vida del software, ya que ayuda a facilitar la colaboración 
+            entre los miembros del equipo, garantiza la transferencia de conocimiento y facilita la resolución de problemas y la mejora continua 
+            del producto.<br><br>
+
+            La documentación de software es fundamental ya que te permitirá mantener la claridad y el conocimiento en el desarrollo y uso de programas. 
+        </p>
+
+    </div>
+    </div>
+</div>`
+,
+`<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">3.3 Gestión de sostenibilidad</div>
+    <div class="cardDesign clw border1Inf">
+        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+            La gestión de sostenibilidad en el desarrollo del software la puedes considerar como el proceso de diseñar, construir y ejecutar 
+            aplicaciones de software que minimicen el impacto ambiental, social y económico de la tecnología. El software sostenible busca 
+            reducir el consumo de energía, las emisiones de gases de efecto invernadero, los residuos electrónicos y otros factores que afectan 
+            negativamente al planeta y a las personas. <br><br>
+            
+            Para que logres este objetivo, puedes aplicar diferentes principios y buenas prácticas de la ingeniería de software sostenible, 
+            tales como:<br><br>
+
+            Considerar la sostenibilidad desde el inicio del ciclo de vida del software, incluyendo los requisitos, el diseño, la implementación, 
+            las pruebas y el mantenimiento.<br><br>
+            
+            Utilizar herramientas y metodologías que faciliten la medición, el análisis y la optimización del desempeño ambiental, social y 
+            económico del software. <br><br>
+
+            Adoptar estándares y normativas internacionales que promuevan la transparencia y la responsabilidad social en 
+            el desarrollo del software. <br><br>
+
+            Incorporar la participación y el feedback de los usuarios y los grupos de interés en el proceso de desarrollo, para asegurar que 
+            el software satisfaga sus necesidades y expectativas. 
+
+        </p>
+    </div>
+</div>`
+
+,
 `<section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Material de apoyo</div>
     <section class="gridActividadesAprendizaje">
