@@ -407,11 +407,111 @@ const contenidosUnidad = [
                 </ol>
             </div>
             <br>
+            <div class="shadow2 border1 clw">
+                <!-- Tabla: Entradas de Efectivo -->
+                <table class="striped highlight responsive-table clw border1 shadow2">
+                    <thead>
+                        <tr>
+                            <th class="clbktx textoStandarTable"><b>Concepto</b></th>
+                            <th class="clbktx textoStandarTable"><b>Proyección 2024</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="textoStandarTable">Ventas en Efectivo</td>
+                            <td class="textoStandarTable">$150,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Cobros de Cuentas por Cobrar</td>
+                            <td class="textoStandarTable">$200,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Otros Ingresos</td>
+                            <td class="textoStandarTable">$20,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable"><b>Total Entradas de Efectivo</b></td>
+                            <td class="textoStandarTable"><b>$370,000</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <div class="shadow2 border1 clw">
+    
+                <!-- Tabla: Salidas de Efectivo -->
+                <table class="striped highlight responsive-table clw border1 shadow2">
+                    <thead>
+                        <tr>
+                            <th class="clbktx textoStandarTable"><b>Concepto</b></th>
+                            <th class="clbktx textoStandarTable"><b>Proyección 2024</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="textoStandarTable">Compras en Efectivo</td>
+                            <td class="textoStandarTable">$100,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Pagos de Cuentas por Pagar</td>
+                            <td class="textoStandarTable">$120,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Gastos Operativos</td>
+                            <td class="textoStandarTable">$80,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Gastos de Capital</td>
+                            <td class="textoStandarTable">$50,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Pagos de Deuda</td>
+                            <td class="textoStandarTable">$30,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Impuestos</td>
+                            <td class="textoStandarTable">$20,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable"><b>Total Salidas de Efectivo</b></td>
+                            <td class="textoStandarTable"><b>$400,000</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <div class="shadow2 border1 clw">
+                <!-- Tabla: Flujo Neto de Efectivo -->
+                <table class="striped highlight responsive-table clw border1 shadow2">
+                    <thead>
+                        <tr>
+                            <th class="clbktx textoStandarTable"><b>Concepto</b></th>
+                            <th class="clbktx textoStandarTable"><b>Proyección 2024</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="textoStandarTable">Total Entradas de Efectivo</td>
+                            <td class="textoStandarTable">$370,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable">Total Salidas de Efectivo</td>
+                            <td class="textoStandarTable">$400,000</td>
+                        </tr>
+                        <tr>
+                            <td class="textoStandarTable"><b>Flujo Neto de Efectivo</b></td>
+                            <td class="textoStandarTable"><b>-$30,000</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
             <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
                 En este ejemplo, la empresa proyecta un flujo neto de efectivo negativo de $30,000 para el año 2024. Esto indica que las salidas de efectivo superan las entradas, lo que podría sugerir la necesidad de financiamiento adicional o ajustes en las operaciones (Brealey, 2020).
             </blockquote>
         </div>
     </div>
+    
     `,
     `<div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
