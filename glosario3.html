@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" id="generalDocument">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Glosario</title>
+    <link rel="shortcut icon" href="img/ipn.ico" type="image/x-icon">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/scss/addsOn/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/scss/styles.css">
+    <link rel="stylesheet" href="css/scss/addsOn/driver.min.css">
+
+    <!--Colors-->
+    <link id="colorAdaptable" rel="stylesheet" href="css/colors/standarColors.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/materialize.min.js"></script>
+    <script defer src="js/activateComponentsMaterialize.js"></script>
+
+    <!--Componentes inyectables-->
+    <script defer src="js/components/header.js"></script>
+    <script defer src="js/components/footer.js"></script>
+
+    <!--Scripts propios-->
+    <script defer src="js/configuraciones/modoLuz.js"></script>
+    <script defer src="js/configuraciones/modoLectura.js"></script>
+    <script defer src="js/loading/loadingGlosario.js"></script>
+    <script defer src="js/browserStyle.js"></script>
+    <script defer src="js/buscador.js"></script>
+    <script defer src="js/noCopy.js"></script>
+
+</head>
+
+<body class="filterSepia">
+
+    <section>
+        <!--Navbar superior-->
+        <div class="nav-superior cl1" id="nav-superior"></div>
+        <!--Navbar principal-->
+        <nav>
+            <div class="nav-wrapper cl2">
+                <a href="unidad2.html" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i
+                        class="material-icons">arrow_back</i></a>
+                <a class="brand-logo titleUnity">Glosario</a>
+            </div>
+        </nav>
+    </section>
+
+    <section class="browserContainer col s12 clw">
+        <div class="browserContainer-inputContainer" id="browserContainer-inputContainer">
+            <div id="buttonBrowser"
+                class="buttonBrowserOwn waves-effect waves-light white-text material-icons cl5 shadow2">
+                search</div>
+            <input id="inputBrowser" type="text" onkeyup="buscar_concepto()"
+                class="browserContainer-inputContainer-input browser-default shadow2 clgreyl1 clbktx">
+        </div>
+
+        <div class="browserContainer-conceptsContainer readyContentScreen" id="parentConceptsGlosario">
+  
+            <!--unidad 2-->
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Innovación</p>
+                <p class="textoStandar clbktx">
+                    Transformar una oportunidad de mejora en valor mediante cambios en un sistema de referencia. Puede ser en productos, procesos o métodos de organización, con el fin de generar ventajas competitivas sostenibles en el mercado.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Design Thinking</p>
+                <p class="textoStandar clbktx">
+                    Metodología de innovación creada por la empresa IDEO en los años 70. Consiste en un proceso iterativo que consta de 5 
+                    fases, combinando procesos divergentes y convergentes para explorar, ampliar la visión de los retos y soluciones, y 
+                    seleccionar las mejores ideas. Se centra en el usuario y sus necesidades, y se aplica en el diseño de productos, servicios y modelos de negocio.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Empatizar/Descubrir</p>
+                <p class="textoStandar clbktx">Primera fase del Design Thinking donde se busca comprender el problema, las necesidades y el contexto de los usuarios involucrados en la solución. Se utilizan técnicas como la observación y la encuesta para recopilar información valiosa y crear un vínculo estrecho con los usuarios.</p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Definir</p>
+                <p class="textoStandar clbktx">
+                    Segunda fase del Design Thinking donde se depura la información obtenida en la fase de empatizar/descubrir para identificar y definir las necesidades tanto emocionales como físicas de los usuarios. Se buscan revelaciones ("insights") que contribuyan
+                     a generar nuevos planteamientos y se define claramente el problema, sirviendo como punto de referencia común para el equipo.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Idear</p>
+                <p class="textoStandar clbktx">
+                    Tercera fase del Design Thinking donde se generan múltiples ideas creativas y diferentes para desarrollar soluciones ante un problema. Se utilizan técnicas de creatividad como el brainstorming, SCAMPER y Da Vinci para explorar diversas 
+                    posibilidades de solución.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Prototipar</p>
+                <p class="textoStandar clbktx">
+                    Cuarta fase del Design Thinking donde las ideas se convierten en tangibles mediante la construcción de prototipos o escenarios. 
+                    Estos prototipos permiten visualizar y manipular las posibles soluciones, identificando aspectos a mejorar antes de obtener 
+                    el resultado final.
+                </p>
+            </div>
+
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Testeo (Validar)</p>
+                <p class="textoStandar clbktx">
+                    Quinta fase del Design Thinking donde se presenta el prototipo a los usuarios para recoger sus opiniones y realizar ajustes. 
+                    El objetivo es obtener nuevas ideas para mejorar a partir de críticas constructivas y dudas, lo que permite desarrollar 
+                    colaborativamente la solución y presentar diversas mejoras al prototipo.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Integración del Proyecto</p>
+                <p class="textoStandar clbktx">
+                    Actividad que coordina y unifica los procesos del proyecto, asegurando que las actividades estén alineadas con los objetivos generales.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Gestión de Adquisiciones</p>
+                <p class="textoStandar clbktx">
+                    Proceso que implica la compra de productos o servicios necesarios para un proyecto, incluyendo la selección de proveedores y la negociación de contratos.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Riesgos del Proyecto</p>
+                <p class="textoStandar clbktx">
+                    Eventos o condiciones inciertas que pueden tener un impacto positivo o negativo en los objetivos del proyecto.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Gestión de los Interesados</p>
+                <p class="textoStandar clbktx">
+                    Identificación y gestión de las expectativas y necesidades de las personas o grupos que pueden afectar o ser afectados por el proyecto.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Modelo de Proceso</p>
+                <p class="textoStandar clbktx">
+                    Herramienta visual que representa el flujo de trabajo o secuencia de actividades de un proyecto.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Casos de Uso</p>
+                <p class="textoStandar clbktx">
+                    Técnica para capturar y describir las interacciones entre los usuarios y un sistema, generalmente representados en diagramas UML.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Descomposición Funcional</p>
+                <p class="textoStandar clbktx">
+                    Técnica para desglosar los procesos o sistemas en componentes más pequeños y manejables.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Checklist (Lista de Verificación)</p>
+                <p class="textoStandar clbktx">
+                    Conjunto de preguntas o criterios utilizados para revisar y asegurar que los requisitos de un proyecto o software se han cumplido.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Inspección de Software</p>
+                <p class="textoStandar clbktx">
+                    Técnica de revisión crítica para evaluar la conformidad de un software con los estándares o especificaciones definidas.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Pruebas Unitarias</p>
+                <p class="textoStandar clbktx">
+                    Evaluaciones realizadas a componentes individuales del software para verificar su correcto funcionamiento.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Pruebas de Integración</p>
+                <p class="textoStandar clbktx">
+                    Validación de la interacción entre diferentes componentes del software para asegurar que trabajan de manera conjunta y correcta.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Pruebas de Aceptación del Usuario (UAT)</p>
+                <p class="textoStandar clbktx">
+                    Proceso en el cual los usuarios finales prueban el software para verificar si cumple con sus expectativas y necesidades.
+                </p>
+            </div>
+
+            <div identificador_select="u3" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Gestión de Sostenibilidad del Software</p>
+                <p class="textoStandar clbktx">
+                    Proceso de desarrollo y operación de software con un enfoque en minimizar el impacto ambiental, social y económico.
+                </p>
+            </div>
+
+            <!-- Existing No Results Content -->
+            <div class="conceptCard clgreyl1 shadow3 border2" id="noResultContent" style="display: none;">
+                <p class="textoTitulo clbktx">No hay resultados</p>
+                <div class="defaultImage">
+                    <div class="defaultImageContent" id="notFound"></div>
+                </div>
+                <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+                        href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+                        href="https://icons8.com/illustrations/">Ouch!</a></span>
+            </div>
+        </div>
+
+        <!--Contenido de carga de la página-->
+        <section class="loadContentScreen"></section>
+
+    </section>
+
+    <!--Boton para acceder a la página de analítica-->
+    <a href="glosario_repaso.html" data-target="slide-out"
+        class="border5 cl3 shadow2 white-text waves-effect waves-light buttonMenuMobile">
+        <i class="material-icons">style</i>
+    </a>
+
+    <!--Inyectamos componente de footer-->
+    <section id="footerListener"></section>
+
+
+
+</body>
+
+</html>

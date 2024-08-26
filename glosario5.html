@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" id="generalDocument">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Glosario</title>
+    <link rel="shortcut icon" href="img/ipn.ico" type="image/x-icon">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/scss/addsOn/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/scss/styles.css">
+    <link rel="stylesheet" href="css/scss/addsOn/driver.min.css">
+
+    <!--Colors-->
+    <link id="colorAdaptable" rel="stylesheet" href="css/colors/standarColors.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/materialize.min.js"></script>
+    <script defer src="js/activateComponentsMaterialize.js"></script>
+
+    <!--Componentes inyectables-->
+    <script defer src="js/components/header.js"></script>
+    <script defer src="js/components/footer.js"></script>
+
+    <!--Scripts propios-->
+    <script defer src="js/configuraciones/modoLuz.js"></script>
+    <script defer src="js/configuraciones/modoLectura.js"></script>
+    <script defer src="js/loading/loadingGlosario.js"></script>
+    <script defer src="js/browserStyle.js"></script>
+    <script defer src="js/buscador.js"></script>
+    <script defer src="js/noCopy.js"></script>
+
+</head>
+
+<body class="filterSepia">
+
+    <section>
+        <!--Navbar superior-->
+        <div class="nav-superior cl1" id="nav-superior"></div>
+        <!--Navbar principal-->
+        <nav>
+            <div class="nav-wrapper cl2">
+                <a href="unidad2.html" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i
+                        class="material-icons">arrow_back</i></a>
+                <a class="brand-logo titleUnity">Glosario</a>
+            </div>
+        </nav>
+    </section>
+
+    <section class="browserContainer col s12 clw">
+        <div class="browserContainer-inputContainer" id="browserContainer-inputContainer">
+            <div id="buttonBrowser"
+                class="buttonBrowserOwn waves-effect waves-light white-text material-icons cl5 shadow2">
+                search</div>
+            <input id="inputBrowser" type="text" onkeyup="buscar_concepto()"
+                class="browserContainer-inputContainer-input browser-default shadow2 clgreyl1 clbktx">
+        </div>
+
+        <div class="browserContainer-conceptsContainer readyContentScreen" id="parentConceptsGlosario">
+  
+            <!--unidad 2-->
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Finanzas empresariales</p>
+                <p class="textoStandar clbktx">
+                    Estudio de la gestión de recursos financieros dentro de una empresa para optimizar su uso y maximizar la rentabilidad.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Recurso Didáctico Digital (RDD)</p>
+                <p class="textoStandar clbktx">
+                    Herramienta educativa digital diseñada para apoyar el proceso de aprendizaje mediante contenidos estructurados, interactividad y accesibilidad.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Unidad de Competencia</p>
+                <p class="textoStandar clbktx">
+                    Conjunto de aprendizajes y habilidades que el estudiante debe alcanzar al concluir una unidad temática.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Metodología</p>
+                <p class="textoStandar clbktx">
+                    En el contexto del RDD, es la secuencia de actividades y recursos propuestos para facilitar el aprendizaje autónomo y guiado de los estudiantes.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Evaluación de los Aprendizajes</p>
+                <p class="textoStandar clbktx">
+                    Proceso mediante el cual se mide el grado de adquisición de competencias, conocimientos y habilidades, utilizando diferentes actividades y herramientas evaluativas.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Requerimientos Técnicos</p>
+                <p class="textoStandar clbktx">
+                    Condiciones mínimas de software y hardware necesarias para acceder y utilizar un recurso digital de manera óptima.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Estados Financieros Proforma</p>
+                <p class="textoStandar clbktx">
+                    Proyecciones financieras que estiman la situación futura de una empresa basada en presupuestos, fundamentales para la planificación financiera y la evaluación de proyectos.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Estado de Resultados Proforma</p>
+                <p class="textoStandar clbktx">
+                    Documento financiero que proyecta los ingresos, costos, gastos y utilidades de una empresa en un período futuro.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Balance General Proforma</p>
+                <p class="textoStandar clbktx">
+                    Documento financiero que proyecta la situación financiera futura de una empresa, incluyendo activos, pasivos y capital.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Estado de Flujo de Efectivo Proforma</p>
+                <p class="textoStandar clbktx">
+                    Documento financiero que proyecta las entradas y salidas de efectivo futuras para evaluar la liquidez y capacidad de pago.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Indicadores Financieros de Evaluación de Proyectos</p>
+                <p class="textoStandar clbktx">
+                    Métricas utilizadas para evaluar la viabilidad, rentabilidad y eficiencia de proyectos, como ROI, Costo-Beneficio, VPN, y TIR.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Retorno de la Inversión (ROI)</p>
+                <p class="textoStandar clbktx">
+                    Indicador que mide la ganancia o pérdida en relación con la inversión realizada.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Relación Costo-Beneficio (RCB)</p>
+                <p class="textoStandar clbktx">
+                    Técnica que compara los costos totales de un proyecto con los beneficios esperados para determinar su viabilidad.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Valor Presente Neto (VPN)</p>
+                <p class="textoStandar clbktx">
+                    Diferencia entre el valor presente de los flujos de efectivo futuros y la inversión inicial, utilizado para evaluar la rentabilidad de un proyecto.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Tasa Interna de Retorno (TIR)</p>
+                <p class="textoStandar clbktx">
+                    Tasa de descuento que hace que el VPN de un proyecto sea igual a cero, usada para evaluar su viabilidad.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Matriz de Decisión</p>
+                <p class="textoStandar clbktx">
+                    Herramienta que organiza y compara alternativas en la toma de decisiones mediante criterios, ponderación y puntuación.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Flujos Netos de Efectivo</p>
+                <p class="textoStandar clbktx">
+                    Diferencia entre las entradas y salidas de efectivo, que indica la liquidez disponible o déficit en caja.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Microentorno y Macroentorno</p>
+                <p class="textoStandar clbktx">
+                    Factores internos (microentorno) y externos (macroentorno) que influyen en el desempeño y las decisiones de una empresa.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Legislación Vigente</p>
+                <p class="textoStandar clbktx">
+                    Normas y regulaciones actuales que rigen la constitución y funcionamiento de una empresa.
+                </p>
+            </div>
+
+            <div identificador_select="u5" class="conceptCard clgreyl1 shadow3 border2">
+                <p class="textoTitulo clbktx">Administración de Recursos</p>
+                <p class="textoStandar clbktx">
+                    Gestión eficiente de recursos financieros, tecnológicos y humanos para cumplir los objetivos de una organización.
+                </p>
+            </div>
+
+            <div class="conceptCard clgreyl1 shadow3 border2" id="noResultContent" style="display: none;">
+                <p class="textoTitulo clbktx">No hay resultados</p>
+                <div class="defaultImage">
+                    <div class="defaultImageContent" id="notFound"></div>
+                </div>
+                <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+                        href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+                        href="https://icons8.com/illustrations/">Ouch!</a></span>
+            </div>
+        </div>
+
+        <!--Contenido de carga de la página-->
+        <section class="loadContentScreen"></section>
+
+    </section>
+
+    <!--Boton para acceder a la página de analítica-->
+    <a href="glosario_repaso.html" data-target="slide-out"
+        class="border5 cl3 shadow2 white-text waves-effect waves-light buttonMenuMobile">
+        <i class="material-icons">style</i>
+    </a>
+
+    <!--Inyectamos componente de footer-->
+    <section id="footerListener"></section>
+
+</body>
+
+</html>
