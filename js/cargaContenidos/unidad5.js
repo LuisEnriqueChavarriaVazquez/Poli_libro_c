@@ -228,522 +228,318 @@ const contenidosUnidad = [
           </div>
   </div>`,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1 La empresa</div>
-      <div class="cardDesign clw border1Inf">
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-          Independientemente del lugar en donde te encuentres en este momento, <i class="keyWord">mira a tu alrededor y notarás la existencia de una gran cantidad de satisfactores (bienes).</i> Estos son <i class="keyWord">producidos y/o distribuidos por diferentes empresas.</i>
-          </p>
-  
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2"> 
-              Algunas definiciones de empresa son:
-          </blockquote>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Definiciones</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                      <li><i class="keyWord">Acción de emprender una cosa</i> con un riesgo implícito (Münch, 2017).</li>
-                      <li><i class="keyWord">Unidad económica de producción dedicada a actividades industriales, mercantiles o de prestación de servicios,</i> cuyo objetivo dependerá del sistema de organización económica en que se desarrolle. En una economía de mercado, el <i class="keyWord">fin de la empresa consiste en la obtención del máximo beneficio o lucro (Graue, 2009).</i></li>
-                  </ol>
-              </div>
-          </div>
-  
-          <div class="defaultImage">
-              <div class="defaultImageContent" id="empresa"></div>
-          </div>
-          <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-          <a href="https://icons8.com/illustrations/illustration/pixeltrue-plan" target="_blank">Ouch!</a>
-          </span>
-      </div>
-  </div>`,
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
+            5.1 Integración de estados financieros proforma
+        </div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Los estados financieros proforma son estados financieros proyectados que reflejan una situación futura de la empresa basada en presupuestos; son indispensables para la planificación financiera, la evaluación de proyectos, la obtención de financiamiento y en las fusiones y adquisiciones. Dentro de los principales estados financieros proforma se encuentran (Wild, 2019):
+            </p>
+            <div class="shadow2 border1 clgreyl1">
+                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">a. Estado de resultados proforma</div>
+                <div class="cardDesign clgreyl1 border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        - Proyecta ingresos y gastos.<br>
+                        - Estima la utilidad neta futura.
+                    </p>
+                </div>
+            </div><br>
+            <div class="shadow2 border1 clgreyl1">
+                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">b. Balance general proforma</div>
+                <div class="cardDesign clgreyl1 border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        - Muestra la situación financiera futura de la empresa con base en los activos, pasivos y capital proyectados.
+                    </p>
+                </div>
+            </div><br>
+            <div class="shadow2 border1 clgreyl1">
+                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">c. Estado de flujo de efectivo proforma</div>
+                <div class="cardDesign clgreyl1 border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        - Proyecta entradas y salidas de efectivo.<br>
+                        - Permite evaluar la liquidez futura de la empresa.
+                    </p>
+                </div>
+            </div><br>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Pasos que puedes seguir para la integración de estados financieros proforma:
+            </p>
+            <div class="shadow2 border1 clgreyl1">
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="1">
+                    <li>Recolección de datos:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Obtener estados financieros históricos.</li>
+                        <li>Recolectar información sobre planes futuros, como expansiones, nuevas líneas de productos, cambios en políticas de precios, etc.</li>
+                    </ul>
+                    <li>Definición de supuestos:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Determinar las tasas de crecimiento esperadas para ingresos y gastos.</li>
+                        <li>Estimar cambios en el capital de trabajo.</li>
+                        <li>Considerar factores externos como inflación, tasas de interés y cambios en el entorno económico.</li>
+                    </ul>
+                    <li>Proyección del estado de resultados:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Proyectar ventas futuras basadas en tasas de crecimiento.</li>
+                        <li>Estimar costos y gastos relacionados.</li>
+                        <li>Calcular la utilidad neta proyectada.</li>
+                    </ul>
+                    <li>Proyección del balance general:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Proyectar activos, incluyendo efectivo, cuentas por cobrar, inventarios y activos fijos.</li>
+                        <li>Estimar pasivos como cuentas por pagar y deudas a largo plazo.</li>
+                        <li>Calcular el patrimonio proyectado basado en la utilidad neta y otras variaciones.</li>
+                    </ul>
+                    <li>Proyección del flujo de efectivo:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Estimar entradas de efectivo de operaciones, inversiones y financiamiento.</li>
+                        <li>Proyectar salidas de efectivo correspondientes.</li>
+                        <li>Evaluar la capacidad de la empresa para generar efectivo suficiente para sus necesidades futuras.</li>
+                    </ul>
+                    <li>Revisión y ajustes:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Revisar las proyecciones para asegurar su coherencia y objetividad.</li>
+                        <li>Ajustar los supuestos y proyecciones según sea necesario.</li>
+                    </ul>
+                    <li>Preparación de informes:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Preparar los estados financieros proforma en un formato claro y comprensible.</li>
+                        <li>Incluir notas explicativas que detallen los supuestos y estimaciones utilizadas.</li>
+                    </ul>
+                </ol>
+            </div>
+        </div>
+    </div>
+    `,
     `<div class="shadow4 border1 clw">
-      
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.1 Constitución jurídica</div>
-      <div class="cardDesign clw border1Inf">
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">En México de acuerdo con el Servicio de Administración Tributaria (SAT)</i> para fines fiscales existen las siguientes figuras: <i class="keyWord">personas físicas y personas morales.</i><br>
-          </p>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Persona física</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                      <i class="keyWord">"Individuo que realiza cualquier actividad económica (vendedor, comerciante, empleado, profesionista, etc.),</i> el cual tiene derechos y obligaciones" (SAT, s.f).
-                  </p>
-  
-                  <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                      En el siguiente link conoce las actividades que como persona física se pueden realizar:
-                  </blockquote>
-  
-                  <a href="https://www.sat.gob.mx/consulta/09788/emprendedor,-conoce-los-regimenes-fiscales-de-las-personas-fisicas" target="_blank">
-                      <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                          <div class="linkToResourceContainer_title clbktx">Regímenes fiscales</div>
-                          
-                          <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                              <span class="material-icons">
-                                  link
-                              </span>
-                          </div>
-                      </div>
-                  </a>
-              </div>
-          </div>
-          <br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Persona moral</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                      <i class="keyWord">"Es el conjunto de personas físicas, que se unen para la realización de un fin colectivo,</i> son entes creados por el derecho, no tienen una realidad material o corporal (no se pueden tocar como tal como en el caso de una persona física), sin embargo, la ley les otorga capacidad jurídica para tener derechos y obligaciones" (SAT, s.f).
-                      <br>
-                  </p>
-  
-                  <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                      Cabe señalar que la <i class="keyWord">persona moral es una agrupación de personas que pueden constituirse jurídicamente como sociedades o asociaciones,</i> a continuación se mencionan algunas:
-                  </blockquote>
-  
-                      <table class="table table-dark table-bordered col-7 mx-auto clw shadow2 border1">
-  
-                          <!-- <caption style="caption-side: top;" class="text-center">Tabla 1.1 Constitución jurídica de las personas morales</caption> -->
-  
-                          <thead>
-                              <tr>
-                                  <th class="clbktx textoStandarTable font-weight-bold"><b>Sociedad/Asociación:</b></th>
-                                  <!-- <th class="clbktx textoStandarTable font-weight-bold">Regulada por:</th> -->
-                              </tr>
-                          </thead>
-  
-                          <tbody style="margin: 10px;">
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad en nombre colectivo (S.N.C)</td>
-                                  <!-- <td rowspan="7" class="clbktx textoStandarTable text-center align-middle">Ley General de Sociedades Mercantiles (L.G.S.M)</td> -->
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad en comandita simpe (S.C.S)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad de responsabilidad limitada (S.R.L)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad anónima (S.A)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad en comandita por acciones (S.C.A)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad por acciones simplificada (S.A.S)</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad cooperativa</td>
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Asociación civil (A.C)</td>
-                                  <!-- <td rowspan="2" class="clbktx textoStandarTable text-center align-middle">Código Civil</td> -->
-                              </tr>
-                              <tr>
-                                  <td class="clbktx textoStandarTable">&nbsp;&nbsp;&nbsp;&nbsp;Sociedad civil (S.C)</td>
-                              </tr>
-                          </tbody>
-  
-                          <!-- <caption style="caption-side: bottom;" class="text-center">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023). Con base en la Ley General de Sociedades Mercantiles, Ley General de Sociedades Cooperativas y Código Civil.</caption> -->
-  
-                      </table>
-              </div>
-          </div><br>
-          <br>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">Es importante señalar que algunas de las sociedades antes mencionadas han caído en desuso,</i> tal es el caso de la sociedad en nombre colectivo, la sociedad en comandita simple y la sociedad en comandita por acciones.<br><br>
-              En la siguiente lectura encontrarás más información sobre las empresas y su constitución jurídica.    
-          </p>
-  
-          <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
-              <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                  <div class="linkToResourceContainer_title clbktx">Lectura</div>
-                  
-                  <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                      <span class="material-icons">
-                          link
-                      </span>
-                  </div>
-              </div>
-          </a>
-          <br>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Una vez que has estudiado los contenidos y leído la lectura anterior, realiza la siguiente actividad de aprendizaje.
-          </p>
-          <br>
-          <a href="./pdf/actividades/Actividad 1.1 La empresa y su constitucion juridica.pdf" target="_blank">
-              <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                  <div class="linkToResourceContainer_title clbktx">Actividad 1.1 La empresa y su constitución jurídica</div>
-                  
-                  <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                      <span class="material-icons">
-                          link
-                      </span>
-                  </div>
-              </div>
-          </a>
-  
-  
-      </div>
-      </div>
-  </div>`,
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
+            5.1.1 Estado de resultados
+        </div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                El estado de resultados proforma es un estado financiero proyectado que muestra las proyecciones de los ingresos, los costos, los gastos y las utilidades de una empresa en un período futuro determinado. Se construye con base en supuestos sobre eventos futuros, como el crecimiento de las ventas, cambios en los costos y las políticas financieras.
+            </p>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Pasos para elaborar un estado de resultados proforma:
+            </p>
+            <div class="shadow2 border1 clgreyl1">
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="1">
+                    <li>Recopilación de datos históricos:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Identifica tendencias y patrones de los estados de resultados de los últimos años.</li>
+                    </ul>
+                    <li>Definición de supuestos:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Establece supuestos sobre el crecimiento de las ventas, los costos de ventas, los gastos operativos, los gastos financieros, etc. Para definir estos supuestos puedes basarte en factores internos (como la capacidad de producción) y externos (como la economía y la competencia).</li>
+                    </ul>
+                    <li>Proyección de ventas:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Estima las ventas futuras basándote en las tendencias históricas, los pronósticos y los supuestos de crecimiento.</li>
+                    </ul>
+                    <li>Proyección de costos y gastos:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Estima los costos de ventas, los gastos operativos y otros gastos, basándote en las tendencias históricas y los supuestos de crecimiento.</li>
+                    </ul>
+                    <li>Cálculo de la utilidad bruta:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Al restar el costo de ventas a las ventas proyectadas obtendrás la utilidad bruta.</li>
+                    </ul>
+                    <li>Cálculo de los gastos operativos:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Estima los gastos operativos basándote en las proyecciones de costos.</li>
+                    </ul>
+                    <li>Cálculo de la utilidad operativa:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Al restar los gastos operativos de la utilidad bruta, obtendrás la utilidad operativa.</li>
+                    </ul>
+                    <li>Cálculo de los gastos financieros:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Estima los gastos financieros basándote en la deuda proyectada y las tasas de interés del financiamiento.</li>
+                    </ul>
+                    <li>Cálculo de la utilidad antes de impuestos:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Al restar los gastos financieros de la utilidad operativa, obtendrás la utilidad antes de impuestos.</li>
+                    </ul>
+                    <li>Cálculo de los impuestos:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Podrás estimar los impuestos basándote en la utilidad antes de impuestos y en la tasa impositiva proyectada.</li>
+                    </ul>
+                    <li>Cálculo de la utilidad neta:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Resta los impuestos de la utilidad antes de impuestos y así obtendrás la utilidad neta. (Robinson, 2020)</li>
+                    </ul>
+                </ol>
+            </div>
+        </div>
+    </div>
+    `,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.2 El área financiera en la estructura organizacional</div>
-      <div class="cardDesign clw border1Inf">
-          <!--Card con un ejemplo-->
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Para explicar en qué consiste <i class="keyWord">la estructura organizacional usaremos la siguiente analogía:</i> el ser <i class="keyWord">humano tiene un sistema óseo que le permite tener movimiento,</i> <i class="keyWord">un sistema respiratorio que le proporciona el oxígeno para vivir;</i> <i class="keyWord">un sistema digestivo que le suministra nutrientes;</i> <i class="keyWord">un sistema circulatorio que transporta la sangre y distribuye nutrientes;</i> <i class="keyWord">un sistema excretor que lo limpia de impurezas;</i> <i class="keyWord">un cerebro que rige el funcionamiento general del organismo; entre otros,</i> del mismo modo las organizaciones requieren de una estructura para su funcionamiento.
-          </p>
-          
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              Así como no hay dos personas iguales, <i class="keyWord">tampoco hay dos estructuras organizacionales iguales.</i> La estructura organizacional se diseña en función de las necesidades de cada organización considerando aspectos como el tamaño, el giro y el tipo de organización. <i class="keyWord">Por lo que es un hecho que entre más grande sea la empresa su organización será más robusta.</i>
-          </blockquote>
-          
-          <div class="imagenDefaultContainer">
-              <p class="titleImageMine">Figura 1.1: Ejemplo de estructura organizacional</p>
-              <div class="imageZoomedContainer">
-                  <img class="materialboxed shadow2 border3 imageZoomed"
-                      data-caption="Ejemplo de estructura organizacional" src="img/1.1.2-figura-1.png">
-              </div>
-              <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-          </div>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-          A partir de este momento, por ser el tema central de este recurso didáctico digital, <i class="keyWord">solo nos enfocaremos en el área financiera la cual se lleva a cabo mediante dos actividades importantes: Tesorería y Contraloría.</i>
-          </p><br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Tesorería</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                      Se enfoca en el <i class="keyWord">manejo de los recursos financieros.</i>
-                  </p>
-              </div>
-          </div>
-          <br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Contraloría</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                      La <i class="keyWord">contraloría es la responsable de la actividad contable, la planeación, los presupuestos y la auditoría interna,</i> mismas que se describen a continuación:
-                      <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                          <li><i class="keyWord">Contabilidad:</i> se encarga del <i class="keyWord">registro, en tiempo y forma, de todas las operaciones realizadas</i> en la organización.</li>
-                          <li><i class="keyWord">Presupuestos:</i> <i class="keyWord">planifica, coordina y evalúa todas las actividades en términos financieros, analiza y compara los gastos del presupuesto</i> anterior con el presupuesto vigente, a fin de determinar acciones para el ajuste del presupuesto de la organización.</li>
-                          <li><i class="keyWord">Auditoría:</i> se encarga de <i class="keyWord">revisar, examinar y evaluar los resultados de la gestión de una dependencia o entidad.</i></li>
-                      </ol>
-                  </p>
-              </div>
-          </div><br>
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">La organización delimita las actividades y la toma de decisiones en cada una de las áreas.</i> Cabe destacar que todas las organizaciones, independientemente de su tamaño y giro cuentan con un área financiera. Las demás áreas de la empresa <i class="keyWord">(capital humano, ventas, manufactura, marketing y sistemas, etc.)</i> están en constante comunicación con el área financiera, por ejemplo, para justificar sus requerimientos de recursos humanos y negociar diferentes presupuestos operativos, entre otros.
-          </blockquote>
-      </div>
-  </div>`,
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
+            5.2 Cálculo de los flujos netos de efectivo
+        </div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                El cálculo de los flujos netos de efectivo es fundamental para que evalúes la liquidez de una empresa y su capacidad para generar efectivo; permite ver la capacidad de pago de la empresa para hacer frente a las obligaciones financieras que contrajo. Aunque está vinculado al estado de resultados, su objetivo no es mostrar utilidades, sino dinero disponible o déficit en caja. Se elabora mediante la proyección de las entradas y salidas de efectivo a lo largo de un período específico.
+            </p>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Pasos para calcular los flujos netos de efectivo:
+            </p>
+            <div class="shadow2 border1 clgreyl1">
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="1">
+                    <li>Determina las entradas de efectivo:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Ventas en efectivo: Proyectar las ventas que se realizarán en efectivo.</li>
+                        <li>Cobro de cuentas por cobrar: Estima los cobros de ventas a crédito.</li>
+                        <li>Otros ingresos: Incluye cualquier otra entrada de efectivo, como intereses, dividendos o venta de activos.</li>
+                    </ul>
+                    <li>Determina las salidas de efectivo:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Compras en efectivo: Estima las compras de inventario y otros bienes que se pagarán en efectivo.</li>
+                        <li>Pagos de cuentas por pagar: Estima los pagos a proveedores.</li>
+                        <li>Gastos operativos: Incluye gastos como salarios, renta, servicios públicos y otros costos operativos.</li>
+                        <li>Gastos de capital: Estima las compras de activos fijos.</li>
+                        <li>Pagos de deuda: Si fuera el caso, estima los pagos de principal e intereses que se pagarán.</li>
+                        <li>Impuestos: Estima el pago de impuestos.</li>
+                    </ul>
+                    <li>Cálculo del flujo neto de efectivo:</li>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li>Resta las salidas de efectivo de las entradas de efectivo para obtener el flujo neto de efectivo.</li>
+                    </ul>
+                </ol>
+            </div>
+            <br>
+            <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+                En este ejemplo, la empresa proyecta un flujo neto de efectivo negativo de $30,000 para el año 2024. Esto indica que las salidas de efectivo superan las entradas, lo que podría sugerir la necesidad de financiamiento adicional o ajustes en las operaciones (Brealey, 2020).
+            </blockquote>
+        </div>
+    </div>
+    `,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.2 Función y objetivo de las finanzas empresariales</div>
-      <div class="cardDesign clw border1Inf">
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              <b class="clgreyl3 subTitleCard">¿Qué son las finanzas?</b>
-          </p>
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              Finanzas es un término que seguramente has escuchado con mucha frecuencia y de hecho en tu vida diaria, de algún modo, realizas actividades relacionadas con dicha disciplina. <i class="keyWord">Hay tantas definiciones del término finanzas como autores al respecto, en la figura 1.4 se rescatan algunas de ellas.</i>
-          </blockquote>
-  
-          <div class="imagenDefaultContainer">
-              <p class="titleImageMine">Figura 1.2: ¿Qué son las finanzas?</p>
-              <div class="imageZoomedContainer">
-                  <img class="materialboxed shadow2 border3 imageZoomed"
-                      data-caption="Descripción del concepto de finanzas" src="img/1.2-figura-1.png">
-              </div>
-              <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-          </div><br>
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">Siguiendo a Gitman (2012) las finanzas son el arte y la ciencia de administrar el dinero.</i> Al respecto, el autor enfatiza que las finanzas afectan las decisiones tanto de los individuos como de las empresas, ya que ambos en algún momento se enfrentan a la decisión de cuánto dinero gastar, cuánto ahorrar y cómo invertir los ahorros.
-          </blockquote>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Específicamente en la empresa las finanzas se enfocan en:
-              <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style:square;">
-                  <li>Cómo incrementar el dinero de los inversionistas</li>
-                  <li>Cómo invertir el dinero para maximizar las utilidades</li>
-                  <li>De qué modo conviene reinvertir las ganancias de la empresa o distribuirlas entre los inversionistas</li>
-              </ol>
-          </p>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              <i class="keyWord">Para lograr lo anterior se requiere del financiamiento y de la inversión,</i> ambas son consideradas como las funciones principales de las finanzas. En este sentido, se entiende por <i class="keyWord">financiamiento la obtención de recursos provenientes de una o varias fuentes de financiamiento;</i> en tanto que la inversión se refiere propiamente a la utilización que se hace de dichos recursos.
-          </p>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Ejemplo</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      En el caso de una organización podría invertir en infraestructura <i class="keyWord">(instalaciones, bodegas, maquinaria, equipo, entre otros)</i> a este tipo de inversión se le conoce como inversión fija; y también podría invertir en el proceso operativo del negocio.
-                  </p>
-              </div>
-          </div>
-  
-          <br>
-          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Hablar de finanzas implica hablar de contabilidad. <i class="keyWord">La contabilidad se encarga principalmente del registro de las operaciones de la entidad, de la elaboración de los estados financieros, de la elaboración de reportes con información financiera y de calcular y pagar impuestos;</i> por lo que constituye el principal sistema de información cuantitativa de la organización.<br>
-          </p>
-          
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              La contabilidad forma parte del área financiera y la función financiera se lleva a cabo mediante dos actividades importantes:
-          </blockquote>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Tesorería</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                  Básicamente <i class="keyWord">se enfoca al manejo de los recursos financieros,</i> entre sus principales actividades se encuentran:
-                      <ol class=" clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                          <li><i class="keyWord">Administración del flujo de efectivo</i></li>
-                          <li><i class="keyWord">Inversiones</i></li>
-                          <li><i class="keyWord">Presupuestos</i></li>
-                          <li><i class="keyWord">Financiamiento</i></li>
-                      </ol>
-                  </p>
-              </div>
-          </div><br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Contraloría</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                  Área <i class="keyWord">encargada de coordinar y dirigir las siguientes actividades:</i>
-                      <ol class="clbktx textoDinamicoIdentificador textoReadingH2" style="list-style: square;">
-                          <li><i class="keyWord">Contabilidad</i></li>
-                          <li><i class="keyWord">Pronósticos</i></li>
-                          <li><i class="keyWord">Administración de riesgos</i></li>
-                          <li><i class="keyWord">Verificar que le Administración esté de acuerdo con los objetivos de la empresa</i></li>
-                          <li><i class="keyWord">Auditoría interna</i></li>
-                          <li><i class="keyWord">Desarrollo de políticas y procedimientos</i></li>
-                      </ol>
-                  </p>
-              </div>
-          </div><br>
-          <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-              Para que la función financiera se lleve a cabo en forma adecuada requiere de <i class="keyWord">información verídica y confiable proporcionada por el área contable.</i>
-          </p>
-          
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              En la figura 1.3 encontrarás algunas de las principales funciones de las áreas contable y financiera.
-          </blockquote>
-          <div class="imagenDefaultContainer">
-              <p class="titleImageMine">Figura 1.3 La contabilidad y las finanzas</p>
-              <div class="imageZoomedContainer">
-                  <img class="materialboxed shadow2 border3 imageZoomed"
-                      data-caption="Contabilidad y finanzas" src="img/1.2-figura-2.png">
-              </div>
-              <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-          </div>
-          <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-              Como se puede apreciar en la figura 1.3 la función contable debe considerarse como un insumo necesario para la función financiera.<br><br>
-              Después de haber leído el tema, ya cuentas con los conocimientos necesarios para desarrollar la siguiente actividad de aprendizaje:
-          </p><br>
-          <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf" target="_blank">
-              <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                  <div class="linkToResourceContainer_title clbktx">Actividad 1.2 Las finanzas y su importancia</div>
-                  
-                  <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                      <span class="material-icons">
-                          link
-                      </span>
-                  </div>
-              </div>
-          </a>
-      </div>
-  </div>`,
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
+            5.3 Indicadores financieros de evaluación de proyectos informáticos
+        </div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Evaluar proyectos informáticos requiere que comprendas en forma clara los indicadores financieros que pueden medir su viabilidad, rentabilidad y eficiencia. A continuación, encontrarás algunos de los indicadores financieros más comunes utilizados en la evaluación de proyectos informáticos:
+            </p>
+            <div class="shadow2 border1 clgreyl1">
+                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">5.3.1 Retorno de la inversión (ROI)</div>
+                <div class="cardDesign clgreyl1 border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Mide la ganancia o pérdida generada en relación con la inversión realizada.
+                    </p>
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        Su fórmula es:
+                    </p>
+                    <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+                        Es una imagen, va con altas y bajas
+                    </blockquote>
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Un ROI positivo indica que el proyecto genera beneficios, y cuanto mayor sea el ROI, más rentable es (Brealey, 2020).
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="shadow2 border1 clgreyl1">
+                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">5.3.2 Costo-beneficio</div>
+                <div class="cardDesign clgreyl1 border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        La relación costo-beneficio (RCB) es una técnica utilizada para evaluar la viabilidad de un proyecto al comparar sus costos totales con los beneficios que se esperan obtener. Este método permite tomar decisiones informadas al proporcionar una visión clara de las implicaciones financieras (Boardman, 2018).
+                    </p>
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Para realizar un análisis de costo-beneficio, necesitas:
+                    </p>
+                    <div class="shadow2 border1 clgreyl2" style="padding: 0 20px 0 0;">
+                        <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="1">
+                            <li>Identificar los costos y beneficios</li>
+                            <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                                <li><b>Costos:</b> Considera todos los costos y gastos relacionados con el proyecto, tanto directos como indirectos, por ejemplo, costos de desarrollo, implementación, mantenimiento y operación.</li>
+                                <li><b>Beneficios:</b> Incluye todos los ingresos o ventas y algún otro ingreso derivado del proyecto.</li>
+                            </ul>
+                            <li>Calcula el valor presente</li>
+                            <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">Convierte los costos y beneficios futuros del proyecto a su valor presente utilizando una tasa de descuento apropiada.</p>
+                            <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+                                Altas y bajas en la fórmula, so please!
+                            </blockquote>
+                            <li>Calcula el costo-beneficio neto (CBN)</li>
+                            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                                Resta el valor presente de los costos del valor presente de los beneficios.
+                            </p>
+                            <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+                                Fórmula del CBN: CBN = VP de los Beneficios − VP de los costos
+                            </blockquote>
+                            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                                Un CBN positivo te indica que los beneficios superan los costos, mientras que un CBN negativo sugiere lo contrario.
+                            </p>
+                            <li>Calcula la relación costo-beneficio (RCB)</li>
+                            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                                Divide el valor presente de los beneficios entre el valor presente de los costos.
+                            </p>
+                            <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+                                Altas y bajas en la fórmula, so please!
+                            </blockquote>
+                            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                                Una RCB mayor a 1 indica que los beneficios superan a los costos y el proyecto puede llevarse a cabo; de lo contrario, se rechazaría (Boardman, 2018).
+                            </p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="shadow2 border1 clgreyl1">
+                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">5.3.3 Valor presente neto (VPN) y Tasa interna de retorno (TIR)</div>
+                <div class="cardDesign clgreyl1 border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">1. Valor presente neto (VPN)</p>
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Es la diferencia entre el valor presente de los flujos de efectivo futuros y la inversión inicial.
+                    </p>
+                    <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+                        Altas y bajas en la fórmula, so please!
+                    </blockquote>
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Un VPN positivo indica que el proyecto generará un valor por encima de su costo, mientras que un VPN negativo sugiere que el proyecto no debe aceptarse, ya que no es rentable.
+                    </p>
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">2. Tasa interna de retorno (TIR)</p>
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Es la tasa de descuento que hace que el VPN del proyecto sea igual a cero.
+                    </p>
+                    <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+                        Altas y bajas en la fórmula, so please!
+                    </blockquote>
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Una TIR superior al costo de capital (k) indica que el proyecto es rentable, mientras que una TIR por debajo del costo de capital sugiere que no debe aceptarse.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    `,
     `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Las finanzas empresariales y su relación con otras disciplinas (Ética, Economía, Derecho, Matemáticas, etc.)</div>
-      <div class="cardDesign clw border1Inf">
-          <section class="cardDesign_container">
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Ética</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      La <i class="keyWord">ética trata sobre lo que se considera un comportamiento humano correcto;</i> es decir, con la práctica de valores. Todo lo relacionado con las <i class="keyWord">finanzas y el manejo del dinero debe ser honesto, claro, transparente y digno de confianza.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Economía</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          La <i class="keyWord">economía es la ciencia que se centra en la satisfacción de las necesidades humanas,</i> así como en la <i class="keyWord">generación y administración de la riqueza por lo que tiene una relación estrecha con las finanzas.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Derecho</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          El <i class="keyWord">Derecho a través de diferentes leyes regula las actividades financieras y de no acatarse y/o cumplirse dichas leyes hay sanciones en materia legal.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Matemáticas</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Las matemáticas están tan estrechamente ligadas con las finanzas que incluso ha surgido <i class="keyWord">el término matemáticas financieras en las que se utilizan la aritmética y el álgebra en temas como valor presente, valor futuro, costo de capital y tasas de interés,</i> por mencionar algunos.
-                      </p>
-                  </div>
-              </div>
-          </section>
-      </div>
-  </div>`,
-    `<div class="shadow4 border1 clw">
-      <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.4. Factores del micro y macro ambiente que impactan a la empresa y a sus finanzas</div>
-      <div class="cardDesign clw border1Inf">
-          <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-              La <i class="keyWord">empresa es un sistema abierto porque tiene elementos interrelacionados entre sí y con el entorno;</i> es decir no existe en forma aislada, sino que interactúa con su entorno existiendo un impacto bidireccional. <i class="keyWord">El entorno se conforma por el micro y macro ambiente.</i>
-          </p>
-  
-          <div class="imagenDefaultContainer">
-              <p class="titleImageMine">Figura 1.4 Macroentorno y microentorno</p>
-              <div class="imageZoomedContainer">
-                  <img class="materialboxed shadow2 border3 imageZoomed"
-                      data-caption="Aspectos del macroentorno y microentorno" src="img/entornos.png">
-              </div>
-              <p class="noteImageMine clgreyl1 border1">Hernández, J., Rodríguez, E. & Jiménez, Y. (2023).</p>
-          </div>
-  
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer cl1 white-text border1Sup">Microentorno</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                  Representado por elementos que <i class="keyWord">tienen relación directa con la empresa e influyen en ella,</i> como por ejemplo: <i class="keyWord">proveedores, clientes, competidores, entidades financieras, comunidad y alcaldías o municipios.</i>
-                  </p>
-              </div>
-          </div>
-          <br>
-          <section class="cardDesign_container">
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Proveedores</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      Son las entidades que <i class="keyWord">venden bienes o prestan servicios a la empresa.</i> Por ejemplo: <i class="keyWord">materia prima, equipo de cómputo, mobiliario y equipo de oficina, servicios de internet, servicios de mantenimiento, etc.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Clientes</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Son quienes <i class="keyWord">compran bienes o adquieren servicios de la empresa.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Competidores</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          <i class="keyWord">Ofrecen el mismo producto o productos sustitutos</i> (cubren la misma necesidad, aunque no son idénticos).
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Entidades financieras</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      Las <i class="keyWord">entidades financieras más comunes son los bancos, estos son una fuente de financiamiento importante, prestan dinero y a cambio cobran una tasa de interés.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Comunidad</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          La <i class="keyWord">comunidad en la que se inserta la empresa tiene ciertas características,</i> tales como: <i class="keyWord">ideología, costumbres, inquietud por el medio ambiente y en general un estilo de vida.</i> Dichos aspectos definitivamente influyen en la empresa.
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Alcaldías y municipios</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Las empresas <i class="keyWord">al realizar algunos trámites y permisos tienen relación con las alcaldías o municipios.</i> Por ejemplo: trámite de uso de suelo y permisos de apertura, por mencionar algunos.
-                      </p>
-                  </div>
-              </div>
-          </section>
-  
-          <br>
-          <div class="shadow2 border1 clgreyl1">
-              <div class="textoTitulo titleContainer colorCardTitleContent white-text border1Sup">Macroentorno</div>
-              <div class="cardDesign clgreyl1 border1Inf">
-                  <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                      Conformado por todos aquellos factores que tienen una gran influencia en la empresa, como por ejemplo: <i class="keyWord">económicos, tecnológicos, político-legales, demográficos, socio culturales y medioambientales.</i>
-                  </p>
-              </div>
-          </div>
-          <br>
-          <section class="cardDesign_container">
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Económicos</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          <i class="keyWord">La inflación, las tasas de interés, y el tipo de cambio,</i> entre otros, son factores que <i class="keyWord">inciden en los costos y por tanto en el precio y en el resultado de la empresa.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Tecnológicos</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Las <i class="keyWord">nuevas tecnologías no solo facilitan y/o automatizan el trabajo, también abren nuevas oportunidades de negocio.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Político-legales</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          <i class="keyWord">Las iniciativas, la legislación y en general las decisiones del gobierno afectan a las empresas.</i> <br><br> Por ejemplo: en materia laboral, impuestos e inversión extranjera, por mencionar algunos.
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Demográficos</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          La <i class="keyWord">información sobre la población,</i> como por ejemplo: <i class="keyWord">edad, cantidad de hombres y de mujeres, nivel de ingresos, nivel socioeconómico,</i> entre otros, son datos en los que las empresas <i class="keyWord">podrían apoyarse para identificar ¿qué vender? ¿a quién vender? y ¿dónde se localizan los clientes?,</i> entre otras interrogantes.
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Socio culturales</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Corresponde a los <i class="keyWord">estilos de vida, costumbres, hábitos alimenticios, religión y demás aspectos que condicionan el comportamiento de las personas.</i>
-                      </p>
-                  </div>
-              </div>
-              <div class="shadow2 border1 clgreyl1">
-                  <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Medioambientales</div>
-                  <div class="cardDesign clgreyl1 border1Inf">
-                      <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-                          Hoy día existe una <i class="keyWord">preocupación mundial por minimizar el impacto medio ambiental, lo que supone un esfuerzo y un costo para las empresas.</i> Existen leyes que regulan aspectos ambientales y quienes no las cumplan son acreedores a sanciones.
-                      </p>
-                  </div>
-              </div>
-          </section>
-  
-          <br>
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              Es momento de aplicar lo que has aprendido en esta unidad temática, realiza la siguiente actividad de aprendizaje:
-          </blockquote>
-  
-          <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf" target="_blank">
-              <div class="linkToResourceContainer clw clbktx border1 shadow2">
-                  <div class="linkToResourceContainer_title clbktx">Actividad 1.3 La empresa, sus finanzas y su relación con el entorno</div>
-                  
-                  <div class="linkToResourceContainer_icon clgreyl2 clbktx">
-                      <span class="material-icons">
-                          link
-                      </span>
-                  </div>
-              </div>
-          </a>
-      </div>
-  </div>`,
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
+            5.4 Matriz de análisis integral para la toma de decisiones
+        </div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Una matriz de decisión es una herramienta que puede ayudarte a comparar alternativas o diferentes propuestas de proyectos, simplificando el proceso de toma de decisiones. Se conforma por cuatro componentes:
+            </p>
+            <div class="shadow2 border1 clgreyl1">
+                <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Componentes de la matriz de decisiones</div>
+                <div class="cardDesign clgreyl1 border1Inf">
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                        <li><b>Opciones:</b> Se refiere a las posibles selecciones o cursos de acción.</li>
+                        <li><b>Criterios:</b> Factores importantes con base en los cuales se toma la decisión. Algunos factores pueden ser: costo, tiempo, recursos y alineación con los objetivos estratégicos generales.</li>
+                        <li><b>Ponderación:</b> Es el puntaje asignado a cada criterio.</li>
+                        <li><b>Puntuación:</b> Corresponde a la valoración obtenida.</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                La matriz de decisiones ayuda a organizar, priorizar y visualizar estos factores, reduciendo la complejidad para identificar cuál es la mejor opción y pasar a la siguiente fase del proyecto.
+            </p>
+        </div>
+    </div>
+    `,
+    ``,
     `<section class="containerActividadAprendizajeFather">
       <div class="textoTitulo clbktx">Material de apoyo</div>
       <section class="gridActividadesAprendizaje">
