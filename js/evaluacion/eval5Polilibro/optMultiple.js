@@ -2,9 +2,8 @@ function pregunta(numero) {
     //Respuestas para las preguntas
     let respuestasId = [0, "pregunta1_opt3", "pregunta2_opt2", "pregunta3_opt1", "pregunta4_opt2", "pregunta5_opt1", "pregunta6_opt3", "pregunta7_opt1", "pregunta8_opt2", "pregunta9_opt3", "pregunta10_opt1"];
 
-
-    //Explicaciones de las preguntas
-    let respuestasExplicacion = [0,
+      //Explicaciones de las preguntas
+      let respuestasExplicacion = [0,
         ["La respuesta correcta es la c. Los recursos financieros, tecnológicos y humanos son esenciales para el funcionamiento de una empresa.", "Respuesta correcta.", "Los recursos financieros, tecnológicos y humanos son cruciales para cumplir con los objetivos empresariales."],
         ["El entorno empresarial influye en la toma de decisiones.", "Respuesta correcta.", "El entorno micro y macroeconómico afecta a las empresas y obliga a la toma de decisiones estratégicas."],
         ["La planificación financiera se basa en proyecciones.", "Respuesta correcta.", "Los estados financieros proforma reflejan situaciones futuras basadas en presupuestos."],
@@ -15,7 +14,7 @@ function pregunta(numero) {
         ["El estado de resultados proyecta ingresos y gastos.", "Respuesta correcta.", "El estado de resultados proforma es crucial para prever la utilidad neta futura."],
         ["Los flujos netos de efectivo evalúan la liquidez.", "Respuesta correcta.", "El cálculo de flujos netos de efectivo es esencial para determinar la capacidad de pago de la empresa."]
       ];
-      
+
 
     let respuestaCorrectaId = respuestasId[numero]
     let contenedor = document.getElementById("pregunta" + String(numero))
@@ -91,7 +90,7 @@ function pregunta(numero) {
     validateExamenCompletado();
 }
 
-const preguntas_aleatorias_indices = [0]
+const preguntas_aleatorias_indices = [0];
 const preguntas = [
     0,
     {
@@ -129,7 +128,11 @@ const preguntas = [
     {
       "enunciado": "¿Qué se busca al calcular los flujos netos de efectivo?",
       "opciones": ["Incrementar la inversión.", "Evaluar la liquidez y capacidad de pago.", "Aumentar los ingresos fiscales."]
-    }
+    },
+    {
+        "enunciado": "¿Qué técnica puede mejorar la precisión de un presupuesto de ventas?",
+        "opciones": ['El uso de un solo método de pronóstico.', 'La combinación de múltiples métodos de pronóstico.', 'La exclusión de factores externos.'],
+    },
   ];
 
 function preguntas_aleatorias() {
