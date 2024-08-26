@@ -1,174 +1,194 @@
 let questionsTF = [
-    {   
-        id:1,
-        enunciado: "La innovación se limita exclusivamente al ámbito tecnológico.",
-        respuesta: "F",
-        V: "Recuerda que la innovación puede manifestarse en cualquier campo del conocimiento y no se limita a aspectos tecnológicos.",
-        F: "Tu respuesta es correcta, la innovación puede manifestarse en cualquier campo del conocimiento",
-    },
-    {
-        id:2,
-        enunciado: "La metodología Design Thinking solo se aplica en la creación de nuevos productos.",
-        respuesta: "F",
-        V: "Recuerda que la metodología Design Thinking se utiliza no solo en el diseño de productos, sino también en la creación de servicios y modelos de negocio, centrándose en las necesidades del usuario.",
-        F: "Tu respuesta es correcta, la metodología Design Thinking se utiliza no solo en el diseño de productos, sino también en la creación de servicios y modelos de negocio.",
-    },
-    {
-        id:3,
-        enunciado: "Durante la fase de Empatizar/Descubrir en Design Thinking, es importante recopilar información sobre las necesidades tanto explícitas como implícitas de los usuarios.",
-        respuesta: "V",
-        V: "Tu respuesta es correcta,  durante esta fase, se busca comprender a fondo el problema y las necesidades de los usuarios.",
-        F: "Recuerda durante esta fase, se busca comprender a fondo el problema y las necesidades de los usuarios.",
-    },
-    {
-        id:4,
-        enunciado: "En la fase de Definir en Design Thinking, es crucial interpretar la información obtenida en la fase anterior para definir claramente el problema y las necesidades de los usuarios.",
-        respuesta: "V",
-        V: "Tu respuesta es correcta, en esta fase es crucial interpretar la información obtenida en la fase anterior para definir claramente el problema y las necesidades de los usuarios.",
-        F: "Recuerda qen la fase Definir es crucial interpretar la información obtenida en la fase anterior para definir claramente el problema y las necesidades de los usuarios..",
-    },
-    {
-        id:5,
-        enunciado: "El mapa de empatía es una técnica utilizada para crear un esquema de las personas entrevistadas, destacando sus pensamientos, emociones y características de consumo.",
-        respuesta: "V",
-        V: "Tu respuesta es correcta, el mapa de empatía es una herramienta que ayuda a comprender mejor a los usuarios.",
-        F: "Recuerda que el mapa de empatía es una herramienta que ayuda a comprender mejor a los usuarios. ",
-    }, //Preguntas parafraseadas
-    {
-        id:6,
-        enunciado: "Durante la fase de Idear en Design Thinking, se busca generar múltiples ideas creativas y diferentes para abordar un problema.",
-        respuesta: "F",
-        V: "Recuerda que durante la fase de Idear en Design Thinking, se busca generar una sola idea creativa y única para abordar un problema.",
-        F: "Tu respuesta es correcta, durante la fase de Idear en Design Thinking, se busca generar una sola idea creativa y única para abordar un problema.",
-    },
-    {
-        id:7,
-        enunciado: "La técnica Da Vinci o Morfológica permite generar ideas combinando características aparentemente desconectadas para crear soluciones innovadoras.",
-        respuesta: "V",
-        V: "Tu respuesta es correcta, esta tecnica se basa en combinar un conjunto de características para generar soluciones comunes y simples, no necesariamente innovadoras.",
-        F: "Recuerda que la técnica Da Vinci o Morfológica se basa en combinar un conjunto de características para generar soluciones comunes y simples, no necesariamente innovadoras.",
-    },
-    {
-        id:8,
-        enunciado: "La técnica SCAMPER consiste en explorar la creatividad desde siete ángulos diferentes, utilizando verbos de acción para generar cambios en un producto o servicio.",
-        respuesta: "F",
-        V: "Recuerda que la técnica SCAMPER no implica explorar la creatividad desde diferentes perspectivas utilizando verbos de acción.",
-        F: "Tu respuesta es correcta, la técnica SCAMPER no implica explorar la creatividad desde diferentes perspectivas utilizando verbos de acción.",
-    },
-    {
-        id:9,
-        enunciado: " Durante la fase de Prototipar en Design Thinking, los prototipos deben surgir de las ideas generadas en la fase anterior.",
-        respuesta: "V",
-        V: "Tu respuesta es correcta,  Los prototipos en la fase de Prototipar deben basarse en las ideas desarrolladas durante la fase de Idear.",
-        F: "Recuerda que los prototipos en la fase de Prototipar deben basarse en las ideas desarrolladas durante la fase de Idear.",
-    },
-    {
-        id:10,
-        enunciado: " En la fase de Testeo (Validar) del Design Thinking, se presentan los prototipos a los usuarios para recoger sus opiniones y realizar ajustes en función de sus comentarios.",
-        respuesta: "V",
-        V: "Tu respuesta es correcta, en esta fase se presentan los prototipos a los usuarios para recoger sus opiniones y realizar ajustes en función de sus comentarios.",
-        F: "Recuerda que en esta se presentan los prototipos a los usuarios para recoger sus opiniones y realizar ajustes en función de sus comentarios.",
-    },
-    {
-        id:11,
-        enunciado: "En la fase de Prototipar del Design Thinking, los prototipos no necesitan probarse ni verificar que funcionen correctamente.",
-        respuesta: "F",
-        V: "Recuerda que en esta fase los prototipos no necesitan probarse ni verificar que funcionen correctamente.",
-        F: "Tu respuesta es correcta, en esta fase los prototipos no necesitan probarse ni verificar que funcionen correctamente.",
-    },
-    {
-        id:12,
-        enunciado: "Durante el Testeo (Validar) en Design Thinking, no es necesario diseñar un plan de prueba ni registrar los resultados obtenidos.",
-        respuesta: "F",
-        V: "Recuerda que es esencial diseñar un plan de prueba y registrar los resultados durante el Testeo para realizar análisis y tomar decisiones basadas en ellos.",
-        F: "Tu respuesta es correcta, es esencial diseñar un plan de prueba y registrar los resultados durante el Testeo para realizar análisis y tomar decisiones basadas en ellos.",
-    },
-
+	{
+		id: 1,
+		enunciado:
+			"Las empresas no necesitan cumplir con la legislación vigente para operar.",
+		respuesta: "F",
+		V: "Correcto, toda empresa debe constituirse de acuerdo con la legislación vigente.",
+		F: "Incorrecto, toda empresa debe cumplir con la legislación vigente para operar.",
+	},
+	{
+		id: 2,
+		enunciado:
+			"Las finanzas no están relacionadas con la toma de decisiones empresariales.",
+		respuesta: "F",
+		V: "Correcto, las finanzas están directamente relacionadas con la toma de decisiones empresariales.",
+		F: "Incorrecto, las finanzas son clave para la toma de decisiones en una empresa.",
+	},
+	{
+		id: 3,
+		enunciado:
+			"El Project Management Body of Knowledge (PMBOK) se considera el estándar más influyente en la dirección de proyectos.",
+		respuesta: "V",
+		V: "Correcto, la guía PMBOK es el estándar más influyente en la dirección de proyectos.",
+		F: "Incorrecto, la guía PMBOK es ampliamente reconocida en la dirección de proyectos.",
+	},
+	{
+		id: 4,
+		enunciado:
+			"El control de los costos no es necesario para la finalización exitosa de un proyecto.",
+		respuesta: "F",
+		V: "Correcto, el control de costos es esencial para finalizar un proyecto dentro del presupuesto aprobado.",
+		F: "Incorrecto, el control de costos es crucial para la gestión adecuada de un proyecto.",
+	},
+	{
+		id: 5,
+		enunciado:
+			"La gestión de las comunicaciones en un proyecto solo se refiere a la comunicación interna.",
+		respuesta: "F",
+		V: "Correcto, la gestión de comunicaciones abarca tanto la comunicación interna como externa.",
+		F: "Incorrecto, la gestión de comunicaciones también incluye la externa.",
+	},
+	{
+		id: 6,
+		enunciado:
+			"La documentación de software solo es necesaria durante la fase de desarrollo.",
+		respuesta: "F",
+		V: "Correcto, la documentación es fundamental durante todo el ciclo de vida del software.",
+		F: "Incorrecto, la documentación es clave en todas las fases del desarrollo del software.",
+	},
+	{
+		id: 7,
+		enunciado:
+			"El análisis de requerimientos en un proyecto de software incluye técnicas como el modelado de procesos y casos de uso.",
+		respuesta: "V",
+		V: "Correcto, estas técnicas son comunes en el análisis de requerimientos.",
+		F: "Incorrecto, estas técnicas son esenciales en el análisis de requerimientos.",
+	},
+	{
+		id: 8,
+		enunciado:
+			"Las pruebas de regresión son innecesarias después de realizar cambios en el software.",
+		respuesta: "F",
+		V: "Correcto, las pruebas de regresión son necesarias para asegurar que los cambios no introduzcan nuevos errores.",
+		F: "Incorrecto, las pruebas de regresión son esenciales para garantizar la estabilidad del software.",
+	},
+	{
+		id: 9,
+		enunciado:
+			"La gestión de riesgos se limita solo a la identificación de posibles problemas.",
+		respuesta: "F",
+		V: "Correcto, la gestión de riesgos también incluye la planificación de respuestas y control.",
+		F: "Incorrecto, la gestión de riesgos abarca desde la identificación hasta el control de los riesgos.",
+	},
+	{
+		id: 10,
+		enunciado:
+			"El prototipado en el análisis de requerimientos permite validar requisitos de forma temprana.",
+		respuesta: "V",
+		V: "Correcto, el prototipado facilita la validación temprana de los requisitos.",
+		F: "Incorrecto, el prototipado es clave para validar requisitos en etapas iniciales.",
+	},
+	{
+		id: 11,
+		enunciado:
+			"Las pruebas de rendimiento no son necesarias si el software funciona correctamente en condiciones normales.",
+		respuesta: "F",
+		V: "Correcto, las pruebas de rendimiento son esenciales para evaluar cómo el software responde bajo carga.",
+		F: "Incorrecto, las pruebas de rendimiento son críticas para garantizar la estabilidad bajo carga.",
+	},
+	{
+		id: 12,
+		enunciado:
+			"El control de calidad en un proyecto se basa únicamente en la revisión final del producto.",
+		respuesta: "F",
+		V: "Correcto, el control de calidad se realiza durante todo el ciclo de vida del proyecto.",
+		F: "Incorrecto, el control de calidad es un proceso continuo durante todo el proyecto.",
+	},
 ];
 
 //Sirve para revisar las preguntas una vez que han sido contestadas
-function checkTFanswer(id, respuesta, idRetroalimentacion, contenedorButtonsTF){
-    //Obtenemos el valor de la respuesta del cliente
-    let valueAnswerUser = document.getElementById(id);
-    valueAnswerUser.setAttribute('resultadoFinal', `${valueAnswerUser.innerText}`);
-    valueAnswerUser = valueAnswerUser.innerText;
+function checkTFanswer(
+	id,
+	respuesta,
+	idRetroalimentacion,
+	contenedorButtonsTF
+) {
+	//Obtenemos el valor de la respuesta del cliente
+	let valueAnswerUser = document.getElementById(id);
+	valueAnswerUser.setAttribute(
+		"resultadoFinal",
+		`${valueAnswerUser.innerText}`
+	);
+	valueAnswerUser = valueAnswerUser.innerText;
 
+	const regex = /questionTF_(\d+)_button/;
+	var match = id.match(regex);
 
-    const regex = /questionTF_(\d+)_button/;
-    var match = id.match(regex);
-    
-    var buscaId = match ? match[1] : null;
+	var buscaId = match ? match[1] : null;
 
-    
-    
-    // Buscar el diccionario cuyo id coincide con el valor dado por el usuario
-    let  preguntaEncontrada = questionsTF.find(pregunta => pregunta.id == buscaId);
-    if (preguntaEncontrada) {
-        if (valueAnswerUser == 'V'){
-            var retroalimentacion = preguntaEncontrada.V;
-        }else{
-            var retroalimentacion = preguntaEncontrada.F;
-        }    
-    
-      } else {
-        console.log("No se encontró ninguna pregunta con el ID proporcionado.");
-      }
+	// Buscar el diccionario cuyo id coincide con el valor dado por el usuario
+	let preguntaEncontrada = questionsTF.find(
+		(pregunta) => pregunta.id == buscaId
+	);
+	if (preguntaEncontrada) {
+		if (valueAnswerUser == "V") {
+			var retroalimentacion = preguntaEncontrada.V;
+		} else {
+			var retroalimentacion = preguntaEncontrada.F;
+		}
+	} else {
+		console.log("No se encontró ninguna pregunta con el ID proporcionado.");
+	}
 
+	//Accedemos al contenedor de la retroalimentacion
+	let contenedorButtonsTF_value = document.getElementById(contenedorButtonsTF);
+	let retroalimentacionContainer = document.getElementById(idRetroalimentacion);
 
-    //Accedemos al contenedor de la retroalimentacion
-    let contenedorButtonsTF_value = document.getElementById(contenedorButtonsTF);
-    let retroalimentacionContainer = document.getElementById(idRetroalimentacion);
+	//Validamos que sean correctas
+	if (valueAnswerUser == respuesta) {
+		retroalimentacionContainer.classList.add("mensajeCorrecta");
+		retroalimentacionContainer.textContent = "Correcto: " + retroalimentacion;
 
-    //Validamos que sean correctas
-    if(valueAnswerUser == respuesta){
-        retroalimentacionContainer.classList.add('mensajeCorrecta');
-        retroalimentacionContainer.textContent = "Correcto: "+retroalimentacion;
+		//IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
+		puntajeTotal++;
+		preguntasContestadasTotal++;
+	} else {
+		retroalimentacionContainer.classList.add("mensajeIncorrecta");
+		retroalimentacionContainer.textContent = "Incorrecto: " + retroalimentacion;
 
-        //IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
-        puntajeTotal++;
-        preguntasContestadasTotal++;
-    }else{
-        retroalimentacionContainer.classList.add('mensajeIncorrecta');
-        retroalimentacionContainer.textContent = "Incorrecto: "+retroalimentacion ;
+		//IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
+		preguntasContestadasTotal++;
+	}
 
-        //IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
-        preguntasContestadasTotal++;
-    }
+	//IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
+	//Cada que se responda pregunta correcta se actualiza contador
+	contadorPreguntas.innerText = puntajeTotal;
+	contadorPreguntas2.innerText = puntajeTotal;
 
-    //IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
-    //Cada que se responda pregunta correcta se actualiza contador
-    contadorPreguntas.innerText = puntajeTotal;
-    contadorPreguntas2.innerText = puntajeTotal;
+	//IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
+	//Cada que contestemos una pregunta se actualiza el contador
+	contadorPreguntasRespondidas.innerText = preguntasContestadasTotal;
+	contadorPreguntasRespondidas2.innerText = preguntasContestadasTotal;
 
-    //IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
-    //Cada que contestemos una pregunta se actualiza el contador
-    contadorPreguntasRespondidas.innerText = preguntasContestadasTotal;
-    contadorPreguntasRespondidas2.innerText = preguntasContestadasTotal;
+	//IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
+	//La barra se incrementa de tamaño con cada pregunta
+	barraPreguntas.setAttribute(
+		"style",
+		"width:" + preguntasContestadasTotal * 5 + "%"
+	);
+	barraPreguntas2.setAttribute(
+		"style",
+		"width:" + preguntasContestadasTotal * 5 + "%"
+	);
 
-    //IMPORTANTE... Estas variables estan en el archivo de puntajeActual.js
-    //La barra se incrementa de tamaño con cada pregunta
-    barraPreguntas.setAttribute('style', 'width:' + preguntasContestadasTotal*5 + '%');
-    barraPreguntas2.setAttribute('style', 'width:' + preguntasContestadasTotal*5 + '%');
+	//Eliminamos los botones de la pregunta
+	contenedorButtonsTF_value.setAttribute("style", "display: none;");
 
-    //Eliminamos los botones de la pregunta
-    contenedorButtonsTF_value.setAttribute('style', 'display: none;')
+	//Retroalimentamos al usuario
+	M.toast({ html: `Pregunta respondida` });
 
-    //Retroalimentamos al usuario
-    M.toast({html: `Pregunta respondida`});
-
-    //Validamos que el examen se hay terminado en este punto
-    validateExamenCompletado();
-
-    
+	//Validamos que el examen se hay terminado en este punto
+	validateExamenCompletado();
 }
 
-function printQuestionsTrueFalse(){
-    let containerTrueFalse = document.getElementById('contenedor_preguntas');
+function printQuestionsTrueFalse() {
+	let containerTrueFalse = document.getElementById("contenedor_preguntas");
 
-    let suffledquestionsTF = shuffle(questionsTF);
+	let suffledquestionsTF = shuffle(questionsTF);
 
-    for(var i = 0; i < 8; i++){
-        containerTrueFalse.innerHTML +=  `
+	for (var i = 0; i < 8; i++) {
+		containerTrueFalse.innerHTML += `
             <section class="randomizeDOMClass lazy">
                 <form class="cardPregunta clgreyl2 border1 shadow2">
                     <!--Numero y enunciado de la pregunta-->
@@ -202,7 +222,7 @@ function printQuestionsTrueFalse(){
                 </form>
             </section>
         `;
-    }
+	}
 }
 
 printQuestionsTrueFalse();
