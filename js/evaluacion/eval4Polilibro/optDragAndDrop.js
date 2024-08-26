@@ -74,92 +74,88 @@ function collectAnswers(definicion, concepto, numeroPregunta, idPregunta){
 let questionsDragAndDrop = [
   [
     {
-        concepto: "Tesorería",
-        definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+      concepto: "Presupuesto de Inversión",
+      definicion: "Proyección financiera que detalla los recursos necesarios para adquirir los activos y servicios esenciales para arrancar un proyecto. Incluye estimaciones de costos en áreas como mobiliario, recursos humanos, tecnología y marketing.",
     },
     {
-        concepto: "Contraloría",
-        definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+      concepto: "Alcance del Proyecto",
+      definicion: "Definición clara de los requisitos, funciones y resultados esperados de un proyecto, que sirve como base para la planificación y ejecución del presupuesto.",
     },
     {
-        concepto: "Finanzas",
-        definicion: "Área de una empresa que tiene como funciones obtener y dirigir la asignación eficiente de fondos dentro de la organización",
+      concepto: "Gastos Fijos",
+      definicion: "Costos recurrentes que no varían con la producción o ventas, como alquiler, sueldos, servicios públicos y seguros. Son esenciales para la estabilidad financiera.",
     },
     {
-      concepto: "Proveedores",
-      definicion: "De acuerdo con las NIF es el nombre que reciben las entidades que venden a las empresas bienes (materia prima, equipo de cómputo, mobiliario y equipo de oficina) o prestan servicios (de internet, de mantenimiento y de servicios de facturación electrónica, entre otros)",
+      concepto: "Gastos Variables",
+      definicion: "Costos que fluctúan en función de la producción o ventas, como materia prima o comisiones. Impactan directamente la rentabilidad operativa.",
     },
     {
       id: "0"
     }
   ],
-  [ //Conceptos parafraseados
+  [
     {
-      concepto: "Ética",
-      definicion: "Trata sobre lo que se considera un comportamiento humano correcto, basado en la práctica de valores. En el ámbito financiero, implica que todas las acciones relacionadas con el manejo del dinero deben ser honestas, claras, transparentes y dignas de confianza.",
+      concepto: "Inversión Propia",
+      definicion: "Financiamiento de un proyecto con recursos propios del emprendedor, sin depender de fuentes externas, lo cual requiere evaluar cuidadosamente los recursos disponibles.",
     },
     {
-      concepto: "Economía",
-      definicion: "Ciencia que se enfoca en satisfacer las necesidades humanas y en generar y administrar la riqueza. Está estrechamente relacionada con las finanzas, ya que estas últimas son parte integral de la economía.",
+      concepto: "Inversión Financiada",
+      definicion: "Obtención de fondos externos para financiar un proyecto, ya sea a través de préstamos, inversores o subvenciones. Es crucial contar con un plan de negocio sólido para acceder a este tipo de financiamiento.",
     },
     {
-      concepto: "Derecho",
-      definicion: "Conjunto de leyes que regulan las actividades financieras. En caso de no acatar o cumplir con estas leyes, existen sanciones legales.",
+      concepto: "Costo de Desarrollo",
+      definicion: "Gastos asociados con la creación de un producto o servicio, como salarios de desarrolladores, adquisición de software, y herramientas tecnológicas.",
     },
     {
-      concepto: "Clientes",
-      definicion: "Personas que compran bienes o adquieren servicios de la empresa.",
+      concepto: "Presupuesto de Egresos",
+      definicion: "Plan financiero que detalla todas las salidas de dinero que se esperan durante un periodo determinado. Incluye tanto gastos fijos como variables.",
     },
-
     {
       id: "1"
     }
   ],
   [
     {
-      concepto: "Proveedores",
-      definicion: "Entidades que venden bienes o prestan servicios a la empresa, como materia prima, equipo de cómputo, mobiliario, servicios de internet, etc.",
+      concepto: "Gastos de Venta",
+      definicion: "Costos relacionados con la comercialización y promoción de productos o servicios, como salarios de personal de ventas, comisiones, publicidad y eventos.",
     },
     {
-      concepto: "Competidores",
-      definicion: "Empresas que ofrecen el mismo producto o productos sustitutos, cubriendo la misma necesidad aunque no sean idénticos.",
+      concepto: "Gastos Administrativos",
+      definicion: "Costos necesarios para mantener el funcionamiento operativo de la empresa, incluyendo salarios del personal administrativo, renta de oficinas, servicios profesionales y tecnología.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+      concepto: "Gastos Financieros",
+      definicion: "Desembolsos asociados con la gestión de recursos financieros, como intereses de préstamos, fluctuaciones cambiarias y comisiones bancarias.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+      concepto: "Presupuesto de Ventas",
+      definicion: "Estimación de los ingresos que se espera generar en un periodo determinado. Incluye proyecciones basadas en datos históricos, análisis de tendencias y factores externos.",
     },
-
     {
       id: "2"
     }
   ],
   [
     {
-      concepto: "Tesorería",
-      definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+      concepto: "Análisis de Tendencias",
+      definicion: "Evaluación de patrones históricos y factores externos, como cambios económicos o de mercado, para ajustar estimaciones de ventas e ingresos.",
     },
     {
-      concepto: "Contraloría",
-      definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+      concepto: "Gastos de Innovación Tecnológica",
+      definicion: "Inversión en la adopción de nuevas tecnologías, actualización de sistemas y desarrollo de plataformas digitales para mejorar la competitividad y eficiencia empresarial.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+      concepto: "Cumplimiento Normativo y Legal",
+      definicion: "Gastos relacionados con el cumplimiento de regulaciones gubernamentales y normativas de la industria, como licencias, auditorías e impuestos.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+      concepto: "Responsabilidad Social Corporativa (RSC)",
+      definicion: "Iniciativas empresariales que buscan generar un impacto positivo en la sociedad y el medio ambiente, a través de programas de voluntariado, donaciones y patrocinios.",
     },
-
     {
       id: "3"
     }
   ],
-
 ];
 
 //Mezclamos el array de opciones

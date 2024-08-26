@@ -74,92 +74,88 @@ function collectAnswers(definicion, concepto, numeroPregunta, idPregunta){
 let questionsDragAndDrop = [
   [
     {
-        concepto: "Tesorería",
-        definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+      concepto: "Estados Financieros Proforma",
+      definicion: "Proyecciones financieras que estiman la situación económica futura de una empresa. Son fundamentales para la planificación, evaluación de proyectos, y toma de decisiones estratégicas.",
     },
     {
-        concepto: "Contraloría",
-        definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+      concepto: "Estado de Resultados Proforma",
+      definicion: "Informe financiero que proyecta los ingresos, costos, gastos y utilidades esperadas de una empresa en un periodo futuro, basado en supuestos de crecimiento y eventos económicos.",
     },
     {
-        concepto: "Finanzas",
-        definicion: "Área de una empresa que tiene como funciones obtener y dirigir la asignación eficiente de fondos dentro de la organización",
+      concepto: "Balance General Proforma",
+      definicion: "Documento financiero que proyecta los activos, pasivos y patrimonio de una empresa en el futuro, permitiendo evaluar su estabilidad financiera.",
     },
     {
-      concepto: "Proveedores",
-      definicion: "De acuerdo con las NIF es el nombre que reciben las entidades que venden a las empresas bienes (materia prima, equipo de cómputo, mobiliario y equipo de oficina) o prestan servicios (de internet, de mantenimiento y de servicios de facturación electrónica, entre otros)",
+      concepto: "Flujo de Efectivo Proforma",
+      definicion: "Proyección de las entradas y salidas de efectivo de una empresa, crucial para evaluar su capacidad de pago y liquidez a corto y mediano plazo.",
     },
     {
       id: "0"
     }
   ],
-  [ //Conceptos parafraseados
+  [
     {
-      concepto: "Ética",
-      definicion: "Trata sobre lo que se considera un comportamiento humano correcto, basado en la práctica de valores. En el ámbito financiero, implica que todas las acciones relacionadas con el manejo del dinero deben ser honestas, claras, transparentes y dignas de confianza.",
+      concepto: "ROI (Retorno de la Inversión)",
+      definicion: "Indicador que mide la rentabilidad de una inversión al comparar los beneficios obtenidos frente a los costos incurridos. Un ROI positivo refleja una inversión rentable.",
     },
     {
-      concepto: "Economía",
-      definicion: "Ciencia que se enfoca en satisfacer las necesidades humanas y en generar y administrar la riqueza. Está estrechamente relacionada con las finanzas, ya que estas últimas son parte integral de la economía.",
+      concepto: "Análisis Costo-Beneficio (RCB)",
+      definicion: "Herramienta utilizada para evaluar la viabilidad de un proyecto comparando el valor presente de los beneficios y costos, determinando si un proyecto debería ejecutarse o no.",
     },
     {
-      concepto: "Derecho",
-      definicion: "Conjunto de leyes que regulan las actividades financieras. En caso de no acatar o cumplir con estas leyes, existen sanciones legales.",
+      concepto: "Valor Presente Neto (VPN)",
+      definicion: "Indicador financiero que calcula el valor presente de los flujos de efectivo futuros menos la inversión inicial. Un VPN positivo sugiere que el proyecto generará valor.",
     },
     {
-      concepto: "Clientes",
-      definicion: "Personas que compran bienes o adquieren servicios de la empresa.",
+      concepto: "Tasa Interna de Retorno (TIR)",
+      definicion: "Métrica que determina la rentabilidad de un proyecto al identificar la tasa de descuento que hace que el valor presente neto sea cero. Es clave para decisiones de inversión.",
     },
-
     {
       id: "1"
     }
   ],
   [
     {
-      concepto: "Proveedores",
-      definicion: "Entidades que venden bienes o prestan servicios a la empresa, como materia prima, equipo de cómputo, mobiliario, servicios de internet, etc.",
+      concepto: "Matriz de Decisión",
+      definicion: "Herramienta de análisis que ayuda a evaluar múltiples alternativas en la toma de decisiones, ponderando criterios clave como costo, tiempo y recursos.",
     },
     {
-      concepto: "Competidores",
-      definicion: "Empresas que ofrecen el mismo producto o productos sustitutos, cubriendo la misma necesidad aunque no sean idénticos.",
+      concepto: "Supuestos Financieros",
+      definicion: "Estimaciones sobre factores futuros (como tasas de crecimiento, inflación, o cambios en el entorno económico) utilizadas para proyectar estados financieros.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+      concepto: "Proyección de Ventas",
+      definicion: "Estimación de las ventas futuras basada en tendencias históricas y supuestos económicos, esencial para la elaboración de estados financieros proforma.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+      concepto: "Liquidez",
+      definicion: "Capacidad de una empresa para generar efectivo suficiente para cumplir con sus obligaciones financieras a corto plazo, evaluada a través de flujos de efectivo proforma.",
     },
-
     {
       id: "2"
     }
   ],
   [
     {
-      concepto: "Tesorería",
-      definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+      concepto: "Análisis del Entorno Empresarial",
+      definicion: "Estudio de los factores micro y macroeconómicos que afectan a la empresa, incluyendo aspectos legales, económicos, tecnológicos y socioculturales.",
     },
     {
-      concepto: "Contraloría",
-      definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+      concepto: "Costos Operativos Proyectados",
+      definicion: "Estimaciones de los costos asociados con la operación continua de la empresa, como salarios, renta y gastos administrativos, usados en la proyección de resultados.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+      concepto: "Indicadores de Rentabilidad",
+      definicion: "Métricas como ROI, TIR y VPN, utilizadas para evaluar si un proyecto o inversión es financieramente viable y generará valor.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+      concepto: "Planificación Financiera",
+      definicion: "Proceso de creación de planes financieros proyectados (como los estados financieros proforma) para guiar las decisiones estratégicas y asegurar el cumplimiento de objetivos a largo plazo.",
     },
-
     {
       id: "3"
     }
-  ],
-
+  ]
 ];
 
 //Mezclamos el array de opciones

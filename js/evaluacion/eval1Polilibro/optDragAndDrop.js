@@ -74,92 +74,88 @@ function collectAnswers(definicion, concepto, numeroPregunta, idPregunta){
 let questionsDragAndDrop = [
   [
     {
-        concepto: "Tesorería",
-        definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+        concepto: "Formulación de proyectos informáticos",
+        definicion: "Proceso de planificación y desarrollo que implica identificar y analizar el entorno, así como definir los pasos para crear un proyecto eficiente dentro del área tecnológica.",
     },
     {
-        concepto: "Contraloría",
-        definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+        concepto: "Ciclo de vida del software",
+        definicion: "Conjunto de fases o etapas por las que atraviesa un proyecto de software, desde la planificación inicial hasta el mantenimiento después de la implementación.",
     },
     {
-        concepto: "Finanzas",
-        definicion: "Área de una empresa que tiene como funciones obtener y dirigir la asignación eficiente de fondos dentro de la organización",
+        concepto: "Análisis del entorno",
+        definicion: "Evaluación de factores internos y externos que pueden influir en el éxito de un proyecto, incluyendo aspectos económicos, sociales, legales, y tecnológicos.",
     },
     {
-      concepto: "Proveedores",
-      definicion: "De acuerdo con las NIF es el nombre que reciben las entidades que venden a las empresas bienes (materia prima, equipo de cómputo, mobiliario y equipo de oficina) o prestan servicios (de internet, de mantenimiento y de servicios de facturación electrónica, entre otros)",
+      concepto: "Proyecto informático",
+      definicion: "Sistema de acciones secuenciales y coordinadas que incluyen personas, hardware, software y comunicaciones, destinado a obtener un resultado específico en un sistema de información.",
     },
     {
       id: "0"
     }
   ],
-  [ //Conceptos parafraseados
+  [
     {
-      concepto: "Ética",
-      definicion: "Trata sobre lo que se considera un comportamiento humano correcto, basado en la práctica de valores. En el ámbito financiero, implica que todas las acciones relacionadas con el manejo del dinero deben ser honestas, claras, transparentes y dignas de confianza.",
+      concepto: "Clasificación de proyectos",
+      definicion: "Agrupación de proyectos según criterios como el origen del capital, propósito estratégico, y relación con otros proyectos, permitiendo analizar su viabilidad y alineación con objetivos específicos.",
     },
     {
-      concepto: "Economía",
-      definicion: "Ciencia que se enfoca en satisfacer las necesidades humanas y en generar y administrar la riqueza. Está estrechamente relacionada con las finanzas, ya que estas últimas son parte integral de la economía.",
+      concepto: "Desarrollo de sistemas",
+      definicion: "Conjunto de actividades informáticas que abarca la creación, diseño, despliegue y compatibilidad de software, alineado con los requisitos y necesidades del proyecto.",
     },
     {
-      concepto: "Derecho",
-      definicion: "Conjunto de leyes que regulan las actividades financieras. En caso de no acatar o cumplir con estas leyes, existen sanciones legales.",
+      concepto: "Evaluación financiera del proyecto",
+      definicion: "Proceso de análisis para determinar la rentabilidad económica de un proyecto, considerando costos, beneficios y riesgos asociados.",
     },
     {
-      concepto: "Clientes",
-      definicion: "Personas que compran bienes o adquieren servicios de la empresa.",
+      concepto: "Gestión de la integración del proyecto",
+      definicion: "Coordinación de todos los elementos y recursos de un proyecto para garantizar que los procesos y actividades se realicen de manera eficiente y se logren los objetivos establecidos.",
     },
-
     {
       id: "1"
     }
   ],
   [
     {
-      concepto: "Proveedores",
-      definicion: "Entidades que venden bienes o prestan servicios a la empresa, como materia prima, equipo de cómputo, mobiliario, servicios de internet, etc.",
+      concepto: "Fases de un proyecto",
+      definicion: "División de un proyecto en etapas menores, como planificación, análisis, diseño, desarrollo, pruebas y mantenimiento, para facilitar la gestión y control del mismo.",
     },
     {
-      concepto: "Competidores",
-      definicion: "Empresas que ofrecen el mismo producto o productos sustitutos, cubriendo la misma necesidad aunque no sean idénticos.",
+      concepto: "Planteamiento del problema",
+      definicion: "Identificación y delimitación de una problemática específica que el proyecto pretende resolver, considerando su contexto, causas y efectos.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+      concepto: "Análisis de contrastes",
+      definicion: "Técnica para identificar brechas entre el estado actual y el deseado en un proyecto, permitiendo definir más claramente el problema y sus posibles soluciones.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+      concepto: "Árbol de problemas",
+      definicion: "Herramienta visual que representa las causas y efectos de un problema en forma de árbol, facilitando la comprensión y análisis del contexto.",
     },
-
     {
       id: "2"
     }
   ],
   [
     {
-      concepto: "Tesorería",
-      definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+      concepto: "Diagrama de causa-efecto",
+      definicion: "Metodología también conocida como diagrama de Ishikawa o espina de pescado, utilizada para identificar las causas subyacentes de un problema específico.",
     },
     {
-      concepto: "Contraloría",
-      definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+      concepto: "Asignación de recursos",
+      definicion: "Proceso de determinar y distribuir los recursos humanos, tecnológicos y financieros necesarios para ejecutar cada fase del proyecto.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+      concepto: "Evaluación de viabilidad",
+      definicion: "Análisis previo para determinar si un proyecto es factible en términos de tiempo, recursos y retorno de inversión.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+      concepto: "Planificación del cronograma",
+      definicion: "Elaboración de un plan temporal que organiza y secuencia las actividades y tareas del proyecto para asegurar que se cumplan dentro del tiempo estipulado.",
     },
-
     {
       id: "3"
     }
   ],
-
 ];
 
 //Mezclamos el array de opciones

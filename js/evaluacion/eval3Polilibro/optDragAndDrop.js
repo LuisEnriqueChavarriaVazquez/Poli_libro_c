@@ -74,92 +74,88 @@ function collectAnswers(definicion, concepto, numeroPregunta, idPregunta){
 let questionsDragAndDrop = [
   [
     {
-        concepto: "Tesorería",
-        definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+      concepto: "Gestión de proyectos",
+      definicion: "Proceso integral que incluye la planificación, ejecución, monitoreo y cierre de actividades para cumplir con los objetivos del proyecto.",
     },
     {
-        concepto: "Contraloría",
-        definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+      concepto: "Alcance del proyecto",
+      definicion: "Define el trabajo requerido para completar el proyecto, asegurando que solo se incluyan los elementos necesarios para cumplir con los objetivos establecidos.",
     },
     {
-        concepto: "Finanzas",
-        definicion: "Área de una empresa que tiene como funciones obtener y dirigir la asignación eficiente de fondos dentro de la organización",
+      concepto: "Ciclo de vida del software",
+      definicion: "Etapas por las que pasa un software desde su concepción hasta su retirada, incluyendo análisis, diseño, desarrollo, pruebas, implementación y mantenimiento.",
     },
     {
-      concepto: "Proveedores",
-      definicion: "De acuerdo con las NIF es el nombre que reciben las entidades que venden a las empresas bienes (materia prima, equipo de cómputo, mobiliario y equipo de oficina) o prestan servicios (de internet, de mantenimiento y de servicios de facturación electrónica, entre otros)",
+      concepto: "Gestión de riesgos",
+      definicion: "Proceso sistemático para identificar, analizar y mitigar los riesgos que puedan impactar el éxito de un proyecto.",
     },
     {
       id: "0"
     }
   ],
-  [ //Conceptos parafraseados
+  [
     {
-      concepto: "Ética",
-      definicion: "Trata sobre lo que se considera un comportamiento humano correcto, basado en la práctica de valores. En el ámbito financiero, implica que todas las acciones relacionadas con el manejo del dinero deben ser honestas, claras, transparentes y dignas de confianza.",
+      concepto: "Estructura de Desglose del Trabajo (EDT/WBS)",
+      definicion: "Herramienta de planificación que divide un proyecto en partes más pequeñas y manejables, facilitando la organización del trabajo.",
     },
     {
-      concepto: "Economía",
-      definicion: "Ciencia que se enfoca en satisfacer las necesidades humanas y en generar y administrar la riqueza. Está estrechamente relacionada con las finanzas, ya que estas últimas son parte integral de la economía.",
+      concepto: "Metodologías ágiles",
+      definicion: "Conjunto de prácticas de gestión de proyectos que promueven la flexibilidad, iteración continua y entrega incremental en el desarrollo de software.",
     },
     {
-      concepto: "Derecho",
-      definicion: "Conjunto de leyes que regulan las actividades financieras. En caso de no acatar o cumplir con estas leyes, existen sanciones legales.",
+      concepto: "Requisitos funcionales",
+      definicion: "Especificaciones detalladas de las funciones y características que debe cumplir el sistema para satisfacer las necesidades del usuario.",
     },
     {
-      concepto: "Clientes",
-      definicion: "Personas que compran bienes o adquieren servicios de la empresa.",
+      concepto: "Requisitos no funcionales",
+      definicion: "Aspectos como la usabilidad, escalabilidad, rendimiento y seguridad que no están directamente relacionados con las funcionalidades, pero son críticos para la calidad del software.",
     },
-
     {
       id: "1"
     }
   ],
   [
     {
-      concepto: "Proveedores",
-      definicion: "Entidades que venden bienes o prestan servicios a la empresa, como materia prima, equipo de cómputo, mobiliario, servicios de internet, etc.",
+      concepto: "Pruebas unitarias",
+      definicion: "Técnica de testing que se centra en verificar el correcto funcionamiento de componentes individuales del software, asegurando que cada módulo opere como se espera.",
     },
     {
-      concepto: "Competidores",
-      definicion: "Empresas que ofrecen el mismo producto o productos sustitutos, cubriendo la misma necesidad aunque no sean idénticos.",
+      concepto: "Pruebas de integración",
+      definicion: "Proceso para verificar la correcta interacción y comunicación entre diferentes módulos o componentes del sistema.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+      concepto: "Documentación técnica",
+      definicion: "Conjunto de manuales y guías que describen la arquitectura, diseño, procedimientos de instalación y configuración, facilitando el entendimiento y mantenimiento del software.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+      concepto: "Control de calidad",
+      definicion: "Conjunto de actividades para garantizar que el producto final cumpla con los estándares y requisitos previamente definidos, mejorando la satisfacción del cliente.",
     },
-
     {
       id: "2"
     }
   ],
   [
     {
-      concepto: "Tesorería",
-      definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+      concepto: "Gestión de sostenibilidad en software",
+      definicion: "Enfoque para desarrollar aplicaciones con un mínimo impacto ambiental, social y económico, promoviendo la eficiencia y la responsabilidad corporativa.",
     },
     {
-      concepto: "Contraloría",
-      definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+      concepto: "Matriz de trazabilidad",
+      definicion: "Herramienta que relaciona los requisitos del proyecto con las pruebas y entregables, asegurando que cada necesidad inicial sea cubierta en el producto final.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+      concepto: "Prototipado",
+      definicion: "Técnica para construir representaciones preliminares de un sistema con el fin de validar conceptos y recopilar feedback temprano en el proceso de desarrollo.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+      concepto: "Gestión de interesados",
+      definicion: "Proceso de identificación y análisis de las expectativas y necesidades de personas u organizaciones que puedan influir o verse afectadas por el proyecto, desarrollando estrategias para asegurar su participación y satisfacción.",
     },
-
     {
       id: "3"
     }
-  ],
-
+  ]
 ];
 
 //Mezclamos el array de opciones

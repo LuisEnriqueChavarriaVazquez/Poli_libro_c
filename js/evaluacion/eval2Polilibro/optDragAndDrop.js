@@ -74,92 +74,88 @@ function collectAnswers(definicion, concepto, numeroPregunta, idPregunta){
 let questionsDragAndDrop = [
   [
     {
-        concepto: "Tesorería",
-        definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+        concepto: "Finanzas Corporativas",
+        definicion: "Área dentro de las empresas que se encarga de gestionar los recursos financieros, inversión, financiamiento y maximización del valor empresarial.",
     },
     {
-        concepto: "Contraloría",
-        definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+        concepto: "Estado Financiero",
+        definicion: "Documentos contables que muestran la situación económica y financiera de la empresa en un periodo determinado.",
     },
     {
-        concepto: "Finanzas",
-        definicion: "Área de una empresa que tiene como funciones obtener y dirigir la asignación eficiente de fondos dentro de la organización",
+        concepto: "Liquidez",
+        definicion: "Capacidad de una empresa para convertir sus activos en efectivo para cumplir con sus obligaciones a corto plazo.",
     },
     {
-      concepto: "Proveedores",
-      definicion: "De acuerdo con las NIF es el nombre que reciben las entidades que venden a las empresas bienes (materia prima, equipo de cómputo, mobiliario y equipo de oficina) o prestan servicios (de internet, de mantenimiento y de servicios de facturación electrónica, entre otros)",
+        concepto: "Rentabilidad",
+        definicion: "Medida de la capacidad de una empresa para generar ganancias en relación con sus ingresos, activos o capital invertido.",
     },
     {
       id: "0"
     }
   ],
-  [ //Conceptos parafraseados
+  [
     {
-      concepto: "Ética",
-      definicion: "Trata sobre lo que se considera un comportamiento humano correcto, basado en la práctica de valores. En el ámbito financiero, implica que todas las acciones relacionadas con el manejo del dinero deben ser honestas, claras, transparentes y dignas de confianza.",
+        concepto: "Apalancamiento",
+        definicion: "Uso de la deuda para financiar la adquisición de activos o aumentar la rentabilidad de la empresa, a cambio de un mayor riesgo.",
     },
     {
-      concepto: "Economía",
-      definicion: "Ciencia que se enfoca en satisfacer las necesidades humanas y en generar y administrar la riqueza. Está estrechamente relacionada con las finanzas, ya que estas últimas son parte integral de la economía.",
+        concepto: "Presupuesto de Capital",
+        definicion: "Proceso de planificación de inversiones a largo plazo, evaluando su viabilidad y su impacto en el valor de la empresa.",
     },
     {
-      concepto: "Derecho",
-      definicion: "Conjunto de leyes que regulan las actividades financieras. En caso de no acatar o cumplir con estas leyes, existen sanciones legales.",
+        concepto: "Costos de Financiamiento",
+        definicion: "Intereses y otros gastos que una empresa incurre para obtener recursos financieros, como préstamos o emisión de bonos.",
     },
     {
-      concepto: "Clientes",
-      definicion: "Personas que compran bienes o adquieren servicios de la empresa.",
+        concepto: "Análisis de Riesgo",
+        definicion: "Proceso de identificar, evaluar y mitigar los riesgos financieros que puedan afectar el desempeño de una empresa.",
     },
-
     {
       id: "1"
     }
   ],
   [
     {
-      concepto: "Proveedores",
-      definicion: "Entidades que venden bienes o prestan servicios a la empresa, como materia prima, equipo de cómputo, mobiliario, servicios de internet, etc.",
+        concepto: "Valor Presente Neto (VPN)",
+        definicion: "Método de valoración que calcula el valor actual de los flujos de efectivo futuros, descontados a una tasa específica, para evaluar proyectos de inversión.",
     },
     {
-      concepto: "Competidores",
-      definicion: "Empresas que ofrecen el mismo producto o productos sustitutos, cubriendo la misma necesidad aunque no sean idénticos.",
+        concepto: "Costo de Capital",
+        definicion: "Tasa de rendimiento mínima que una empresa espera obtener para financiar sus inversiones sin incurrir en pérdidas.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+        concepto: "Gobierno Corporativo",
+        definicion: "Conjunto de normas y principios que regulan la estructura y funcionamiento de los órganos de dirección de una empresa para garantizar la transparencia y la ética.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+        concepto: "Diversificación Financiera",
+        definicion: "Estrategia que busca reducir el riesgo mediante la inversión en una variedad de activos o sectores, evitando la dependencia de una sola fuente de ingresos.",
     },
-
     {
       id: "2"
     }
   ],
   [
     {
-      concepto: "Tesorería",
-      definicion: "Área de la empresa que se enfoca en el manejo de los recursos financieros",
+        concepto: "Ciclo de Efectivo",
+        definicion: "Tiempo que tarda una empresa en convertir sus inventarios y recursos en efectivo mediante la venta de productos o servicios.",
     },
     {
-      concepto: "Contraloría",
-      definicion: "Área de la empresa responsable de la actividad contable, la planeación, presupuestos, auditoría interna, entre otras",
+        concepto: "Capital de Trabajo",
+        definicion: "Recursos financieros necesarios para cubrir las operaciones diarias de una empresa, incluyendo cuentas por cobrar, inventarios y cuentas por pagar.",
     },
     {
-      concepto: "Entidades financieras",
-      definicion: "Instituciones, como los bancos, que son fuentes de financiamiento para la empresa, prestando dinero y cobrando una tasa de interés a cambio.",
+        concepto: "Evaluación de Proyectos",
+        definicion: "Proceso de análisis para determinar la viabilidad técnica, financiera y económica de un proyecto antes de tomar una decisión de inversión.",
     },
     {
-      concepto: "Comunidad",
-      definicion: "Conjunto de personas que conforman el entorno social de la empresa, con características como ideología, costumbres, inquietudes por el medio ambiente y estilo de vida.",
+        concepto: "Auditoría Financiera",
+        definicion: "Revisión sistemática de los estados financieros de una empresa para garantizar su veracidad y el cumplimiento de las normas contables.",
     },
-
     {
       id: "3"
     }
-  ],
-
+  ]
 ];
 
 //Mezclamos el array de opciones
