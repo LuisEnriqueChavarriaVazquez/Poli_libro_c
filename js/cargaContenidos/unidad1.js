@@ -757,10 +757,6 @@ const contenidosUnidad = [
             La Gestión de la Integración del Proyecto conlleva la toma de decisiones en cuanto a la asignación de recursos, equilibrar objetivos y 
             alternativas contrapuestas y manejar las interdependencias entre las Áreas de Conocimiento de la dirección de proyectos. 
             (Guía del PMBOK. 2013) <br><br>
-
-
-           
-
         </p>
     </div>
 </div>          
