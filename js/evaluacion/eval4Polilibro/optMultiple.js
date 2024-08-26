@@ -1,24 +1,25 @@
 function pregunta(numero) {
     //Respuestas para las preguntas
-    let respuestasId = [0, "pregunta1_opt2"
-        , "pregunta2_opt3", "pregunta3_opt3"
-        , "pregunta4_opt1", "pregunta5_opt1"
-        , "pregunta6_opt2", "pregunta7_opt1"
-        , "pregunta8_opt3", "pregunta9_opt1"
-        , "pregunta10_opt3",];
+    let respuestasId = [0, "pregunta1_opt3",
+        "pregunta2_opt2", "pregunta3_opt1",
+        "pregunta4_opt1", "pregunta5_opt3",
+        "pregunta6_opt2", "pregunta7_opt3",
+        "pregunta8_opt1", "pregunta9_opt2",
+        "pregunta10_opt2"];
+
 
     //Explicaciones de las preguntas
-    let respuestasExplicacion = [0, ["la respuesta era la b",'respuesta correcta','la respuesta era la b']
-        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
-        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
-        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
-        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
-        , ["La respuesta era la b","respuesta correcta",'La respuesta era la b']
-        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
-        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
-        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
-        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
-        , ];
+    let respuestasExplicacion = [0, ["La respuesta correcta es la c porque el presupuesto de ventas se basa en una estimación de ingresos futuros.", "respuesta correcta", "El análisis de tendencias es crucial para el presupuesto de ventas."],
+        ["La evaluación de recursos financieros es esencial al considerar una inversión propia.", "respuesta correcta", "Tener un fondo de reserva es una medida clave."],
+        ["El presupuesto de egresos incluye tanto gastos fijos como variables, lo que es crucial para la planificación financiera.", "respuesta correcta", "El control de costos se enfoca en gastos variables en función de las ventas."],
+        ["El control de costos durante todas las etapas del proyecto es esencial para evitar sobrecostos.", "respuesta correcta", "La flexibilidad es clave en la planificación presupuestaria."],
+        ["La estimación precisa de financiamiento es vital para evitar sorpresas financieras.", "La respuesta correcta es la c.", "Mantener informados a los inversionistas mejora la gestión del proyecto."],
+        ["Las herramientas y software específicos son fundamentales en la etapa de desarrollo de proyectos.", "respuesta correcta", "La capacitación mejora la productividad del proyecto."],
+        ["La investigación y desarrollo se enfoca en la innovación de productos o servicios.", "Los beneficios para empleados son cruciales.", "respuesta correcta"],
+        ["La evaluación de tendencias externas es esencial en la planificación de ingresos.", "respuesta correcta", "La segmentación de clientes mejora la precisión del presupuesto."],
+        ["La comunicación transparente es vital en la relación con inversionistas.", "respuesta correcta", "Las estrategias de ajuste son importantes."],
+        ["El análisis de costos y el uso de métodos múltiples son claves en la precisión del presupuesto de ingresos.", "respuesta correcta", "El seguimiento de resultados es una práctica recomendada."]];
+
 
     let respuestaCorrectaId = respuestasId[numero]
     let contenedor = document.getElementById("pregunta" + String(numero))
@@ -98,44 +99,44 @@ const preguntas_aleatorias_indices = [0]
 const preguntas = [
     0,
     {
-        "enunciado": "¿Cuál es una característica fundamental de la innovación?",
-        "opciones": ['Desarrollo de tecnología sofisticada.', 'Transformación de una oportunidad de mejora en valor.', 'Creación de productos completamente nuevos.'],
+        "enunciado": "¿Cuál es un aspecto clave en la creación de un presupuesto de ventas?",
+        "opciones": ['La estimación de gastos fijos.', 'La inclusión de contingencias.', 'La proyección de ingresos futuros.'],
     },
     {
-        "enunciado": "¿Cuál es uno de los aspectos principales de la metodología Design Thinking?",
-        "opciones": ['Fases estrictamente secuenciales.', 'Enfoque exclusivo en la tecnología.', 'Consideración de las necesidades del usuario.'],
+        "enunciado": "¿Qué se debe considerar antes de comprometer una inversión propia en un proyecto?",
+        "opciones": ['El plan de marketing.', 'La evaluación de recursos financieros disponibles.', 'El alcance del proyecto.'],
     },
     {
-        "enunciado": "¿Cuál es el objetivo principal de la fase de empatizar/descubrir en Design Thinking?",
-        "opciones": ['Definir el problema de manera precisa.', 'Generar soluciones innovadoras.', 'Comprender las necesidades y el contexto de los usuarios.'],
+        "enunciado": "¿Qué incluye un presupuesto de egresos?",
+        "opciones": ['Gastos fijos y variables.', 'Solo gastos variables.', 'Solo gastos fijos.'],
     },
     {
-        "enunciado": "¿Qué se busca en la fase de definir del Design Thinking?",
-        "opciones": ['Definir claramente el problema y las necesidades de los usuarios.','Identificar las necesidades emocionales de los usuarios.', 'Generar nuevas ideas para resolver el problema.'],
+        "enunciado": "¿Qué es esencial en la gestión de costos durante el desarrollo de un proyecto?",
+        "opciones": ['Controlar los costos en todas las etapas.', 'Estimar los ingresos.', 'Determinar los precios de venta.'],
     },
     {
-        "enunciado": "¿Cuál es el propósito principal de la fase de idear en Design Thinking?",
-        "opciones": ['Desarrollar múltiples ideas creativas.', 'Definir claramente el problema.', 'Generar una solución perfecta.'],
+        "enunciado": "¿Qué es importante al estimar el financiamiento necesario para un proyecto?",
+        "opciones": ['La definición del alcance.', 'La previsión de contingencias.', 'La inclusión de todos los costos relevantes.'],
     },
     {
-        "enunciado": "¿Qué técnica creativa se utiliza para generar muchas ideas diferentes durante la fase de idear en Design Thinking?",
-        "opciones": ['Encuesta.', 'SCAMPER.', 'Entrevista.'],
+        "enunciado": "¿Qué es fundamental para el desarrollo exitoso de un proyecto informático?",
+        "opciones": ['La adquisición de inmuebles.', 'La selección de herramientas y software adecuados.', 'El marketing y la promoción.'],
     },
     {
-        "enunciado": "¿Qué se busca al aplicar la técnica Da Vinci o morfológica durante la fase de idear en Design Thinking?",
-        "opciones": ['Generar combinaciones de características para crear soluciones innovadoras.', 'Seleccionar las ideas más económicas.', 'Evaluar el impacto medioambiental de las ideas.'],
+        "enunciado": "¿Qué elemento es importante en la investigación y desarrollo de un proyecto?",
+        "opciones": ['El análisis financiero.', 'La implementación de seguros.', 'La innovación tecnológica.'],
     },
     {
-        "enunciado": "¿Cuál es uno de los aspectos fundamentales a considerar al momento de construir y presentar un prototipo durante la fase de prototipar en Design Thinking?",
-        "opciones": ['La validación de la idea.', 'La creatividad del prototipo.', 'Que los prototipos den solución a la problemática planteada.'],
+        "enunciado": "¿Qué se debe analizar al crear un presupuesto de ventas?",
+        "opciones": ['La tasa de interés.', 'Las tendencias y factores externos.', 'La competencia en precios.'],
     },
     {
-        "enunciado": "¿Qué se busca al realizar el testeo (validar) de un prototipo durante la quinta fase del Design Thinking?",
-        "opciones": ['Recoger opiniones de los usuarios para obtener nuevas ideas de mejora.', 'Evaluar la creatividad del prototipo.','Probar la viabilidad económica del prototipo.'],
+        "enunciado": "¿Qué es clave en la relación con inversionistas?",
+        "opciones": ['La entrega puntual de resultados.', 'La comunicación transparente.', 'El análisis de mercado.'],
     },
     {
-        "enunciado": "¿Por qué es importante realizar un proceso iterativo durante el testeo de un prototipo en Design Thinking?",
-        "opciones": ['Para incrementar el costo del proyecto.', 'Para validar la solución ideal en el primer intento.', 'Para recoger diferentes puntos de vista y mejorar la solución.'],
+        "enunciado": "¿Qué técnica puede mejorar la precisión de un presupuesto de ventas?",
+        "opciones": ['El uso de un solo método de pronóstico.', 'La combinación de múltiples métodos de pronóstico.', 'La exclusión de factores externos.'],
     },
 ];
 

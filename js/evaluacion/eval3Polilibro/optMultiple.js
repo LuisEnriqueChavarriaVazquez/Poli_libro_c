@@ -1,24 +1,34 @@
 function pregunta(numero) {
     //Respuestas para las preguntas
-    let respuestasId = [0, "pregunta1_opt2"
-        , "pregunta2_opt3", "pregunta3_opt3"
-        , "pregunta4_opt1", "pregunta5_opt1"
-        , "pregunta6_opt2", "pregunta7_opt1"
-        , "pregunta8_opt3", "pregunta9_opt1"
-        , "pregunta10_opt3",];
+    let respuestasId = [
+        0,
+        "pregunta1_opt2", // Respuesta correcta: b
+        "pregunta2_opt3", // Respuesta correcta: c
+        "pregunta3_opt1", // Respuesta correcta: a
+        "pregunta4_opt3", // Respuesta correcta: c
+        "pregunta5_opt1", // Respuesta correcta: a
+        "pregunta6_opt2", // Respuesta correcta: b
+        "pregunta7_opt3", // Respuesta correcta: c
+        "pregunta8_opt1", // Respuesta correcta: a
+        "pregunta9_opt3", // Respuesta correcta: c
+        "pregunta10_opt2", // Respuesta correcta: b
+      ];      
 
     //Explicaciones de las preguntas
-    let respuestasExplicacion = [0, ["la respuesta era la b",'respuesta correcta','la respuesta era la b']
-        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
-        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
-        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
-        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
-        , ["La respuesta era la b","respuesta correcta",'La respuesta era la b']
-        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
-        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
-        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
-        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
-        , ];
+    let respuestasExplicacion = [
+        0,
+        ["La respuesta correcta es b.", "respuesta correcta", "La opción b refleja la correcta interpretación del contexto."],
+        ["La opción c es correcta.", "La opción correcta es c.", "respuesta correcta"],
+        ["La opción a es la correcta.", "La respuesta correcta es la opción a.", "Correcto, la opción a es adecuada."],
+        ["respuesta correcta", "La opción c es la correcta.", "Esta opción c es la mejor respuesta."],
+        ["La respuesta correcta es la opción a.", "respuesta correcta", "La opción a refleja correctamente el concepto."],
+        ["La opción b es la respuesta correcta.", "respuesta correcta", "La opción b explica el concepto adecuadamente."],
+        ["La opción c es la correcta.", "La opción correcta es c.", "respuesta correcta"],
+        ["respuesta correcta", "La opción a es la correcta.", "Correcto, la opción a es la mejor."],
+        ["La opción c es la correcta.", "La opción c refleja la mejor interpretación.", "respuesta correcta"],
+        ["La respuesta correcta es la opción b.", "respuesta correcta", "La opción b es adecuada para el contexto."],
+      ];
+      
 
     let respuestaCorrectaId = respuestasId[numero]
     let contenedor = document.getElementById("pregunta" + String(numero))
@@ -98,46 +108,87 @@ const preguntas_aleatorias_indices = [0]
 const preguntas = [
     0,
     {
-        "enunciado": "¿Cuál es una característica fundamental de la innovación?",
-        "opciones": ['Desarrollo de tecnología sofisticada.', 'Transformación de una oportunidad de mejora en valor.', 'Creación de productos completamente nuevos.'],
+      "enunciado": "¿Qué implica la gestión de la integración del proyecto según la guía PMBOK?",
+      "opciones": [
+        "Involucra la gestión exclusiva de recursos humanos.",
+        "Coordina los diversos procesos y actividades del proyecto.",
+        "Se centra únicamente en la planificación de costos."
+      ],
     },
     {
-        "enunciado": "¿Cuál es uno de los aspectos principales de la metodología Design Thinking?",
-        "opciones": ['Fases estrictamente secuenciales.', 'Enfoque exclusivo en la tecnología.', 'Consideración de las necesidades del usuario.'],
+      "enunciado": "¿Cuál es el principal propósito de la gestión de riesgos en un proyecto?",
+      "opciones": [
+        "Evaluar la viabilidad técnica.",
+        "Mitigar impactos negativos futuros.",
+        "Garantizar la eficiencia en la comunicación."
+      ],
     },
     {
-        "enunciado": "¿Cuál es el objetivo principal de la fase de empatizar/descubrir en Design Thinking?",
-        "opciones": ['Definir el problema de manera precisa.', 'Generar soluciones innovadoras.', 'Comprender las necesidades y el contexto de los usuarios.'],
+      "enunciado": "¿Qué enfoque utiliza la gestión del tiempo en proyectos?",
+      "opciones": [
+        "Establecer un cronograma claro y secuencial.",
+        "Optimizar únicamente los recursos materiales.",
+        "Priorizar la comunicación entre equipos."
+      ],
     },
     {
-        "enunciado": "¿Qué se busca en la fase de definir del Design Thinking?",
-        "opciones": ['Definir claramente el problema y las necesidades de los usuarios.','Identificar las necesidades emocionales de los usuarios.', 'Generar nuevas ideas para resolver el problema.'],
+      "enunciado": "¿Cuál es una de las prácticas clave en la gestión sostenible de software?",
+      "opciones": [
+        "Maximizar la velocidad de desarrollo.",
+        "Reducir el impacto ambiental del software.",
+        "Evitar la documentación extensa."
+      ],
     },
     {
-        "enunciado": "¿Cuál es el propósito principal de la fase de idear en Design Thinking?",
-        "opciones": ['Desarrollar múltiples ideas creativas.', 'Definir claramente el problema.', 'Generar una solución perfecta.'],
+      "enunciado": "¿Qué objetivo persigue la gestión de la calidad en un proyecto?",
+      "opciones": [
+        "Cumplir con las necesidades planteadas originalmente.",
+        "Minimizar el tiempo de entrega a toda costa.",
+        "Reducir el presupuesto del proyecto."
+      ],
     },
     {
-        "enunciado": "¿Qué técnica creativa se utiliza para generar muchas ideas diferentes durante la fase de idear en Design Thinking?",
-        "opciones": ['Encuesta.', 'SCAMPER.', 'Entrevista.'],
+      "enunciado": "¿Qué aspecto destaca en la gestión del alcance de un proyecto?",
+      "opciones": [
+        "Controlar los cambios en el cronograma.",
+        "Asegurar que solo se incluya lo necesario.",
+        "Maximizar el número de entregables."
+      ],
     },
     {
-        "enunciado": "¿Qué se busca al aplicar la técnica Da Vinci o morfológica durante la fase de idear en Design Thinking?",
-        "opciones": ['Generar combinaciones de características para crear soluciones innovadoras.', 'Seleccionar las ideas más económicas.', 'Evaluar el impacto medioambiental de las ideas.'],
+      "enunciado": "¿Qué herramienta es clave para la especificación de requisitos según la PMBOK?",
+      "opciones": [
+        "Casos de uso detallados.",
+        "Matrices de trazabilidad.",
+        "Simulaciones en tiempo real."
+      ],
     },
     {
-        "enunciado": "¿Cuál es uno de los aspectos fundamentales a considerar al momento de construir y presentar un prototipo durante la fase de prototipar en Design Thinking?",
-        "opciones": ['La validación de la idea.', 'La creatividad del prototipo.', 'Que los prototipos den solución a la problemática planteada.'],
+      "enunciado": "¿Cuál es el rol principal del acta de constitución del proyecto?",
+      "opciones": [
+        "Definir los entregables finales.",
+        "Formalizar el inicio del proyecto.",
+        "Determinar los recursos necesarios."
+      ],
     },
     {
-        "enunciado": "¿Qué se busca al realizar el testeo (validar) de un prototipo durante la quinta fase del Design Thinking?",
-        "opciones": ['Recoger opiniones de los usuarios para obtener nuevas ideas de mejora.', 'Evaluar la creatividad del prototipo.','Probar la viabilidad económica del prototipo.'],
+      "enunciado": "¿Qué enfoque sigue la gestión de las comunicaciones en un proyecto?",
+      "opciones": [
+        "Establecer relaciones solo dentro del equipo.",
+        "Coordinar la difusión de información relevante.",
+        "Centralizar el control en una sola persona."
+      ],
     },
     {
-        "enunciado": "¿Por qué es importante realizar un proceso iterativo durante el testeo de un prototipo en Design Thinking?",
-        "opciones": ['Para incrementar el costo del proyecto.', 'Para validar la solución ideal en el primer intento.', 'Para recoger diferentes puntos de vista y mejorar la solución.'],
+      "enunciado": "¿Cuál es el beneficio principal de las pruebas de integración en desarrollo de software?",
+      "opciones": [
+        "Reducir los costos iniciales.",
+        "Asegurar que los componentes trabajen juntos.",
+        "Eliminar la necesidad de pruebas unitarias."
+      ],
     },
-];
+  ];
+  
 
 function preguntas_aleatorias() {
 

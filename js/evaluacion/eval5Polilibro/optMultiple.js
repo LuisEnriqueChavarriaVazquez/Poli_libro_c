@@ -1,24 +1,21 @@
 function pregunta(numero) {
     //Respuestas para las preguntas
-    let respuestasId = [0, "pregunta1_opt2"
-        , "pregunta2_opt3", "pregunta3_opt3"
-        , "pregunta4_opt1", "pregunta5_opt1"
-        , "pregunta6_opt2", "pregunta7_opt1"
-        , "pregunta8_opt3", "pregunta9_opt1"
-        , "pregunta10_opt3",];
+    let respuestasId = [0, "pregunta1_opt3", "pregunta2_opt2", "pregunta3_opt1", "pregunta4_opt2", "pregunta5_opt1", "pregunta6_opt3", "pregunta7_opt1", "pregunta8_opt2", "pregunta9_opt3", "pregunta10_opt1"];
+
 
     //Explicaciones de las preguntas
-    let respuestasExplicacion = [0, ["la respuesta era la b",'respuesta correcta','la respuesta era la b']
-        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
-        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
-        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
-        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
-        , ["La respuesta era la b","respuesta correcta",'La respuesta era la b']
-        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
-        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
-        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
-        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
-        , ];
+    let respuestasExplicacion = [0,
+        ["La respuesta correcta es la c. Los recursos financieros, tecnológicos y humanos son esenciales para el funcionamiento de una empresa.", "Respuesta correcta.", "Los recursos financieros, tecnológicos y humanos son cruciales para cumplir con los objetivos empresariales."],
+        ["El entorno empresarial influye en la toma de decisiones.", "Respuesta correcta.", "El entorno micro y macroeconómico afecta a las empresas y obliga a la toma de decisiones estratégicas."],
+        ["La planificación financiera se basa en proyecciones.", "Respuesta correcta.", "Los estados financieros proforma reflejan situaciones futuras basadas en presupuestos."],
+        ["El uso de este recurso digital está alineado con la metodología del programa.", "Respuesta correcta.", "Este RDD está diseñado para facilitar el aprendizaje autónomo siguiendo la secuencia establecida en el programa de estudios."],
+        ["Las empresas son fundamentales en la economía.", "Respuesta correcta.", "Las empresas son la base del sistema económico por su papel en la producción y distribución de bienes."],
+        ["La matriz de decisiones ayuda a comparar alternativas.", "Respuesta correcta.", "La matriz de decisiones facilita la comparación de opciones mediante criterios ponderados."],
+        ["Los indicadores financieros evalúan la viabilidad de proyectos informáticos.", "Respuesta correcta.", "Indicadores como el ROI y el Costo-beneficio son clave para evaluar proyectos."],
+        ["El estado de resultados proyecta ingresos y gastos.", "Respuesta correcta.", "El estado de resultados proforma es crucial para prever la utilidad neta futura."],
+        ["Los flujos netos de efectivo evalúan la liquidez.", "Respuesta correcta.", "El cálculo de flujos netos de efectivo es esencial para determinar la capacidad de pago de la empresa."]
+      ];
+      
 
     let respuestaCorrectaId = respuestasId[numero]
     let contenedor = document.getElementById("pregunta" + String(numero))
@@ -98,46 +95,42 @@ const preguntas_aleatorias_indices = [0]
 const preguntas = [
     0,
     {
-        "enunciado": "¿Cuál es una característica fundamental de la innovación?",
-        "opciones": ['Desarrollo de tecnología sofisticada.', 'Transformación de una oportunidad de mejora en valor.', 'Creación de productos completamente nuevos.'],
+      "enunciado": "¿Qué recursos son indispensables para el funcionamiento de una empresa?",
+      "opciones": ["Solo recursos financieros.", "Recursos humanos y tecnológicos únicamente.", "Recursos financieros, tecnológicos y humanos."]
     },
     {
-        "enunciado": "¿Cuál es uno de los aspectos principales de la metodología Design Thinking?",
-        "opciones": ['Fases estrictamente secuenciales.', 'Enfoque exclusivo en la tecnología.', 'Consideración de las necesidades del usuario.'],
+      "enunciado": "¿Cómo influye el entorno empresarial en la operación de las empresas?",
+      "opciones": ["No tiene influencia significativa.", "Afecta la toma de decisiones estratégicas.", "Es irrelevante para la planificación."]
     },
     {
-        "enunciado": "¿Cuál es el objetivo principal de la fase de empatizar/descubrir en Design Thinking?",
-        "opciones": ['Definir el problema de manera precisa.', 'Generar soluciones innovadoras.', 'Comprender las necesidades y el contexto de los usuarios.'],
+      "enunciado": "¿Qué objetivo tiene la elaboración de estados financieros proforma?",
+      "opciones": ["Reflejar situaciones futuras basadas en presupuestos.", "Presentar resultados históricos.", "Obtener información fiscal."]
     },
     {
-        "enunciado": "¿Qué se busca en la fase de definir del Design Thinking?",
-        "opciones": ['Definir claramente el problema y las necesidades de los usuarios.','Identificar las necesidades emocionales de los usuarios.', 'Generar nuevas ideas para resolver el problema.'],
+      "enunciado": "¿Cuál es la intención principal del RDD para la unidad temática?",
+      "opciones": ["Ofrecer ejemplos visuales.", "Facilitar el aprendizaje autónomo siguiendo la metodología.", "Proveer acceso a recursos adicionales."]
     },
     {
-        "enunciado": "¿Cuál es el propósito principal de la fase de idear en Design Thinking?",
-        "opciones": ['Desarrollar múltiples ideas creativas.', 'Definir claramente el problema.', 'Generar una solución perfecta.'],
+      "enunciado": "¿Por qué se consideran las empresas como la base del sistema económico?",
+      "opciones": ["Por su capacidad de innovación.", "Por su rol en la producción y distribución de bienes.", "Por su estructura organizativa."]
     },
     {
-        "enunciado": "¿Qué técnica creativa se utiliza para generar muchas ideas diferentes durante la fase de idear en Design Thinking?",
-        "opciones": ['Encuesta.', 'SCAMPER.', 'Entrevista.'],
+      "enunciado": "¿Qué herramienta es útil para comparar alternativas en la toma de decisiones?",
+      "opciones": ["Análisis FODA.", "Estudio de mercado.", "Matriz de decisiones."]
     },
     {
-        "enunciado": "¿Qué se busca al aplicar la técnica Da Vinci o morfológica durante la fase de idear en Design Thinking?",
-        "opciones": ['Generar combinaciones de características para crear soluciones innovadoras.', 'Seleccionar las ideas más económicas.', 'Evaluar el impacto medioambiental de las ideas.'],
+      "enunciado": "¿Qué indicadores financieros son relevantes en la evaluación de proyectos informáticos?",
+      "opciones": ["Solo el análisis de costos.", "Indicadores de eficiencia energética.", "Indicadores como el ROI y Costo-beneficio."]
     },
     {
-        "enunciado": "¿Cuál es uno de los aspectos fundamentales a considerar al momento de construir y presentar un prototipo durante la fase de prototipar en Design Thinking?",
-        "opciones": ['La validación de la idea.', 'La creatividad del prototipo.', 'Que los prototipos den solución a la problemática planteada.'],
+      "enunciado": "¿Cuál es el propósito del estado de resultados proforma?",
+      "opciones": ["Proyectar ingresos y gastos futuros.", "Analizar costos históricos.", "Determinar precios de venta."]
     },
     {
-        "enunciado": "¿Qué se busca al realizar el testeo (validar) de un prototipo durante la quinta fase del Design Thinking?",
-        "opciones": ['Recoger opiniones de los usuarios para obtener nuevas ideas de mejora.', 'Evaluar la creatividad del prototipo.','Probar la viabilidad económica del prototipo.'],
-    },
-    {
-        "enunciado": "¿Por qué es importante realizar un proceso iterativo durante el testeo de un prototipo en Design Thinking?",
-        "opciones": ['Para incrementar el costo del proyecto.', 'Para validar la solución ideal en el primer intento.', 'Para recoger diferentes puntos de vista y mejorar la solución.'],
-    },
-];
+      "enunciado": "¿Qué se busca al calcular los flujos netos de efectivo?",
+      "opciones": ["Incrementar la inversión.", "Evaluar la liquidez y capacidad de pago.", "Aumentar los ingresos fiscales."]
+    }
+  ];
 
 function preguntas_aleatorias() {
 

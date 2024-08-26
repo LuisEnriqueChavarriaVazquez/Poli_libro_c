@@ -1,24 +1,25 @@
 function pregunta(numero) {
     //Respuestas para las preguntas
-    let respuestasId = [0, "pregunta1_opt2"
-        , "pregunta2_opt3", "pregunta3_opt3"
-        , "pregunta4_opt1", "pregunta5_opt1"
-        , "pregunta6_opt2", "pregunta7_opt1"
-        , "pregunta8_opt3", "pregunta9_opt1"
-        , "pregunta10_opt3",];
+    let respuestasId = [0, "pregunta1_opt1",
+        "pregunta2_opt2", "pregunta3_opt3",
+        "pregunta4_opt2", "pregunta5_opt1",
+        "pregunta6_opt1", "pregunta7_opt3",
+        "pregunta8_opt2", "pregunta9_opt1",
+        "pregunta10_opt2"];
+    
 
     //Explicaciones de las preguntas
-    let respuestasExplicacion = [0, ["la respuesta era la b",'respuesta correcta','la respuesta era la b']
-        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
-        , ["la respuesta era la c","La respuesta era la c","respuesta correcta"]
-        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
-        , ["respuesta correcta","La respuesta era la a","la respuesta era la a"]
-        , ["La respuesta era la b","respuesta correcta",'La respuesta era la b']
-        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
-        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
-        , ["Respuesta correcta","La respuesta era la a","La respuesta era la a"]
-        , ["la respuesta era la c","la respuesta era la c","Respuesta correcta"]
-        , ];
+    let respuestasExplicacion = [0, ["respuesta correcta", "La respuesta era la b", "La respuesta era la c"],
+    ["La respuesta era la a", "respuesta correcta", "La respuesta era la c"],
+    ["La respuesta era la a", "La respuesta era la b", "respuesta correcta"],
+    ["La respuesta era la b", "respuesta correcta", "La respuesta era la c"],
+    ["respuesta correcta", "La respuesta era la b", "La respuesta era la c"],
+    ["respuesta correcta", "La respuesta era la b", "La respuesta era la c"],
+    ["La respuesta era la b", "La respuesta era la c", "respuesta correcta"],
+    ["La respuesta era la c", "respuesta correcta", "La respuesta era la a"],
+    ["respuesta correcta", "La respuesta era la b", "La respuesta era la c"],
+    ["La respuesta era la b", "respuesta correcta", "La respuesta era la c"]];
+
 
     let respuestaCorrectaId = respuestasId[numero]
     let contenedor = document.getElementById("pregunta" + String(numero))
@@ -98,45 +99,45 @@ const preguntas_aleatorias_indices = [0]
 const preguntas = [
     0,
     {
-        "enunciado": "¿Cuál es una característica fundamental de la innovación?",
-        "opciones": ['Desarrollo de tecnología sofisticada.', 'Transformación de una oportunidad de mejora en valor.', 'Creación de productos completamente nuevos.'],
+        "enunciado": "¿Qué elemento es fundamental en la formulación de proyectos informáticos?",
+        "opciones": ["Asignación eficiente de recursos", "Maximización de la inversión", "Simplificación de procesos"]
     },
     {
-        "enunciado": "¿Cuál es uno de los aspectos principales de la metodología Design Thinking?",
-        "opciones": ['Fases estrictamente secuenciales.', 'Enfoque exclusivo en la tecnología.', 'Consideración de las necesidades del usuario.'],
+        "enunciado": "¿Cuál es uno de los principales desafíos en la gestión de la integración de proyectos informáticos?",
+        "opciones": ["Coordinar las tareas de forma independiente", "Equilibrar los objetivos contrapuestos", "Evitar la documentación de los procesos"]
     },
     {
-        "enunciado": "¿Cuál es el objetivo principal de la fase de empatizar/descubrir en Design Thinking?",
-        "opciones": ['Definir el problema de manera precisa.', 'Generar soluciones innovadoras.', 'Comprender las necesidades y el contexto de los usuarios.'],
+        "enunciado": "¿Qué técnica ayuda a analizar la problemática a través de una representación gráfica?",
+        "opciones": ["Análisis de contrastes", "Árbol de decisiones", "Árbol de problemas"]
     },
     {
-        "enunciado": "¿Qué se busca en la fase de definir del Design Thinking?",
-        "opciones": ['Definir claramente el problema y las necesidades de los usuarios.','Identificar las necesidades emocionales de los usuarios.', 'Generar nuevas ideas para resolver el problema.'],
+        "enunciado": "¿Cuál es la característica principal del ciclo de vida de un proyecto de software?",
+        "opciones": ["La subdivisión en fases", "El enfoque exclusivo en tecnología", "La independencia de las fases"]
     },
     {
-        "enunciado": "¿Cuál es el propósito principal de la fase de idear en Design Thinking?",
-        "opciones": ['Desarrollar múltiples ideas creativas.', 'Definir claramente el problema.', 'Generar una solución perfecta.'],
+        "enunciado": "¿Qué se busca con la técnica del análisis de causa-efecto?",
+        "opciones": ["Identificar causas potenciales", "Optimizar la estructura organizacional", "Evitar el análisis detallado"]
     },
     {
-        "enunciado": "¿Qué técnica creativa se utiliza para generar muchas ideas diferentes durante la fase de idear en Design Thinking?",
-        "opciones": ['Encuesta.', 'SCAMPER.', 'Entrevista.'],
+        "enunciado": "¿Cuál es uno de los criterios clave para clasificar los proyectos informáticos?",
+        "opciones": ["Procedencia del capital", "Tipo de tecnología utilizada", "Nivel de automatización"]
     },
     {
-        "enunciado": "¿Qué se busca al aplicar la técnica Da Vinci o morfológica durante la fase de idear en Design Thinking?",
-        "opciones": ['Generar combinaciones de características para crear soluciones innovadoras.', 'Seleccionar las ideas más económicas.', 'Evaluar el impacto medioambiental de las ideas.'],
+        "enunciado": "¿Qué se debe considerar en la fase de diseño de un software?",
+        "opciones": ["Lógica del flujo de datos", "Capacitación del usuario final", "Monitoreo de actualizaciones"]
     },
     {
-        "enunciado": "¿Cuál es uno de los aspectos fundamentales a considerar al momento de construir y presentar un prototipo durante la fase de prototipar en Design Thinking?",
-        "opciones": ['La validación de la idea.', 'La creatividad del prototipo.', 'Que los prototipos den solución a la problemática planteada.'],
+        "enunciado": "¿Cuál es una de las fases críticas para la planificación de proyectos?",
+        "opciones": ["Estudio de viabilidad", "Implementación de la solución", "Evaluación financiera"]
     },
     {
-        "enunciado": "¿Qué se busca al realizar el testeo (validar) de un prototipo durante la quinta fase del Design Thinking?",
-        "opciones": ['Recoger opiniones de los usuarios para obtener nuevas ideas de mejora.', 'Evaluar la creatividad del prototipo.','Probar la viabilidad económica del prototipo.'],
+        "enunciado": "¿Qué técnica de análisis se enfoca en comparar el estado actual con el deseado?",
+        "opciones": ["Análisis de contrastes", "Análisis de costo-beneficio", "Diagrama de Gantt"]
     },
     {
-        "enunciado": "¿Por qué es importante realizar un proceso iterativo durante el testeo de un prototipo en Design Thinking?",
-        "opciones": ['Para incrementar el costo del proyecto.', 'Para validar la solución ideal en el primer intento.', 'Para recoger diferentes puntos de vista y mejorar la solución.'],
-    },
+        "enunciado": "¿Cuál es uno de los elementos clave para el éxito en la gestión de un proyecto informático?",
+        "opciones": ["Equilibrar tiempo, costo y alcance", "Reducir la documentación", "Enfocarse solo en los recursos financieros"]
+    }
 ];
 
 function preguntas_aleatorias() {
