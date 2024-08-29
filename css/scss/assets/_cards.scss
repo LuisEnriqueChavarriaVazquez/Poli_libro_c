@@ -211,3 +211,46 @@
 		margin: 0 !important;
 	}
 }
+
+//Cards para el lista de elementos U5
+.step-list {
+    padding-left: 0;
+    list-style-type: none;
+	padding: 5px 20px;
+}
+
+.step-card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.step-number {
+    background-color: #6e6e6e;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+// ul {
+//     margin-top: 10px;
+//     margin-left: 45px;
+//     margin-bottom: 20px;
+// }
+
+// li {
+//     margin-bottom: 10px;
+// }

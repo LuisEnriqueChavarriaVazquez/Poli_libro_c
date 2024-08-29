@@ -254,3 +254,66 @@
 //   border-radius: 0 10px 10px 0;
 //   padding: 20px;
 // }
+
+
+
+////Estilos para las formulas.
+/// 
+
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math:wght@400;600&display=swap');
+
+.material-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+.text-left {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    align-self: center;
+}
+
+.formula-right {
+    font-size: 24px;
+    font-weight: 900px;
+    font-family: 'STIX Two Math', serif;
+    color: #333;
+    background-color: #ececec;
+    padding: 3px 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+    align-self: center;
+}
+
+.details-card {
+    grid-column: span 2;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.detail-item {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.detail-item span {
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}

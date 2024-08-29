@@ -3,10 +3,10 @@
 @use "variables/_variables.scss";
 
 //Assets generales
+@use "assets/_cards.scss";
 @use "assets/_textCustomized.scss";
 @use "assets/_borders.scss";
 @use "assets/_buttons.scss";
-@use "assets/_cards.scss";
 @use "assets/_image.scss";
 @use "assets/_menuLateralCustomized.scss";
 @use "assets/_menuLateralTextAdjust.scss";

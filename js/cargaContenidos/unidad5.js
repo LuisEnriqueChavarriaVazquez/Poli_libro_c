@@ -264,49 +264,84 @@ const contenidosUnidad = [
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 Pasos que puedes seguir para la integración de estados financieros proforma:
             </p>
-            <div class="shadow2 border1 clgreyl1">
-                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="1">
-                    <li>Recolección de datos:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Obtener estados financieros históricos.</li>
-                        <li>Recolectar información sobre planes futuros, como expansiones, nuevas líneas de productos, cambios en políticas de precios, etc.</li>
-                    </ul>
-                    <li>Definición de supuestos:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Determinar las tasas de crecimiento esperadas para ingresos y gastos.</li>
-                        <li>Estimar cambios en el capital de trabajo.</li>
-                        <li>Considerar factores externos como inflación, tasas de interés y cambios en el entorno económico.</li>
-                    </ul>
-                    <li>Proyección del estado de resultados:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Proyectar ventas futuras basadas en tasas de crecimiento.</li>
-                        <li>Estimar costos y gastos relacionados.</li>
-                        <li>Calcular la utilidad neta proyectada.</li>
-                    </ul>
-                    <li>Proyección del balance general:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Proyectar activos, incluyendo efectivo, cuentas por cobrar, inventarios y activos fijos.</li>
-                        <li>Estimar pasivos como cuentas por pagar y deudas a largo plazo.</li>
-                        <li>Calcular el patrimonio proyectado basado en la utilidad neta y otras variaciones.</li>
-                    </ul>
-                    <li>Proyección del flujo de efectivo:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Estimar entradas de efectivo de operaciones, inversiones y financiamiento.</li>
-                        <li>Proyectar salidas de efectivo correspondientes.</li>
-                        <li>Evaluar la capacidad de la empresa para generar efectivo suficiente para sus necesidades futuras.</li>
-                    </ul>
-                    <li>Revisión y ajustes:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Revisar las proyecciones para asegurar su coherencia y objetividad.</li>
-                        <li>Ajustar los supuestos y proyecciones según sea necesario.</li>
-                    </ul>
-                    <li>Preparación de informes:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Preparar los estados financieros proforma en un formato claro y comprensible.</li>
-                        <li>Incluir notas explicativas que detallen los supuestos y estimaciones utilizadas.</li>
-                    </ul>
+            <div class="shadow2 border1 clgreyl1" style="padding-top: 20px;">
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn step-list">
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">1</div>
+                            Recolección de datos:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Obtener estados financieros históricos.</li>
+                            <li>Recolectar información sobre planes futuros, como expansiones, nuevas líneas de productos, cambios en políticas de precios, etc.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">2</div>
+                            Definición de supuestos:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Determinar las tasas de crecimiento esperadas para ingresos y gastos.</li>
+                            <li>Estimar cambios en el capital de trabajo.</li>
+                            <li>Considerar factores externos como inflación, tasas de interés y cambios en el entorno económico.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">3</div>
+                            Proyección del estado de resultados:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Proyectar ventas futuras basadas en tasas de crecimiento.</li>
+                            <li>Estimar costos y gastos relacionados.</li>
+                            <li>Calcular la utilidad neta proyectada.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">4</div>
+                            Proyección del balance general:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Proyectar activos, incluyendo efectivo, cuentas por cobrar, inventarios y activos fijos.</li>
+                            <li>Estimar pasivos como cuentas por pagar y deudas a largo plazo.</li>
+                            <li>Calcular el patrimonio proyectado basado en la utilidad neta y otras variaciones.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">5</div>
+                            Proyección del flujo de efectivo:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Estimar entradas de efectivo de operaciones, inversiones y financiamiento.</li>
+                            <li>Proyectar salidas de efectivo correspondientes.</li>
+                            <li>Evaluar la capacidad de la empresa para generar efectivo suficiente para sus necesidades futuras.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">6</div>
+                            Revisión y ajustes:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Revisar las proyecciones para asegurar su coherencia y objetividad.</li>
+                            <li>Ajustar los supuestos y proyecciones según sea necesario.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">7</div>
+                            Preparación de informes:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Preparar los estados financieros proforma en un formato claro y comprensible.</li>
+                            <li>Incluir notas explicativas que detallen los supuestos y estimaciones utilizadas.</li>
+                        </ul>
+                    </li>
                 </ol>
-            </div>
+            </div>            
         </div>
     </div>
     `,
@@ -321,54 +356,109 @@ const contenidosUnidad = [
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 Pasos para elaborar un estado de resultados proforma:
             </p>
-            <div class="shadow2 border1 clgreyl1">
-                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="1">
-                    <li>Recopilación de datos históricos:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Identifica tendencias y patrones de los estados de resultados de los últimos años.</li>
-                    </ul>
-                    <li>Definición de supuestos:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Establece supuestos sobre el crecimiento de las ventas, los costos de ventas, los gastos operativos, los gastos financieros, etc. Para definir estos supuestos puedes basarte en factores internos (como la capacidad de producción) y externos (como la economía y la competencia).</li>
-                    </ul>
-                    <li>Proyección de ventas:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Estima las ventas futuras basándote en las tendencias históricas, los pronósticos y los supuestos de crecimiento.</li>
-                    </ul>
-                    <li>Proyección de costos y gastos:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Estima los costos de ventas, los gastos operativos y otros gastos, basándote en las tendencias históricas y los supuestos de crecimiento.</li>
-                    </ul>
-                    <li>Cálculo de la utilidad bruta:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Al restar el costo de ventas a las ventas proyectadas obtendrás la utilidad bruta.</li>
-                    </ul>
-                    <li>Cálculo de los gastos operativos:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Estima los gastos operativos basándote en las proyecciones de costos.</li>
-                    </ul>
-                    <li>Cálculo de la utilidad operativa:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Al restar los gastos operativos de la utilidad bruta, obtendrás la utilidad operativa.</li>
-                    </ul>
-                    <li>Cálculo de los gastos financieros:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Estima los gastos financieros basándote en la deuda proyectada y las tasas de interés del financiamiento.</li>
-                    </ul>
-                    <li>Cálculo de la utilidad antes de impuestos:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Al restar los gastos financieros de la utilidad operativa, obtendrás la utilidad antes de impuestos.</li>
-                    </ul>
-                    <li>Cálculo de los impuestos:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Podrás estimar los impuestos basándote en la utilidad antes de impuestos y en la tasa impositiva proyectada.</li>
-                    </ul>
-                    <li>Cálculo de la utilidad neta:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Resta los impuestos de la utilidad antes de impuestos y así obtendrás la utilidad neta. (Robinson, 2020)</li>
-                    </ul>
+            <div class="shadow2 border1 clgreyl1" style="padding-top: 20px;">
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn step-list">
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">1</div>
+                            Recopilación de datos históricos:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Identifica tendencias y patrones de los estados de resultados de los últimos años.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">2</div>
+                            Definición de supuestos:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Establece supuestos sobre el crecimiento de las ventas, los costos de ventas, los gastos operativos, los gastos financieros, etc. Para definir estos supuestos puedes basarte en factores internos (como la capacidad de producción) y externos (como la economía y la competencia).</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">3</div>
+                            Proyección de ventas:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Estima las ventas futuras basándote en las tendencias históricas, los pronósticos y los supuestos de crecimiento.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">4</div>
+                            Proyección de costos y gastos:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Estima los costos de ventas, los gastos operativos y otros gastos, basándote en las tendencias históricas y los supuestos de crecimiento.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">5</div>
+                            Cálculo de la utilidad bruta:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Al restar el costo de ventas a las ventas proyectadas obtendrás la utilidad bruta.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">6</div>
+                            Cálculo de los gastos operativos:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Estima los gastos operativos basándote en las proyecciones de costos.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">7</div>
+                            Cálculo de la utilidad operativa:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Al restar los gastos operativos de la utilidad bruta, obtendrás la utilidad operativa.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">8</div>
+                            Cálculo de los gastos financieros:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Estima los gastos financieros basándote en la deuda proyectada y las tasas de interés del financiamiento.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">9</div>
+                            Cálculo de la utilidad antes de impuestos:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Al restar los gastos financieros de la utilidad operativa, obtendrás la utilidad antes de impuestos.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">10</div>
+                            Cálculo de los impuestos:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Podrás estimar los impuestos basándote en la utilidad antes de impuestos y en la tasa impositiva proyectada.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">11</div>
+                            Cálculo de la utilidad neta:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Resta los impuestos de la utilidad antes de impuestos y así obtendrás la utilidad neta. (Robinson, 2020)</li>
+                        </ul>
+                    </li>
                 </ol>
-            </div>
+            </div>            
         </div>
     </div>
     `,
@@ -383,29 +473,44 @@ const contenidosUnidad = [
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 Pasos para calcular los flujos netos de efectivo:
             </p>
-            <div class="shadow2 border1 clgreyl1">
-                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="1">
-                    <li>Determina las entradas de efectivo:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Ventas en efectivo: Proyectar las ventas que se realizarán en efectivo.</li>
-                        <li>Cobro de cuentas por cobrar: Estima los cobros de ventas a crédito.</li>
-                        <li>Otros ingresos: Incluye cualquier otra entrada de efectivo, como intereses, dividendos o venta de activos.</li>
-                    </ul>
-                    <li>Determina las salidas de efectivo:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Compras en efectivo: Estima las compras de inventario y otros bienes que se pagarán en efectivo.</li>
-                        <li>Pagos de cuentas por pagar: Estima los pagos a proveedores.</li>
-                        <li>Gastos operativos: Incluye gastos como salarios, renta, servicios públicos y otros costos operativos.</li>
-                        <li>Gastos de capital: Estima las compras de activos fijos.</li>
-                        <li>Pagos de deuda: Si fuera el caso, estima los pagos de principal e intereses que se pagarán.</li>
-                        <li>Impuestos: Estima el pago de impuestos.</li>
-                    </ul>
-                    <li>Cálculo del flujo neto de efectivo:</li>
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        <li>Resta las salidas de efectivo de las entradas de efectivo para obtener el flujo neto de efectivo.</li>
-                    </ul>
+            <div class="shadow2 border1 clgreyl1" style="padding-top: 20px;">
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn step-list">
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">1</div>
+                            Determina las entradas de efectivo:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Ventas en efectivo: Proyectar las ventas que se realizarán en efectivo.</li>
+                            <li>Cobro de cuentas por cobrar: Estima los cobros de ventas a crédito.</li>
+                            <li>Otros ingresos: Incluye cualquier otra entrada de efectivo, como intereses, dividendos o venta de activos.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">2</div>
+                            Determina las salidas de efectivo:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Compras en efectivo: Estima las compras de inventario y otros bienes que se pagarán en efectivo.</li>
+                            <li>Pagos de cuentas por pagar: Estima los pagos a proveedores.</li>
+                            <li>Gastos operativos: Incluye gastos como salarios, renta, servicios públicos y otros costos operativos.</li>
+                            <li>Gastos de capital: Estima las compras de activos fijos.</li>
+                            <li>Pagos de deuda: Si fuera el caso, estima los pagos de principal e intereses que se pagarán.</li>
+                            <li>Impuestos: Estima el pago de impuestos.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="step-card">
+                            <div class="step-number">3</div>
+                            Cálculo del flujo neto de efectivo:
+                        </div>
+                        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                            <li>Resta las salidas de efectivo de las entradas de efectivo para obtener el flujo neto de efectivo.</li>
+                        </ul>
+                    </li>
                 </ol>
-            </div>
+            </div>            
             <br>
             <div class="shadow2 border1 clw">
                 <!-- Tabla: Entradas de Efectivo -->
@@ -527,12 +632,25 @@ const contenidosUnidad = [
                     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                         Mide la ganancia o pérdida generada en relación con la inversión realizada.
                     </p>
-                    <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                        Su fórmula es:
-                    </p>
-                    <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                        Es una imagen, va con altas y bajas
-                    </blockquote>
+                    <div class="material-card">
+                        <div class="text-left">
+                            Su fórmula es:
+                        </div>
+                        <div class="formula-right">
+                            ROI = <span style="font-style: italic;">Beneficio Neto</span> / <span style="font-style: italic;">Inversión Inicial</span> &times; 100
+                        </div>
+                        <div class="details-card">
+                            <div class="detail-item">
+                                <span>ROI:</span> Retorno sobre la Inversión.
+                            </div>
+                            <div class="detail-item">
+                                <span>Beneficio Neto:</span> Ganancia total después de restar todos los costos.
+                            </div>
+                            <div class="detail-item">
+                                <span>Inversión Inicial:</span> Cantidad total de dinero invertido al comienzo.
+                            </div>
+                        </div>
+                    </div>
                     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                         Un ROI positivo indica que el proyecto genera beneficios, y cuanto mayor sea el ROI, más rentable es (Brealey, 2020).
                     </p>
@@ -557,9 +675,22 @@ const contenidosUnidad = [
                             </ul>
                             <li>Calcula el valor presente</li>
                             <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">Convierte los costos y beneficios futuros del proyecto a su valor presente utilizando una tasa de descuento apropiada.</p>
-                            <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                                Altas y bajas en la fórmula, so please!
-                            </blockquote>
+                            <div class="material-card">
+                                <div class="text-left">
+                                    Fórmula del valor presente (VP):
+                                </div>
+                                <div class="formula-right">
+                                    VP = <span style="font-style: italic;">Flujo de Efectivo Futuro</span> / (1 + <span style="font-style: italic;">r</span>)<sup>t</sup>
+                                </div>
+                                <div class="details-card">
+                                    <div class="detail-item">
+                                        <span>r:</span> Es la tasa de descuento.
+                                    </div>
+                                    <div class="detail-item">
+                                        <span>t:</span> Es el tiempo en años.
+                                    </div>
+                                </div>
+                            </div>                            
                             <li>Calcula el costo-beneficio neto (CBN)</li>
                             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                                 Resta el valor presente de los costos del valor presente de los beneficios.
@@ -574,9 +705,22 @@ const contenidosUnidad = [
                             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                                 Divide el valor presente de los beneficios entre el valor presente de los costos.
                             </p>
-                            <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                                Altas y bajas en la fórmula, so please!
-                            </blockquote>
+                            <div class="material-card">
+                                <div class="text-left">
+                                    Su fórmula es:
+                                </div>
+                                <div class="formula-right">
+                                    RCB = <span style="font-style: italic;">VP de los Beneficios</span> / <span style="font-style: italic;">VP de los Costos</span>
+                                </div>
+                                <div class="details-card">
+                                    <div class="detail-item">
+                                        <span>VP de los Beneficios:</span> Valor Presente de los beneficios esperados.
+                                    </div>
+                                    <div class="detail-item">
+                                        <span>VP de los Costos:</span> Valor Presente de los costos asociados.
+                                    </div>
+                                </div>
+                            </div>                            
                             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                                 Una RCB mayor a 1 indica que los beneficios superan a los costos y el proyecto puede llevarse a cabo; de lo contrario, se rechazaría (Boardman, 2018).
                             </p>
@@ -592,9 +736,25 @@ const contenidosUnidad = [
                     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                         Es la diferencia entre el valor presente de los flujos de efectivo futuros y la inversión inicial.
                     </p>
-                    <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                        Altas y bajas en la fórmula, so please!
-                    </blockquote>
+                    <div class="material-card">
+                        <div class="text-left">
+                            Su fórmula es:
+                        </div>
+                        <div class="formula-right">
+                            VAN = &Sigma; <span style="font-style: italic;">Flujo de Efectivo</span>(t) / (1 + <span style="font-style: italic;">r</span>)<sup>t</sup> - <span style="font-style: italic;">Inversión Inicial</span>
+                        </div>
+                        <div class="details-card">
+                            <div class="detail-item">
+                                <span>&Sigma;:</span> Suma de los flujos de efectivo futuros.
+                            </div>
+                            <div class="detail-item">
+                                <span>r:</span> Es la tasa de descuento.
+                            </div>
+                            <div class="detail-item">
+                                <span>Inversión Inicial:</span> Cantidad total de dinero invertido al comienzo.
+                            </div>
+                        </div>
+                    </div>                    
                     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                         Un VPN positivo indica que el proyecto generará un valor por encima de su costo, mientras que un VPN negativo sugiere que el proyecto no debe aceptarse, ya que no es rentable.
                     </p>
@@ -602,9 +762,25 @@ const contenidosUnidad = [
                     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                         Es la tasa de descuento que hace que el VPN del proyecto sea igual a cero.
                     </p>
-                    <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                        Altas y bajas en la fórmula, so please!
-                    </blockquote>
+                    <div class="material-card">
+                        <div class="text-left">
+                            Su fórmula es:
+                        </div>
+                        <div class="formula-right">
+                            0 = &Sigma; <span style="font-style: italic;">Flujo de Efectivo</span>(t) / (1 + <span style="font-style: italic;">TIR</span>)<sup>t</sup> - <span style="font-style: italic;">Inversión Inicial</span>
+                        </div>
+                        <div class="details-card">
+                            <div class="detail-item">
+                                <span>&Sigma;:</span> Suma de los flujos de efectivo futuros.
+                            </div>
+                            <div class="detail-item">
+                                <span>TIR:</span> Es la tasa interna de retorno.
+                            </div>
+                            <div class="detail-item">
+                                <span>Inversión Inicial:</span> Cantidad total de dinero invertido al comienzo.
+                            </div>
+                        </div>
+                    </div>                    
                     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                         Una TIR superior al costo de capital (k) indica que el proyecto es rentable, mientras que una TIR por debajo del costo de capital sugiere que no debe aceptarse.
                     </p>
