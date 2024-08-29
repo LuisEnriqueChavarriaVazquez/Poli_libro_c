@@ -666,66 +666,88 @@ const contenidosUnidad = [
                     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                         Para realizar un análisis de costo-beneficio, necesitas:
                     </p>
-                    <div class="shadow2 border1 clgreyl2" style="padding: 0 20px 0 0;">
-                        <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn" type="1">
-                            <li>Identificar los costos y beneficios</li>
-                            <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
-                                <li><b>Costos:</b> Considera todos los costos y gastos relacionados con el proyecto, tanto directos como indirectos, por ejemplo, costos de desarrollo, implementación, mantenimiento y operación.</li>
-                                <li><b>Beneficios:</b> Incluye todos los ingresos o ventas y algún otro ingreso derivado del proyecto.</li>
-                            </ul>
-                            <li>Calcula el valor presente</li>
-                            <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">Convierte los costos y beneficios futuros del proyecto a su valor presente utilizando una tasa de descuento apropiada.</p>
-                            <div class="material-card">
-                                <div class="text-left">
-                                    Fórmula del valor presente (VP):
+                    <div class="shadow2 border1 clgreyl2" style="padding: 20px 0 0 0;">
+                        <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn step-list" type="1">
+                            <li>
+                                <div class="step-card">
+                                    <div class="step-number">1</div>
+                                    Identificar los costos y beneficios
                                 </div>
-                                <div class="formula-right">
-                                    VP = <span style="font-style: italic;">Flujo de Efectivo Futuro</span> / (1 + <span style="font-style: italic;">r</span>)<sup>t</sup>
+                                <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                                    <li><b>Costos:</b> Considera todos los costos y gastos relacionados con el proyecto, tanto directos como indirectos, por ejemplo, costos de desarrollo, implementación, mantenimiento y operación.</li>
+                                    <li><b>Beneficios:</b> Incluye todos los ingresos o ventas y algún otro ingreso derivado del proyecto.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="step-card">
+                                    <div class="step-number">2</div>
+                                    Calcula el valor presente
                                 </div>
-                                <div class="details-card">
-                                    <div class="detail-item">
-                                        <span>r:</span> Es la tasa de descuento.
+                                <p class="clbktx textoDinamicoIdentificador textoReadingH2 textBoldOwn">
+                                    Convierte los costos y beneficios futuros del proyecto a su valor presente utilizando una tasa de descuento apropiada.
+                                </p>
+                                <div class="material-card">
+                                    <div class="text-left">
+                                        Fórmula del valor presente (VP):
                                     </div>
-                                    <div class="detail-item">
-                                        <span>t:</span> Es el tiempo en años.
+                                    <div class="formula-right">
+                                        VP = <span style="font-style: italic;">Flujo de Efectivo Futuro</span> / (1 + <span style="font-style: italic;">r</span>)<sup>t</sup>
                                     </div>
-                                </div>
-                            </div>                            
-                            <li>Calcula el costo-beneficio neto (CBN)</li>
-                            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                                Resta el valor presente de los costos del valor presente de los beneficios.
-                            </p>
-                            <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                                Fórmula del CBN: CBN = VP de los Beneficios − VP de los costos
-                            </blockquote>
-                            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                                Un CBN positivo te indica que los beneficios superan los costos, mientras que un CBN negativo sugiere lo contrario.
-                            </p>
-                            <li>Calcula la relación costo-beneficio (RCB)</li>
-                            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                                Divide el valor presente de los beneficios entre el valor presente de los costos.
-                            </p>
-                            <div class="material-card">
-                                <div class="text-left">
-                                    Su fórmula es:
-                                </div>
-                                <div class="formula-right">
-                                    RCB = <span style="font-style: italic;">VP de los Beneficios</span> / <span style="font-style: italic;">VP de los Costos</span>
-                                </div>
-                                <div class="details-card">
-                                    <div class="detail-item">
-                                        <span>VP de los Beneficios:</span> Valor Presente de los beneficios esperados.
-                                    </div>
-                                    <div class="detail-item">
-                                        <span>VP de los Costos:</span> Valor Presente de los costos asociados.
+                                    <div class="details-card">
+                                        <div class="detail-item">
+                                            <span>r:</span> Es la tasa de descuento.
+                                        </div>
+                                        <div class="detail-item">
+                                            <span>t:</span> Es el tiempo en años.
+                                        </div>
                                     </div>
                                 </div>
-                            </div>                            
-                            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                                Una RCB mayor a 1 indica que los beneficios superan a los costos y el proyecto puede llevarse a cabo; de lo contrario, se rechazaría (Boardman, 2018).
-                            </p>
+                            </li>
+                            <li>
+                                <div class="step-card">
+                                    <div class="step-number">3</div>
+                                    Calcula el costo-beneficio neto (CBN)
+                                </div>
+                                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                                    Resta el valor presente de los costos del valor presente de los beneficios.
+                                </p>
+                                <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
+                                    Fórmula del CBN: CBN = VP de los Beneficios − VP de los costos
+                                </blockquote>
+                                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                                    Un CBN positivo te indica que los beneficios superan los costos, mientras que un CBN negativo sugiere lo contrario.
+                                </p>
+                            </li>
+                            <li>
+                                <div class="step-card">
+                                    <div class="step-number">4</div>
+                                    Calcula la relación costo-beneficio (RCB)
+                                </div>
+                                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                                    Divide el valor presente de los beneficios entre el valor presente de los costos.
+                                </p>
+                                <div class="material-card">
+                                    <div class="text-left">
+                                        Su fórmula es:
+                                    </div>
+                                    <div class="formula-right">
+                                        RCB = <span style="font-style: italic;">VP de los Beneficios</span> / <span style="font-style: italic;">VP de los Costos</span>
+                                    </div>
+                                    <div class="details-card">
+                                        <div class="detail-item">
+                                            <span>VP de los Beneficios:</span> Valor Presente de los beneficios esperados.
+                                        </div>
+                                        <div class="detail-item">
+                                            <span>VP de los Costos:</span> Valor Presente de los costos asociados.
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                                    Una RCB mayor a 1 indica que los beneficios superan a los costos y el proyecto puede llevarse a cabo; de lo contrario, se rechazaría (Boardman, 2018).
+                                </p>
+                            </li>
                         </ol>
-                    </div>
+                    </div>                    
                 </div>
             </div>
             <br>
