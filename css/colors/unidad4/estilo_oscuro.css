@@ -1,6 +1,6 @@
 /*Colores de unidad 4*/
 .navUnit4 {
-    background-color: #ac655d;
+    background-color: #A35950;
 }
 
 .nav-superiorUnit4 {
@@ -8,29 +8,29 @@
 }
 
 .footerDesignUnit4 {
-    border-bottom: #b6685f 30px solid !important;
+    border-bottom: #F7BBB3 30px solid !important;
 }
 
 .leftBorderUnit4 {
-    border-left: #be6e65 10px solid !important;
+    border-left: #C67B71 10px solid !important;
     transition: all .2s ease;
     font-weight: 600;
 }
 
 .leftBorderSecondaryUnit4 {
-    border-left: #f79186 10px solid !important;
+    border-left: #A35950 10px solid !important;
     transition: all .2s ease;
 }
 
 .leftBorderUnit4:hover,
 .leftBorderSecondaryUnit4:hover {
     background-color: #272c31;
-    border-left: #9e5c55 20px solid !important;
+    border-left: #924D45 20px solid !important;
 }
 
 .activeLinkOptionsContentUnit4 {
-    background-color: #854f49;
-    border-left: #5c3430 20px solid !important;
+    background-color: #A35950;
+    border-left: #924D45 20px solid !important;
     font-weight: 600;
     color: #fff !important;
 }
@@ -40,7 +40,7 @@
 }
 
 .leftBorderOnUnit4 {
-    border-left: #d67c72 10px solid !important;
+    border-left: #FACECA 10px solid !important;
     background-color: rgb(209, 209, 209);
     font-weight: 700;
     transition: all .1s ease;
@@ -51,9 +51,9 @@
 	--hue: 223;
 	--bg: hsl(var(--hue),10%,90%);
 	--fg: hsl(var(--hue),10%,10%);
-	--primary: #7e4a44;
-	--primary-l: #9e5c55;
-	--primary-d: #9e5c55;
+	--primary: #F0A399;
+	--primary-l: #F7BBB3;
+	--primary-d: #FACECA;
 	--white: hsl(var(--hue),10%,100%);
 	--white-d: hsl(var(--hue),10%,45%);
 }
@@ -61,12 +61,12 @@
 
 /*Menu lateral de textos*/
 .leftBorderUnit4Menu{
-    border-bottom: #7e4a44 70px solid !important;
+    border-bottom: #F0A399 70px solid !important;
     overflow-x: hidden;
 }
 
 .activeButtonTextLateral{
-    border-left: 10px #d67c72 solid;
+    border-left: 10px #FACECA solid;
     background-color: #272c31;
     border-radius: 5px;
     transition: all .1s ease-in-out;
@@ -76,7 +76,7 @@
 }
 
 .lateralMenuAdjustTextTitle{
-    background-color: #7e4a44;
+    background-color: #F0A399;
     position: relative;
     top: -10px;
     left: -10px;
@@ -134,18 +134,18 @@
 
 .activeLinkOptionsContentUnit4Mobile{
     background-color: #1c1f22;
-    border-left: #7e4a44 10px solid !important;
+    border-left: #FACECA 10px solid !important;
     color: #cecece;
     font-weight: 600;
 }
 
 #barraPreguntas,
 #barraPreguntas2 {
-    background: rgb(214,124,114);
-    background: -moz-linear-gradient(90deg, rgba(214,124,114,1) 17%, rgba(172,101,93,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(214,124,114,1) 17%, rgba(172,101,93,1) 100%);
-    background: linear-gradient(90deg, rgba(214,124,114,1) 17%, rgba(172,101,93,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d67c72",endColorstr="#ac655d",GradientType=1); 
+    background: rgb(250, 206, 202);
+    background: -moz-linear-gradient(90deg, rgba(250, 206, 202, 1) 17%, rgba(240, 163, 153, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(250, 206, 202, 1) 17%, rgba(240, 163, 153, 1) 100%);
+    background: linear-gradient(90deg, rgba(250, 206, 202, 1) 17%, rgba(240, 163, 153, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FACECA",endColorstr="#F0A399",GradientType=1); 
     height: 20px;
     border-radius: 5px;
     width: 0px;
@@ -158,14 +158,14 @@
 .input-field input[type]:focus:not([readonly]),
 .input-field textarea:not([readonly]),
 .input-field textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #d67c72;
-    box-shadow: 0 1px 0 0 #d67c72;
+    border-bottom: 1px solid #F7BBB3;
+    box-shadow: 0 1px 0 0 #F7BBB3;
 }
 
 /* Inactive/Active Default input label color */
 .input-field input[type]:focus:not([readonly]) + label,
 .input-field textarea:focus:not([readonly]) + label {
-    color: #d67c72;
+    color: #F7BBB3;
 }
 
 /* Active/Inactive Invalid input field colors */
@@ -173,8 +173,8 @@
 .input-field input[type].invalid:focus,
 .input-field textarea.invalid,
 .input-field textarea.invalid:focus {
-    border-bottom: 1px solid #d67c72;
-    box-shadow: 0 1px 0 0 #d67c72;
+    border-bottom: 1px solid #F7BBB3;
+    box-shadow: 0 1px 0 0 #F7BBB3;
 }
 
 /* Active/Inactive Invalid input label color */
@@ -184,7 +184,7 @@
 .input-field textarea.invalid:focus + label,
 .input-field textarea.invalid ~ .helper-text::after,
 .input-field textarea.invalid:focus ~ .helper-text::after {
-    color: #d67c72;
+    color: #F7BBB3;
 }
 
 /* Active/Inactive Valid input field color */
@@ -192,8 +192,8 @@
 .input-field input[type].valid:focus,
 .input-field textarea.valid,
 .input-field textarea.valid:focus {
-    border-bottom: 1px solid #d67c72;
-    box-shadow: 0 1px 0 0 #d67c72;
+    border-bottom: 1px solid #F7BBB3;
+    box-shadow: 0 1px 0 0 #F7BBB3;
 }
 
 /* Active/Inactive Valid input label color */
@@ -203,39 +203,39 @@
 .input-field textarea.valid:focus + label,
 .input-field textarea.valid ~ .helper-text::after,
 .input-field textarea.valid:focus ~ .helper-text::after {
-    color: #d67c72;
+    color: #F7BBB3;
 }
 
 /* Estilos el nav (barra inferior) y para el menu de contenidos cuando se le hace click */
 li.indicator {
     height: 4px !important;
-    background-color: #7c4640 !important;
+    background-color: #D77A70 !important;
 }
 
 .collapsible-header-clicked{
-    background-color: #7c4640 !important;
+    background-color: #D77A70 !important;
     color: #dfdfdf !important;
     font-weight: 600;
 }
 
 /*Estilos para el color del titulo de las cards de contenido*/
 .colorCardTitleContent{
-    background-color: #ac655d !important;
+    background-color: #A35950 !important;
 }
 
 /*Estilos del boton de ayuda*/
 .colorButtonHelpUnit {
-    background-color: #ac655d !important;
+    background-color: #A35950 !important;
     
     &:hover{
-        background-color: #804942 !important;
+        background-color: #924D45 !important;
     }
 }
 
 /*Para el elemento de blockquote*/
 blockquote {
     margin: 0 0 20px 0 !important;
-    border-left: 5px solid #ac655d;
+    border-left: 5px solid #F0A399;
     font-weight: 500 !important;
     border-radius: 0 10px 10px 0;
     padding: 20px;

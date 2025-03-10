@@ -47,21 +47,21 @@
         <!--Navbar principal-->
         <nav>
             <div class="nav-wrapper cl2">
-                <a href="glosario.html" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i
+                <a href="SuperGlosario.html" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i
                         class="material-icons">arrow_back</i></a>
                 <a class="brand-logo titleUnity">Repaso de glosario</a>
             </div>
-            <div class="input-field cl2 inputSelectUnitConcepts">
-                <select class="clbktx" id="unitSelect">
-                    <option id="primeraUnidadSelect" value="u1" selected>Unidad 1</option>
-                    <option value="u2">Unidad 2</option>
-                    <option value="u3">Unidad 3</option>
-                    <option value="u4">Unidad 4</option>
-                    <option value="u5">Unidad 5</option>
-                </select>
-            </div>
         </nav>
     </section>
+
+    <!-- Reemplazamos el select por el nuevo selector de unidades -->
+    <div id="filterContainer">
+        <div class="unidadFilter active" data-unidad="u1">Unidad 1</div>
+        <div class="unidadFilter" data-unidad="u2">Unidad 2</div>
+        <div class="unidadFilter" data-unidad="u3">Unidad 3</div>
+        <div class="unidadFilter" data-unidad="u4">Unidad 4</div>
+        <div class="unidadFilter" data-unidad="u5">Unidad 5</div>
+    </div>
 
     <!--Tarjetas con los conceptos-->
     <section class="swiper-container-father" identificador_select="u1">
@@ -292,6 +292,37 @@
         class="border5 cl3 shadow2 white-text waves-effect waves-light buttonMenuMobile">
         <i class="material-icons">shuffle</i>
     </a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const filters = document.querySelectorAll('.unidadFilter');
+            const swiperContainers = document.querySelectorAll('.swiper-container-father');
+
+            filters.forEach(filter => {
+                filter.addEventListener('click', function() {
+                    // Remover clase active de todos los filtros
+                    filters.forEach(f => f.classList.remove('active'));
+                    // Agregar clase active al filtro seleccionado
+                    this.classList.add('active');
+
+                    const unidad = this.getAttribute('data-unidad');
+                    
+                    // Mostrar/ocultar los contenedores de swiper según la unidad seleccionada
+                    swiperContainers.forEach(container => {
+                        if (container.getAttribute('identificador_select') === unidad) {
+                            container.classList.remove('hiddenCard');
+                        } else {
+                            container.classList.add('hiddenCard');
+                        }
+                    });
+
+                    // Reiniciar el swiper para la unidad seleccionada
+                    const activeSwiper = document.querySelector(`[identificador_select="${unidad}"] .swiper`).swiper;
+                    activeSwiper.slideTo(0);
+                });
+            });
+        });
+    </script>
 
 </body>
 

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" id="generalDocument">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Super Glosario</title>
+    <link rel="shortcut icon" href="img/ipn.ico" type="image/x-icon">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/scss/addsOn/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/scss/styles.css">
+    <link rel="stylesheet" href="css/scss/addsOn/driver.min.css">
+
+    <!--Colors-->
+    <link id="colorAdaptable" rel="stylesheet" href="css/colors/standarColors.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/materialize.min.js"></script>
+    <script defer src="js/activateComponentsMaterialize.js"></script>
+
+    <!--Componentes inyectables-->
+    <script defer src="js/components/header.js"></script>
+    <script defer src="js/components/footer.js"></script>
+
+    <!--Scripts propios-->
+    <script defer src="js/configuraciones/modoLuz.js"></script>
+    <script defer src="js/configuraciones/modoLectura.js"></script>
+    <script defer src="js/loading/loadingGlosario.js"></script>
+    <script defer src="js/browserStyle.js"></script>
+    <script defer src="js/buscador.js"></script>
+    <script defer src="js/noCopy.js"></script>
+
+    <style>
+        .unidadFilter {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            background-color: #E8EDF7;
+            color: #4A5568;
+            transition: all 0.3s ease;
+        }
+        .unidadFilter:hover {
+            background-color: #B5C7E5;
+            color: #2D3748;
+        }
+        .unidadFilter.active {
+            background-color: #7C98D3;
+            color: white;
+        }
+        #filterContainer {
+            margin: 20px 0;
+            text-align: center;
+            background-color: #F8FAFC;
+            padding: 15px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body class="filterSepia">
+
+    <section>
+        <!--Navbar superior-->
+        <div class="nav-superior cl1" id="nav-superior" style="background-color: #7C98D3;"></div>
+        <!--Navbar principal-->
+        <nav>
+            <div class="nav-wrapper cl2" style="background-color: #6785C4;">
+                <a href="index.html" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i
+                        class="material-icons">arrow_back</i></a>
+                <a class="brand-logo titleUnity">Super Glosario</a>
+            </div>
+        </nav>
+    </section>
+
+    <section class="browserContainer col s12 clw">
+        <div id="filterContainer">
+            <div class="unidadFilter active" data-unidad="todas">Todas</div>
+            <div class="unidadFilter" data-unidad="u1">Unidad 1</div>
+            <div class="unidadFilter" data-unidad="u2">Unidad 2</div>
+            <div class="unidadFilter" data-unidad="u3">Unidad 3</div>
+            <div class="unidadFilter" data-unidad="u4">Unidad 4</div>
+            <div class="unidadFilter" data-unidad="u5">Unidad 5</div>
+        </div>
+
+        <div class="browserContainer-inputContainer" id="browserContainer-inputContainer">
+            <div style="background-color: #7C98D3;" id="buttonBrowser"
+                class="buttonBrowserOwn waves-effect waves-light white-text material-icons cl5 shadow2">
+                search</div>
+            <input id="inputBrowser" type="text" onkeyup="buscar_concepto()"
+                class="browserContainer-inputContainer-input browser-default shadow2 clgreyl1 clbktx">
+        </div>
+
+        <div class="browserContainer-conceptsContainer readyContentScreen" id="parentConceptsGlosario">
+            <!-- Aquí van todos los conceptos de los 5 glosarios -->
+            <!-- ... (mantener todos los div class="conceptCard" de los 5 glosarios) ... -->
+        </div>
+
+        <!--Contenido de carga de la página-->
+        <section class="loadContentScreen"></section>
+
+    </section>
+
+    <!--Boton para acceder a la página de analítica-->
+    <a href="SuperGlosarioRepaso.html" data-target="slide-out"
+        class="border5 cl3 shadow2 white-text waves-effect waves-light buttonMenuMobile">
+        <i class="material-icons">style</i>
+    </a>
+
+    <!--Inyectamos componente de footer-->
+    <section id="footerListener"></section>
+
+    <!-- Agregar type="module" para poder usar import/export -->
+    <script type="module">
+        import { cargarConceptos } from './js/glosario/conceptos.js';
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Cargar los conceptos
+            cargarConceptos();
+
+            const filters = document.querySelectorAll('.unidadFilter');
+            const cards = document.querySelectorAll('.conceptCard');
+
+            filters.forEach(filter => {
+                filter.addEventListener('click', function() {
+                    // Remover clase active de todos los filtros
+                    filters.forEach(f => f.classList.remove('active'));
+                    // Agregar clase active al filtro seleccionado
+                    this.classList.add('active');
+
+                    const unidad = this.getAttribute('data-unidad');
+                    
+                    cards.forEach(card => {
+                        if (unidad === 'todas') {
+                            card.style.display = 'block';
+                        } else {
+                            if (card.getAttribute('identificador_select') === unidad) {
+                                card.style.display = 'block';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+
+            // Modificar la función buscar_concepto() existente para que respete los filtros
+            function buscar_concepto() {
+                const input = document.getElementById('inputBrowser');
+                const filter = input.value.toLowerCase();
+                const cards = document.querySelectorAll('.conceptCard');
+                const activeFilter = document.querySelector('.unidadFilter.active').getAttribute('data-unidad');
+                let found = false;
+
+                cards.forEach(card => {
+                    const text = card.textContent.toLowerCase();
+                    const unidad = card.getAttribute('identificador_select');
+                    
+                    if (text.includes(filter) && (activeFilter === 'todas' || activeFilter === unidad)) {
+                        card.style.display = 'block';
+                        found = true;
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+
+                const noResultContent = document.getElementById('noResultContent');
+                noResultContent.style.display = found ? 'none' : 'block';
+            }
+        });
+    </script>
+
+</body>
+
+</html> 
