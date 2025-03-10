@@ -54,8 +54,9 @@
         </nav>
     </section>
 
-    <!-- Reemplazamos el select por el nuevo selector de unidades -->
-    <div id="filterContainer">
+    <!-- Añadimos la opción "Todos" al selector de unidades -->
+    <div id="filterContainer" style="margin-top: 20px;">
+        <div class="unidadFilter" data-unidad="todos">Todos</div>
         <div class="unidadFilter active" data-unidad="u1">Unidad 1</div>
         <div class="unidadFilter" data-unidad="u2">Unidad 2</div>
         <div class="unidadFilter" data-unidad="u3">Unidad 3</div>
@@ -63,276 +64,687 @@
         <div class="unidadFilter" data-unidad="u5">Unidad 5</div>
     </div>
 
-    <!--Tarjetas con los conceptos-->
-    <section class="swiper-container-father" identificador_select="u1">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Proyecto</div>
-                    <div class="swiper-slide-definition">Es un esfuerzo temporal con un inicio y fin definidos,
-                        orientado a la
-                        creación de un producto, servicio o resultado único, gestionado mediante procesos y recursos
-                        (Project Management Institute [PMI], 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Valor Agregado</div>
-                    <div class="swiper-slide-definition">Diferencia distintiva que proporciona un proyecto en
-                        comparación con
-                        otros, resolviendo la misma problemática o necesidad, y que contribuye significativamente a su
-                        éxito.</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Necesidad Humana</div>
-                    <div class="swiper-slide-definition">Requiere una solución inteligente que mejore la calidad de
-                        vida, siendo
-                        también una oportunidad de negocio, abordada a través de un proyecto (Pressman, 2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Problema</div>
-                    <div class="swiper-slide-definition">Situación que genera la necesidad de una solución inteligente,
-                        identificada y abordada mediante un proyecto (Schwalbe, 2018).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Presupuestos</div>
-                    <div class="swiper-slide-definition">Limitación de recursos financieros asignados a un proyecto
-                        (Kloppenborg, 2019).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Periodo de Tiempo</div>
-                    <div class="swiper-slide-definition">Marco temporal en el cual se ejecuta un proyecto, con un inicio
-                        y un final (Kerzner, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Reglamentación Legal o Formal</div>
-                    <div class="swiper-slide-definition">Normas y regulaciones que guían la ejecución de un proyecto
-                        (Schwalbe, 2018).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Satisfacción del Cliente</div>
-                    <div class="swiper-slide-definition">Garantizar que el producto, servicio o resultado cumple con la
-                        calidad suficiente para satisfacer al cliente (PMBOK Guide, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Clasificación de Proyectos</div>
-                    <div class="swiper-slide-definition">La organización de proyectos según criterios específicos, como
-                        la procedencia del capital, el propósito estratégico, las causas que lo generan o la relación
-                        entre los proyectos entre sí (Kerzner, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Proyectos de Inversión</div>
-                    <div class="swiper-slide-definition">Se clasifican en privados, públicos o mixtos según la
-                        procedencia de su capital (PMBOK Guide, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Proyectos de Propósito Estratégico</div>
-                    <div class="swiper-slide-definition">Clasificación que considera el cambio tecnológico, el potencial
-                        competitivo, el potencial financiero, el crecimiento de mercado, ordenamientos legales y
-                        consideraciones sociales como categorías (Kerzner, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Relación entre Proyectos</div>
-                    <div class="swiper-slide-definition">Clasificación que incluye proyectos mutuamente excluyentes,
-                        proyectos independientes y proyectos contingentes o dependientes entre sí (Kerzner, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Proyecto Informático</div>
-                    <div class="swiper-slide-definition">Sistema de cursos de acción simultáneos y/o secuenciales que
-                        involucra personas, hardware, software y comunicaciones, enfocado en obtener resultados
-                        deseables sobre un sistema de información (Pressman, 2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Gestión de Proyectos Informáticos</div>
-                    <div class="swiper-slide-definition">Coordinación, control, presupuestación y documentación de
-                        actividades relacionadas con un proyecto informático, con el objetivo de alcanzar objetivos
-                        específicos según requisitos y restricciones (Pressman, 2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Elementos de un Proyecto Informático</div>
-                    <div class="swiper-slide-definition">Componentes fundamentales necesarios para el desarrollo exitoso
-                        de un proyecto informático, incluyendo recursos tecnológicos, humanos y financieros (Pressman,
-                        2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Ciclo de Vida del Proyecto</div>
-                    <div class="swiper-slide-definition">División del proyecto en fases que conectan el inicio con el
-                        fin, permitiendo identificar, administrar y planificar recursos necesarios para alcanzar el
-                        objetivo (PMBOK Guide, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Fases del Proyecto de Software</div>
-                    <div class="swiper-slide-definition">Etapas del desarrollo del proyecto de software, como inicio,
-                        proceso de desarrollo y producto final, que pueden subdividirse en etapas adicionales según el
-                        tamaño, complejidad y restricciones del presupuesto (Pressman, 2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Formulación del Proyecto</div>
-                    <div class="swiper-slide-definition">Procedimiento para recopilar información orientada a abordar
-                        una problemática planteada y satisfacer una necesidad humana en el contexto de un proyecto
-                        informático (Schwalbe, 2018).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Desarrollo del Sistema</div>
-                    <div class="swiper-slide-definition">Conjunto de actividades dedicadas a la creación, diseño,
-                        despliegue y compatibilidad de software en el marco del desarrollo de un proyecto informático
-                        (Pressman, 2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Evaluación Financiera del Proyecto</div>
-                    <div class="swiper-slide-definition">Análisis que mide la rentabilidad económica de un proyecto,
-                        considerando montos de inversión, costos y gastos asociados, con el objetivo de tomar decisiones
-                        informadas (Kerzner, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Fase de Planificación</div>
-                    <div class="swiper-slide-definition">Etapa inicial del proyecto donde se valoran las necesidades, se
-                        establecen los objetivos, se realiza un estudio de viabilidad, se analizan riesgos y se
-                        planifican las siguientes fases (Schwalbe, 2018).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Estudio de Viabilidad</div>
-                    <div class="swiper-slide-definition">Evaluación de aspectos técnicos, financieros y legales para
-                        determinar si el proyecto puede realizarse en tiempo y con los recursos disponibles (Kerzner,
-                        2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Análisis de Riesgos</div>
-                    <div class="swiper-slide-definition">Identificación y evaluación de posibles contratiempos en el
-                        proyecto, con la previsión de alternativas de solución (Schwalbe, 2018).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Planificación del Proyecto</div>
-                    <div class="swiper-slide-definition">Desarrollo de un plan detallado para cada fase del proyecto,
-                        asegurando el éxito en la realización de actividades y tareas (Kerzner, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Fase de Análisis</div>
-                    <div class="swiper-slide-definition">Etapa centrada en definir funciones y características
-                        específicas del software, asignar recursos y estimar costos para el desarrollo del proyecto
-                        (Pressman, 2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Asignación de Recursos</div>
-                    <div class="swiper-slide-definition">Determinación de los recursos necesarios para cada fase del
-                        proyecto y la asignación formal de responsabilidades para cada tarea (Kloppenborg, 2019).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Estimación de Costos</div>
-                    <div class="swiper-slide-definition">Tarea crítica que involucra presupuestar desde el inicio hasta
-                        el final, considerando imprevistos que puedan afectar tiempo, alcance y costos (Kerzner, 2017).
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Fase de Diseño y Estructura</div>
-                    <div class="swiper-slide-definition">Etapa donde se estudian alternativas, se establece la
-                        estructura de la base de datos, la lógica del flujo de datos y el diseño de la interfaz de
-                        usuario (Pressman, 2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Estructura de Base de Datos</div>
-                    <div class="swiper-slide-definition">Proceso fundamental en el ciclo de vida del software para
-                        facilitar la implementación del proyecto y permitir al usuario gestionar información (Pressman,
-                        2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Lógica del Flujo de Datos</div>
-                    <div class="swiper-slide-definition">Elaboración de diagramas que trazan el flujo de información del
-                        proyecto de forma visual y detallada (Pressman, 2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Interfaz de Usuario</div>
-                    <div class="swiper-slide-definition">Diseño de un entorno intuitivo y fácil de usar, clave para el
-                        acceso y la navegación eficiente del usuario en el software desarrollado (Pressman, 2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Fase de Desarrollo</div>
-                    <div class="swiper-slide-definition">Etapa donde se inicia la tarea de programación, seleccionando
-                        el lenguaje de programación adecuado y siguiendo buenas prácticas para escalabilidad (Pressman,
-                        2014).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Fase de Pruebas</div>
-                    <div class="swiper-slide-definition">Etapa posterior al desarrollo donde se realizan pruebas para
-                        identificar y corregir errores, asegurando la calidad del software (Kerzner, 2017).</div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Fase de Mantenimiento</div>
-                    <div class="swiper-slide-definition">Etapa en la que el software está en funcionamiento, se realizan
-                        mejoras, se corrigen fallos, y se atienden limitaciones o propuestas para mejorar (Pressman,
-                        2014).</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="swiper-container-father hiddenCard" identificador_select="u2">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Concepto de prueba U2</div>
-                    <div class="swiper-slide-definition">Etapa en la que el software está en funcionamiento, se realizan
-                        mejoras, se corrigen fallos, y se atienden limitaciones o propuestas para mejorar (Pressman,
-                        2014).</div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="swiper-slide-concept">Concepto de prueba U2</div>
-                    <div class="swiper-slide-definition">Etapa en la que el software está en funcionamiento, se realizan
-                        mejoras, se corrigen fallos, y se atienden limitaciones o propuestas para mejorar (Pressman,
-                        2014).</div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Los contenedores de swiper se generarán dinámicamente -->
+    <div id="swiperContainers"></div>
 
     <!--Inyectamos componente de footer-->
     <section id="footerListener"></section>
 
-    <!--Boton para acceder a la página de analítica-->
-    <a data-target="slide-out"
+    <!-- Modificamos el botón para darle un ID -->
+    <a id="randomizeButton" data-target="slide-out"
         class="border5 cl3 shadow2 white-text waves-effect waves-light buttonMenuMobile">
         <i class="material-icons">shuffle</i>
     </a>
 
-    <script>
+    <script type="module">
+        import { conceptos } from './js/glosario/conceptos.js';
+
         document.addEventListener('DOMContentLoaded', function() {
+            // Función para generar un color pastel base aleatorio
+            function generarColorPastelBase() {
+                const hue = Math.floor(Math.random() * 360);
+                const saturation = 70;
+                const lightness = 85;
+                return { h: hue, s: saturation, l: lightness };
+            }
+
+            // Función para generar una variación del color base
+            function generarVariacionColor(baseColor, index, isDefinition = false) {
+                const h = baseColor.h;
+                let s = baseColor.s;
+                let l = baseColor.l;
+
+                if (!isDefinition) {
+                    s = Math.max(40, baseColor.s - (index * 2));
+                    l = Math.max(75, baseColor.l - (index * 1));
+                    return `hsl(${h}, ${s}%, ${l}%)`;
+                } else {
+                    const cardLightness = Math.max(75, baseColor.l - (index * 1));
+                    if (cardLightness > 65) {
+                        return `hsl(${h}, ${Math.min(100, s + 10)}%, 25%)`;
+                    } else {
+                        return `hsl(${h}, ${Math.max(20, s - 20)}%, 95%)`;
+                    }
+                }
+            }
+
+            // Función para aplicar colores a las tarjetas de una unidad
+            function aplicarColores(container) {
+                const slides = container.querySelectorAll('.swiper-slide:not(.randomize-card)');
+                slides.forEach((slide, index) => {
+                    const colorCard = generarVariacionColor(colorBase, index);
+                    const colorDefinition = generarVariacionColor(colorBase, index, true);
+                    
+                    // Generar un color pastel para el contador que sea visible pero no demasiado brillante
+                    // Usamos el mismo tono (hue) pero ajustamos saturación y luminosidad
+                    const counterHue = colorBase.h;
+                    const counterSaturation = Math.min(70, colorBase.s + 10); // Saturación moderada
+                    const counterLightness = Math.max(45, Math.min(65, colorBase.l - 20)); // Luminosidad media (ni muy clara ni muy oscura)
+                    
+                    const counterColor = `hsl(${counterHue}, ${counterSaturation}%, ${counterLightness}%)`;
+                    
+                    // Color para el texto del contador - siempre blanco para mejor legibilidad
+                    const counterTextColor = `hsl(0, 0%, 100%)`;
+                    
+                    // Color para el borde del contenedor - sutil, ligeramente más oscuro que la tarjeta
+                    const borderColor = `hsl(${colorBase.h}, ${Math.min(40, colorBase.s)}%, ${Math.max(70, colorBase.l - 10)}%)`;
+                    
+                    // Aplicar colores
+                    slide.style.setProperty('background-color', colorCard);
+                    slide.querySelector('.swiper-slide-definition').style.setProperty('color', colorDefinition);
+                    
+                    // Aplicar colores al contador
+                    const counterElement = slide.querySelector('.card-counter');
+                    if (counterElement) {
+                        counterElement.style.setProperty('background-color', counterColor);
+                        counterElement.style.setProperty('color', counterTextColor);
+                        
+                        // Aplicar color al borde del contenedor
+                        const counterContainer = slide.querySelector('.card-counter-container');
+                        counterContainer.style.setProperty('border-top-color', borderColor);
+                    }
+                });
+            }
+
+            const swiperContainers = document.getElementById('swiperContainers');
+            let html = '';
+            let swipers = [];
+            let colorBase = generarColorPastelBase();
+
+            // Función para actualizar el contador de tarjetas
+            function actualizarContador(swiperInstance, unidad) {
+                const totalSlides = swiperInstance.slides.length - 1; // Restamos 1 para no contar la tarjeta de randomize
+                const currentIndex = swiperInstance.activeIndex + 1;
+                
+                // Si estamos en la última tarjeta (randomize), no mostramos contador
+                if (currentIndex > totalSlides) {
+                    return;
+                }
+                
+                // Actualizamos el contador en la tarjeta actual
+                const currentSlide = swiperInstance.slides[swiperInstance.activeIndex];
+                const counterElement = currentSlide.querySelector('.card-counter');
+                if (counterElement) {
+                    counterElement.textContent = `${currentIndex}/${totalSlides}`;
+                }
+            }
+
+            // Función para inicializar un Swiper específico
+            function initializeSwiper(element, unidad) {
+                const swiperInstance = new Swiper(element, {
+                    effect: "cards",
+                    grabCursor: true,
+                    on: {
+                        init: function() {
+                            actualizarContador(this, unidad);
+                        },
+                        slideChange: function() {
+                            actualizarContador(this, unidad);
+                        }
+                    }
+                });
+                return swiperInstance;
+            }
+
+            // Crear un objeto para todos los conceptos combinados
+            conceptos.todos = [];
+            for(let i = 1; i <= 5; i++) {
+                const unidad = `unidad${i}`;
+                // Añadir información de la unidad a cada concepto
+                conceptos[unidad].forEach(concepto => {
+                    conceptos.todos.push({
+                        ...concepto,
+                        unidadOrigen: i
+                    });
+                });
+            }
+            
+            // Barajar los conceptos de "todos" para que no aparezcan agrupados por unidad
+            conceptos.todos = shuffleArray([...conceptos.todos]);
+            
+            // Mantener una copia de los conceptos originales y barajados
+            const conceptosOriginales = JSON.parse(JSON.stringify(conceptos));
+            let conceptosBarajados = JSON.parse(JSON.stringify(conceptos));
+
+            // Crear un contenedor swiper para cada unidad (incluyendo "todos")
+            for(let i = 1; i <= 5; i++) {
+                const unidad = `unidad${i}`;
+                const isHidden = i !== 1 ? 'hiddenCard' : '';
+                
+                html += `
+                    <section class="swiper-container-father ${isHidden}" identificador_select="u${i}">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                ${conceptos[unidad].map((concepto) => `
+                                    <div class="swiper-slide">
+                                        <div class="swiper-slide-concept">
+                                            ${concepto.titulo}
+                                        </div>
+                                        <div class="swiper-slide-definition">
+                                            ${concepto.descripcion}
+                                            <div class="card-counter-container">
+                                                <span class="card-counter">0/0</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                                <!-- Tarjeta final con botón de randomize -->
+                                <div class="swiper-slide randomize-card">
+                                    <div class="randomize-content">
+                                        <i class="material-icons randomize-icon">shuffle</i>
+                                        <p>Volver a barajar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                `;
+            }
+            
+            // Añadir el contenedor para "todos"
+            html += `
+                <section class="swiper-container-father hiddenCard" identificador_select="todos">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            ${conceptos.todos.map((concepto) => `
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-concept">
+                                        ${concepto.titulo}
+                                        <span class="unidad-badge unidad-${concepto.unidadOrigen}">U${concepto.unidadOrigen}</span>
+                                    </div>
+                                    <div class="swiper-slide-definition">
+                                        ${concepto.descripcion}
+                                        <div class="card-counter-container">
+                                            <span class="card-counter">0/0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                            <!-- Tarjeta final con botón de randomize -->
+                            <div class="swiper-slide randomize-card">
+                                <div class="randomize-content">
+                                    <i class="material-icons randomize-icon">shuffle</i>
+                                    <p>Volver a barajar</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            `;
+
+            swiperContainers.innerHTML = html;
+
+            // Inicializar todos los swipers y aplicar colores
+            document.querySelectorAll('.swiper-container-father').forEach((container, index) => {
+                const unidad = container.getAttribute('identificador_select');
+                swipers[index] = initializeSwiper(container.querySelector('.mySwiper'), unidad);
+                aplicarColores(container);
+            });
+
+            // Mantener la lógica existente del filtro
             const filters = document.querySelectorAll('.unidadFilter');
-            const swiperContainers = document.querySelectorAll('.swiper-container-father');
+            const swiperSections = document.querySelectorAll('.swiper-container-father');
 
             filters.forEach(filter => {
                 filter.addEventListener('click', function() {
-                    // Remover clase active de todos los filtros
                     filters.forEach(f => f.classList.remove('active'));
-                    // Agregar clase active al filtro seleccionado
                     this.classList.add('active');
 
                     const unidad = this.getAttribute('data-unidad');
                     
-                    // Mostrar/ocultar los contenedores de swiper según la unidad seleccionada
-                    swiperContainers.forEach(container => {
+                    // Generar nuevo color base al cambiar de sección
+                    colorBase = generarColorPastelBase();
+                    
+                    swiperSections.forEach((container, index) => {
                         if (container.getAttribute('identificador_select') === unidad) {
                             container.classList.remove('hiddenCard');
+                            if (swipers[index]) {
+                                swipers[index].destroy(true, true);
+                            }
+                            swipers[index] = initializeSwiper(container.querySelector('.mySwiper'), unidad);
+                            swipers[index].slideTo(0);
+                            // Aplicar nuevos colores con el nuevo color base
+                            aplicarColores(container);
                         } else {
                             container.classList.add('hiddenCard');
                         }
                     });
-
-                    // Reiniciar el swiper para la unidad seleccionada
-                    const activeSwiper = document.querySelector(`[identificador_select="${unidad}"] .swiper`).swiper;
-                    activeSwiper.slideTo(0);
                 });
             });
+
+            // Función para barajar un array (algoritmo Fisher-Yates)
+            function shuffleArray(array) {
+                const newArray = [...array]; // Crear una copia para no modificar el original
+                for (let i = newArray.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [newArray[i], newArray[j]] = [newArray[j], newArray[i]]; // Intercambiar elementos
+                }
+                return newArray;
+            }
+
+            // Función para regenerar los contenedores de swiper con conceptos barajados
+            function regenerarSwipers(conceptosActuales) {
+                // Obtener la unidad activa actual
+                const unidadActiva = document.querySelector('.unidadFilter.active')?.getAttribute('data-unidad') || 'u1';
+                
+                // Generar nuevo HTML para las unidades individuales
+                let html = '';
+                for(let i = 1; i <= 5; i++) {
+                    const unidad = `unidad${i}`;
+                    const isHidden = `u${i}` !== unidadActiva ? 'hiddenCard' : '';
+                    
+                    html += `
+                        <section class="swiper-container-father ${isHidden}" identificador_select="u${i}">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    ${conceptosActuales[unidad].map((concepto) => `
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-concept">
+                                                ${concepto.titulo}
+                                            </div>
+                                            <div class="swiper-slide-definition">
+                                                ${concepto.descripcion}
+                                                <div class="card-counter-container">
+                                                    <span class="card-counter">0/0</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                    <!-- Tarjeta final con botón de randomize -->
+                                    <div class="swiper-slide randomize-card">
+                                        <div class="randomize-content">
+                                            <i class="material-icons randomize-icon">shuffle</i>
+                                            <p>Volver a barajar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    `;
+                }
+                
+                // Añadir la sección "todos" si es necesario
+                if (unidadActiva === 'todos') {
+                    html += `
+                        <section class="swiper-container-father" identificador_select="todos">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    ${conceptosActuales.todos.map((concepto) => `
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-concept">
+                                                ${concepto.titulo}
+                                                <span class="unidad-badge unidad-${concepto.unidadOrigen}">U${concepto.unidadOrigen}</span>
+                                            </div>
+                                            <div class="swiper-slide-definition">
+                                                ${concepto.descripcion}
+                                                <div class="card-counter-container">
+                                                    <span class="card-counter">0/0</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                    <!-- Tarjeta final con botón de randomize -->
+                                    <div class="swiper-slide randomize-card">
+                                        <div class="randomize-content">
+                                            <i class="material-icons randomize-icon">shuffle</i>
+                                            <p>Volver a barajar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    `;
+                } else {
+                    html += `
+                        <section class="swiper-container-father hiddenCard" identificador_select="todos">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    ${conceptosActuales.todos.map((concepto) => `
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-concept">
+                                                ${concepto.titulo}
+                                                <span class="unidad-badge unidad-${concepto.unidadOrigen}">U${concepto.unidadOrigen}</span>
+                                            </div>
+                                            <div class="swiper-slide-definition">
+                                                ${concepto.descripcion}
+                                                <div class="card-counter-container">
+                                                    <span class="card-counter">0/0</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                    <!-- Tarjeta final con botón de randomize -->
+                                    <div class="swiper-slide randomize-card">
+                                        <div class="randomize-content">
+                                            <i class="material-icons randomize-icon">shuffle</i>
+                                            <p>Volver a barajar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    `;
+                }
+                
+                // Actualizar el contenido
+                swiperContainers.innerHTML = html;
+                
+                // Reinicializar los swipers
+                swipers = [];
+                document.querySelectorAll('.swiper-container-father').forEach((container, index) => {
+                    const unidad = container.getAttribute('identificador_select');
+                    swipers[index] = initializeSwiper(container.querySelector('.mySwiper'), unidad);
+                    aplicarColores(container);
+                });
+                
+                // Volver a asignar los event listeners a los filtros
+                asignarEventListenersAFiltros();
+            }
+            
+            // Función para asignar event listeners a los filtros
+            function asignarEventListenersAFiltros() {
+                // Obtener la unidad activa actual
+                const unidadActiva = document.querySelector('.unidadFilter.active')?.getAttribute('data-unidad') || 'u1';
+                
+                // Obtener todos los filtros y remover listeners existentes
+                const filterContainer = document.getElementById('filterContainer');
+                const oldFilters = filterContainer.querySelectorAll('.unidadFilter');
+                
+                // Clonar y reemplazar el contenedor completo para eliminar todos los listeners
+                const newFilterContainer = filterContainer.cloneNode(false);
+                
+                // Recrear los botones de filtro
+                oldFilters.forEach(filter => {
+                    const unidad = filter.getAttribute('data-unidad');
+                    const isActive = unidad === unidadActiva;
+                    
+                    const newFilter = document.createElement('div');
+                    newFilter.className = `unidadFilter ${isActive ? 'active' : ''}`;
+                    newFilter.setAttribute('data-unidad', unidad);
+                    newFilter.textContent = filter.textContent;
+                    
+                    newFilterContainer.appendChild(newFilter);
+                });
+                
+                // Reemplazar el contenedor
+                filterContainer.parentNode.replaceChild(newFilterContainer, filterContainer);
+                
+                // Añadir nuevos listeners
+                const newFilters = newFilterContainer.querySelectorAll('.unidadFilter');
+                const swiperSections = document.querySelectorAll('.swiper-container-father');
+                
+                newFilters.forEach(filter => {
+                    filter.addEventListener('click', function() {
+                        newFilters.forEach(f => f.classList.remove('active'));
+                        this.classList.add('active');
+
+                        const unidad = this.getAttribute('data-unidad');
+                        
+                        // Generar nuevo color base al cambiar de sección
+                        colorBase = generarColorPastelBase();
+                        
+                        // Primero, ocultar todas las secciones
+                        swiperSections.forEach((container) => {
+                            container.classList.add('hiddenCard');
+                        });
+                        
+                        // Luego, mostrar y reinicializar solo la sección activa
+                        const activeContainer = document.querySelector(`[identificador_select="${unidad}"]`);
+                        if (activeContainer) {
+                            activeContainer.classList.remove('hiddenCard');
+                            
+                            // Encontrar el índice de este contenedor
+                            const index = Array.from(swiperSections).indexOf(activeContainer);
+                            
+                            // Destruir el swiper existente si existe
+                            if (swipers[index]) {
+                                swipers[index].destroy(true, true);
+                            }
+                            
+                            // Esperar un momento para que el DOM se actualice
+                            setTimeout(() => {
+                                // Reinicializar el swiper
+                                const swiperElement = activeContainer.querySelector('.mySwiper');
+                                swipers[index] = initializeSwiper(swiperElement, unidad);
+                                
+                                // Aplicar colores
+                                aplicarColores(activeContainer);
+                                
+                                // Asegurarse de que empiece en la primera tarjeta
+                                swipers[index].slideTo(0);
+                            }, 50);
+                        }
+                    });
+                });
+
+                // Configurar los listeners para las tarjetas de randomize
+                setupRandomizeCardListeners();
+            }
+
+            // Función para manejar el clic en la tarjeta de randomize
+            function setupRandomizeCardListeners() {
+                document.querySelectorAll('.randomize-card').forEach(card => {
+                    card.addEventListener('click', function() {
+                        // Obtener la unidad activa actual
+                        const unidadActiva = document.querySelector('.unidadFilter.active')?.getAttribute('data-unidad') || 'u1';
+                        
+                        // Generar nuevo color base
+                        colorBase = generarColorPastelBase();
+                        
+                        // Si estamos en la sección "todos", barajar todos los conceptos
+                        if (unidadActiva === 'todos') {
+                            // Regenerar la sección "todos" con todos los conceptos
+                            conceptosBarajados.todos = [];
+                            for(let i = 1; i <= 5; i++) {
+                                const unidad = `unidad${i}`;
+                                conceptosBarajados[unidad].forEach(concepto => {
+                                    conceptosBarajados.todos.push({
+                                        ...concepto,
+                                        unidadOrigen: i
+                                    });
+                                });
+                            }
+                            
+                            // Barajar los conceptos de "todos"
+                            conceptosBarajados.todos = shuffleArray(conceptosBarajados.todos);
+                        } else {
+                            // Si estamos en una unidad específica, barajar solo esa unidad
+                            const unidadIndex = parseInt(unidadActiva.substring(1)) - 1;
+                            const unidad = `unidad${unidadIndex + 1}`;
+                            conceptosBarajados[unidad] = shuffleArray(conceptosOriginales[unidad]);
+                        }
+                        
+                        // Regenerar los swipers con los conceptos barajados
+                        regenerarSwipers(conceptosBarajados);
+                        
+                        // Asegurarse de que el filtro correcto esté activo
+                        document.querySelectorAll('.unidadFilter').forEach(filter => {
+                            if (filter.getAttribute('data-unidad') === unidadActiva) {
+                                filter.classList.add('active');
+                            } else {
+                                filter.classList.remove('active');
+                            }
+                        });
+                        
+                        // Mostrar un toast de confirmación
+                        M.toast({html: '¡Conceptos reorganizados aleatoriamente!', classes: 'rounded'});
+                        
+                        // Volver a la primera tarjeta
+                        const activeSwiper = document.querySelector(`[identificador_select="${unidadActiva}"] .swiper`).swiper;
+                    activeSwiper.slideTo(0);
+                    });
+                });
+            }
+
+            // Inicializar todos los swipers y aplicar colores
+            document.querySelectorAll('.swiper-container-father').forEach((container, index) => {
+                const unidad = container.getAttribute('identificador_select');
+                swipers[index] = initializeSwiper(container.querySelector('.mySwiper'), unidad);
+                aplicarColores(container);
+            });
+
+            // Asignar event listeners iniciales
+            asignarEventListenersAFiltros();
+
+            // Manejar el clic en el botón de randomizar (botón flotante)
+            const randomizeButton = document.getElementById('randomizeButton');
+            if (randomizeButton) {
+                // Eliminar listeners anteriores
+                const newRandomizeButton = randomizeButton.cloneNode(true);
+                randomizeButton.parentNode.replaceChild(newRandomizeButton, randomizeButton);
+                
+                // Añadir nuevo listener
+                newRandomizeButton.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    try {
+                        // Generar nuevo color base
+                        colorBase = generarColorPastelBase();
+                        
+                        // Obtener la unidad activa actual antes de regenerar
+                        const unidadActiva = document.querySelector('.unidadFilter.active')?.getAttribute('data-unidad') || 'u1';
+                        
+                        // Barajar los conceptos de cada unidad
+                        for(let i = 1; i <= 5; i++) {
+                            const unidad = `unidad${i}`;
+                            conceptosBarajados[unidad] = shuffleArray(conceptosOriginales[unidad]);
+                        }
+                        
+                        // Si estamos en la sección "todos", regenerarla también
+                        if (unidadActiva === 'todos') {
+                            conceptosBarajados.todos = [];
+                            for(let i = 1; i <= 5; i++) {
+                                const unidad = `unidad${i}`;
+                                conceptosBarajados[unidad].forEach(concepto => {
+                                    conceptosBarajados.todos.push({
+                                        ...concepto,
+                                        unidadOrigen: i
+                                    });
+                                });
+                            }
+                            conceptosBarajados.todos = shuffleArray(conceptosBarajados.todos);
+                        }
+                        
+                        // Regenerar los swipers con los conceptos barajados
+                        regenerarSwipers(conceptosBarajados);
+                        
+                        // Mostrar un toast de confirmación
+                        M.toast({html: '¡Conceptos reorganizados aleatoriamente!', classes: 'rounded'});
+                    } catch (error) {
+                        console.error('Error al randomizar:', error);
+                        M.toast({html: 'Hubo un error al reorganizar los conceptos', classes: 'rounded red'});
+                    }
+                    return false;
+                });
+            }
         });
     </script>
 
-</body>
+    <style>
+        /* Estilos para las tarjetas */
+        .swiper-slide {
+            transition: all 0.3s ease;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: none; /* Sin sombra por defecto */
+        }
+
+        /* Solo aplicar sombra a la tarjeta activa/visible */
+        .swiper-slide-active {
+            box-shadow: 5px 0 5px -3px rgba(0,0,0,0.1), -5px 0 5px -3px rgba(0,0,0,0.1);
+        }
+
+        .swiper-slide-concept {
+            padding: 20px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.9);
+            text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+            border: none;
+        }
+
+        .swiper-slide-definition {
+            padding: 20px;
+            font-size: 1rem;
+            line-height: 1.6;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-counter-container {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid rgba(0,0,0,0.1); /* Este color será reemplazado dinámicamente */
+            padding-top: 15px;
+        }
+
+        .card-counter {
+            display: inline-block;
+            /* El background-color será reemplazado dinámicamente */
+            color: white !important; /* Forzar color blanco para el texto */
+            padding: 5px 14px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 900;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+
+        .randomize-card {
+            background-color: #f0f0f0 !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .randomize-card:hover {
+            background-color: #e0e0e0 !important;
+            transform: scale(1.02);
+        }
+
+        .randomize-content {
+            text-align: center;
+            color: #555;
+        }
+
+        .randomize-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: #7C98D3;
+        }
+
+        .randomize-content p {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        /* Estilos para las insignias de unidad */
+        .unidad-badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 8px;
+            font-weight: 700;
+            vertical-align: middle;
+            color: white;
+        }
+
+        .unidad-1 { background-color: #4CAF50; }
+        .unidad-2 { background-color: #2196F3; }
+        .unidad-3 { background-color: #FF9800; }
+        .unidad-4 { background-color: #9C27B0; }
+        .unidad-5 { background-color: #F44336; }
+    </style>
 
 <!--Codigo para que funcione el swiper-->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        effect: "cards",
-        grabCursor: true,
-    });
-</script>
+
+</body>
 
 </html>

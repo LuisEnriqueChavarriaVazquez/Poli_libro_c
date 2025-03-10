@@ -1,72 +1,158 @@
 /* Estilos existentes... */
 
-/* Estilos para el contenedor de filtros */
-#filterContainer {
-  margin: 20px auto;
-  padding: 15px;
-  border-radius: 8px;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
+/* Contenedor principal para el repaso */
+.swiper-container-father {
+  padding: 20px;
+  margin: 0 auto;
   max-width: 800px;
   position: relative;
-  z-index: 1000;
-}
-
-/* Estilos para los botones de filtro */
-.unidadFilter {
-  position: relative;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 0.95rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #F8FAFC;
-  color: #4A5568;
-  border: 1px solid #E2E8F0;
-  user-select: none;
-  
-  &:hover {
-    background-color: #EDF2F7;
-    transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  }
-  
-  &.active {
-    background-color: #7C98D3;
-    color: white;
-    border-color: #7C98D3;
-    box-shadow: 0 2px 4px rgba(124, 152, 211, 0.2);
-    
-    &:hover {
-      background-color: #6785C4;
-    }
-  }
-}
-
-/* Ajustes para el swiper container */
-.swiper-container-father {
-  margin-top: 20px;
-  transition: opacity 0.3s ease;
+  z-index: 1;
   
   &.hiddenCard {
     display: none;
   }
 }
 
+/* Estilos para el contenedor de filtros */
+#filterContainer {
+  margin: 0 auto 20px auto;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 800px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  position: relative;
+  z-index: 1000;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Estilos para los botones de filtro */
+.unidadFilter {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #F5F7FA;
+  color: #4A5568;
+  border: none;
+  user-select: none;
+  min-width: 100px;
+  text-align: center;
+  
+  &:hover {
+    background-color: #EDF2F7;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  &.active {
+    background-color: #7C98D3;
+    color: white;
+    box-shadow: 0 2px 5px rgba(124, 152, 211, 0.3);
+    
+    &:hover {
+      background-color: #6785C4;
+      box-shadow: 0 4px 8px rgba(124, 152, 211, 0.4);
+    }
+  }
+
+  /* Efecto Ripple de Material Design */
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease-out, height 0.3s ease-out;
+  }
+
+  &:active::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+/* Estilos para las tarjetas del swiper */
+.swiper-slide {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16), 0 4px 8px rgba(0,0,0,0.23);
+  }
+}
+
+.swiper-slide-concept {
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2D3748;
+  background-color: #7C98D3;
+  color: white;
+}
+
+.swiper-slide-definition {
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4A5568;
+}
+
 /* Responsive para móviles */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   #filterContainer {
-    padding: 12px;
-    gap: 8px;
     margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    gap: 8px;
+  }
+  
+  .unidadFilter {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    min-width: 80px;
+  }
+
+  .swiper-container-father {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #filterContainer {
+    padding: 8px;
+    gap: 6px;
   }
   
   .unidadFilter {
     padding: 6px 12px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    min-width: 70px;
+  }
+
+  .swiper-slide-concept {
+    padding: 15px;
+    font-size: 1.1rem;
+  }
+
+  .swiper-slide-definition {
+    padding: 15px;
+    font-size: 0.95rem;
   }
 }

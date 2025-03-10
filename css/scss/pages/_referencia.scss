@@ -1,58 +1,163 @@
-  /* Para mostrar la portada de los libros */
-  .book-reference {
-    position: relative;
-    left: 230px;
+/* Estilos para el contenedor de filtros */
+#filterContainer {
+  margin: 0 auto 20px auto;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 800px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  position: relative;
+  z-index: 1000;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    width: 80%;
-    box-sizing: border-box;
-    padding: 5px 10px;
+/* Estilos para los botones de filtro */
+.unidadFilter {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #F5F7FA;
+  color: #4A5568;
+  border: none;
+  user-select: none;
+  min-width: 100px;
+  text-align: center;
+  
+  &:hover {
+    background-color: #EDF2F7;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  &.active {
+    background-color: #7C98D3;
+    color: white;
+    box-shadow: 0 2px 5px rgba(124, 152, 211, 0.3);
+    
+    &:hover {
+      background-color: #6785C4;
+      box-shadow: 0 4px 8px rgba(124, 152, 211, 0.4);
+    }
   }
 
-  .reference{
-    text-align: center;
+  /* Efecto Ripple de Material Design */
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease-out, height 0.3s ease-out;
+  }
+
+  &:active::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+/* Estilos existentes para referencias */
+.book-reference {
+  position: relative;
+  left: 230px;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  transition: opacity 0.3s ease;
+  
+  &.hidden {
+    display: none;
+  }
+}
+
+.reference {
+  text-align: center;
+}
+
+.book-reference .book-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left:-230px;
+  width: 210px;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.book-reference:hover .book-cover {
+  display: block;
+}
+
+/* Responsive para móviles */
+@media (max-width: 1500px) {
+  .book-reference {
+    left: 120px;
   }
   
   .book-reference .book-cover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    left:-120px;
+    width: 110px;
+  }
 
-    position: absolute;
-    top: 0;
-    left:-230px;
-    width: 210px;
-    height: auto;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  #filterContainer {
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 800px) {
+  #filterContainer {
+    padding: 12px;
+    gap: 8px;
+    margin: 10px;
   }
   
-  .book-reference:hover .book-cover {
-    display: block;
+  .unidadFilter {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    min-width: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .book-reference {
+    left: 0;
+    width: 100%;
+  }
+  
+  .book-reference .book-cover {
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    z-index: 1000;
   }
 
-  @media (max-width: 1500px) {
-    .book-reference {
-      left: 120px;
-    }
-    
-    .book-reference .book-cover {
-      left:-120px;
-      width: 110px;
-    }
+  #filterContainer {
+    padding: 8px;
+    gap: 6px;
   }
-
-  @media (max-width: 600px) {
-    .book-reference {
-      left: 0;
-      width: 100%;
-    }
-    
-    .book-reference .book-cover {
-      left: 0px;
-      top: 0px;
-      width: 150px;
-      z-index: 1000;
-    }
+  
+  .unidadFilter {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    min-width: 70px;
   }
+}
