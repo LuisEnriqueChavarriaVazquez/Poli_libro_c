@@ -1,5 +1,5 @@
 const contenidosUnidad = [
-`
+	`
 <br>
 <div id="test-swipe-2" class="tabsContentContainerInfo">
 
@@ -22,7 +22,7 @@ const contenidosUnidad = [
 
 </div>
 `,
-`
+	`
 <br>
 <div id="test-swipe-4" class="tabsContentContainerInfo">
 
@@ -81,7 +81,7 @@ const contenidosUnidad = [
 
 </div>
 `,
-`
+	`
 <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
     <div class="cardDesign clw border1Inf">
@@ -119,7 +119,7 @@ const contenidosUnidad = [
         </span>
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+	`<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1 Proyectos </div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -191,7 +191,7 @@ const contenidosUnidad = [
         </span>
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+	`<div class="shadow4 border1 clw">
 
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.1 Clasificación</div>
     <div class="cardDesign clw border1Inf">
@@ -252,7 +252,7 @@ const contenidosUnidad = [
     </div>
 </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+	`<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
         1.1.2 Proyecto informático     
     </div>
@@ -282,7 +282,7 @@ const contenidosUnidad = [
 
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+	`<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.3 Elementos de un proyecto</div>
     <div class="cardDesign clw border1Inf">
 
@@ -335,7 +335,7 @@ const contenidosUnidad = [
         </div><br>
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+	`<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
         1.2 Ciclo de vida de los proyectos y del software
     </div>
@@ -442,7 +442,7 @@ const contenidosUnidad = [
         </div><br>
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+	`<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Formulación de un proyecto informático </div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -482,7 +482,7 @@ const contenidosUnidad = [
         </p>
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+	`<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.1 Planteamiento del problema y técnicas de análisis</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -649,9 +649,8 @@ const contenidosUnidad = [
             </div>
         </div>
     </div>
-</div>`
-,
-`<div class="shadow4 border1 clw">
+</div>`,
+	`<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.2 Antecedentes y situación actual</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -696,7 +695,7 @@ const contenidosUnidad = [
     </div>
 </div>          
 `,
-`<div class="shadow4 border1 clw">
+	`<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.3 Identificación y selección de alternativas</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -742,7 +741,7 @@ const contenidosUnidad = [
     </div>
 </div>          
 `,
-`<div class="shadow4 border1 clw">
+	`<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.4	Gestión de la integración del proyecto informático </div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -760,14 +759,13 @@ const contenidosUnidad = [
         </p>
     </div>
 </div>          
-`
-,
-`<section class="containerActividadAprendizajeFather">
+`,
+	`<section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Material de apoyo</div>
     <section class="gridActividadesAprendizaje">
 
         <!--Tarjeta 1-->
-        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
+        <!-- <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
             <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Lectura 1</p>
             <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las organizaciones y la empresa</p>
             
@@ -785,90 +783,37 @@ const contenidosUnidad = [
                     </div>
                 </a>
             </div>
-        </div>
+        </div> -->
 
 
     </section>
 </section>
 `,
-`<!--Tarjeta con las actividades-->
+	`<!--Tarjeta con las actividades-->
 <section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
     <section class="gridActividadesAprendizaje">
-        <!--Tarjeta 1-->
-        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.1</p>
-            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa y su constitución jurídica</p>
-
-            <div class="buttonContainerDownloadActividadAprendizaje">
-                <a href="./pdf/actividades/Actividad 1.1 La empresa y su constitucion juridica.pdf" target="_blank">
-                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                        <i class="material-icons clbktx">download</i>
-                        <span class="clbktx">Descargar</span>
-                    </div>
-                </a>
-                <a href="lectorArchivos.html?document=actividad1_unidad1">
-                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                        <i class="material-icons clbktx">visibility</i>
-                        <span class="clbktx">Vizualizar</span>
-                    </div>
-                </a>
-            </div>
-
-        </div>
-
-        <!--Tarjeta 2-->
-        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.2</p>
-            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las finanzas y su importancia</p>
-
-            <div class="buttonContainerDownloadActividadAprendizaje">
-                <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf" target="_blank">
-                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                        <i class="material-icons clbktx">download</i>
-                        <span class="clbktx">Descargar</span>
-                    </div>
-                </a>
-                <a href="lectorArchivos.html?document=actividad2_unidad1">
-                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                        <i class="material-icons clbktx">visibility</i>
-                        <span class="clbktx">Vizualizar</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <!--Tarjeta 3-->
-        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.3</p>
-            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa, sus finanzas y su relación con el
-                entorno</p>
-
-            <div class="buttonContainerDownloadActividadAprendizaje">
-                <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf"
-                    target="_blank">
-                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                        <i class="material-icons clbktx">download</i>
-                        <span class="clbktx">Descargar</span>
-                    </div>
-                </a>
-                <a href="lectorArchivos.html?document=actividad3_unidad1">
-                    <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                        <i class="material-icons clbktx">visibility</i>
-                        <span class="clbktx">Vizualizar</span>
-                    </div>
-                </a>
-            </div>
+       
+         <!--Tarjeta 1-->
+         <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
+            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1</p>
+            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Infografía los proyectos informáticos</p>
+            <a href="./pdf/actividades/ACTIVIDAD_1 Infografia los proyectos informaticos.pdf" target="_blank">
+                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                    <i class="material-icons clbktx">download</i>
+                    <span class="clbktx">Descargar</span>
+                </div>
+            </a>
         </div>
 
     </section>
 </section>
 `,
-`12`,
-`13`,
-`14`,
-`15`,
-`16`,
+	`12`,
+	`13`,
+	`14`,
+	`15`,
+	`16`,
 ];
 
 console.log("contenidosUnidad: ", contenidosUnidad.length);
@@ -879,41 +824,53 @@ console.log("contenidosUnidad: ", contenidosUnidad.length);
 
 //Accedemos al contenedor de los textos
 let contenedorParaElContenidoDeLaUnidad = document.getElementById(
-"lateralUnityContent"
+	"lateralUnityContent"
 );
 
 //Cargamos por defecto el contenido para la unidad
 (() => {
-contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad[0];
+	contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad[0];
 })();
 
 //Accedemos al contenedor que tiene las opciones para el menu en computadora.
 let buttonContaineChargeContent = document.getElementById(
-"lateralUnityMenuSectionContainer"
+	"lateralUnityMenuSectionContainer"
 );
 buttonContaineChargeContent.addEventListener("click", function (event) {
-if (event.target.classList.contains("deskOption")) {
-console.log(event.target);
-let buttonIndex = event.target.getAttribute("contador");
-if(contenidosUnidad[buttonIndex] == undefined){
-let a1tutorialButton = document.getElementById('a1tutorialButton');
-a1tutorialButton.click();
-}else{
-contenedorParaElContenidoDeLaUnidad.innerHTML =
-contenidosUnidad[buttonIndex];
-}
-}
+	if (event.target.classList.contains("deskOption")) {
+		console.log(event.target);
+		let buttonIndex = event.target.getAttribute("contador");
+		if (contenidosUnidad[buttonIndex] == undefined) {
+			let a1tutorialButton = document.getElementById("a1tutorialButton");
+			a1tutorialButton.click();
+		} else {
+			contenedorParaElContenidoDeLaUnidad.innerHTML =
+				contenidosUnidad[buttonIndex];
+		}
+	}
 });
 
 //Accedemos al contenedor que tiene las opciones para el menu en celular.
 let buttonContaineChargeContentMobile = document.getElementsByClassName(
-"mobileOptionsContainer"
+	"mobileOptionsContainer"
 );
 for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
-    buttonContaineChargeContentMobile[i].addEventListener( "click" , function (event) { if
-    (event.target.classList.contains("mobileOption")) { console.log(event.target); let
-    buttonIndex=event.target.getAttribute("contador");
-    contenedorParaElContenidoDeLaUnidad.innerHTML=contenidosUnidad[buttonIndex];
-    if(contenidosUnidad[buttonIndex]==undefined){ let a1tutorialButton=document.getElementById('a1tutorialButton');
-    a1tutorialButton.click(); }else{ contenedorParaElContenidoDeLaUnidad.innerHTML=contenidosUnidad[buttonIndex]; } } }
-    ); }
+	buttonContaineChargeContentMobile[i].addEventListener(
+		"click",
+		function (event) {
+			if (event.target.classList.contains("mobileOption")) {
+				console.log(event.target);
+				let buttonIndex = event.target.getAttribute("contador");
+				contenedorParaElContenidoDeLaUnidad.innerHTML =
+					contenidosUnidad[buttonIndex];
+				if (contenidosUnidad[buttonIndex] == undefined) {
+					let a1tutorialButton = document.getElementById("a1tutorialButton");
+					a1tutorialButton.click();
+				} else {
+					contenedorParaElContenidoDeLaUnidad.innerHTML =
+						contenidosUnidad[buttonIndex];
+				}
+			}
+		}
+	);
+}

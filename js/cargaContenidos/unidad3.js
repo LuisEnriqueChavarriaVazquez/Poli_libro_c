@@ -347,7 +347,7 @@ const contenidosUnidad = [
             El proceso de gestión del conocimiento conlleva diversas tareas como la adquisición, la creación, el perfeccionamiento, 
             el almacenamiento, la transferencia, el intercambio y utilización de conocimientos (IBM, 2022).<br><br>
 
-            Antes de llevar a cabo el plan de gestión del proyecto es necesario que elabores el “Acta de constitución del proyecto”.<br><br>
+            Antes de llevar a cabo el plan de gestión del proyecto es necesario que elabores el "Acta de constitución del proyecto".<br><br>
 
             El acta de constitución o project charter en inglés, es un documento que contiene la información básica que da origen a un proyecto 
             y se debe elaborar al comienzo del proyecto; tan al comienzo que podemos decir que es este documento el que crea el proyecto. 
@@ -1054,7 +1054,7 @@ const contenidosUnidad = [
                     de un sistema como el de sus datos.<br><br>
 
                     Dentro de modelo de dominio encontraras los diagramas de funcionalidades (Features Diagrams), los cuales son una 
-                    representación “compacta” del sistema o aplicación en términos de sus características.<br><br>
+                    representación "compacta" del sistema o aplicación en términos de sus características.<br><br>
 
                     El análisis de dominio te debe producir modelos orientados a objetos o modelos relacionales de datos, que pueden ser 
                     usados por los desarrolladores de software como base de arquitecturas de software y aplicaciones.
@@ -1519,7 +1519,7 @@ const contenidosUnidad = [
     <div class="textoTitulo clbktx">Material de apoyo</div>
     <section class="gridActividadesAprendizaje">
 
-        <!--Tarjeta 1-->
+        <!-- Tarjeta 1
         <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
             <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Lectura 1</p>
             <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las organizaciones y la empresa</p>
@@ -1529,7 +1529,7 @@ const contenidosUnidad = [
                     <span class="clbktx">Descargar</span>
                 </div>
             </a>
-        </div>
+        </div> -->
 
 
     </section>
@@ -1539,37 +1539,11 @@ const contenidosUnidad = [
 <section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
     <section class="gridActividadesAprendizaje">
-        <!--Tarjeta 1-->
+        <!--Tarjeta 4-->
         <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.1</p>
-            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa y su constitución jurídica</p>
-            <a href="./pdf/actividades/Actividad 1.1 La empresa y su constitucion juridica.pdf" target="_blank">
-                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                    <i class="material-icons clbktx">download</i>
-                    <span class="clbktx">Descargar</span>
-                </div>
-            </a>
-        </div>
-
-        <!--Tarjeta 2-->
-        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.2</p>
-            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las finanzas y su importancia</p>
-            <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf" target="_blank">
-                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                    <i class="material-icons clbktx">download</i>
-                    <span class="clbktx">Descargar</span>
-                </div>
-            </a>
-        </div>
-
-        <!--Tarjeta 3-->
-        <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.3</p>
-            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa, sus finanzas y su relación con el
-                entorno</p>
-            <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf"
-                target="_blank">
+            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 3</p>
+            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Plan de gestión para la dirección del proyecto</p>
+            <a href="./pdf/actividades/ACTIVIDAD_3 Plan de gestion para la dir del proyecto.pdf" target="_blank">
                 <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
                     <i class="material-icons clbktx">download</i>
                     <span class="clbktx">Descargar</span>
