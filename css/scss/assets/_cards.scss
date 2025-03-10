@@ -221,45 +221,51 @@
 }
 
 @media (max-width: 900px) {
-	.unitCardsContainer {
-		grid-template-columns: 1fr;
-		padding: 20px;
-	}
-	
-	/* Reposicionar cards en vista móvil */
-	#a1Link, #a2Link, #a3Link, #a4Link, #a5Link, #a6Link {
-		grid-column: 1;
-	}
-	
-	#a1Link { grid-row: 1; }
-	#a2Link { grid-row: 3; }
-	#a3Link { grid-row: 5; }
-	#a4Link { grid-row: 7; }
-	#a5Link { grid-row: 9; }
-	#a6Link { grid-row: 11; }
-	
-	/* Ajustar conectores para vista móvil */
-	.connector-horizontal {
-		height: 100%;
-		width: 50px;
-		background: linear-gradient(
-			to bottom,
-			#aaaaaa 0%,
-			#cccccc 20%,
-			#dddddd 50%,
-			#cccccc 80%,
-			#aaaaaa 100%
-		);
-	}
-	
-	/* Eliminar los estilos específicos para cada conector en móvil */
-	#connector-1-2 .connector-horizontal,
-	#connector-2-3 .connector-horizontal,
-	#connector-3-4 .connector-horizontal,
-	#connector-4-5 .connector-horizontal,
-	#connector-5-6 .connector-horizontal {
-		/* Estos selectores específicos deben ser eliminados o sobrescritos */
-	}
+    .unitCardsContainer {
+        display: grid;
+        grid-template-columns: 1fr; /* Una sola columna */
+        padding: 20px;
+        gap: 0;
+    }
+    
+    /* Reposicionar todos los elementos en una sola columna */
+    #a1Link { grid-column: 1; grid-row: 1; }
+    #connector-1-2 { grid-column: 1; grid-row: 2; }
+    #a2Link { grid-column: 1; grid-row: 3; }
+    #connector-2-3 { grid-column: 1; grid-row: 4; }
+    #a3Link { grid-column: 1; grid-row: 5; }
+    #connector-3-4 { grid-column: 1; grid-row: 6; }
+    #a4Link { grid-column: 1; grid-row: 7; }
+    #connector-4-5 { grid-column: 1; grid-row: 8; }
+    #a5Link { grid-column: 1; grid-row: 9; }
+    #connector-5-6 { grid-column: 1; grid-row: 10; }
+    #a6Link { grid-column: 1; grid-row: 11; }
+
+    /* Ajustar todos los conectores para que sean verticales */
+    .connector-horizontal, .connector-vertical {
+        height: 40px;
+        width: 25px;
+        margin: 0 auto;
+        background: linear-gradient(
+            to bottom,
+            #aaaaaa 0%,
+            #cccccc 20%,
+            #dddddd 50%,
+            #cccccc 80%,
+            #aaaaaa 100%
+        );
+    }
+
+    /* Ocultar celdas vacías */
+    .empty-cell {
+        display: none;
+    }
+
+    /* Asegurar que los contenedores de conectores estén centrados */
+    .connector-container {
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 /*container de cards*/
