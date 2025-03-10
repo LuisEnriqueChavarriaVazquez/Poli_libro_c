@@ -34,24 +34,25 @@ body {
 }
 
 /*Grey element - Mejorando los tonos para evaluación*/
+/*Grey element - Mejorando los tonos para evaluación*/
 .clgreyl1 {
-    background-color: #F8FAFC; /* Gris muy claro */
+    background-color: #F9F9F9; /* Gris muy claro neutro */
 }
 
 .clgreyl2 {
-    background-color: #E8EDF7; /* Gris claro */
+    background-color: #EEEEEE; /* Gris claro neutro */
 }
 
 .clgreyl3 {
-    background-color: #D6E0F3; /* Gris medio claro */
+    background-color: #DDDDDD; /* Gris medio claro neutro */
 }
 
 .clgreyl4 {
-    background-color: #B5C7E5; /* Gris medio */
+    background-color: #BBBBBB; /* Gris medio neutro */
 }
 
 .clgreyl5 {
-    background-color: #A0A0A0; /* Gris medio oscuro */
+    background-color: #999999; /* Gris medio oscuro neutro */
 }
 
 /*Text style*/
