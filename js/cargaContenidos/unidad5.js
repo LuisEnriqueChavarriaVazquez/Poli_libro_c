@@ -1,15 +1,17 @@
-const contenidosUnidad = [
-    `
+const contenidosUnidad = {
+	inicio: {
+		id: "inicio",
+		titulo: "Inicio",
+		type: "contenido",
+		contenido: `
   <!--Menu para los contenidos en tiempo real-->
   <div class="mainTabsContent" id="tabsContentID">
       <ul id="tabs-swipe-demo" class="tabs clgreyl2 shadow4">
           <li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Bienvenida</a></li>
-          <li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a>
+          <li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a></li>
           <li class="tab clgreyl2" id="a7tutorialButton"><a class="clbktx" href="#test-swipe-2">Unidad de competencia</a></li>
-          </li>
           <li class="tab clgreyl2" id="a9tutorialButton"><a class="clbktx" href="#test-swipe-4">Evaluación de los aprendizajes</a></li>
-          <li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a>
-          </li>
+          <li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a></li>
       </ul>
   </div>
   
@@ -202,11 +204,15 @@ const contenidosUnidad = [
   
   
   </div>`,
-    `
+	},
+	introduccion: {
+		id: "introduccion",
+		titulo: "Introducción",
+		type: "contenido",
+		contenido: `
     <div class="shadow4 border1 clw">
           <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
           <div class="cardDesign clw border1Inf">
-              <!--Card con un ejemplo-->
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 <i class="keyWord">Las empresas son la base del sistema económico</i>, debido a que se encargan de <i class="keyWord">la producción, comercialización y distribución de bienes</i> que satisfacen las múltiples necesidades la sociedad. Más allá de su infraestructura, tamaño y giro <i class="keyWord">toda empresa debe constituirse de acuerdo con la legislación vigente</i> que le otorga una personalidad jurídica propia e independiente de sus dueños; para su funcionamiento <i class="keyWord">requiere de recursos financieros, tecnológicos y humanos</i> los cuales deben ser administrados eficientemente para cumplir con sus objetivos.
               </p>
@@ -227,7 +233,12 @@ const contenidosUnidad = [
               </span> 
           </div>
   </div>`,
-    `<div class="shadow4 border1 clw">
+	},
+	estadosFinancierosProforma: {
+		id: "estadosFinancierosProforma",
+		titulo: "5.1 Integración de estados financieros proforma",
+		type: "contenido",
+		contenido: `<div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
             5.1 Integración de estados financieros proforma
         </div>
@@ -343,9 +354,13 @@ const contenidosUnidad = [
                 </ol>
             </div>            
         </div>
-    </div>
-    `,
-    `<div class="shadow4 border1 clw">
+    </div>`,
+	},
+	estadoResultados: {
+		id: "estadoResultados",
+		titulo: "5.1.1 Estado de resultados",
+		type: "contenido",
+		contenido: `<div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
             5.1.1 Estado de resultados
         </div>
@@ -460,9 +475,13 @@ const contenidosUnidad = [
                 </ol>
             </div>            
         </div>
-    </div>
-    `,
-    `<div class="shadow4 border1 clw">
+    </div>`,
+	},
+	flujosEfectivo: {
+		id: "flujosEfectivo",
+		titulo: "5.2 Cálculo de los flujos netos de efectivo",
+		type: "contenido",
+		contenido: `<div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
             5.2 Cálculo de los flujos netos de efectivo
         </div>
@@ -618,7 +637,13 @@ const contenidosUnidad = [
     </div>
     
     `,
-    `<div class="shadow4 border1 clw">
+	},
+	indicadoresFinancieros: {
+		id: "indicadoresFinancieros",
+		titulo:
+			"5.3 Indicadores financieros de evaluación de proyectos informáticos",
+		type: "contenido",
+		contenido: `<div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
             5.3 Indicadores financieros de evaluación de proyectos informáticos
         </div>
@@ -811,7 +836,12 @@ const contenidosUnidad = [
         </div>
     </div>
     `,
-    `<div class="shadow4 border1 clw">
+	},
+	matrizAnalisis: {
+		id: "matrizAnalisis",
+		titulo: "5.4 Matriz de análisis integral para la toma de decisiones",
+		type: "contenido",
+		contenido: `<div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
             5.4 Matriz de análisis integral para la toma de decisiones
         </div>
@@ -837,8 +867,11 @@ const contenidosUnidad = [
         </div>
     </div>
     `,
-    ``,
-    `<section class="containerActividadAprendizajeFather">
+		materialApoyo: {
+			id: "materialApoyo",
+			titulo: "Material de apoyo",
+			type: "contenido",
+			contenido: `<section class="containerActividadAprendizajeFather">
       <div class="textoTitulo clbktx">Material de apoyo</div>
       <section class="gridActividadesAprendizaje">
   
@@ -856,9 +889,13 @@ const contenidosUnidad = [
           
   
       </section>
-  </section>
-  `,
-    `<!--Tarjeta con las actividades-->
+  </section>`,
+		},
+		actividadesAprendizaje: {
+			id: "actividadesAprendizaje",
+			titulo: "Actividades de aprendizaje",
+			type: "contenido",
+			contenido: `<!--Tarjeta con las actividades-->
   <section class="containerActividadAprendizajeFather">
       <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
       <section class="gridActividadesAprendizaje">
@@ -899,9 +936,13 @@ const contenidosUnidad = [
           </div>
   
       </section>
-  </section>
-  `,
-    `<div class="shadow4 border1 clw">
+  </section>`,
+		},
+		cierre: {
+			id: "cierre",
+			titulo: "Cierre de la unidad temática",
+			type: "contenido",
+			contenido: `<div class="shadow4 border1 clw">
       <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
       <div class="cardDesign clw border1Inf">
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -919,73 +960,225 @@ const contenidosUnidad = [
           <a href="https://icons8.com/illustrations/illustration/pixeltrue-success" target="_blank">Ouch!</a>
           </span>
       </div>
-  </div>
-  `,
-    `11 (referencias)`,
-    `12`,
-    `13`,
-    `14`,
-    `15`,
-    `16`,
-  ];
-  
-  console.log("contenidosUnidad: ", contenidosUnidad.length);
-  
-  /////////////////////////////////////
-  //Object delegation para los botones
-  /////////////////////////////////////
-  
-  //Accedemos al contenedor de los textos
-  let contenedorParaElContenidoDeLaUnidad = document.getElementById(
-    "lateralUnityContent"
-  );
-  
-  //Cargamos por defecto el contenido para la unidad
-  (() => {
-    contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad[0];
-  })();
-  
-  //Accedemos al contenedor que tiene las opciones para el menu en computadora.
-  let buttonContaineChargeContent = document.getElementById(
-    "lateralUnityMenuSectionContainer"
-  );
-  buttonContaineChargeContent.addEventListener("click", function (event) {
-    if (event.target.classList.contains("deskOption")) {
-      console.log(event.target);
-      let buttonIndex = event.target.getAttribute("contador");
-      if(contenidosUnidad[buttonIndex] == undefined){
-          let a1tutorialButton = document.getElementById('a1tutorialButton');
-          a1tutorialButton.click();
-      }else{
-          contenedorParaElContenidoDeLaUnidad.innerHTML =
-          contenidosUnidad[buttonIndex];
-      }
-    }
-  });
-  
-  //Accedemos al contenedor que tiene las opciones para el menu en celular.
-  let buttonContaineChargeContentMobile = document.getElementsByClassName(
-    "mobileOptionsContainer"
-  );
-  for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
-    buttonContaineChargeContentMobile[i].addEventListener(
-      "click",
-      function (event) {
-        if (event.target.classList.contains("mobileOption")) {
-          console.log(event.target);
-          let buttonIndex = event.target.getAttribute("contador");
-          contenedorParaElContenidoDeLaUnidad.innerHTML =
-            contenidosUnidad[buttonIndex];
-  
-          if(contenidosUnidad[buttonIndex] == undefined){
-              let a1tutorialButton = document.getElementById('a1tutorialButton');
-              a1tutorialButton.click();
-          }else{
-              contenedorParaElContenidoDeLaUnidad.innerHTML =
-              contenidosUnidad[buttonIndex];
-          }
-        }
-      }
-    );
-  }
-  
+  </div>`,
+		},
+	},
+};
+
+// Código separado del objeto
+let tabsInitialized = false;
+
+// Esperar a que el DOM esté completamente cargado
+document.addEventListener("DOMContentLoaded", function () {
+	console.log("DOM Content Loaded - Unidad 5");
+
+	// Cargar contenido inicial
+	cargarContenido("inicio");
+
+	// Configurar eventos para menú de escritorio
+	const desktopMenu = document.getElementById(
+		"lateralUnityMenuSectionContainer"
+	);
+	if (desktopMenu) {
+		console.log("Desktop menu found, adding click listener");
+		desktopMenu.addEventListener("click", function (event) {
+			const target = event.target.closest("[seccion-id]");
+			if (target) {
+				event.preventDefault();
+				const seccionId = target.getAttribute("seccion-id");
+				console.log("Desktop menu click on section:", seccionId);
+				cargarContenido(seccionId);
+			}
+		});
+	} else {
+		console.error("Desktop menu container not found");
+	}
+
+	// Configurar eventos para menú móvil
+	const mobileMenus = document.querySelectorAll(".mobileOptionsContainer");
+	if (mobileMenus.length > 0) {
+		console.log(`Found ${mobileMenus.length} mobile menu containers`);
+		mobileMenus.forEach((menu) => {
+			menu.addEventListener("click", function (event) {
+				// Buscar el elemento más cercano con seccion-id
+				let target = event.target;
+				while (
+					target &&
+					target !== this &&
+					!target.hasAttribute("seccion-id")
+				) {
+					target = target.parentElement;
+				}
+
+				if (target && target.hasAttribute("seccion-id")) {
+					event.preventDefault();
+					const seccionId = target.getAttribute("seccion-id");
+					console.log("Mobile menu click on section:", seccionId);
+					cargarContenido(seccionId);
+
+					// Cerrar el sidenav en móvil
+					const sidenav = document.querySelector(".sidenav");
+					if (sidenav && M && M.Sidenav) {
+						const instance = M.Sidenav.getInstance(sidenav);
+						if (instance) {
+							instance.close();
+						}
+					}
+				}
+			});
+		});
+	} else {
+		console.warn("No mobile menu containers found");
+	}
+
+	// Manejar navegación por hash
+	if (window.location.hash) {
+		const seccionId = window.location.hash.substring(1);
+		if (seccionId && contenidosUnidad[seccionId]) {
+			console.log("Loading content from hash:", seccionId);
+			cargarContenido(seccionId);
+		}
+	}
+});
+
+// Función para cargar contenido
+function cargarContenido(seccionId) {
+	console.log("cargarContenido called with seccionId:", seccionId);
+
+	// Verificar si la sección existe
+	if (!contenidosUnidad[seccionId]) {
+		console.warn(`Section ${seccionId} not found, using default section`);
+		seccionId = "inicio";
+	}
+
+	const section = contenidosUnidad[seccionId];
+	const contenedor = document.getElementById("lateralUnityContent");
+
+	if (contenedor) {
+		console.log(
+			`Loading content for section: ${seccionId} (${section.titulo})`
+		);
+
+		// Restablecer la bandera de inicialización de tabs
+		tabsInitialized = false;
+
+		// Cargar el contenido HTML
+		contenedor.innerHTML = section.contenido;
+
+		// Actualizar la URL si es necesario (sin recargar la página)
+		if (history.pushState && window.location.hash !== `#${seccionId}`) {
+			history.pushState(null, null, `#${seccionId}`);
+		}
+
+		// Activar componentes de Materialize
+		activateNewComponents();
+
+		// Desplazarse al inicio
+		window.scrollTo(0, 0);
+
+		// Actualizar clases activas en el menú
+		updateActiveMenuItems(seccionId);
+	} else {
+		console.error("Content container not found");
+	}
+}
+
+// Función para actualizar las clases activas en los elementos del menú
+function updateActiveMenuItems(seccionId) {
+	// Desktop menu
+	const desktopItems = document.querySelectorAll(".deskOption[seccion-id]");
+	desktopItems.forEach((item) => {
+		if (item.getAttribute("seccion-id") === seccionId) {
+			item.classList.add("activeLinkOptionsContentUnit5");
+		} else {
+			item.classList.remove("activeLinkOptionsContentUnit5");
+		}
+	});
+
+	// Mobile menu
+	const mobileItems = document.querySelectorAll(".mobileOption[seccion-id]");
+	mobileItems.forEach((item) => {
+		if (item.getAttribute("seccion-id") === seccionId) {
+			item.classList.add("activeButtonTextLateral");
+		} else {
+			item.classList.remove("activeButtonTextLateral");
+		}
+	});
+}
+
+function activateNewComponents() {
+	console.log("Activating new components");
+
+	// Primero, verificamos si Materialize está disponible
+	if (typeof M === "undefined") {
+		console.warn("Materialize not loaded, skipping component initialization");
+		return;
+	}
+
+	try {
+		// Inicializar collapsibles si están presentes (sin depender de tabsContentID)
+		const collapsibles = document.querySelectorAll(".collapsible");
+		if (collapsibles && collapsibles.length > 0) {
+			try {
+				M.Collapsible.init(collapsibles, {});
+				console.log("Collapsibles initialized successfully");
+			} catch (collapsibleError) {
+				console.warn("Error initializing collapsibles:", collapsibleError);
+			}
+		} else {
+			console.log("No collapsibles found to initialize");
+		}
+
+		// Inicializar tabs SOLO si existe tabsContentID
+		const tabsContentElement = document.getElementById("tabsContentID");
+		if (tabsContentElement) {
+			console.log("Tabs content element found, initializing tabs");
+
+			try {
+				// Ajustar ancho de tabs si existe el contenedor padre
+				const parentContainer = document.getElementById("lateralUnityContent");
+				if (parentContainer) {
+					const parentContainerAncho = parentContainer.offsetWidth - 0.5;
+					tabsContentElement.style.width = parentContainerAncho + "px";
+					console.log("Tabs width adjusted to:", parentContainerAncho);
+				}
+
+				// Inicializar tabs solo si no están ya inicializados
+				if (!tabsInitialized) {
+					const tabs = document.querySelectorAll(".tabs");
+					if (tabs && tabs.length > 0) {
+						M.Tabs.init(tabs, {
+							swipeable: false,
+							duration: 300,
+							onShow: function () {
+								console.log("Tab shown");
+							},
+						});
+						tabsInitialized = true;
+						console.log("Tabs initialized successfully");
+					}
+				} else {
+					console.log("Tabs already initialized, skipping");
+				}
+			} catch (tabsError) {
+				console.warn("Error initializing tabs:", tabsError);
+			}
+		} else {
+			console.log(
+				"No tabs content element found, skipping tabs initialization"
+			);
+		}
+
+		// Reactivar zoom si la función está disponible
+		if (typeof reactivateZoomMaterialized === "function") {
+			try {
+				reactivateZoomMaterialized();
+				console.log("Zoom reactivated successfully");
+			} catch (zoomError) {
+				console.warn("Error reactivating zoom, but continuing:", zoomError);
+			}
+		}
+	} catch (generalError) {
+		console.error("General error during component activation:", generalError);
+	}
+}

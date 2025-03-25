@@ -1,5 +1,9 @@
-const contenidosUnidad = [
-    `
+const contenidosUnidad = {
+    unidadCompetencia: {
+        id: "unidadCompetencia",
+        titulo: "Unidad de competencia",
+        type: "contenido",
+        contenido: `
   <br>
   <div id="test-swipe-2" class="tabsContentContainerInfo">
     <div class="shadow4 border1 clw">
@@ -18,9 +22,13 @@ const contenidosUnidad = [
         </div>
     </div>
 </div>
-
-  `,
-   `
+`
+    },
+    evaluacionAprendizajes: {
+        id: "evaluacionAprendizajes",
+        titulo: "Evaluación de los aprendizajes",
+        type: "contenido",
+        contenido: `
    <br>
 <div id="test-swipe-4" class="tabsContentContainerInfo">
 
@@ -81,8 +89,12 @@ const contenidosUnidad = [
 
 </div>
    `
-  ,
-    `
+    },
+    unidad4_1_presupuesto_inversion: {
+        id: "unidad4_1_presupuesto_inversion",
+        titulo: "4.1 Presupuesto de inversión",
+        type: "contenido",
+        contenido: `
     <div class="shadow4 border1 clw">
           <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.1 Presupuesto de inversión </div>
           <div class="cardDesign clw border1Inf">
@@ -173,7 +185,13 @@ const contenidosUnidad = [
 
           </div>
   </div>`,
-    `<div class="shadow4 border1 clw">
+    },
+    unidad4_1_1_inversion_propia: {
+        id: "unidad4_1_1_inversion_propia",
+        titulo: "4.1.1 Inversión propia",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.1.1 Inversión propia</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -216,8 +234,14 @@ const contenidosUnidad = [
             </p>
         </div>
     </div>
-    `,
-    `<div class="shadow4 border1 clw">
+    `
+    },
+    unidad4_1_2_inversion_financiada: {
+        id: "unidad4_1_2_inversion_financiada",
+        titulo: "4.1.2 Inversión financiada",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.1.2 Inversión financiada</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -268,8 +292,14 @@ const contenidosUnidad = [
             </p>
         </div>
     </div>
-    `,
-    `<div class="shadow4 border1 clw">
+    `
+    },
+    unidad4_2_presupuestos_egresos: {
+        id: "unidad4_2_presupuestos_egresos",
+        titulo: "4.2 Presupuestos de egresos",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.2 Presupuestos de egresos</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -296,8 +326,14 @@ const contenidosUnidad = [
             </p>
         </div>
     </div>
-    `,
-    `<div class="shadow4 border1 clw">
+    `
+    },
+    unidad4_2_1_costos_desarrollo: {
+        id: "unidad4_2_1_costos_desarrollo",
+        titulo: "4.2.1 Costos de desarrollo",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.2.1 Costos de desarrollo</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -388,8 +424,14 @@ const contenidosUnidad = [
             </p>
         </div>
     </div>
-    `,
-    `<div class="shadow4 border1 clw">
+    `
+    },
+    unidad4_2_2_gastos_venta: {
+        id: "unidad4_2_2_gastos_venta",
+        titulo: "4.2.2 Gastos de venta",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.2.2 Gastos de venta</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -480,8 +522,14 @@ const contenidosUnidad = [
             </p>
         </div>
     </div>
-    `,
-    `<div class="shadow4 border1 clw">
+    `
+    },
+    unidad4_2_3_gastos_administracion: {
+        id: "unidad4_2_3_gastos_administracion",
+        titulo: "4.2.3 Gastos de administración",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
         <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.2.3 Gastos de administración</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -556,8 +604,14 @@ const contenidosUnidad = [
             </p>
         </div>
     </div>
-    `,
-  `<div class="shadow4 border1 clw">
+    `
+    },
+    unidad4_2_4_gastos_financieros: {
+        id: "unidad4_2_4_gastos_financieros",
+        titulo: "4.2.4 Gastos financieros",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.2.4 Gastos financieros</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -641,8 +695,13 @@ const contenidosUnidad = [
     </div>
 </div>
 `
-  ,
-  `<div class="shadow4 border1 clw">
+    },
+    unidad4_2_5_otros_gastos: {
+        id: "unidad4_2_5_otros_gastos",
+        titulo: "4.2.5 Otros gastos a ponderar",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.2.5 Otros gastos a ponderar</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -707,8 +766,13 @@ const contenidosUnidad = [
     </div>
 </div>
 `
-  ,
-  `<div class="shadow4 border1 clw">
+    },
+    unidad4_3_presupuesto_ventas: {
+        id: "unidad4_3_presupuesto_ventas",
+        titulo: "4.3 Presupuesto de ventas o ingresos",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">4.3 Presupuesto de ventas o ingresos</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -786,8 +850,13 @@ const contenidosUnidad = [
     </div>
 </div>
 `
-  ,
-    `<section class="containerActividadAprendizajeFather">
+    },
+    material_apoyo: {
+        id: "material_apoyo",
+        titulo: "Material de apoyo",
+        type: "contenido",
+        contenido: `
+    <section class="containerActividadAprendizajeFather">
       <div class="textoTitulo clbktx">Material de apoyo</div>
       <section class="gridActividadesAprendizaje">
   
@@ -806,8 +875,14 @@ const contenidosUnidad = [
   
       </section>
   </section>
-  `,
-    `<!--Tarjeta con las actividades-->
+  `
+    },
+    actividades_aprendizaje: {
+        id: "actividades_aprendizaje",
+        titulo: "Actividades de aprendizaje",
+        type: "contenido",
+        contenido: `
+    <!--Tarjeta con las actividades-->
   <section class="containerActividadAprendizajeFather">
       <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
       <section class="gridActividadesAprendizaje">
@@ -825,8 +900,14 @@ const contenidosUnidad = [
   
       </section>
   </section>
-  `,
-    `<div class="shadow4 border1 clw">
+  `
+    },
+    cierre: {
+        id: "cierre",
+        titulo: "Cierre de la unidad temática",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
       <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
       <div class="cardDesign clw border1Inf">
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -845,72 +926,179 @@ const contenidosUnidad = [
           </span>
       </div>
   </div>
-  `,
-    `11 (referencias)`,
-    `12`,
-    `13`,
-    `14`,
-    `15`,
-    `16`,
-  ];
-  
-  console.log("contenidosUnidad: ", contenidosUnidad.length);
-  
-  /////////////////////////////////////
-  //Object delegation para los botones
-  /////////////////////////////////////
-  
-  //Accedemos al contenedor de los textos
-  let contenedorParaElContenidoDeLaUnidad = document.getElementById(
-    "lateralUnityContent"
-  );
-  
-  //Cargamos por defecto el contenido para la unidad
-  (() => {
-    contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad[0];
-  })();
-  
-  //Accedemos al contenedor que tiene las opciones para el menu en computadora.
-  let buttonContaineChargeContent = document.getElementById(
-    "lateralUnityMenuSectionContainer"
-  );
-  buttonContaineChargeContent.addEventListener("click", function (event) {
-    if (event.target.classList.contains("deskOption")) {
-      console.log(event.target);
-      let buttonIndex = event.target.getAttribute("contador");
-      if(contenidosUnidad[buttonIndex] == undefined){
-          let a1tutorialButton = document.getElementById('a1tutorialButton');
-          a1tutorialButton.click();
-      }else{
-          contenedorParaElContenidoDeLaUnidad.innerHTML =
-          contenidosUnidad[buttonIndex];
-      }
+  `
     }
-  });
-  
-  //Accedemos al contenedor que tiene las opciones para el menu en celular.
-  let buttonContaineChargeContentMobile = document.getElementsByClassName(
-    "mobileOptionsContainer"
-  );
-  for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
-    buttonContaineChargeContentMobile[i].addEventListener(
-      "click",
-      function (event) {
-        if (event.target.classList.contains("mobileOption")) {
-          console.log(event.target);
-          let buttonIndex = event.target.getAttribute("contador");
-          contenedorParaElContenidoDeLaUnidad.innerHTML =
-            contenidosUnidad[buttonIndex];
-  
-          if(contenidosUnidad[buttonIndex] == undefined){
-              let a1tutorialButton = document.getElementById('a1tutorialButton');
-              a1tutorialButton.click();
-          }else{
-              contenedorParaElContenidoDeLaUnidad.innerHTML =
-              contenidosUnidad[buttonIndex];
-          }
+};
+
+// Validar que todas las secciones tengan contenido válido
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Validando secciones disponibles...");
+    
+    // Verificar cada sección
+    for (const key in contenidosUnidad) {
+        if (contenidosUnidad.hasOwnProperty(key)) {
+            const seccion = contenidosUnidad[key];
+            if (!seccion.contenido || typeof seccion.contenido !== 'string' || seccion.contenido.trim() === '') {
+                console.warn(`Sección "${key}" no tiene contenido válido`);
+            } else {
+                console.log(`Sección "${key}" es válida`);
+            }
         }
-      }
-    );
+    }
+});
+
+// Función para cargar contenido basado en el ID de sección
+function cargarContenido(seccionId) {
+    console.log("Intentando cargar sección:", seccionId);
+    console.log("Secciones disponibles:", Object.keys(contenidosUnidad));
+    
+    // Si existe la sección con el ID proporcionado
+    if (contenidosUnidad[seccionId]) {
+        // Obtener el elemento donde se cargará el contenido
+        const lateralUnityContent = document.getElementById("lateralUnityContent");
+        
+        if (!lateralUnityContent) {
+            console.error("No se encontró el elemento lateralUnityContent");
+            return;
+        }
+        
+        try {
+            // Limpiar el contenido anterior
+            lateralUnityContent.innerHTML = "";
+            
+            // Agregar el nuevo contenido
+            lateralUnityContent.innerHTML = contenidosUnidad[seccionId].contenido;
+            
+            // Activar componentes de Materialize después de cargar el contenido
+            activateNewComponents();
+            
+            // Actualizar la URL con un hash para permitir la navegación por historial
+            window.location.hash = seccionId;
+            
+            // Desplazarse al inicio del contenido
+            window.scrollTo(0, 0);
+            
+            console.log("Contenido cargado correctamente:", seccionId);
+        } catch (error) {
+            console.error("Error al cargar contenido:", error);
+        }
+    } else {
+        console.warn(`No se encontró contenido para la sección: ${seccionId}`);
+        // Si no se encuentra la sección, cargar la unidad de competencia por defecto
+        if (seccionId !== "unidadCompetencia") {
+            console.log("Cargando sección por defecto: unidadCompetencia");
+            cargarContenido("unidadCompetencia");
+        }
+    }
+}
+
+// Cargar contenido predeterminado cuando se carga la página
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("DOM completamente cargado");
+    
+    // Cargar la unidad de competencia por defecto
+    setTimeout(function() {
+        cargarContenido("unidadCompetencia");
+    }, 100); // Pequeño retraso para asegurar que todo esté cargado
+    
+    // Función simplificada para manejar clics en enlaces
+    function handleClick(event) {
+        // Encontrar el elemento con el atributo seccion-id más cercano
+        let target = event.target;
+        let seccionId = null;
+        
+        // Buscar hacia arriba en el DOM para encontrar el seccion-id
+        while (target && !seccionId) {
+            seccionId = target.getAttribute('seccion-id');
+            if (!seccionId) {
+                target = target.parentElement;
+            }
+        }
+        
+        if (seccionId) {
+            console.log("Clic en seccion-id:", seccionId);
+            
+            // Prevenir la navegación predeterminada solo si no es un enlace externo
+            const href = target.getAttribute('href');
+            if (!href || href.startsWith('#')) {
+                event.preventDefault();
+            } else if (href.includes('.html') && !seccionId) {
+                // Es un enlace a otra página, permitir la navegación por defecto
+                return;
+            }
+            
+            // Cargar el contenido
+            cargarContenido(seccionId);
+            
+            // Actualizar clases activas
+            document.querySelectorAll('.navOptionsContent').forEach(el => {
+                el.classList.remove('activeLinkOptionsContentUnit4');
+            });
+            
+            // Buscar el elemento principal para activar
+            const elementoActivar = document.querySelector(`a[seccion-id="${seccionId}"]`);
+            if (elementoActivar) {
+                elementoActivar.classList.add('activeLinkOptionsContentUnit4');
+            }
+        }
+    }
+    
+    // Agregar el event listener en el contenedor principal para usar event delegation
+    document.addEventListener('click', function(event) {
+        const hasSeccionId = event.target.closest('[seccion-id]');
+        if (hasSeccionId) {
+            handleClick(event);
+        }
+    });
+    
+    // Manejar la navegación por hash en la URL
+    if (window.location.hash) {
+        const seccionId = window.location.hash.substring(1);
+        if (seccionId) {
+            setTimeout(function() {
+                cargarContenido(seccionId);
+            }, 200);
+        }
+    }
+});
+
+// Función para activar componentes de Materialize después de cargar contenido
+function activateNewComponents() {
+    // Verificar si Materialize está disponible
+    if (typeof M !== 'undefined') {
+        // Inicializar componentes de Materialize que necesitan ser reinicializados
+        var elems = document.querySelectorAll('.collapsible');
+        if (elems.length > 0) {
+            var instances = M.Collapsible.init(elems);
+        }
+        
+        // Inicializar tooltips
+        var elemsTooltip = document.querySelectorAll('.tooltipped');
+        if (elemsTooltip.length > 0) {
+            var instancesToolTip = M.Tooltip.init(elemsTooltip);
+        }
+        
+        // Inicializar modales
+        var elemsModal = document.querySelectorAll('.modal');
+        if (elemsModal.length > 0) {
+            var instancesModal = M.Modal.init(elemsModal);
+        }
+        
+        // Inicializar tabs
+        var elemsTabs = document.querySelectorAll('.tabs');
+        if (elemsTabs.length > 0) {
+            var instanceTabs = M.Tabs.init(elemsTabs);
+        }
+    } else {
+        console.warn("Materialize no está disponible");
+    }
+    
+    // Verificar si la función reactivateZoomMaterialized existe antes de llamarla
+    if (typeof reactivateZoomMaterialized === 'function') {
+        // Reactive zoom para imágenes materializadas
+        reactivateZoomMaterialized();
+    } else {
+        console.warn("La función reactivateZoomMaterialized no está disponible");
+    }
   }
   

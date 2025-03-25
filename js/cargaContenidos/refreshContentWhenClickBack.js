@@ -1,26 +1,44 @@
+let lastUrl = location.href;
+let checkCount = 0;
+const MAX_CHECKS = 3;
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Esperar medio segundo antes de verificar los elementos
-    setTimeout(function() {
-        // Obtener todos los elementos con la clase tabsContentContainerInfo
-        const elementos = document.querySelectorAll('.tabsContentContainerInfo');
-        
-        // Contador para elementos con display: none
-        let elementosConDisplayNone = 0;
+    // Store initial state
+    const initialState = {
+        url: location.href,
+        timestamp: Date.now()
+    };
+    sessionStorage.setItem('pageState', JSON.stringify(initialState));
 
-        // Verificar el estado de cada elemento
-        elementos.forEach(function(elemento) {
-            const estilo = getComputedStyle(elemento);
-            if (estilo.display === 'none') {
-                elementosConDisplayNone++;
+    // Handle back/forward navigation
+    window.addEventListener('popstate', function() {
+        const currentUrl = location.href;
+        if (currentUrl !== lastUrl) {
+            // Check if we need to refresh based on time passed
+            const previousState = JSON.parse(sessionStorage.getItem('pageState') || '{}');
+            const timePassed = Date.now() - (previousState.timestamp || 0);
+            
+            // Only refresh if more than 2 seconds have passed since last state
+            if (timePassed > 2000) {
+                console.log('Navigation detected, refreshing content');
+                // Instead of reloading the page, try to reload just the content
+                const sectionId = getSectionFromUrl(currentUrl);
+                if (typeof cargarContenido === 'function' && sectionId) {
+                    cargarContenido(sectionId);
+                }
             }
-        });
-
-        // Si hay al menos cuatro elementos con display: none, evita la recarga
-        if (elementosConDisplayNone < 4) {
-            location.reload();
+            
+            // Update last URL
+            lastUrl = currentUrl;
         }
-    }, 1000); // Espera segundo (500 ms) antes de verificar
+    });
 });
+
+function getSectionFromUrl(url) {
+    // Extract section ID from URL hash if present
+    const hash = url.split('#')[1];
+    return hash || 'inicio';
+}
 
 //Codigo de prueba para ver si se actualiza la pagina en caso de que los elementos no tengan el display none
 //La funcion prueba lo que hace es quitar los display none.

@@ -1,5 +1,9 @@
-const contenidosUnidad = [
-	`
+const contenidosUnidad = {
+	unidadCompetencia: {
+		id: "unidadCompetencia",
+		titulo: "Unidad de competencia",
+		icono: "extension",
+		contenido: `
 <br>
 <div id="test-swipe-2" class="tabsContentContainerInfo">
 
@@ -22,7 +26,12 @@ const contenidosUnidad = [
 
 </div>
 `,
-	`
+	},
+	evaluacionAprendizajes: {
+		id: "evaluacionAprendizajes",
+		titulo: "Evaluación de los aprendizajes",
+		icono: "assessment",
+		contenido: `
 <br>
 <div id="test-swipe-4" class="tabsContentContainerInfo">
 
@@ -81,7 +90,12 @@ const contenidosUnidad = [
 
 </div>
 `,
-	`
+	},
+	introduccion: {
+		id: "introduccion",
+		titulo: "Introducción",
+		type: "contenido",
+		contenido: `
 <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
     <div class="cardDesign clw border1Inf">
@@ -119,7 +133,13 @@ const contenidosUnidad = [
         </span>
     </div>
 </div>`,
-	`<div class="shadow4 border1 clw">
+	},
+	unidad1_1_proyectos: {
+		id: "unidad1_1_proyectos",
+		titulo: "1.1 Proyectos",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1 Proyectos </div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -129,8 +149,8 @@ const contenidosUnidad = [
         </p>
 
         <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            “Un proyecto es un esfuerzo temporal que se lleva a cabo para obtener un producto, servicio o resultado
-            único”
+            "Un proyecto es un esfuerzo temporal que se lleva a cabo para obtener un producto, servicio o resultado
+            único"
         </blockquote>
 
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -147,8 +167,8 @@ const contenidosUnidad = [
             de
             proyectos (2013) y que dice:<br>
         <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            “Un proyecto es la búsqueda de una solución inteligente al planteamiento de un problema, la cual tiende a
-            resolver una necesidad humana.”</blockquote><br>
+            "Un proyecto es la búsqueda de una solución inteligente al planteamiento de un problema, la cual tiende a
+            resolver una necesidad humana."</blockquote><br>
         </p>
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
             Como puedes ver en esta definición debe existir un problema para darle solución, esta solución debe estar
@@ -191,8 +211,13 @@ const contenidosUnidad = [
         </span>
     </div>
 </div>`,
-	`<div class="shadow4 border1 clw">
-
+	},
+	unidad1_1_1_clasificacion: {
+		id: "unidad1_1_1_clasificacion",
+		titulo: "1.1.1 Clasificación",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.1 Clasificación</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -252,9 +277,14 @@ const contenidosUnidad = [
     </div>
 </div>
 </div>`,
-	`<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
-        1.1.2 Proyecto informático     
+	},
+	unidad1_1_2_proyecto_informatico: {
+		id: "unidad1_1_2_proyecto_informatico",
+		titulo: "1.1.2 Proyecto informático",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.2 Proyecto informático     
     </div>
     <div class="cardDesign clw border1Inf">
         <!--Card con un ejemplo-->
@@ -262,9 +292,9 @@ const contenidosUnidad = [
 
 
         <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            “<i class="keyWord">Un proyecto informático es un sistema de cursos de acción simultáneos y/o secuenciales 
+            "<i class="keyWord">Un proyecto informático es un sistema de cursos de acción simultáneos y/o secuenciales 
             que incluye personas, equipamientos de hardware, software y comunicaciones, enfocados en obtener 
-            uno o más resultados deseables sobre un sistema de información</i> “ (Delgado, 2015).
+            uno o más resultados deseables sobre un sistema de información</i> " (Delgado, 2015).
         </blockquote><br>
 
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -282,7 +312,13 @@ const contenidosUnidad = [
 
     </div>
 </div>`,
-	`<div class="shadow4 border1 clw">
+	},
+	unidad1_1_3_elementos_proyecto: {
+		id: "unidad1_1_3_elementos_proyecto",
+		titulo: "1.1.3 Elementos de un proyecto",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.1.3 Elementos de un proyecto</div>
     <div class="cardDesign clw border1Inf">
 
@@ -335,10 +371,14 @@ const contenidosUnidad = [
         </div><br>
     </div>
 </div>`,
-	`<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">
-        1.2 Ciclo de vida de los proyectos y del software
-    </div>
+	},
+	unidad1_2_ciclo_vida_proyectos_software: {
+		id: "unidad1_2_ciclo_vida_proyectos_software",
+		titulo: "1.2 Ciclo de vida de los proyectos y del software",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.2 Ciclo de vida de los proyectos y del software</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
             Cuando desarrolles un proyecto de software es conveniente que dividas el proyecto en pequeños proyectos, 
@@ -442,7 +482,13 @@ const contenidosUnidad = [
         </div><br>
     </div>
 </div>`,
-	`<div class="shadow4 border1 clw">
+	},
+	unidad1_3_formulacion_proyecto_informatico: {
+		id: "unidad1_3_formulacion_proyecto_informatico",
+		titulo: "1.3 Formulación de un proyecto informático",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Formulación de un proyecto informático </div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -482,7 +528,13 @@ const contenidosUnidad = [
         </p>
     </div>
 </div>`,
-	`<div class="shadow4 border1 clw">
+	},
+	unidad1_3_1_planteamiento_problema_analisis: {
+		id: "unidad1_3_1_planteamiento_problema_analisis",
+		titulo: "1.3.1 Planteamiento del problema y técnicas de análisis",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.1 Planteamiento del problema y técnicas de análisis</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -650,7 +702,13 @@ const contenidosUnidad = [
         </div>
     </div>
 </div>`,
-	`<div class="shadow4 border1 clw">
+	},
+	unidad1_3_2_antecedentes_situacion_actual: {
+		id: "unidad1_3_2_antecedentes_situacion_actual",
+		titulo: "1.3.2 Antecedentes y situación actual",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.2 Antecedentes y situación actual</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -695,7 +753,13 @@ const contenidosUnidad = [
     </div>
 </div>          
 `,
-	`<div class="shadow4 border1 clw">
+	},
+	unidad1_3_3_identificacion_seleccion_alternativas: {
+		id: "unidad1_3_3_identificacion_seleccion_alternativas",
+		titulo: "1.3.3 Identificación y selección de alternativas",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3.3 Identificación y selección de alternativas</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -717,7 +781,7 @@ const contenidosUnidad = [
            ¿Esta alternativa nos llevaría al cumplimiento del objetivo del proyecto?<br><br>
            
            Al contestar estas preguntas empezaras a tener numerosas ideas de alternativas. El propósito es que identifiques alternativas que no 
-           son realizables o deseables y que puedas tener estrategias que pasaran por un “filtro de alternativas” para ser estrategias óptimas.<br><br>
+           son realizables o deseables y que puedas tener estrategias que pasaran por un "filtro de alternativas" para ser estrategias óptimas.<br><br>
            
            <i class="clgreyl3 subTitleCard">⚫ Paso 2:</i> Deberás definir criterios apropiados, relevantes y congruente para escoger estrategias a utilizar.<br>
            Los criterios dependerán de la naturaleza del proyecto o de la situación problemática que se aborda.<br><br>
@@ -741,8 +805,14 @@ const contenidosUnidad = [
     </div>
 </div>          
 `,
-	`<div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.4	Gestión de la integración del proyecto informático </div>
+	},
+	unidad1_4_gestion_integracion_proyecto_informatico: {
+		id: "unidad1_4_gestion_integracion_proyecto_informatico",
+		titulo: "1.4	Gestión de la integración del proyecto informático",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.4	Gestión de la integración del proyecto informático</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
             
@@ -760,7 +830,13 @@ const contenidosUnidad = [
     </div>
 </div>          
 `,
-	`<section class="containerActividadAprendizajeFather">
+	},
+	material_apoyo: {
+		id: "material_apoyo",
+		titulo: "Material de apoyo",
+		type: "contenido",
+		contenido: `
+<section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Material de apoyo</div>
     <section class="gridActividadesAprendizaje">
 
@@ -789,7 +865,13 @@ const contenidosUnidad = [
     </section>
 </section>
 `,
-	`<!--Tarjeta con las actividades-->
+	},
+	actividades_aprendizaje: {
+		id: "actividades_aprendizaje",
+		titulo: "Actividades de aprendizaje",
+		type: "contenido",
+		contenido: `
+<!--Tarjeta con las actividades-->
 <section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
     <section class="gridActividadesAprendizaje">
@@ -809,14 +891,40 @@ const contenidosUnidad = [
     </section>
 </section>
 `,
-	`12`,
-	`13`,
-	`14`,
-	`15`,
-	`16`,
-];
+	},
+	12: {
+		id: "12",
+		titulo: "12",
+		type: "contenido",
+		contenido: `12`,
+	},
+	13: {
+		id: "13",
+		titulo: "13",
+		type: "contenido",
+		contenido: `13`,
+	},
+	14: {
+		id: "14",
+		titulo: "14",
+		type: "contenido",
+		contenido: `14`,
+	},
+	15: {
+		id: "15",
+		titulo: "15",
+		type: "contenido",
+		contenido: `15`,
+	},
+	16: {
+		id: "16",
+		titulo: "16",
+		type: "contenido",
+		contenido: `16`,
+	},
+};
 
-console.log("contenidosUnidad: ", contenidosUnidad.length);
+console.log("contenidosUnidad: ", Object.keys(contenidosUnidad).length);
 
 /////////////////////////////////////
 //Object delegation para los botones
@@ -829,7 +937,7 @@ let contenedorParaElContenidoDeLaUnidad = document.getElementById(
 
 //Cargamos por defecto el contenido para la unidad
 (() => {
-	contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad[0];
+	cargarContenido("unidadCompetencia");
 })();
 
 //Accedemos al contenedor que tiene las opciones para el menu en computadora.
@@ -839,13 +947,12 @@ let buttonContaineChargeContent = document.getElementById(
 buttonContaineChargeContent.addEventListener("click", function (event) {
 	if (event.target.classList.contains("deskOption")) {
 		console.log(event.target);
-		let buttonIndex = event.target.getAttribute("contador");
+		let buttonIndex = event.target.getAttribute("seccion-id");
 		if (contenidosUnidad[buttonIndex] == undefined) {
 			let a1tutorialButton = document.getElementById("a1tutorialButton");
 			a1tutorialButton.click();
 		} else {
-			contenedorParaElContenidoDeLaUnidad.innerHTML =
-				contenidosUnidad[buttonIndex];
+			cargarContenido(buttonIndex);
 		}
 	}
 });
@@ -860,17 +967,37 @@ for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
 		function (event) {
 			if (event.target.classList.contains("mobileOption")) {
 				console.log(event.target);
-				let buttonIndex = event.target.getAttribute("contador");
-				contenedorParaElContenidoDeLaUnidad.innerHTML =
-					contenidosUnidad[buttonIndex];
+				let buttonIndex = event.target.getAttribute("seccion-id");
+				cargarContenido(buttonIndex);
 				if (contenidosUnidad[buttonIndex] == undefined) {
 					let a1tutorialButton = document.getElementById("a1tutorialButton");
 					a1tutorialButton.click();
-				} else {
-					contenedorParaElContenidoDeLaUnidad.innerHTML =
-						contenidosUnidad[buttonIndex];
 				}
 			}
 		}
 	);
+}
+
+// Función para cargar contenido
+function cargarContenido(seccionId) {
+	const contenedor = document.getElementById("lateralUnityContent");
+	const seccion = contenidosUnidad[seccionId];
+
+	if (seccion) {
+		contenedor.innerHTML = seccion.contenido;
+		// Opcional: Actualizar el título de la sección actual
+		document.title = `Unidad 1 - ${seccion.titulo}`;
+	} else {
+		console.warn(`Sección ${seccionId} no encontrada`);
+		// Opcional: Mostrar un mensaje al usuario
+		contenedor.innerHTML = `
+			<div class="shadow4 border1 clw">
+				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Error</div>
+				<div class="cardDesign clw border1Inf">
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+						La sección solicitada no está disponible.
+					</p>
+				</div>
+			</div>`;
+	}
 }

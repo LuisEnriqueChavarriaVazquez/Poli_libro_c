@@ -1,5 +1,9 @@
-const contenidosUnidad = [
-`
+const contenidosUnidad = {
+    unidadCompetencia: {
+        id: "unidadCompetencia",
+        titulo: "Unidad de competencia",
+        icono: "extension",
+        contenido: `
 <br>
 <div id="test-swipe-2" class="tabsContentContainerInfo">
     <div class="shadow4 border1 clw">
@@ -20,7 +24,12 @@ const contenidosUnidad = [
     </div>
 
 </div>`,
-` 
+    },
+    evaluacionAprendizajes: {
+        id: "evaluacionAprendizajes",
+        titulo: "Evaluación de los aprendizajes",
+        icono: "assessment",
+        contenido: ` 
 <br>
 <div id="test-swipe-4" class="tabsContentContainerInfo">
 
@@ -82,7 +91,11 @@ const contenidosUnidad = [
 
 </div>
 `,
-`
+    },
+    introduccion: {
+        id: "introduccion",
+        titulo: "Introducción",
+        contenido: `
 <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
     <div class="cardDesign clw border1Inf">
@@ -120,7 +133,12 @@ const contenidosUnidad = [
         </span>
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+    },
+    innovacion: {
+        id: "innovacion",
+        titulo: "2.1 Innovación",
+        contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1 Innovación</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -130,8 +148,8 @@ const contenidosUnidad = [
             De acuerdo con Tundidor (2016)
         </p>
         <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            “Innovar es transformar en valor una oportunidad de mejora, introduciendo un cambio en un sistema de
-            referencia”.
+            "Innovar es transformar en valor una oportunidad de mejora, introduciendo un cambio en un sistema de
+            referencia".
         </blockquote>
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
 
@@ -169,7 +187,12 @@ const contenidosUnidad = [
 
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+    },
+    designThinking: {
+        id: "designThinking",
+        titulo: "2.2 Design thinking metodología de innovación",
+        contenido: `
+<div class="shadow4 border1 clw">
 
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.2 Design thinking metodología
         de innovación</div>
@@ -220,7 +243,12 @@ const contenidosUnidad = [
 
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+    },
+    empatizar: {
+        id: "empatizar",
+        titulo: "2.2.1 Empatizar con el usuario y explorar el mercado",
+        contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.1 Empatizar con el usuario y
         explorar el mercado </div>
     <div class="cardDesign clw border1Inf">
@@ -270,7 +298,12 @@ const contenidosUnidad = [
 
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+    },
+    definirNecesidades: {
+        id: "definirNecesidades",
+        titulo: "2.2.2 Definir necesidades del usuario",
+        contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.2 Definir necesidades del
         usuario</div>
     <div class="cardDesign clw border1Inf">
@@ -376,7 +409,12 @@ const contenidosUnidad = [
 
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+    },
+    idearConPropuesta: {
+        id: "idearConPropuesta",
+        titulo: "2.2.3 Idear con propuesta de valor",
+        contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.3 Idear con propuesta de valor </div>
     <div class="cardDesign clw border1Inf">
 
@@ -515,7 +553,7 @@ const contenidosUnidad = [
                     actividad anterior.<br><br>
 
                     <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">  
-                        En esta fase “Idear” recurrirás a tu imaginación y creatividad, para generar muchas ideas de alternativas de solución. 
+                        En esta fase "Idear" recurrirás a tu imaginación y creatividad, para generar muchas ideas de alternativas de solución. 
                         La ventaja de esta técnica es que te permite generar combinaciones, es decir, asociar o conectar partes que aparentemente 
                         están desconectadas. Una gran variedad de los productos innovadores surge de la combinación de elementos que ya existían. 
                         La técnica de generación de ideas creativas denominada Da Vinci o Morfológica es una técnica que te permite combinar un 
@@ -527,7 +565,12 @@ const contenidosUnidad = [
         </div><br>
     </div>
 </div>`,
-`<div class="shadow4 border1 clw">
+    },
+    prototiparLaIdea: {
+        id: "prototiparLaIdea",
+        titulo: "2.2.4 Prototipar la idea",
+        contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.4 Prototipar la idea</div>
     <div class="cardDesign clw border1Inf">
 
@@ -565,8 +608,12 @@ const contenidosUnidad = [
 
     </div>
 </div>`,
-
-`<div class="shadow4 border1 clw">
+    },
+    testeo: {
+        id: "testeo",
+        titulo: "2.2.5 Testeo (validar)",
+        contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.5 Testeo (validar)</div>
     <div class="cardDesign clw border1Inf">
 
@@ -606,8 +653,12 @@ const contenidosUnidad = [
 
     </div>
 </div>`,
-
-`<div class="shadow4 border1 clw">
+    },
+    modeloNegocios: {
+        id: "modeloNegocios",
+        titulo: "2.3 Modelo de negocios Canvas",
+        contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.3 Modelo de negocios Canvas</div>
     <div class="cardDesign clw border1Inf">
         <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
@@ -618,9 +669,13 @@ const contenidosUnidad = [
 
 
     </div>
-</div>`
-,
-`<section class="containerActividadAprendizajeFather">
+</div>`,
+    },
+    materialApoyo: {
+        id: "materialApoyo",
+        titulo: "Material de apoyo",
+        contenido: `
+<section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Material de apoyo</div>
     <section class="gridActividadesAprendizaje">
 
@@ -640,7 +695,12 @@ const contenidosUnidad = [
     </section>
 </section>
 `,
-`<!--Tarjeta con las actividades-->
+    },
+    actividades: {
+        id: "actividades",
+        titulo: "Actividades de aprendizaje",
+        contenido: `
+<!--Tarjeta con las actividades-->
 <section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
     <section class="gridActividadesAprendizaje">
@@ -659,7 +719,12 @@ const contenidosUnidad = [
     </section>
 </section>
 `,
-`<div class="shadow4 border1 clw">
+    },
+    cierre: {
+        id: "cierre",
+        titulo: "Cierre de la unidad temática",
+        contenido: `
+<div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática
     </div>
     <div class="cardDesign clw border1Inf">
@@ -686,57 +751,86 @@ const contenidosUnidad = [
     </div>
 </div>
 `,
-`11 (referencias)`,
-`12`,
-`13`,
-`14`,
-`15`,
-`16`,
-];
+    },
+    referencias: {
+        id: "referencias",
+        contenido: `11 (referencias)`,
+    },
+    referencia12: {
+        id: "referencia12",
+        contenido: `12`,
+    },
+    referencia13: {
+        id: "referencia13",
+        contenido: `13`,
+    },
+    referencia14: {
+        id: "referencia14",
+        contenido: `14`,
+    },
+    referencia15: {
+        id: "referencia15",
+        contenido: `15`,
+    },
+    referencia16: {
+        id: "referencia16",
+        contenido: `16`,
+    },
+};
 
-console.log("contenidosUnidad: ", contenidosUnidad.length);
+console.log("contenidosUnidad: ", Object.keys(contenidosUnidad).length);
 
 /////////////////////////////////////
 //Object delegation para los botones
 /////////////////////////////////////
 
 //Accedemos al contenedor de los textos
-let contenedorParaElContenidoDeLaUnidad = document.getElementById(
-"lateralUnityContent"
-);
+let contenedorParaElContenidoDeLaUnidad = document.getElementById("lateralUnityContent");
 
 //Cargamos por defecto el contenido para la unidad
 (() => {
-contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad[0];
+    contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad.unidadCompetencia.contenido;
 })();
 
-//Accedemos al contenedor que tiene las opciones para el menu en computadora.
-let buttonContaineChargeContent = document.getElementById(
-"lateralUnityMenuSectionContainer"
-);
+//Event listener para el menú de escritorio
+let buttonContaineChargeContent = document.getElementById("lateralUnityMenuSectionContainer");
 buttonContaineChargeContent.addEventListener("click", function (event) {
-if (event.target.classList.contains("deskOption")) {
-console.log(event.target);
-let buttonIndex = event.target.getAttribute("contador");
-if(contenidosUnidad[buttonIndex] == undefined){
-let a1tutorialButton = document.getElementById('a1tutorialButton');
-a1tutorialButton.click();
-}else{
-contenedorParaElContenidoDeLaUnidad.innerHTML =
-contenidosUnidad[buttonIndex];
-}
-}
+    if (event.target.classList.contains("deskOption")) {
+        const seccionId = event.target.getAttribute("seccion-id");
+        cargarContenido(seccionId);
+    }
 });
 
-//Accedemos al contenedor que tiene las opciones para el menu en celular.
-let buttonContaineChargeContentMobile = document.getElementsByClassName(
-"mobileOptionsContainer"
-);
+//Event listener para el menú móvil
+let buttonContaineChargeContentMobile = document.getElementsByClassName("mobileOptionsContainer");
 for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
-    buttonContaineChargeContentMobile[i].addEventListener( "click" , function (event) { if
-    (event.target.classList.contains("mobileOption")) { console.log(event.target); let
-    buttonIndex=event.target.getAttribute("contador");
-    contenedorParaElContenidoDeLaUnidad.innerHTML=contenidosUnidad[buttonIndex];
-    if(contenidosUnidad[buttonIndex]==undefined){ let a1tutorialButton=document.getElementById('a1tutorialButton');
-    a1tutorialButton.click(); }else{ contenedorParaElContenidoDeLaUnidad.innerHTML=contenidosUnidad[buttonIndex]; } } }
-    ); }
+    buttonContaineChargeContentMobile[i].addEventListener("click", function (event) {
+        if (event.target.classList.contains("mobileOption")) {
+            const seccionId = event.target.getAttribute("seccion-id");
+            cargarContenido(seccionId);
+        }
+    });
+}
+
+// Función para cargar contenido
+function cargarContenido(seccionId) {
+    if (!seccionId) return; // Si no hay seccionId, no hacemos nada
+    
+    const seccion = contenidosUnidad[seccionId];
+    if (seccion) {
+        contenedorParaElContenidoDeLaUnidad.innerHTML = seccion.contenido;
+        // Opcional: Actualizar el título de la sección actual
+        document.title = `Unidad 2 - ${seccion.titulo || ''}`;
+    } else {
+        console.warn(`Sección ${seccionId} no encontrada`);
+        contenedorParaElContenidoDeLaUnidad.innerHTML = `
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Error</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        La sección solicitada no está disponible.
+                    </p>
+                </div>
+            </div>`;
+    }
+}
