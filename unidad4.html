@@ -44,8 +44,8 @@
     <!-- <script defer src="js/noCopy.js"></script> -->
 
     <!--Script para la carga de los contenidos-->
-    <script defer src="js/cargaContenidos/unidad4.js"></script>
     <script defer src="js/cargaContenidos/tabsPositioning.js"></script>
+    <script defer src="js/cargaContenidos/unidad4.js"></script>
 
     <!--Tutorial interactivo-->
     <script defer src="js/driver.min.js"></script>
@@ -107,27 +107,22 @@
                         style="background-color: #C2695F;">
                         <section id="lateralUnityMenu" class="lateralUnityMenu clw">
                             <div id="lateralUnityMenuSectionContainer" class="lateralUnityMenuSectionContainer">
-                                <!-- Unidad de competencia -->
-                                <a seccion-id="unidadCompetencia"
-                                    class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2 activeLinkOptionsContentUnit4">
-                                    <i seccion-id="unidadCompetencia" class="deskOption material-icons clbktx">extension</i>
-                                    <p seccion-id="unidadCompetencia" class="deskOption clbktx">Unidad de competencia</p>
+                                <a seccion-id="inicio"
+                                    class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2 activeLinkOptionsContentUnit4"
+                                    id="a1tutorialButton">
+                                    <i class="deskOption material-icons clbktx">school</i>
+                                    <p class="deskOption clbktx">Inicio</p>
                                 </a>
 
-                                <!-- Evaluación de los aprendizajes -->
-                                <a seccion-id="evaluacionAprendizajes"
-                                    class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2">
-                                    <i seccion-id="evaluacionAprendizajes" class="deskOption material-icons clbktx">assessment</i>
-                                    <p seccion-id="evaluacionAprendizajes" class="deskOption clbktx">Evaluación de los aprendizajes</p>
+                                <a class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2"
+                                    id="a10tutorialButton" href="manual.html">
+                                    <i class="deskOption material-icons clbktx">sos</i>
+                                    <p class="deskOption clbktx">Manual de usuario</p>
                                 </a>
-
-
-
 
                                 <ul id="a2tutorialButton" class="collapsible clgreyl2 border1 shadow2">
                                     <li>
-                                        <div class="collapsible-header clgreyl2 clbktx"><i
-                                                class="material-icons">local_library</i>Contenidos</div>
+                                        <div class="collapsible-header clgreyl2 clbktx"><i class="material-icons">local_library</i>Contenidos</div>
                                         <div class="collapsible-body">
                                             <a seccion-id="unidad4_1_presupuesto_inversion"
                                                 class="waves-effect waves-light clbktx deskOption navOptionsContent rememberStateUnit4 mainSectionMenu leftBorderUnit4">
@@ -169,34 +164,55 @@
                                                 class="waves-effect waves-light clbktx deskOption navOptionsContent rememberStateUnit4 mainSectionMenu leftBorderUnit4">
                                                 4.3 Presupuesto de ventas o ingresos
                                             </a>
-
                                         </div>
                                     </li>
                                 </ul>
 
-
-                                <a seccion-id=""
-                                    class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2"
+                                <a class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2"
                                     id="a9tutorialButton" href="SuperGlosario.html">
-                                    <i seccion-id="" class="deskOption material-icons clbktx">library_books</i>
-                                    <p seccion-id="" class="deskOption clbktx">Glosario</p>
+                                    <i class="deskOption material-icons clbktx">library_books</i>
+                                    <p class="deskOption clbktx">Glosario</p>
                                 </a>
+
                                 <a seccion-id="material_apoyo"
-                                    class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2">
-                                    <i seccion-id="material_apoyo" class="deskOption material-icons clbktx">auto_stories</i>
-                                    <p seccion-id="material_apoyo" class="deskOption clbktx">Material de apoyo</p>
+                                    class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2"
+                                    id="a3tutorialButton">
+                                    <i class="deskOption material-icons clbktx">auto_stories</i>
+                                    <p class="deskOption clbktx">Material de apoyo</p>
                                 </a>
+
                                 <a seccion-id="actividades_aprendizaje"
-                                    class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2">
-                                    <i seccion-id="actividades_aprendizaje" class="deskOption material-icons clbktx">fitness_center</i>
-                                    <p seccion-id="actividades_aprendizaje" class="deskOption clbktx">Actividades de aprendizaje</p>
+                                    class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2"
+                                    id="a4tutorialButton">
+                                    <i class="deskOption material-icons clbktx">fitness_center</i>
+                                    <p class="deskOption clbktx">Actividades de aprendizaje</p>
                                 </a>
+
                                 <a href="unidad4_evaluacion.html" id="a3tutorialButton">
                                     <div class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2"
                                         id="a6tutorialButton">
                                         <i class="deskOption material-icons clbktx">quiz</i>
                                         <p class="deskOption clbktx">Evaluación</p>
                                     </div>
+                                </a>
+
+                                <a seccion-id="cierre"
+                                    class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2"
+                                    id="a5tutorialButton">
+                                    <i class="deskOption material-icons clbktx">diversity_2</i>
+                                    <p class="deskOption clbktx">Cierre</p>
+                                </a>
+
+                                <a class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2"
+                                    id="a7tutorialButton" href="referencias.html">
+                                    <i class="deskOption material-icons clbktx">format_quote</i>
+                                    <p class="deskOption clbktx">Referencias</p>
+                                </a>
+
+                                <a class="deskOption navOptionsContent cardOpcionesMenuLateral waves-effect waves-light clgreyl2 border1 shadow2"
+                                    id="a8tutorialButton" href="contacto.html">
+                                    <i class="deskOption material-icons clbktx">alternate_email</i>
+                                    <p class="deskOption clbktx">Contacto</p>
                                 </a>
                             </div>
                         </section>
@@ -210,15 +226,18 @@
             <p class="textoTitulo white-text lateralMenuAdjustTextTitle">Secciones</p>
 
             <!--Inicio al sitio-->
-            <li><a seccion-id="unidadCompetencia" class="clbktx textoStandar clw border0 activeButtonTextLateral"><i
+            <li><a seccion-id="inicio" class="clbktx textoStandar clw border0 activeButtonTextLateral"><i
                         class="material-icons clbktx">looks_one</i>Inicio</a></li>
-
 
             <!--Primera seccion-->
             <div class="mobileOptionsContainer containerSectionLateralMobileMenu clgreyl1 border0">
                 <div class="truncate waves-effect clbktx clgreyl2 titleSectionMobileMenu" id="primeraSeccion"><i
                         class="material-icons" id="primeraSeccionIcon">expand_more</i><b>Introducción</b>
                 </div>
+
+                <p seccion-id="unidadCompetencia"
+                    class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx primeraSeccionHide">
+                    Unidad de competencia</p>
 
                 <p seccion-id="evaluacionAprendizajes"
                     class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx primeraSeccionHide">
@@ -227,7 +246,7 @@
 
             <div class="mobileOptionsContainer">
                 <!--Pagina externa-->
-                <li seccion-id="" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a seccion-id=""
+                <li class="mobileOption navOptionsContentMobileMenu"><a
                         class="mobileOption clbktx textoStandar truncate clgreyl1 border0" href="manual.html"><i
                             class="material-icons clbktx">sos</i>Manual de usuario</a></li>
             </div>
@@ -235,7 +254,7 @@
             <!--Segunda seccion-->
             <div class="mobileOptionsContainer containerSectionLateralMobileMenu clgreyl1 border0">
                 <div class="truncate waves-effect clbktx clgreyl2 titleSectionMobileMenu" id="segundaSeccion"><i
-                        class="material-icons" id="segundaSeccionIcon">expand_more</i><b>4.1 Presupuesto de inversión</b>
+                        class="material-icons" id="segundaSeccionIcon">expand_more</i><b>Contenidos</b>
                 </div>
                 <p seccion-id="unidad4_1_presupuesto_inversion"
                     class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx segundaSeccionHide">
@@ -247,68 +266,68 @@
                 <p seccion-id="unidad4_1_2_inversion_financiada"
                     class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx segundaSeccionHide">
                     4.1.2 Inversión financiada</p>
+
+                <p seccion-id="unidad4_2_presupuestos_egresos"
+                    class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx segundaSeccionHide">
+                    4.2 Presupuestos de egresos</p>
+
+                <p seccion-id="unidad4_2_1_costos_desarrollo"
+                    class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx segundaSeccionHide">
+                    4.2.1 Costos de desarrollo</p>
+
+                <p seccion-id="unidad4_2_2_gastos_venta"
+                    class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx segundaSeccionHide">
+                    4.2.2 Gastos de venta</p>
+
+                <p seccion-id="unidad4_2_3_gastos_administracion"
+                    class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx segundaSeccionHide">
+                    4.2.3 Gastos de administración</p>
+
+                <p seccion-id="unidad4_2_4_gastos_financieros"
+                    class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx segundaSeccionHide">
+                    4.2.4 Gastos financieros</p>
+
+                <p seccion-id="unidad4_2_5_otros_gastos"
+                    class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx segundaSeccionHide">
+                    4.2.5 Otros gastos a ponderar</p>
+
+                <p seccion-id="unidad4_3_presupuesto_ventas"
+                    class="mobileOption navOptionsContentMobileMenu truncate waves-effect clbktx segundaSeccionHide">
+                    4.3 Presupuesto de ventas o ingresos</p>
             </div>
 
-
-
             <div class="mobileOptionsContainer">
-
-                <li seccion-id="unidad4_2_presupuestos_egresos" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="unidad4_2_presupuestos_egresos" class="mobileOption clbktx textoStandar truncate clgreyl1 border0">4.2 Presupuestos de egresos</a></li>
-
-                <li seccion-id="unidad4_2_1_costos_desarrollo" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="unidad4_2_1_costos_desarrollo" class="mobileOption clbktx textoStandar truncate clgreyl1 border0">4.2.1 Costos de desarrollo</a></li>
-
-                <li seccion-id="unidad4_2_2_gastos_venta" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="unidad4_2_2_gastos_venta" class="mobileOption clbktx textoStandar truncate clgreyl1 border0">4.2.2 Gastos de venta</a></li>
-
-                <li seccion-id="unidad4_2_3_gastos_administracion" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="unidad4_2_3_gastos_administracion" class="mobileOption clbktx textoStandar truncate clgreyl1 border0">4.2.3 Gastos de administración</a></li>
-
-                <li seccion-id="unidad4_2_4_gastos_financieros" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="unidad4_2_4_gastos_financieros" class="mobileOption clbktx textoStandar truncate clgreyl1 border0">4.2.4 Gastos financieros</a></li>
-
-                <li seccion-id="unidad4_2_5_otros_gastos" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="unidad4_2_5_otros_gastos" class="mobileOption clbktx textoStandar truncate clgreyl1 border0">4.2.5 Otros gastos a ponderar</a></li>
-
-                <li seccion-id="unidad4_3_presupuesto_ventas" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="unidad4_3_presupuesto_ventas" class="mobileOption clbktx textoStandar truncate clgreyl1 border0">4.3 Presupuesto de ventas o ingresos</a></li>
-
                 <!--Pagina externa-->
-                <li seccion-id="" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a seccion-id=""
+                <li class="mobileOption navOptionsContentMobileMenu"><a
                         class="mobileOption clbktx textoStandar truncate clgreyl1 border0" href="SuperGlosario.html"><i
                             class="material-icons clbktx">library_books</i>Glosario</a></li>
 
-                <li seccion-id="material_apoyo" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="material_apoyo" class="mobileOption clbktx textoStandar truncate clgreyl1 border0"><i
+                <li class="mobileOption navOptionsContentMobileMenu"><a seccion-id="material_apoyo"
+                        class="mobileOption clbktx textoStandar truncate clgreyl1 border0"><i
                             class="material-icons clbktx">auto_stories</i>Material de apoyo</a></li>
 
-                <li seccion-id="actividades_aprendizaje" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="actividades_aprendizaje" class="mobileOption clbktx textoStandar truncate clgreyl1 border0"><i
+                <li class="mobileOption navOptionsContentMobileMenu"><a seccion-id="actividades_aprendizaje"
+                        class="mobileOption clbktx textoStandar truncate clgreyl1 border0"><i
                             class="material-icons clbktx">fitness_center</i>Actividades de aprendizaje</a></li>
 
                 <!--Pagina externa-->
-                <li seccion-id="" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a seccion-id=""
+                <li class="mobileOption navOptionsContentMobileMenu"><a
                         class="mobileOption clbktx textoStandar truncate clgreyl1 border0"
                         href="unidad4_evaluacion.html"><i class="material-icons clbktx">quiz</i>Evaluación</a></li>
 
-                <li seccion-id="10" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="cierre" class="mobileOption clbktx textoStandar truncate clgreyl1 border0"><i
+                <li class="mobileOption navOptionsContentMobileMenu"><a seccion-id="cierre"
+                        class="mobileOption clbktx textoStandar truncate clgreyl1 border0"><i
                             class="material-icons clbktx">diversity_2</i>Cierre</a></li>
 
-
-                <li seccion-id="11" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a
-                        seccion-id="referencias" class="mobileOption clbktx textoStandar truncate clgreyl1 border0"
-                        href="referencias.html"><i
-                            class="material-icons clbktx">format_quote</i>Referencias</a></li>
+                <!--Pagina externa-->
+                <li class="mobileOption navOptionsContentMobileMenu"><a
+                        class="mobileOption clbktx textoStandar truncate clgreyl1 border0"
+                        href="referencias.html"><i class="material-icons clbktx">format_quote</i>Referencias</a></li>
 
                 <!--Pagina externa-->
-                <li seccion-id="" style="cursor: pointer;" class="mobileOption navOptionsContentMobileMenu"><a seccion-id=""
+                <li class="mobileOption navOptionsContentMobileMenu"><a
                         class="mobileOption clbktx textoStandar truncate clgreyl1 border0" href="contacto.html"><i
                             class="material-icons clbktx">alternate_email</i>Contacto</a></li>
-
-
-
             </div>
         </ul>
 

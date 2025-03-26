@@ -1,4 +1,88 @@
 const contenidosUnidad = {
+    inicio: {
+        id: "inicio",
+        titulo: "Inicio",
+        type: "contenido",
+        contenido: `
+        <!--Menu para los contenidos en tiempo real-->
+        <div class="mainTabsContent" id="tabsContentID">
+            <ul id="tabs-swipe-demo" class="tabs clgreyl2 shadow4">
+                <li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Bienvenida</a></li>
+                <li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a></li>
+                <li class="tab clgreyl2" id="a7tutorialButton"><a class="clbktx" href="#test-swipe-2">Unidad de competencia</a></li>
+                <li class="tab clgreyl2" id="a9tutorialButton"><a class="clbktx" href="#test-swipe-4">Evaluación de los aprendizajes</a></li>
+                <li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a></li>
+            </ul>
+        </div>
+        
+        <div id="test-swipe-1" class="tabsContentContainerInfo">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Estimados estudiantes que cursan la unidad de aprendizaje Formulación y evaluación de proyectos informáticos, que se imparte en la
+                    <i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
+                    bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 4: Gestión del presupuesto del proyecto</i>.
+                    Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la unidad
+                    en cuestión, esperamos que les sea de gran ayuda.
+                    </p>
+                    <div class="defaultImage">
+                        <div class="defaultImageContent" id="bienvenida"></div>
+                    </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-welcome" target="_blank">Ouch!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-swipe-2" class="tabsContentContainerInfo" style="display: none;">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Gestiona el <i class="keyWord">presupuesto del proyecto</i> a partir del <i class="keyWord">análisis de costos y recursos</i> necesarios.
+                    </p>
+                    <div class="defaultImage">
+                        <div class="defaultImageContent" id="unidadCompetencia"></div>
+                    </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        <i class="keyWord">El uso de este RDD de la unidad 4: Gestión del presupuesto del proyecto</i>, te permitirá <i class="keyWord">estudiar los contenidos</i> en la secuencia indicada en el programa de estudios de <i class="keyWord">la Unidad de aprendizaje Formulación y evaluación de proyectos informáticos</i>. 
+                    <p class="textoStandar">La metodología de esta unidad se basa en el aprendizaje práctico y la aplicación de conceptos en casos reales.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-swipe-4" class="tabsContentContainerInfo">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Evaluación de los aprendizajes</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="textoStandar">La evaluación se realizará mediante actividades prácticas y cuestionarios que permitirán verificar tu comprensión de los conceptos clave.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-swipe-5" class="tabsContentContainerInfo">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="textoStandar">Para aprovechar al máximo esta unidad, es necesario tener conocimientos básicos de gestión de proyectos y contabilidad.</p>
+                </div>
+            </div>
+        </div>
+        `
+    },
     unidadCompetencia: {
         id: "unidadCompetencia",
         titulo: "Unidad de competencia",
@@ -947,121 +1031,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-// Función para cargar contenido basado en el ID de sección
-function cargarContenido(seccionId) {
-    console.log("Intentando cargar sección:", seccionId);
-    console.log("Secciones disponibles:", Object.keys(contenidosUnidad));
-    
-    // Si existe la sección con el ID proporcionado
-    if (contenidosUnidad[seccionId]) {
-        // Obtener el elemento donde se cargará el contenido
-        const lateralUnityContent = document.getElementById("lateralUnityContent");
-        
-        if (!lateralUnityContent) {
-            console.error("No se encontró el elemento lateralUnityContent");
-            return;
-        }
-        
-        try {
-            // Limpiar el contenido anterior
-            lateralUnityContent.innerHTML = "";
-            
-            // Agregar el nuevo contenido
-            lateralUnityContent.innerHTML = contenidosUnidad[seccionId].contenido;
-            
-            // Activar componentes de Materialize después de cargar el contenido
-            activateNewComponents();
-            
-            // Actualizar la URL con un hash para permitir la navegación por historial
-            window.location.hash = seccionId;
-            
-            // Desplazarse al inicio del contenido
-            window.scrollTo(0, 0);
-            
-            console.log("Contenido cargado correctamente:", seccionId);
-        } catch (error) {
-            console.error("Error al cargar contenido:", error);
-        }
-    } else {
-        console.warn(`No se encontró contenido para la sección: ${seccionId}`);
-        // Si no se encuentra la sección, cargar la unidad de competencia por defecto
-        if (seccionId !== "unidadCompetencia") {
-            console.log("Cargando sección por defecto: unidadCompetencia");
-            cargarContenido("unidadCompetencia");
-        }
-    }
-}
-
-// Cargar contenido predeterminado cuando se carga la página
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("DOM completamente cargado");
-    
-    // Cargar la unidad de competencia por defecto
-    setTimeout(function() {
-        cargarContenido("unidadCompetencia");
-    }, 100); // Pequeño retraso para asegurar que todo esté cargado
-    
-    // Función simplificada para manejar clics en enlaces
-    function handleClick(event) {
-        // Encontrar el elemento con el atributo seccion-id más cercano
-        let target = event.target;
-        let seccionId = null;
-        
-        // Buscar hacia arriba en el DOM para encontrar el seccion-id
-        while (target && !seccionId) {
-            seccionId = target.getAttribute('seccion-id');
-            if (!seccionId) {
-                target = target.parentElement;
-            }
-        }
-        
-        if (seccionId) {
-            console.log("Clic en seccion-id:", seccionId);
-            
-            // Prevenir la navegación predeterminada solo si no es un enlace externo
-            const href = target.getAttribute('href');
-            if (!href || href.startsWith('#')) {
-                event.preventDefault();
-            } else if (href.includes('.html') && !seccionId) {
-                // Es un enlace a otra página, permitir la navegación por defecto
-                return;
-            }
-            
-            // Cargar el contenido
-            cargarContenido(seccionId);
-            
-            // Actualizar clases activas
-            document.querySelectorAll('.navOptionsContent').forEach(el => {
-                el.classList.remove('activeLinkOptionsContentUnit4');
-            });
-            
-            // Buscar el elemento principal para activar
-            const elementoActivar = document.querySelector(`a[seccion-id="${seccionId}"]`);
-            if (elementoActivar) {
-                elementoActivar.classList.add('activeLinkOptionsContentUnit4');
-            }
-        }
-    }
-    
-    // Agregar el event listener en el contenedor principal para usar event delegation
-    document.addEventListener('click', function(event) {
-        const hasSeccionId = event.target.closest('[seccion-id]');
-        if (hasSeccionId) {
-            handleClick(event);
-        }
-    });
-    
-    // Manejar la navegación por hash en la URL
-    if (window.location.hash) {
-        const seccionId = window.location.hash.substring(1);
-        if (seccionId) {
-            setTimeout(function() {
-                cargarContenido(seccionId);
-            }, 200);
-        }
-    }
-});
-
 // Función para activar componentes de Materialize después de cargar contenido
 function activateNewComponents() {
     // Verificar si Materialize está disponible
@@ -1101,4 +1070,153 @@ function activateNewComponents() {
         console.warn("La función reactivateZoomMaterialized no está disponible");
     }
   }
+  
+let tabsInitialized = false;
+
+// Función para inicializar las tabs
+function inicializarTabs() {
+    // Destruir tabs existentes si las hay
+    const tabsInstance = M.Tabs.getInstance(document.querySelector('.tabs'));
+    if (tabsInstance) {
+        tabsInstance.destroy();
+    }
+
+    // Inicializar nuevas tabs
+    const tabsElement = document.querySelector('.tabs');
+    if (tabsElement) {
+        M.Tabs.init(tabsElement, {
+            swipeable: false,
+            duration: 300
+        });
+
+        // Ajustar el ancho de las tabs basado en el contenedor padre
+        const tabsContentElement = document.getElementById('tabsContentID');
+        if (tabsContentElement) {
+            const parentContainer = document.getElementById('lateralUnityContent');
+            if (parentContainer) {
+                const parentContainerAncho = parentContainer.offsetWidth - 0.5;
+                tabsContentElement.style.width = parentContainerAncho + 'px';
+            }
+        }
+    }
+}
+
+// Función para cargar el contenido inicial por defecto
+function cargarContenidoInicial() {
+    // Accedemos al contenedor de los textos
+    let contenedorParaElContenidoDeLaUnidad = document.getElementById(
+        "lateralUnityContent"
+    );
+
+    // Cargamos por defecto el contenido para la unidad (inicio)
+    if (contenidosUnidad.inicio) {
+        contenedorParaElContenidoDeLaUnidad.innerHTML =
+            contenidosUnidad.inicio.contenido;
+        
+        // Inicializar las tabs después de cargar el contenido
+        setTimeout(inicializarTabs, 100);
+    }
+}
+
+// Función para cargar contenido específico
+function cargarContenido(seccionId) {
+    if (!seccionId) {
+        console.warn('No se proporcionó ID de sección');
+        return;
+    }
+
+    console.log(`Intentando cargar sección: ${seccionId}`);
+
+    // Verificar si la sección existe
+    if (!contenidosUnidad[seccionId]) {
+        console.warn(`Sección ${seccionId} no encontrada, usando sección por defecto`);
+        seccionId = "inicio";
+    }
+
+    const section = contenidosUnidad[seccionId];
+    const contenedor = document.getElementById("lateralUnityContent");
+
+    if (!contenedor) {
+        console.error("Contenedor de contenido no encontrado");
+        return;
+    }
+
+    console.log(`Cargando contenido para sección: ${seccionId} (${section.titulo})`);
+
+    // Restablecer la bandera de inicialización de tabs
+    tabsInitialized = false;
+
+    // Cargar el contenido HTML
+    contenedor.innerHTML = section.contenido;
+
+    // Actualizar la URL si es necesario (sin recargar la página)
+    if (history.pushState && window.location.hash !== `#${seccionId}`) {
+        history.pushState(null, null, `#${seccionId}`);
+    }
+
+    // Activar componentes de Materialize
+    activateNewComponents();
+
+    // Desplazarse al inicio
+    window.scrollTo(0, 0);
+
+    // Actualizar clases activas en el menú
+    updateActiveMenuItems(seccionId);
+}
+
+function updateActiveMenuItems(seccionId) {
+    // Remover clase active de todos los elementos del menú
+    document.querySelectorAll('.navOptionsContentMobileMenu, .navOptionsContentLateralMenu').forEach(el => {
+        el.classList.remove('activeButtonTextLateral');
+    });
+
+    // Agregar clase active al elemento seleccionado
+    const selectedElement = document.querySelector(`[seccion-id="${seccionId}"]`);
+    if (selectedElement) {
+        selectedElement.classList.add('activeButtonTextLateral');
+    }
+}
+
+// Event Listeners
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Inicializando event listeners...');
+
+    // Cargar contenido inicial
+    cargarContenidoInicial();
+
+    // Event listeners para el menú lateral
+    document.querySelectorAll('.navOptionsContent').forEach(el => {
+        el.addEventListener('click', function(e) {
+            e.preventDefault();
+            const seccionId = this.getAttribute('seccion-id');
+            console.log(`Clic en menú - Sección: ${seccionId}`);
+            if (seccionId) {
+                cargarContenido(seccionId);
+            }
+        });
+    });
+
+    // Event listeners para el menú móvil
+    document.querySelectorAll('.navOptionsContentMobileMenu').forEach(el => {
+        el.addEventListener('click', function(e) {
+            e.preventDefault();
+            const seccionId = this.getAttribute('seccion-id');
+            console.log(`Clic en menú móvil - Sección: ${seccionId}`);
+            if (seccionId) {
+                cargarContenido(seccionId);
+                // Cerrar el menú móvil después de seleccionar una opción
+                const sidenav = document.getElementById('slide-out');
+                if (sidenav) {
+                    M.Sidenav.getInstance(sidenav).close();
+                }
+            }
+        });
+    });
+
+    // Manejar cambios en la URL (para navegación con el botón atrás/adelante)
+    window.addEventListener('hashchange', function() {
+        const seccionId = window.location.hash.substring(1) || 'inicio';
+        cargarContenido(seccionId);
+    });
+});
   
