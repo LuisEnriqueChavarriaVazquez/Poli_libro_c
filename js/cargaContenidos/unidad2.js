@@ -1,4 +1,147 @@
 const contenidosUnidad = {
+    inicio: {
+        id: "inicio",
+        titulo: "Inicio",
+        type: "contenido",
+        contenido: `
+        <!--Menu para los contenidos en tiempo real-->
+        <div class="mainTabsContent" id="tabsContentID">
+            <ul id="tabs-swipe-demo" class="tabs clgreyl2 shadow4">
+                <li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Bienvenida</a></li>
+                <li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a></li>
+                <li class="tab clgreyl2" id="a7tutorialButton"><a class="clbktx" href="#test-swipe-2">Unidad de competencia</a></li>
+                <li class="tab clgreyl2" id="a9tutorialButton"><a class="clbktx" href="#test-swipe-4">Evaluación de los aprendizajes</a></li>
+                <li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a></li>
+            </ul>
+        </div>
+        
+        <div id="test-swipe-1" class="tabsContentContainerInfo">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Estimados estudiantes que cursan la unidad de aprendizaje Formulación y evaluación de proyectos informáticos, que se imparte en la
+                    <i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
+                    bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 2: Innovación y la gestión del mercado</i>.
+                    Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la unidad
+                    en cuestión, esperamos que les sea de gran ayuda.
+                    </p>
+                    <div class="defaultImage">
+                        <div class="defaultImageContent" id="bienvenida"></div>
+                    </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-welcome" target="_blank">Ouch!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-swipe-2" class="tabsContentContainerInfo" style="display: none;">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Identifica los aspectos generales de la <i class="keyWord">formulación de proyectos informáticos</i> a partir del <i class="keyWord">análisis del entorno</i> del área de interés.
+                    </p>
+                    <div class="defaultImage">
+                        <div class="defaultImageContent" id="unidadCompetencia"></div>
+                    </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        <i class="keyWord">El uso de este RDD de la unidad 2: Innovación y la gestión del mercado</i>, te permitirá <i class="keyWord">estudiar los contenidos</i> en la secuencia indicada en el programa de estudios de <i class="keyWord">la Unidad de aprendizaje Formulación y evaluación de proyectos informáticos</i>. 
+                        Este RDD se construyó con la intención de <i class="keyWord">apoyarte en tu proceso de aprendizaje tanto dentro como fuera del aula</i>; está disponible en el momento que lo requieras consultar, adaptándose a tu propio ritmo de aprendizaje, con los que se pretende <i class="keyWord">facilitar el aprendizaje autónomo</i> con miras a lograr los objetivos de aprendizaje de esta unidad temática.
+                    </p>
+                    <div class="defaultImage">
+                        <div class="defaultImageContent" id="metodologia"></div>
+                    </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-idea" target="_blank">Ouch!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Evaluación de los aprendizajes</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        La evaluación de los aprendizajes de esta unidad temática se llevará a cabo como se muestra a continuación:
+                    </p>
+                    <div class="cardDesign clgreyl2 border1">
+                        <table class="striped highlight responsive-table clw border1 shadow2">
+                            <thead>
+                                <tr>
+                                    <th class="clbktx textoStandarTable">Unidad</th>
+                                    <th class="clbktx textoStandarTable">Actividad de aprendizaje</th>
+                                    <th class="clbktx textoStandarTable">Evidencia de aprendizaje</th>
+                                    <th class="clbktx textoStandarTable">Valor en la evaluación</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="cellCenter textoStandarTable" rowspan="4">Unidad 2</td>
+                                    <td class="cellCenter textoStandarTable">Actividad 2.1</td>
+                                    <td class="textoStandarTable">Infografía sobre innovación</td>
+                                    <td class="cellCenter textoStandarTable">20 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="cellCenter textoStandarTable" colspan="2">Total</td>
+                                    <td class="cellCenter textoStandarTable">20 puntos</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="defaultImage">
+                        <div class="defaultImageContent" id="evaluacionAprendizajes"></div>
+                    </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-teaching" target="_blank">Ouch!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-swipe-5" class="tabsContentContainerInfo" style="display: none;">
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Para acceder y hacer uso de este recurso se requiere:
+                    </p>
+                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                        <li>Conexión a internet</li>
+                        <li>
+                            Navegador de internet:
+                            <ul class="browser-default">
+                                <li>Microsoft Edge (version 85 o superior)</li>
+                                <li>Google Chrome (version 85 o superior)</li>
+                                <li>Mozilla Firefox (version 80 o superior)</li>
+                                <li>Vivaldi (version 3.3 o superior)</li>
+                                <li>Opera 70 o superior</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="defaultImage">
+                        <div class="defaultImageContent" id="requerimientos"></div>
+                    </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-web-development" target="_blank">Ouch!</a>
+                    </span>
+                </div>
+            </div>
+        </div>`,
+    },
     unidadCompetencia: {
         id: "unidadCompetencia",
         titulo: "Unidad de competencia",
@@ -784,43 +927,96 @@ console.log("contenidosUnidad: ", Object.keys(contenidosUnidad).length);
 //Object delegation para los botones
 /////////////////////////////////////
 
-//Accedemos al contenedor de los textos
-let contenedorParaElContenidoDeLaUnidad = document.getElementById("lateralUnityContent");
-
-//Cargamos por defecto el contenido para la unidad
-(() => {
-    contenedorParaElContenidoDeLaUnidad.innerHTML = contenidosUnidad.unidadCompetencia.contenido;
-})();
-
-//Event listener para el menú de escritorio
-let buttonContaineChargeContent = document.getElementById("lateralUnityMenuSectionContainer");
-buttonContaineChargeContent.addEventListener("click", function (event) {
-    if (event.target.classList.contains("deskOption")) {
-        const seccionId = event.target.getAttribute("seccion-id");
-        cargarContenido(seccionId);
-    }
-});
-
-//Event listener para el menú móvil
-let buttonContaineChargeContentMobile = document.getElementsByClassName("mobileOptionsContainer");
-for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
-    buttonContaineChargeContentMobile[i].addEventListener("click", function (event) {
-        if (event.target.classList.contains("mobileOption")) {
-            const seccionId = event.target.getAttribute("seccion-id");
-            cargarContenido(seccionId);
+// Función para inicializar las tabs
+function inicializarTabs() {
+    // Destruir las tabs existentes si hay alguna
+    const tabsExistentes = document.querySelectorAll('.tabs');
+    tabsExistentes.forEach(tab => {
+        const instance = M.Tabs.getInstance(tab);
+        if (instance) {
+            instance.destroy();
         }
     });
+
+    // Inicializar las nuevas tabs
+    const tabs = document.querySelectorAll('.tabs');
+    tabs.forEach(tab => {
+        M.Tabs.init(tab, {
+            swipeable: false,
+            duration: 300
+        });
+    });
+
+    // Ajustar el ancho de los tabs
+    const tabsContainer = document.querySelector('.tabs-container');
+    if (tabsContainer) {
+        const parentWidth = tabsContainer.parentElement.offsetWidth;
+        const tabsWidth = tabsContainer.offsetWidth;
+        if (tabsWidth > parentWidth) {
+            tabsContainer.style.width = `${parentWidth}px`;
+        }
+    }
 }
 
-// Función para cargar contenido
+// Función para cargar el contenido inicial por defecto
+function cargarContenidoInicial() {
+    // Accedemos al contenedor de los textos
+    let contenedorParaElContenidoDeLaUnidad = document.getElementById(
+        "lateralUnityContent"
+    );
+
+    // Cargamos por defecto el contenido para la unidad (inicio)
+    if (contenidosUnidad.inicio) {
+        contenedorParaElContenidoDeLaUnidad.innerHTML =
+            contenidosUnidad.inicio.contenido;
+        
+        // Inicializar las tabs después de cargar el contenido
+        setTimeout(inicializarTabs, 100);
+    }
+}
+
+// Función para cargar contenido específico
 function cargarContenido(seccionId) {
     if (!seccionId) return; // Si no hay seccionId, no hacemos nada
     
     const seccion = contenidosUnidad[seccionId];
     if (seccion) {
         contenedorParaElContenidoDeLaUnidad.innerHTML = seccion.contenido;
-        // Opcional: Actualizar el título de la sección actual
+        
+        // Inicializar los tabs si estamos en la sección de inicio
+        if (seccionId === 'inicio') {
+            setTimeout(() => {
+                const tabsElement = document.querySelector('.tabs');
+                if (tabsElement) {
+                    M.Tabs.init(tabsElement, {
+                        swipeable: false,
+                        duration: 300
+                    });
+                }
+                
+                // Ajustar el ancho de los tabs
+                const tabsContentElement = document.getElementById('tabsContentID');
+                if (tabsContentElement) {
+                    const parentContainer = document.getElementById('lateralUnityContent');
+                    if (parentContainer) {
+                        const parentContainerAncho = parentContainer.offsetWidth - 0.5;
+                        tabsContentElement.style.width = parentContainerAncho + 'px';
+                    }
+                }
+            }, 100);
+        }
+
+        // Actualizar el título de la sección actual
         document.title = `Unidad 2 - ${seccion.titulo || ''}`;
+        
+        // Actualizar clases activas en el menú
+        document.querySelectorAll('.navOptionsContent').forEach(el => {
+            el.classList.remove('activeLinkOptionsContentUnit2');
+        });
+        const elementoActivar = document.querySelector(`[seccion-id="${seccionId}"]`);
+        if (elementoActivar) {
+            elementoActivar.classList.add('activeLinkOptionsContentUnit2');
+        }
     } else {
         console.warn(`Sección ${seccionId} no encontrada`);
         contenedorParaElContenidoDeLaUnidad.innerHTML = `
@@ -834,3 +1030,35 @@ function cargarContenido(seccionId) {
             </div>`;
     }
 }
+
+// Iniciar la carga de los contenidos cuando se cargue el documento
+document.addEventListener("DOMContentLoaded", function () {
+    cargarContenidoInicial();
+
+    // Event listener para el menú de escritorio
+    let buttonContaineChargeContent = document.getElementById(
+        "lateralUnityMenuSectionContainer"
+    );
+    buttonContaineChargeContent.addEventListener("click", function (event) {
+        if (event.target.classList.contains("deskOption")) {
+            const seccionId = event.target.getAttribute("seccion-id");
+            cargarContenido(seccionId);
+        }
+    });
+
+    // Event listener para el menú móvil
+    let buttonContaineChargeContentMobile = document.getElementsByClassName(
+        "mobileOptionsContainer"
+    );
+    for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
+        buttonContaineChargeContentMobile[i].addEventListener(
+            "click",
+            function (event) {
+                if (event.target.classList.contains("mobileOption")) {
+                    const seccionId = event.target.getAttribute("seccion-id");
+                    cargarContenido(seccionId);
+                }
+            }
+        );
+    }
+});

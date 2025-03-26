@@ -42,6 +42,37 @@ async function cargarContenidos() {
 	}
 }
 
+// Función para inicializar las tabs
+function inicializarTabs() {
+	// Destruir las tabs existentes si hay alguna
+	const tabsExistentes = document.querySelectorAll('.tabs');
+	tabsExistentes.forEach(tab => {
+		const instance = M.Tabs.getInstance(tab);
+		if (instance) {
+			instance.destroy();
+		}
+	});
+
+	// Inicializar las nuevas tabs
+	const tabs = document.querySelectorAll('.tabs');
+	tabs.forEach(tab => {
+		M.Tabs.init(tab, {
+			swipeable: false,
+			duration: 300
+		});
+	});
+
+	// Ajustar el ancho de los tabs
+	const tabsContainer = document.querySelector('.tabs-container');
+	if (tabsContainer) {
+		const parentWidth = tabsContainer.parentElement.offsetWidth;
+		const tabsWidth = tabsContainer.offsetWidth;
+		if (tabsWidth > parentWidth) {
+			tabsContainer.style.width = `${parentWidth}px`;
+		}
+	}
+}
+
 // Función para cargar el contenido inicial por defecto
 function cargarContenidoInicial() {
 	// Accedemos al contenedor de los textos
@@ -49,10 +80,13 @@ function cargarContenidoInicial() {
 		"lateralUnityContent"
 	);
 
-	// Cargamos por defecto el contenido para la unidad (unidad de competencia)
-	if (contenidosUnidad.unidadCompetencia) {
+	// Cargamos por defecto el contenido para la unidad (inicio)
+	if (contenidosUnidad.inicio) {
 		contenedorParaElContenidoDeLaUnidad.innerHTML =
-			contenidosUnidad.unidadCompetencia.contenido;
+			contenidosUnidad.inicio.contenido;
+		
+		// Inicializar las tabs después de cargar el contenido
+		setTimeout(inicializarTabs, 100);
 	}
 }
 
@@ -68,18 +102,42 @@ function cargarContenido(seccionId) {
 	const seccion = contenidosUnidad[seccionId];
 	if (seccion) {
 		contenedorParaElContenidoDeLaUnidad.innerHTML = seccion.contenido;
-		// Opcional: Actualizar el título de la sección actual
+		
+		// Inicializar los tabs si estamos en la sección de inicio
+		if (seccionId === 'inicio') {
+			setTimeout(() => {
+				const tabsElement = document.querySelector('.tabs');
+				if (tabsElement) {
+					M.Tabs.init(tabsElement, {
+						swipeable: false,
+						duration: 300
+					});
+				}
+				
+				// Ajustar el ancho de los tabs
+				const tabsContentElement = document.getElementById('tabsContentID');
+				if (tabsContentElement) {
+					const parentContainer = document.getElementById('lateralUnityContent');
+					if (parentContainer) {
+						const parentContainerAncho = parentContainer.offsetWidth - 0.5;
+						tabsContentElement.style.width = parentContainerAncho + 'px';
+					}
+				}
+			}, 100);
+		}
+
+		// Actualizar el título de la sección actual
 		document.title = `Unidad 3 - ${seccion.titulo || ""}`;
 	} else {
 		console.warn(`Sección ${seccionId} no encontrada`);
 		contenedorParaElContenidoDeLaUnidad.innerHTML = `
             <div class="shadow4 border1 clw">
                 <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Error</div>
-    <div class="cardDesign clw border1Inf">
-        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                         La sección solicitada no está disponible.
                     </p>
-        </div>
+                </div>
             </div>`;
 	}
 }
@@ -89,21 +147,21 @@ document.addEventListener("DOMContentLoaded", function () {
 	cargarContenidos();
 
 	// Event listener para el menú de escritorio
-let buttonContaineChargeContent = document.getElementById(
-"lateralUnityMenuSectionContainer"
-);
-buttonContaineChargeContent.addEventListener("click", function (event) {
-if (event.target.classList.contains("deskOption")) {
+	let buttonContaineChargeContent = document.getElementById(
+		"lateralUnityMenuSectionContainer"
+	);
+	buttonContaineChargeContent.addEventListener("click", function (event) {
+		if (event.target.classList.contains("deskOption")) {
 			const seccionId = event.target.getAttribute("seccion-id");
 			cargarContenido(seccionId);
 		}
 	});
 
 	// Event listener para el menú móvil
-let buttonContaineChargeContentMobile = document.getElementsByClassName(
-"mobileOptionsContainer"
-);
-for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
+	let buttonContaineChargeContentMobile = document.getElementsByClassName(
+		"mobileOptionsContainer"
+	);
+	for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
 		buttonContaineChargeContentMobile[i].addEventListener(
 			"click",
 			function (event) {

@@ -99,36 +99,88 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: auto; // Reducido de 160px a 60px para un espaciado más compacto
 }
 
-/* Conectores horizontales con gradientes de grises */
-.connector-horizontal {
-	height: 25px;
-	width: 100%;
-	z-index: 1;
-	background: linear-gradient(
-		to right,
-		#aaaaaa 0%,    /* Gris más oscuro */
-		#cccccc 20%,   /* Gris medio */
-		#dddddd 50%,   /* Gris claro (centro) */
-		#cccccc 80%,   /* Gris medio */
-		#aaaaaa 100%   /* Gris más oscuro */
-	);
+/* Estilos base para conectores */
+.connector-base {
+    z-index: 1;
+    position: relative;
+    background-color: #ccc;
+    background-image: none;
 }
 
-/* Conectores verticales con gradientes de grises */
+/* Conectores horizontales */
+.connector-horizontal-right {
+    @extend .connector-base;
+    height: 25px;
+    width: 100%;
+    background-color: #ccc;
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: -18px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-left: 35px solid #ccc;
+    }
+}
+
+.connector-horizontal-left {
+    @extend .connector-base;
+    height: 25px;
+    width: 100%;
+    background-color: #ccc;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: -18px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-right: 35px solid #ccc;
+    }
+}
+
+/* Conectores verticales */
 .connector-vertical {
-	width: 25px;
-	height: 50px;
-	z-index: 1;
-	background: linear-gradient(
-		to bottom,
-		#aaaaaa 0%,    /* Gris más oscuro */
-		#cccccc 20%,   /* Gris medio */
-		#dddddd 50%,   /* Gris claro (centro) */
-		#cccccc 80%,   /* Gris medio */
-		#aaaaaa 100%   /* Gris más oscuro */
-	);
+    @extend .connector-base;
+    width: 25px;
+    height: 50px;
+    background-color: #ccc !important;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -18px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 35px solid #ccc;
+    }
+}
+
+/* Asignar las clases correctas a los conectores según el flujo */
+#connector-1-2 { 
+    @extend .connector-horizontal-right;
+}
+#connector-3-4 { 
+    @extend .connector-horizontal-left;
+}
+#connector-5-6 { 
+    @extend .connector-horizontal-right;
 }
 
 /* Estilos para las celdas vacías */
@@ -160,13 +212,6 @@
 #a4Link { grid-column: 1; grid-row: 3; }
 #a5Link { grid-column: 1; grid-row: 5; }
 #a6Link { grid-column: 3; grid-row: 5; }
-
-/* Posicionamiento de los conectores */
-#connector-1-2 { grid-column: 2; grid-row: 1; }
-#connector-2-3 { grid-column: 3; grid-row: 2; }
-#connector-3-4 { grid-column: 2; grid-row: 3; }
-#connector-4-5 { grid-column: 1; grid-row: 4; }
-#connector-5-6 { grid-column: 2; grid-row: 5; }
 
 /* Colores de las cards */
 #a1 {
@@ -223,9 +268,9 @@
 @media (max-width: 900px) {
     .unitCardsContainer {
         display: grid;
-        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-columns: 1fr;
         padding: 20px;
-        gap: 0;
+        gap: 10px;
     }
     
     /* Reposicionar todos los elementos en una sola columna */
@@ -242,29 +287,53 @@
     #a6Link { grid-column: 1; grid-row: 11; }
 
     /* Ajustar todos los conectores para que sean verticales */
-    .connector-horizontal, .connector-vertical {
-        height: 40px;
+    .connector-horizontal-right,
+    .connector-horizontal-left,
+    .connector-vertical {
+        height: 35px;
         width: 25px;
-        margin: 0 auto;
-        background: linear-gradient(
-            to bottom,
-            #aaaaaa 0%,
-            #cccccc 20%,
-            #dddddd 50%,
-            #cccccc 80%,
-            #aaaaaa 100%
-        );
+        margin: 10px auto;
+        background-color: #ccc;
+        background-image: none;
+        transform: rotate(0deg);
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-top: 35px solid #ccc;
+        }
+
+        &::before {
+            display: none;
+        }
     }
 
-    /* Ocultar celdas vacías */
-    .empty-cell {
-        display: none;
-    }
-
-    /* Asegurar que los contenedores de conectores estén centrados */
+    /* Ajustar el contenedor de conectores en móvil */
     .connector-container {
-        justify-content: center;
+        height: 45px; // Altura ajustada para el conector + flecha
         width: 100%;
+        margin: 5px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 901px) {
+    .connector-horizontal-right,
+    .connector-horizontal-left {
+        bottom: -60px;
+    }
+    
+    .connector-vertical {
+        bottom: auto;
     }
 }
 
@@ -273,7 +342,7 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: auto;
-	gap: 20px;
+	height: auto;
 
 	@media (max-width: 1200px) {
 		&{
@@ -353,3 +422,22 @@
 // li {
 //     margin-bottom: 10px;
 // }
+
+/* Eliminar las animaciones que ya no se usan */
+@keyframes shimmerHorizontal {
+    0% { background-position: 200% 50%; }
+    50% { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+}
+
+@keyframes shimmerHorizontalReverse {
+    0% { background-position: -200% 50%; }
+    50% { background-position: 0% 50%; }
+    100% { background-position: -200% 50%; }
+}
+
+@keyframes shimmerVertical {
+    0% { background-position: 50% 200%; }
+    50% { background-position: 50% 0%; }
+    100% { background-position: 50% 200%; }
+}

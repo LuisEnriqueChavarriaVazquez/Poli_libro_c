@@ -1,5 +1,162 @@
 // Archivo unidad3_p1.js - Contiene las primeras secciones de la unidad 3
 const contenidosUnidad = {
+	inicio: {
+		id: "inicio",
+		titulo: "Inicio",
+		type: "contenido",
+		contenido: `
+		<!--Menu para los contenidos en tiempo real-->
+		<div class="mainTabsContent" id="tabsContentID">
+			<ul id="tabs-swipe-demo" class="tabs clgreyl2 shadow4">
+				<li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Bienvenida</a></li>
+				<li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a></li>
+				<li class="tab clgreyl2" id="a7tutorialButton"><a class="clbktx" href="#test-swipe-2">Unidad de competencia</a></li>
+				<li class="tab clgreyl2" id="a9tutorialButton"><a class="clbktx" href="#test-swipe-4">Evaluación de los aprendizajes</a></li>
+				<li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a></li>
+			</ul>
+		</div>
+		
+		<div id="test-swipe-1" class="tabsContentContainerInfo">
+			<div class="shadow4 border1 clw">
+				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
+				<div class="cardDesign clw border1Inf">
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+					Estimados estudiantes que cursan la unidad de aprendizaje Finanzas empresariales, que se imparte en la
+					<i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
+					bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 3: la empresa y su entorno</i>,
+					correspondiente a la unidad de aprendizaje Finanzas empresariales.
+					Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la unidad
+					en cuestión, esperamos que les sea de gran ayuda.
+					</p>
+					<div class="defaultImage">
+						<div class="defaultImageContent" id="bienvenida"></div>
+					</div>
+					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+					<a href="https://icons8.com/illustrations/illustration/pixeltrue-welcome" target="_blank">Ouch!</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="test-swipe-2" class="tabsContentContainerInfo" style="display: none;">
+			<div class="shadow4 border1 clw">
+				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
+				<div class="cardDesign clw border1Inf">
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+						Reconoce el <i class="keyWord">papel de las finanzas</i> a partir del <i class="keyWord">contexto empresarial.</i>
+					</p>
+					<div class="defaultImage">
+						<div class="defaultImageContent" id="unidadCompetencia"></div>
+					</div>
+					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+					<a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
+			<div class="shadow4 border1 clw">
+				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
+				<div class="cardDesign clw border1Inf">
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+						<i class="keyWord">El uso de este RDD de la unidad 3: la empresa y su entorno</i>, te permitirá <i class="keyWord">estudiar los contenidos</i> en la secuencia indicada en el programa de estudios de <i class="keyWord">la Unidad de aprendizaje Finanzas empresariales</i>. Para abordar dicha unidad temática se requieren seis horas de teoría y dos horas de <i class="keyWord">aprendizaje autónomo</i>. 
+						Este RDD se construyó con la intención de <i class="keyWord">apoyarte en tu proceso de aprendizaje tanto dentro como fuera del aula</i>; está disponible en el momento que lo requieras consultar, adaptándose a tu propio ritmo de aprendizaje, con los que se pretende <i class="keyWord">facilitar el aprendizaje autónomo</i> con miras a lograr los objetivos de aprendizaje de esta unidad temática.
+					</p>
+					<div class="defaultImage">
+						<div class="defaultImageContent" id="metodologia"></div>
+					</div>
+					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+					<a href="https://icons8.com/illustrations/illustration/pixeltrue-idea" target="_blank">Ouch!</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
+			<div class="shadow4 border1 clw">
+				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Evaluación de los aprendizajes</div>
+				<div class="cardDesign clw border1Inf">
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+						La evaluación de los aprendizajes de esta unidad temática se llevará a cabo como se muestra a continuación:
+					</p>
+					<div class="cardDesign clgreyl2 border1">
+						<table class="striped highlight responsive-table clw border1 shadow2">
+							<thead>
+								<tr>
+									<th class="clbktx textoStandarTable">Unidad</th>
+									<th class="clbktx textoStandarTable">Actividad de aprendizaje</th>
+									<th class="clbktx textoStandarTable">Evidencia de aprendizaje</th>
+									<th class="clbktx textoStandarTable">Valor en la evaluación</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="cellCenter textoStandarTable" rowspan="4">Unidad 3</td>
+									<td class="cellCenter textoStandarTable">Actividad 3.1</td>
+									<td class="textoStandarTable">Cuestionario en formato Tangram</td>
+									<td class="cellCenter textoStandarTable">Sin valor para la evaluación</td>
+								</tr>
+								<tr>
+									<td class="cellCenter textoStandarTable">Actividad 3.2</td>
+									<td class="textoStandarTable">Infografía</td>
+									<td class="cellCenter textoStandarTable">10 puntos</td>
+								</tr>
+								<tr>
+									<td class="cellCenter textoStandarTable">Actividad 3.3</td>
+									<td class="textoStandarTable">Reporte</td>
+									<td class="cellCenter textoStandarTable">10 puntos</td>
+								</tr>
+								<tr>
+									<td class="cellCenter textoStandarTable" colspan="2">Total</td>
+									<td class="cellCenter textoStandarTable">20 puntos</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="defaultImage">
+						<div class="defaultImageContent" id="evaluacionAprendizajes"></div>
+					</div>
+					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+					<a href="https://icons8.com/illustrations/illustration/pixeltrue-teaching" target="_blank">Ouch!</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="test-swipe-5" class="tabsContentContainerInfo" style="display: none;">
+			<div class="shadow4 border1 clw">
+				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
+				<div class="cardDesign clw border1Inf">
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+						Para acceder y hacer uso de este recurso se requiere:
+					</p>
+					<ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+						<li>Conexión a internet</li>
+						<li>
+							Navegador de internet:
+							<ul class="browser-default">
+								<li>Microsoft Edge (version 85 o superior)</li>
+
+					<ul class="browser-default">
+						<li class="clbktx textoDinamicoIdentificador textoReadingH2">Conexión a internet</li>
+						<li class="clbktx textoDinamicoIdentificador textoReadingH2">Navegador web compatible (Chrome, Firefox, Safari, Edge)</li>
+						<li class="clbktx textoDinamicoIdentificador textoReadingH2">Dispositivo con pantalla de al menos 800x600 píxeles</li>
+						<li class="clbktx textoDinamicoIdentificador textoReadingH2">JavaScript habilitado en el navegador</li>
+					</ul>
+
+					<div class="defaultImage">
+						<div class="defaultImageContent" id="requerimientos"></div>
+					</div>
+					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+						<a href="https://icons8.com/illustrations/illustration/pixeltrue-settings" target="_blank">Ouch!</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>`,
+	},
 	unidadCompetencia: {
 		id: "unidadCompetencia",
 		titulo: "Unidad de competencia",
