@@ -856,12 +856,13 @@ const contenidosUnidad = {
             </p>
         </div>
     </div>
-    `,
-		materialApoyo: {
-			id: "materialApoyo",
-			titulo: "Material de apoyo",
-			type: "contenido",
-			contenido: `<section class="containerActividadAprendizajeFather">
+    `
+	},
+	materialApoyo: {
+		id: "materialApoyo",
+		titulo: "Material de apoyo",
+		type: "contenido",
+		contenido: `<section class="containerActividadAprendizajeFather">
       <div class="textoTitulo clbktx">Material de apoyo</div>
       <section class="gridActividadesAprendizaje">
   
@@ -879,13 +880,13 @@ const contenidosUnidad = {
           
   
       </section>
-  </section>`,
-		},
-		actividadesAprendizaje: {
-			id: "actividadesAprendizaje",
-			titulo: "Actividades de aprendizaje",
-			type: "contenido",
-			contenido: `<!--Tarjeta con las actividades-->
+  </section>`
+	},
+	actividadesAprendizaje: {
+		id: "actividadesAprendizaje",
+		titulo: "Actividades de aprendizaje",
+		type: "contenido",
+		contenido: `<!--Tarjeta con las actividades-->
   <section class="containerActividadAprendizajeFather">
       <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
       <section class="gridActividadesAprendizaje">
@@ -926,13 +927,13 @@ const contenidosUnidad = {
           </div>
   
       </section>
-  </section>`,
-		},
-		cierre: {
-			id: "cierre",
-			titulo: "Cierre de la unidad temática",
-			type: "contenido",
-			contenido: `<div class="shadow4 border1 clw">
+  </section>`
+	},
+	cierre: {
+		id: "cierre",
+		titulo: "Cierre de la unidad temática",
+		type: "contenido",
+		contenido: `<div class="shadow4 border1 clw">
       <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
       <div class="cardDesign clw border1Inf">
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
@@ -950,225 +951,161 @@ const contenidosUnidad = {
           <a href="https://icons8.com/illustrations/illustration/pixeltrue-success" target="_blank">Ouch!</a>
           </span>
       </div>
-  </div>`,
-		},
-	},
+  </div>`
+	}
 };
 
-// Código separado del objeto
-let tabsInitialized = false;
+// Variable global para rastrear la sección actual
+window.seccionActual = null;
 
-// Esperar a que el DOM esté completamente cargado
-document.addEventListener("DOMContentLoaded", function () {
-	console.log("DOM Content Loaded - Unidad 5");
-
-	// Cargar contenido inicial
-	cargarContenido("inicio");
-
-	// Configurar eventos para menú de escritorio
-	const desktopMenu = document.getElementById(
-		"lateralUnityMenuSectionContainer"
-	);
-	if (desktopMenu) {
-		console.log("Desktop menu found, adding click listener");
-		desktopMenu.addEventListener("click", function (event) {
-			const target = event.target.closest("[seccion-id]");
-			if (target) {
-				event.preventDefault();
-				const seccionId = target.getAttribute("seccion-id");
-				console.log("Desktop menu click on section:", seccionId);
-				cargarContenido(seccionId);
-			}
-		});
-	} else {
-		console.error("Desktop menu container not found");
-	}
-
-	// Configurar eventos para menú móvil
-	const mobileMenus = document.querySelectorAll(".mobileOptionsContainer");
-	if (mobileMenus.length > 0) {
-		console.log(`Found ${mobileMenus.length} mobile menu containers`);
-		mobileMenus.forEach((menu) => {
-			menu.addEventListener("click", function (event) {
-				// Buscar el elemento más cercano con seccion-id
-				let target = event.target;
-				while (
-					target &&
-					target !== this &&
-					!target.hasAttribute("seccion-id")
-				) {
-					target = target.parentElement;
-				}
-
-				if (target && target.hasAttribute("seccion-id")) {
-					event.preventDefault();
-					const seccionId = target.getAttribute("seccion-id");
-					console.log("Mobile menu click on section:", seccionId);
-					cargarContenido(seccionId);
-
-					// Cerrar el sidenav en móvil
-					const sidenav = document.querySelector(".sidenav");
-					if (sidenav && M && M.Sidenav) {
-						const instance = M.Sidenav.getInstance(sidenav);
-						if (instance) {
-							instance.close();
-						}
-					}
-				}
-			});
-		});
-	} else {
-		console.warn("No mobile menu containers found");
-	}
-
-	// Manejar navegación por hash
-	if (window.location.hash) {
-		const seccionId = window.location.hash.substring(1);
-		if (seccionId && contenidosUnidad[seccionId]) {
-			console.log("Loading content from hash:", seccionId);
-			cargarContenido(seccionId);
-		}
-	}
-});
-
-// Función para cargar contenido
+// Función principal para cargar contenido
 function cargarContenido(seccionId) {
-	console.log("cargarContenido called with seccionId:", seccionId);
+    // Evitar cargar la misma sección múltiples veces
+    if (window.seccionActual === seccionId) {
+        console.log("Ya está cargada esta sección:", seccionId);
+        return;
+    }
 
-	// Verificar si la sección existe
-	if (!contenidosUnidad[seccionId]) {
-		console.warn(`Section ${seccionId} not found, using default section`);
-		seccionId = "inicio";
-	}
+    console.log(`🔴 Cargando sección: ${seccionId}`);
 
-	const section = contenidosUnidad[seccionId];
-	const contenedor = document.getElementById("lateralUnityContent");
+    const contenedor = document.getElementById("lateralUnityContent");
+    if (!contenedor) {
+        console.error("🔴 No se encontró el contenedor lateralUnityContent");
+        return;
+    }
 
-	if (contenedor) {
-		console.log(
-			`Loading content for section: ${seccionId} (${section.titulo})`
-		);
+    const seccion = contenidosUnidad[seccionId];
+    if (!seccion) {
+        console.warn(`🔴 Sección no encontrada: ${seccionId}`);
+        cargarContenido("inicio"); // Fallback a inicio
+        return;
+    }
 
-		// Restablecer la bandera de inicialización de tabs
-		tabsInitialized = false;
+    try {
+        // Limpiar contenido actual
+        contenedor.innerHTML = '';
+        
+        // Cargar nuevo contenido
+        contenedor.innerHTML = seccion.contenido;
+        
+        // Actualizar título
+        document.title = `Unidad 5 - ${seccion.titulo || seccionId}`;
+        
+        // Actualizar menú activo
+        actualizarMenuActivo(seccionId);
+        
+        // Inicializar tabs solo si es la sección de inicio
+        if (seccionId === 'inicio') {
+            setTimeout(() => {
+                const tabsElement = document.querySelector('.tabs');
+                if (tabsElement) {
+                    M.Tabs.init(tabsElement, {
+                        swipeable: false,
+                        duration: 300
+                    });
+                }
 
-		// Cargar el contenido HTML
-		contenedor.innerHTML = section.contenido;
+                // Ajustar ancho de tabs
+                const tabsContent = document.getElementById('tabsContentID');
+                if (tabsContent && contenedor) {
+                    const ancho = contenedor.offsetWidth - 0.5;
+                    tabsContent.style.width = `${ancho}px`;
+                }
+            }, 100);
+        }
 
-		// Actualizar la URL si es necesario (sin recargar la página)
-		if (history.pushState && window.location.hash !== `#${seccionId}`) {
-			history.pushState(null, null, `#${seccionId}`);
-		}
-
-		// Activar componentes de Materialize
-		activateNewComponents();
-
-		// Desplazarse al inicio
-		window.scrollTo(0, 0);
-
-		// Actualizar clases activas en el menú
-		updateActiveMenuItems(seccionId);
-	} else {
-		console.error("Content container not found");
-	}
+        // Scroll al inicio
+        window.scrollTo(0, 0);
+        
+        // Actualizar sección actual
+        window.seccionActual = seccionId;
+        
+        console.log(`🔴 Sección ${seccionId} cargada exitosamente`);
+    } catch (error) {
+        console.error("🔴 Error al cargar contenido:", error);
+        mostrarError();
+    }
 }
 
-// Función para actualizar las clases activas en los elementos del menú
-function updateActiveMenuItems(seccionId) {
-	// Desktop menu
-	const desktopItems = document.querySelectorAll(".deskOption[seccion-id]");
-	desktopItems.forEach((item) => {
-		if (item.getAttribute("seccion-id") === seccionId) {
-			item.classList.add("activeLinkOptionsContentUnit5");
-		} else {
-			item.classList.remove("activeLinkOptionsContentUnit5");
-		}
-	});
+// Función para actualizar el menú activo
+function actualizarMenuActivo(seccionId) {
+    // Remover clase activa de todos los elementos
+    document.querySelectorAll('.navOptionsContent').forEach(el => {
+        el.classList.remove('activeLinkOptionsContentUnit5');
+    });
 
-	// Mobile menu
-	const mobileItems = document.querySelectorAll(".mobileOption[seccion-id]");
-	mobileItems.forEach((item) => {
-		if (item.getAttribute("seccion-id") === seccionId) {
-			item.classList.add("activeButtonTextLateral");
-		} else {
-			item.classList.remove("activeButtonTextLateral");
-		}
-	});
+    // Activar elemento seleccionado
+    const elementoActivo = document.querySelector(`[seccion-id="${seccionId}"]`);
+    if (elementoActivo) {
+        elementoActivo.classList.add('activeLinkOptionsContentUnit5');
+    }
+    
+    // Actualizar también para elementos móviles
+    document.querySelectorAll('.mobileOption[seccion-id]').forEach(el => {
+        if (el.getAttribute('seccion-id') === seccionId) {
+            el.classList.add('activeButtonTextLateral');
+        } else {
+            el.classList.remove('activeButtonTextLateral');
+        }
+    });
 }
 
-function activateNewComponents() {
-	console.log("Activating new components");
-
-	// Primero, verificamos si Materialize está disponible
-	if (typeof M === "undefined") {
-		console.warn("Materialize not loaded, skipping component initialization");
-		return;
-	}
-
-	try {
-		// Inicializar collapsibles si están presentes (sin depender de tabsContentID)
-		const collapsibles = document.querySelectorAll(".collapsible");
-		if (collapsibles && collapsibles.length > 0) {
-			try {
-				M.Collapsible.init(collapsibles, {});
-				console.log("Collapsibles initialized successfully");
-			} catch (collapsibleError) {
-				console.warn("Error initializing collapsibles:", collapsibleError);
-			}
-		} else {
-			console.log("No collapsibles found to initialize");
-		}
-
-		// Inicializar tabs SOLO si existe tabsContentID
-		const tabsContentElement = document.getElementById("tabsContentID");
-		if (tabsContentElement) {
-			console.log("Tabs content element found, initializing tabs");
-
-			try {
-				// Ajustar ancho de tabs si existe el contenedor padre
-				const parentContainer = document.getElementById("lateralUnityContent");
-				if (parentContainer) {
-					const parentContainerAncho = parentContainer.offsetWidth - 0.5;
-					tabsContentElement.style.width = parentContainerAncho + "px";
-					console.log("Tabs width adjusted to:", parentContainerAncho);
-				}
-
-				// Inicializar tabs solo si no están ya inicializados
-				if (!tabsInitialized) {
-					const tabs = document.querySelectorAll(".tabs");
-					if (tabs && tabs.length > 0) {
-						M.Tabs.init(tabs, {
-							swipeable: false,
-							duration: 300,
-							onShow: function () {
-								console.log("Tab shown");
-							},
-						});
-						tabsInitialized = true;
-						console.log("Tabs initialized successfully");
-					}
-				} else {
-					console.log("Tabs already initialized, skipping");
-				}
-			} catch (tabsError) {
-				console.warn("Error initializing tabs:", tabsError);
-			}
-		} else {
-			console.log(
-				"No tabs content element found, skipping tabs initialization"
-			);
-		}
-
-		// Reactivar zoom si la función está disponible
-		if (typeof reactivateZoomMaterialized === "function") {
-			try {
-				reactivateZoomMaterialized();
-				console.log("Zoom reactivated successfully");
-			} catch (zoomError) {
-				console.warn("Error reactivating zoom, but continuing:", zoomError);
-			}
-		}
-	} catch (generalError) {
-		console.error("General error during component activation:", generalError);
-	}
+// Función para mostrar mensaje de error
+function mostrarError() {
+    const contenedor = document.getElementById("lateralUnityContent");
+    if (contenedor) {
+        contenedor.innerHTML = `
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Error</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Ocurrió un error al cargar el contenido. Por favor, intente nuevamente.
+                    </p>
+                </div>
+            </div>`;
+    }
 }
+
+// Manejador de eventos para clicks en el menú
+function handleMenuClick(event) {
+    const elemento = event.target.closest('[seccion-id]');
+    if (!elemento) return;
+
+    const seccionId = elemento.getAttribute("seccion-id");
+    if (!seccionId) return;
+
+    console.log(`🔴 Clic en menú:`, seccionId);
+    cargarContenido(seccionId);
+    
+    // Si estamos en móvil, cerrar el sidenav
+    const instance = M.Sidenav.getInstance(document.querySelector('#slide-out'));
+    if (instance) {
+        instance.close();
+    }
+}
+
+// Inicialización cuando el DOM está listo
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("🔴 DOM completamente cargado");
+    
+    // Configurar eventos del menú desktop
+    const menuDesktop = document.getElementById("lateralUnityMenuSectionContainer");
+    if (menuDesktop) {
+        // Eliminar eventos anteriores si existen
+        menuDesktop.removeEventListener("click", handleMenuClick);
+        // Agregar nuevo evento
+        menuDesktop.addEventListener("click", handleMenuClick);
+    }
+    
+    // Configurar eventos del menú móvil
+    const menuMobileContainers = document.querySelectorAll(".mobileOptionsContainer");
+    menuMobileContainers.forEach(container => {
+        // Eliminar eventos anteriores si existen
+        container.removeEventListener("click", handleMenuClick);
+        // Agregar nuevo evento
+        container.addEventListener("click", handleMenuClick);
+    });
+    
+    // Cargar la sección de inicio por defecto
+    setTimeout(() => cargarContenido("inicio"), 100);
+});

@@ -25,11 +25,21 @@ function ajustarTamanoTabs() {
 // Ejecutar ajuste solo cuando la página está completamente cargada
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOMContentLoaded en tabsPositioning.js');
-    setTimeout(ajustarTamanoTabs, 500); // Pequeño retraso para asegurar que todo esté listo
+    
+    // Verificar si estamos en la sección de inicio antes de ajustar
+    if (window.seccionActual === 'inicio' || window.seccionActual === null) {
+        setTimeout(ajustarTamanoTabs, 500);
+    }
 });
 
-// Ajustar cuando se redimensiona la ventana
+// Ajustar cuando se redimensiona la ventana, solo si estamos en la página de inicio
 window.addEventListener('resize', function() {
-    ajustarTamanoTabs();
+    // Solo ejecutar si estamos en la sección de inicio
+    if (window.seccionActual === 'inicio') {
+        ajustarTamanoTabs();
+    }
 });
+
+// Exportar la función para que pueda ser utilizada desde unidad1.js
+window.ajustarTamanoTabs = ajustarTamanoTabs;
   

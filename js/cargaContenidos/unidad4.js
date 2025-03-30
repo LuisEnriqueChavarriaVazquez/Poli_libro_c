@@ -1133,105 +1133,158 @@ function cargarContenidoInicial() {
     }
 }
 
-// Función para cargar contenido específico
+// Variable global para rastrear la sección actual
+window.seccionActual = null;
+
+// Función principal para cargar contenido
 function cargarContenido(seccionId) {
-            if (!seccionId) {
-        console.warn('No se proporcionó ID de sección');
+    // Evitar cargar la misma sección múltiples veces
+    if (window.seccionActual === seccionId) {
+        console.log("Ya está cargada esta sección:", seccionId);
         return;
     }
 
-    console.log(`Intentando cargar sección: ${seccionId}`);
+    console.log(`🔴 Cargando sección: ${seccionId}`);
 
-    // Verificar si la sección existe
-    if (!contenidosUnidad[seccionId]) {
-        console.warn(`Sección ${seccionId} no encontrada, usando sección por defecto`);
-        seccionId = "inicio";
-    }
-
-    const section = contenidosUnidad[seccionId];
     const contenedor = document.getElementById("lateralUnityContent");
-
     if (!contenedor) {
-        console.error("Contenedor de contenido no encontrado");
-                return;
-            }
-            
-    console.log(`Cargando contenido para sección: ${seccionId} (${section.titulo})`);
-
-    // Restablecer la bandera de inicialización de tabs
-    tabsInitialized = false;
-
-    // Cargar el contenido HTML
-    contenedor.innerHTML = section.contenido;
-
-    // Actualizar la URL si es necesario (sin recargar la página)
-    if (history.pushState && window.location.hash !== `#${seccionId}`) {
-        history.pushState(null, null, `#${seccionId}`);
+        console.error("🔴 No se encontró el contenedor lateralUnityContent");
+        return;
     }
 
-    // Activar componentes de Materialize
-    activateNewComponents();
-
-    // Desplazarse al inicio
-    window.scrollTo(0, 0);
-
-    // Actualizar clases activas en el menú
-    updateActiveMenuItems(seccionId);
-}
-
-function updateActiveMenuItems(seccionId) {
-    // Remover clase active de todos los elementos del menú
-    document.querySelectorAll('.navOptionsContentMobileMenu, .navOptionsContentLateralMenu').forEach(el => {
-        el.classList.remove('activeButtonTextLateral');
-    });
-
-    // Agregar clase active al elemento seleccionado
-    const selectedElement = document.querySelector(`[seccion-id="${seccionId}"]`);
-    if (selectedElement) {
-        selectedElement.classList.add('activeButtonTextLateral');
+    const seccion = contenidosUnidad[seccionId];
+    if (!seccion) {
+        console.warn(`🔴 Sección no encontrada: ${seccionId}`);
+        cargarContenido("inicio"); // Fallback a inicio
+        return;
     }
-}
 
-// Event Listeners
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Inicializando event listeners...');
-
-    // Cargar contenido inicial
-    cargarContenidoInicial();
-
-    // Event listeners para el menú lateral
-    document.querySelectorAll('.navOptionsContent').forEach(el => {
-        el.addEventListener('click', function(e) {
-            e.preventDefault();
-            const seccionId = this.getAttribute('seccion-id');
-            console.log(`Clic en menú - Sección: ${seccionId}`);
-            if (seccionId) {
-                cargarContenido(seccionId);
-            }
-        });
-    });
-
-    // Event listeners para el menú móvil
-    document.querySelectorAll('.navOptionsContentMobileMenu').forEach(el => {
-        el.addEventListener('click', function(e) {
-            e.preventDefault();
-            const seccionId = this.getAttribute('seccion-id');
-            console.log(`Clic en menú móvil - Sección: ${seccionId}`);
-            if (seccionId) {
-                cargarContenido(seccionId);
-                // Cerrar el menú móvil después de seleccionar una opción
-                const sidenav = document.getElementById('slide-out');
-                if (sidenav) {
-                    M.Sidenav.getInstance(sidenav).close();
+    try {
+        // Limpiar contenido actual
+        contenedor.innerHTML = '';
+        
+        // Cargar nuevo contenido
+        contenedor.innerHTML = seccion.contenido;
+        
+        // Actualizar título
+        document.title = `Unidad 4 - ${seccion.titulo || seccionId}`;
+        
+        // Actualizar menú activo
+        actualizarMenuActivo(seccionId);
+        
+        // Inicializar tabs solo si es la sección de inicio
+        if (seccionId === 'inicio') {
+            setTimeout(() => {
+                const tabsElement = document.querySelector('.tabs');
+                if (tabsElement) {
+                    M.Tabs.init(tabsElement, {
+                        swipeable: false,
+                        duration: 300
+                    });
                 }
-            }
-        });
+
+                // Ajustar ancho de tabs
+                const tabsContent = document.getElementById('tabsContentID');
+                if (tabsContent && contenedor) {
+                    const ancho = contenedor.offsetWidth - 0.5;
+                    tabsContent.style.width = `${ancho}px`;
+                }
+            }, 100);
+        }
+
+        // Scroll al inicio
+        window.scrollTo(0, 0);
+        
+        // Actualizar sección actual
+        window.seccionActual = seccionId;
+        
+        console.log(`🔴 Sección ${seccionId} cargada exitosamente`);
+    } catch (error) {
+        console.error("🔴 Error al cargar contenido:", error);
+        mostrarError();
+    }
+}
+
+// Función para actualizar el menú activo
+function actualizarMenuActivo(seccionId) {
+    // Remover clase activa de todos los elementos del desktop menu
+    document.querySelectorAll('.navOptionsContent').forEach(el => {
+        el.classList.remove('activeLinkOptionsContentUnit4');
     });
 
-    // Manejar cambios en la URL (para navegación con el botón atrás/adelante)
-    window.addEventListener('hashchange', function() {
-        const seccionId = window.location.hash.substring(1) || 'inicio';
-        cargarContenido(seccionId);
+    // Activar elemento seleccionado en el desktop menu
+    const elementoActivo = document.querySelector(`[seccion-id="${seccionId}"]`);
+    if (elementoActivo) {
+        elementoActivo.classList.add('activeLinkOptionsContentUnit4');
+    }
+    
+    // Actualizar también para elementos móviles
+    document.querySelectorAll('.mobileOption[seccion-id]').forEach(el => {
+        if (el.getAttribute('seccion-id') === seccionId) {
+            el.classList.add('activeButtonTextLateral');
+        } else {
+            el.classList.remove('activeButtonTextLateral');
+        }
     });
+}
+
+// Función para mostrar mensaje de error
+function mostrarError() {
+    const contenedor = document.getElementById("lateralUnityContent");
+    if (contenedor) {
+        contenedor.innerHTML = `
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Error</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Ocurrió un error al cargar el contenido. Por favor, intente nuevamente.
+                    </p>
+                </div>
+            </div>`;
+    }
+}
+
+// Manejador de eventos para clicks en el menú
+function handleMenuClick(event) {
+    const elemento = event.target.closest('[seccion-id]');
+    if (!elemento) return;
+
+    const seccionId = elemento.getAttribute("seccion-id");
+    if (!seccionId) return;
+
+    console.log(`🔴 Clic en menú:`, seccionId);
+    cargarContenido(seccionId);
+    
+    // Si estamos en móvil, cerrar el sidenav
+    const instance = M.Sidenav.getInstance(document.querySelector('#slide-out'));
+    if (instance) {
+        instance.close();
+    }
+}
+
+// Inicialización cuando el DOM está listo
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("🔴 DOM completamente cargado");
+    
+    // Configurar eventos del menú desktop
+    const menuDesktop = document.getElementById("lateralUnityMenuSectionContainer");
+    if (menuDesktop) {
+        // Eliminar eventos anteriores si existen
+        menuDesktop.removeEventListener("click", handleMenuClick);
+        // Agregar nuevo evento
+        menuDesktop.addEventListener("click", handleMenuClick);
+    }
+    
+    // Configurar eventos del menú móvil
+    const menuMobileContainers = document.querySelectorAll(".mobileOptionsContainer");
+    menuMobileContainers.forEach(container => {
+        // Eliminar eventos anteriores si existen
+        container.removeEventListener("click", handleMenuClick);
+        // Agregar nuevo evento
+        container.addEventListener("click", handleMenuClick);
+    });
+    
+    // Cargar la sección de inicio por defecto
+    setTimeout(() => cargarContenido("inicio"), 100);
 });
   

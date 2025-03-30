@@ -1000,6 +1000,37 @@ const contenidosUnidad = {
     </div>
 </div>`,
 	},
+	unidad1_3_formulacion_proyecto_informatico: {
+		id: "unidad1_3_formulacion_proyecto_informatico",
+		titulo: "1.3 Formulación de proyecto informático",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Formulación de proyecto informático</div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            La formulación de un proyecto informático es un proceso sistemático que permite estructurar y planificar el desarrollo de una solución tecnológica. Este proceso es fundamental para asegurar el éxito del proyecto y la satisfacción de las necesidades del usuario final.
+        </p>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Los elementos clave en la formulación de un proyecto informático incluyen:
+        </p>
+        <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+            <li>Identificación clara del problema o necesidad</li>
+            <li>Definición de objetivos específicos y medibles</li>
+            <li>Análisis de requisitos funcionales y no funcionales</li>
+            <li>Planificación de recursos y tiempo</li>
+            <li>Evaluación de riesgos y estrategias de mitigación</li>
+            <li>Definición de criterios de éxito</li>
+        </ul>
+        <div class="defaultImage">
+            <div class="defaultImageContent" id="formulacionProyecto"></div>
+        </div>
+        <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+            <a href="https://icons8.com/illustrations/illustration/pixeltrue-planning" target="_blank">Ouch!</a>
+        </span>
+    </div>
+</div>`,
+	},
 };
 
 console.log("contenidosUnidad: ", Object.keys(contenidosUnidad).length);
@@ -1023,14 +1054,19 @@ let buttonContaineChargeContent = document.getElementById(
 	"lateralUnityMenuSectionContainer"
 );
 buttonContaineChargeContent.addEventListener("click", function (event) {
-	if (event.target.classList.contains("deskOption")) {
-		console.log(event.target);
-		let buttonIndex = event.target.getAttribute("seccion-id");
-		if (contenidosUnidad[buttonIndex] == undefined) {
-			let a1tutorialButton = document.getElementById("a1tutorialButton");
-			a1tutorialButton.click();
-		} else {
-			cargarContenido(buttonIndex);
+	// Verificar si el clic fue en un elemento con la clase deskOption
+	const deskOption = event.target.closest('.deskOption');
+	if (deskOption) {
+		let buttonIndex = deskOption.getAttribute("seccion-id");
+		if (buttonIndex) {
+			if (contenidosUnidad[buttonIndex] === undefined) {
+				let a1tutorialButton = document.getElementById("a1tutorialButton");
+				if (a1tutorialButton) {
+					a1tutorialButton.click();
+				}
+			} else {
+				cargarContenido(buttonIndex);
+			}
 		}
 	}
 });
@@ -1043,28 +1079,65 @@ for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
 	buttonContaineChargeContentMobile[i].addEventListener(
 		"click",
 		function (event) {
-			if (event.target.classList.contains("mobileOption")) {
-				console.log(event.target);
-				let buttonIndex = event.target.getAttribute("seccion-id");
-				cargarContenido(buttonIndex);
-				if (contenidosUnidad[buttonIndex] == undefined) {
-					let a1tutorialButton = document.getElementById("a1tutorialButton");
-					a1tutorialButton.click();
+			// Verificar si el clic fue en un elemento con la clase mobileOption
+			const mobileOption = event.target.closest('.mobileOption');
+			if (mobileOption) {
+				let buttonIndex = mobileOption.getAttribute("seccion-id");
+				if (buttonIndex) {
+					if (contenidosUnidad[buttonIndex] === undefined) {
+						let a1tutorialButton = document.getElementById("a1tutorialButton");
+						if (a1tutorialButton) {
+							a1tutorialButton.click();
+						}
+					} else {
+						cargarContenido(buttonIndex);
+					}
 				}
 			}
 		}
 	);
 }
 
-// Función para cargar contenido
-function cargarContenido(seccionId) {
-	const contenedor = document.getElementById("lateralUnityContent");
-	const seccion = contenidosUnidad[seccionId];
+// Variable global para rastrear la sección actual
+window.seccionActual = null;
 
-	if (seccion) {
-		contenedor.innerHTML = seccion.contenido;
+// Función principal para cargar contenido
+function cargarContenido(seccionId) {
+    // Evitar cargar la misma sección múltiples veces
+    if (window.seccionActual === seccionId) {
+        console.log("Ya está cargada esta sección:", seccionId);
+        return;
+    }
+
+    console.log(`🔴 Cargando sección: ${seccionId}`);
+
+    const contenedor = document.getElementById("lateralUnityContent");
+    if (!contenedor) {
+        console.error("🔴 No se encontró el contenedor lateralUnityContent");
+        return;
+    }
+
+    const seccion = contenidosUnidad[seccionId];
+    if (!seccion) {
+        console.warn(`🔴 Sección no encontrada: ${seccionId}`);
+        cargarContenido("inicio"); // Fallback a inicio
+        return;
+    }
+
+    try {
+        // Limpiar contenido actual
+        contenedor.innerHTML = '';
         
-        // Inicializar los tabs si estamos en la sección de inicio
+        // Cargar nuevo contenido
+        contenedor.innerHTML = seccion.contenido;
+        
+        // Actualizar título
+        document.title = `Unidad 1 - ${seccion.titulo || seccionId}`;
+        
+        // Actualizar menú activo
+        actualizarMenuActivo(seccionId);
+        
+        // Inicializar tabs solo si es la sección de inicio
         if (seccionId === 'inicio') {
             setTimeout(() => {
                 const tabsElement = document.querySelector('.tabs');
@@ -1074,50 +1147,99 @@ function cargarContenido(seccionId) {
                         duration: 300
                     });
                 }
-                
-                // Ajustar el ancho de los tabs
-                const tabsContentElement = document.getElementById('tabsContentID');
-                if (tabsContentElement) {
-                    const parentContainer = document.getElementById('lateralUnityContent');
-                    if (parentContainer) {
-                        const parentContainerAncho = parentContainer.offsetWidth - 0.5;
-                        tabsContentElement.style.width = parentContainerAncho + 'px';
-                    }
+
+                // Ajustar ancho de tabs
+                const tabsContent = document.getElementById('tabsContentID');
+                if (tabsContent && contenedor) {
+                    const ancho = contenedor.offsetWidth - 0.5;
+                    tabsContent.style.width = `${ancho}px`;
                 }
             }, 100);
         }
 
-        // Actualizar el título de la sección actual
-		document.title = `Unidad 1 - ${seccion.titulo}`;
+        // Scroll al inicio
+        window.scrollTo(0, 0);
         
-        // Actualizar clases activas en el menú
-        document.querySelectorAll('.navOptionsContent').forEach(el => {
-            el.classList.remove('activeLinkOptionsContentUnit1');
-        });
-        const elementoActivar = document.querySelector(`[seccion-id="${seccionId}"]`);
-        if (elementoActivar) {
-            elementoActivar.classList.add('activeLinkOptionsContentUnit1');
-        }
-	} else {
-		console.warn(`Sección ${seccionId} no encontrada`);
-		contenedor.innerHTML = `
-			<div class="shadow4 border1 clw">
-				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Error</div>
-				<div class="cardDesign clw border1Inf">
-					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
-						La sección solicitada no está disponible.
-					</p>
-				</div>
-			</div>`;
-	}
+        // Actualizar sección actual
+        window.seccionActual = seccionId;
+        
+        console.log(`🔴 Sección ${seccionId} cargada exitosamente`);
+    } catch (error) {
+        console.error("🔴 Error al cargar contenido:", error);
+        mostrarError();
+    }
 }
 
-// Cargar contenido inicial cuando se carga la página
+// Función para actualizar el menú activo
+function actualizarMenuActivo(seccionId) {
+    // Remover clase activa de todos los elementos
+    document.querySelectorAll('.navOptionsContent').forEach(el => {
+        el.classList.remove('activeLinkOptionsContentUnit1');
+    });
+
+    // Activar elemento seleccionado
+    const elementoActivo = document.querySelector(`[seccion-id="${seccionId}"]`);
+    if (elementoActivo) {
+        elementoActivo.classList.add('activeLinkOptionsContentUnit1');
+    }
+}
+
+// Función para mostrar mensaje de error
+function mostrarError() {
+    const contenedor = document.getElementById("lateralUnityContent");
+    if (contenedor) {
+        contenedor.innerHTML = `
+            <div class="shadow4 border1 clw">
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Error</div>
+                <div class="cardDesign clw border1Inf">
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        Ocurrió un error al cargar el contenido. Por favor, intente nuevamente.
+                    </p>
+                </div>
+            </div>`;
+    }
+}
+
+// Manejador de eventos para clicks en el menú
+function handleMenuClick(event) {
+    const elemento = event.target.closest('[seccion-id]');
+    if (!elemento) return;
+
+    const seccionId = elemento.getAttribute("seccion-id");
+    if (!seccionId) return;
+
+    console.log(`🔴 Clic en menú:`, seccionId);
+    cargarContenido(seccionId);
+    
+    // Si estamos en móvil, cerrar el sidenav
+    const instance = M.Sidenav.getInstance(document.querySelector('#slide-out'));
+    if (instance) {
+        instance.close();
+    }
+}
+
+// Inicialización cuando el DOM está listo
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("DOM completamente cargado");
+    console.log("🔴 DOM completamente cargado");
+    
+    // Configurar eventos del menú desktop
+    const menuDesktop = document.getElementById("lateralUnityMenuSectionContainer");
+    if (menuDesktop) {
+        // Eliminar eventos anteriores si existen
+        menuDesktop.removeEventListener("click", handleMenuClick);
+        // Agregar nuevo evento
+        menuDesktop.addEventListener("click", handleMenuClick);
+    }
+    
+    // Configurar eventos del menú móvil
+    const menuMobileContainers = document.querySelectorAll(".mobileOptionsContainer");
+    menuMobileContainers.forEach(container => {
+        // Eliminar eventos anteriores si existen
+        container.removeEventListener("click", handleMenuClick);
+        // Agregar nuevo evento
+        container.addEventListener("click", handleMenuClick);
+    });
     
     // Cargar la sección de inicio por defecto
-    setTimeout(function() {
-        cargarContenido("inicio");
-    }, 100);
+    setTimeout(() => cargarContenido("inicio"), 100);
 });
