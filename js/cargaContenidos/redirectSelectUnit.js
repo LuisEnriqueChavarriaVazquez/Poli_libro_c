@@ -29,6 +29,12 @@ const unidades = {
         url: 'unidad5.html',
         color: '#8896C7',
         textColor: '#2C3E50'
+    },
+    'proyectoFinal': {
+        titulo: 'Desarrollo del proyecto final',
+        url: 'proyecto-final.html',
+        color: '#7BA7CC',
+        textColor: '#2C3E50'
     }
 };
 
@@ -162,7 +168,7 @@ function crearSelectUnidades() {
         height: 24px;
         white-space: nowrap;
     `;
-    unitNumber.textContent = `Unidad ${currentUnit.slice(-1)}`;
+    unitNumber.textContent = currentUnit === 'proyectoFinal' ? 'Proyecto Final' : `Unidad ${currentUnit.slice(-1)}`;
 
     // Crear el título de la unidad
     const unitTitle = document.createElement('span');
@@ -247,7 +253,7 @@ function crearSelectUnidades() {
             height: 24px;
             white-space: nowrap;
         `;
-        optionNumber.textContent = `Unidad ${key.slice(-1)}`;
+        optionNumber.textContent = key === 'proyectoFinal' ? 'Proyecto Final' : `Unidad ${key.slice(-1)}`;
 
         const optionTitle = document.createElement('span');
         optionTitle.style.cssText = `

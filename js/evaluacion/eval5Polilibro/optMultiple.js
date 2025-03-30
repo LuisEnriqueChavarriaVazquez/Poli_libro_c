@@ -180,7 +180,7 @@ function preguntas_aleatorias() {
                         <label class="form-check-label textoStandar clbktx" for="pregunta${preguntas_aleatorias_indices[i]}_opt2">
                             <input name="flexRadioDefault1" type="radio" 
                             id="pregunta${preguntas_aleatorias_indices[i]}_opt2" 
-                            value="${preguntas[preguntas_aleatorias_indices[i]].opciones[2]}"/>
+                            value="${preguntas[preguntas_aleatorias_indices[i]].opciones[1]}"/>
                             <span>${preguntas[preguntas_aleatorias_indices[i]].opciones[1]}</span>
                         </label>
                     </div>

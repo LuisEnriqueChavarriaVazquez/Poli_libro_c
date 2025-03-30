@@ -960,7 +960,16 @@ const contenidosUnidad = {
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            Hasta este momento ya conoces, a grandes rasgos, los aspectos generales acerca de la importancia que tiene la formulación de un proyecto informático y a solicitud de tu profesor(a) ya estás pensando qué proyecto desarrollarás a lo largo de esta unidad de aprendizaje, se pretende que tu proyecto sea innovador. Para lograrlo, necitas apoyarte en una metodología para innovar, una de las más utilizadas con buenos resultados es la metodología Design Thinking. Ésta será abordada en la siguiente unidad temática, en la que utilizarás algunas de sus herramientas con el propósito de construir un prototipo centrado en el usuario final, creativo y con posibilidades de ser innovador.
+            Hasta este momento ya conoces, a grandes rasgos, los aspectos generales acerca de la importancia que tiene la formulación de un proyecto informático. 
+        </p>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            A solicitud de tu profesor(a), ya estás pensando qué proyecto desarrollarás a lo largo de esta unidad de aprendizaje. Se pretende que tu proyecto sea innovador. 
+        </p>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Para lograrlo, necesitas apoyarte en una metodología para innovar. Una de las más utilizadas con buenos resultados es la metodología Design Thinking. 
+        </p>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Ésta será abordada en la siguiente unidad temática, en la que utilizarás algunas de sus herramientas con el propósito de construir un prototipo centrado en el usuario final, creativo y con posibilidades de ser innovador.
         </p>
         <div class="defaultImage">
             <div class="defaultImageContent" id="cierre"></div>
