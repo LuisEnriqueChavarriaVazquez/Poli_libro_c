@@ -25,12 +25,66 @@ const unidades = {
         textColor: '#2C3E50'
     },
     'unidad5': {
-        titulo: 'Título de la unidad 5',
+        titulo: 'Evaluación Financiera del proyecto',
         url: 'unidad5.html',
         color: '#8896C7',
         textColor: '#2C3E50'
     }
 };
+
+// Función para truncar texto
+function truncateText(text, maxLength) {
+    if (text.length <= maxLength) return text;
+    return text.substring(0, maxLength - 3) + '...';
+}
+
+// Función para actualizar el texto según el ancho de la pantalla
+function updateTextSizes() {
+    const selectContent = document.querySelector('.select-content');
+    if (!selectContent) return;
+
+    const unitTitle = selectContent.querySelector('.unit-title');
+    const unitNumber = selectContent.querySelector('.unit-number');
+    const selectContainer = document.querySelector('.custom-select-container');
+    const customSelect = document.querySelector('.custom-select');
+
+    // Ajustar estilos según el ancho de la pantalla
+    if (window.innerWidth <= 768) {
+        selectContainer.style.minWidth = '90%';
+        selectContainer.style.margin = '16px auto';
+        unitTitle.style.fontSize = '14px';
+        unitNumber.style.fontSize = '12px';
+        customSelect.style.height = '28px';
+        
+        // Truncar texto en móviles
+        const originalText = unitTitle.getAttribute('data-original-text') || unitTitle.textContent;
+        unitTitle.setAttribute('data-original-text', originalText);
+        unitTitle.textContent = truncateText(originalText, 40);
+    } else if (window.innerWidth <= 1024) {
+        selectContainer.style.minWidth = '400px';
+        selectContainer.style.margin = '16px auto';
+        unitTitle.style.fontSize = '16px';
+        unitNumber.style.fontSize = '14px';
+        customSelect.style.height = '30px';
+
+        // Truncar texto en tablets
+        const originalText = unitTitle.getAttribute('data-original-text') || unitTitle.textContent;
+        unitTitle.setAttribute('data-original-text', originalText);
+        unitTitle.textContent = truncateText(originalText, 60);
+    } else {
+        selectContainer.style.minWidth = '500px';
+        selectContainer.style.margin = '18px auto';
+        unitTitle.style.fontSize = '18px';
+        unitNumber.style.fontSize = '16px';
+        customSelect.style.height = '32px';
+
+        // Restaurar texto original en desktop
+        const originalText = unitTitle.getAttribute('data-original-text');
+        if (originalText) {
+            unitTitle.textContent = originalText;
+        }
+    }
+}
 
 // Función para crear el select personalizado
 function crearSelectUnidades() {
@@ -50,6 +104,7 @@ function crearSelectUnidades() {
         width: auto;
         margin: 18px auto;
         z-index: 99999999999999999999;
+        transition: all 0.3s ease;
     `;
 
     // Crear el select personalizado
@@ -120,6 +175,10 @@ function crearSelectUnidades() {
         line-height: 24px;
         display: inline-flex;
         align-items: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: all 0.3s ease;
     `;
     unitTitle.textContent = unidades[currentUnit].titulo;
 
@@ -198,6 +257,10 @@ function crearSelectUnidades() {
             line-height: 24px;
             display: inline-flex;
             align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: all 0.3s ease;
         `;
         optionTitle.textContent = value.titulo;
 
@@ -359,7 +422,14 @@ function crearSelectUnidades() {
 
     // Reemplazar el título actual con el select
     titleContainer.parentNode.replaceChild(selectContainer, titleContainer);
+
+    // Inicializar los tamaños de texto responsivos
+    updateTextSizes();
 }
 
 // Inicializar el select cuando el DOM esté listo
-document.addEventListener('DOMContentLoaded', crearSelectUnidades);
+document.addEventListener('DOMContentLoaded', () => {
+    crearSelectUnidades();
+    // Agregar listener para el resize de la ventana
+    window.addEventListener('resize', updateTextSizes);
+});

@@ -21,12 +21,16 @@ const contenidosUnidad = {
           <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
           <div class="cardDesign clw border1Inf">
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Estimados estudiantes que cursan la unidad de aprendizaje Finanzas empresariales, que se imparte en la
-              <i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
-              bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 1: la empresa y su entorno</i>,
-              correspondiente a la unidad de aprendizaje Finanzas empresariales.
-              Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la unidad
-              en cuestión, esperamos que les sea de gran ayuda.
+                  La evaluación financiera de un proyecto es un proceso fundamental para determinar su viabilidad económica y su rentabilidad.
+              </p>
+              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                  A través de diversas herramientas y métodos de análisis, se busca medir los costos, beneficios y riesgos asociados a la inversión, permitiendo a los tomadores de decisiones establecer si el proyecto es sostenible y rentable en el tiempo.
+              </p>
+              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                  Este proceso incluye la estimación de flujos de efectivo, el cálculo de indicadores financieros como el valor presente neto (VPN), la tasa interna de retorno (TIR) y el período de recuperación de la inversión (PRI), así como el análisis de escenarios y riesgos.
+              </p>
+              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                  En esta unidad conocerás los principales métodos de evaluación financiera, su aplicación en la toma de decisiones estratégicas y su importancia en el éxito y la sostenibilidad económica de un proyecto.
               </p>
   
   
@@ -140,10 +144,6 @@ const contenidosUnidad = {
                               <td class="textoStandarTable">Los presupuestos y la evaluación financiera del proyecto</td>
                               <td class="cellCenter textoStandarTable">5%</td>
                           </tr>
-                          <tr>
-                              <td class="cellCenter textoStandarTable" colspan="2">Total</td>
-                              <td class="cellCenter textoStandarTable">5%</td>
-                          </tr>
                       </tbody>
                   </table>
               </div>
@@ -203,16 +203,17 @@ const contenidosUnidad = {
     <div class="shadow4 border1 clw">
           <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
           <div class="cardDesign clw border1Inf">
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                <i class="keyWord">Las empresas son la base del sistema económico</i>, debido a que se encargan de <i class="keyWord">la producción, comercialización y distribución de bienes</i> que satisfacen las múltiples necesidades la sociedad. Más allá de su infraestructura, tamaño y giro <i class="keyWord">toda empresa debe constituirse de acuerdo con la legislación vigente</i> que le otorga una personalidad jurídica propia e independiente de sus dueños; para su funcionamiento <i class="keyWord">requiere de recursos financieros, tecnológicos y humanos</i> los cuales deben ser administrados eficientemente para cumplir con sus objetivos.
+               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                  La evaluación financiera de un proyecto es un proceso fundamental para determinar su viabilidad económica y su rentabilidad.
               </p>
-                
-              <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2"> 
-                  Las empresas <i class="keyWord">juegan un papel fundamental en cualquier economía;</i> sin embargo, son afectadas por diferentes <i class="keyWord">factores presentes en el micro y macroentorno</i> que las obligan a tomar decisiones con el propósito de permanecer vigentes en el mercado. Por otro lado, <i class="keyWord">una buena o mala administración de los recursos se verá reflejada en las finanzas,</i> que se encargan de la distribución y el uso que se le da al dinero.
-              </blockquote>
-              
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              Los contenidos abordados en este RDD están dirigidos a lograr la siguiente unidad de competencia o aprendizajes esperados de la unidad 1: <i class="keyWord">reconoce el papel de las finanzas a partir del contexto empresarial</i>, por lo que su construcción fue totalmente intencionada en aras de <i class="keyWord">favorecer y apoyarte en tu proceso de aprendizaje</i>.
+                  A través de diversas herramientas y métodos de análisis, se busca medir los costos, beneficios y riesgos asociados a la inversión, permitiendo a los tomadores de decisiones establecer si el proyecto es sostenible y rentable en el tiempo.
+              </p>
+              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                  Este proceso incluye la estimación de flujos de efectivo, el cálculo de indicadores financieros como el valor presente neto (VPN), la tasa interna de retorno (TIR) y el período de recuperación de la inversión (PRI), así como el análisis de escenarios y riesgos.
+              </p>
+              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                  En esta unidad conocerás los principales métodos de evaluación financiera, su aplicación en la toma de decisiones estratégicas y su importancia en el éxito y la sostenibilidad económica de un proyecto.
               </p>
               
               <div class="defaultImage">
@@ -858,91 +859,67 @@ const contenidosUnidad = {
     </div>
     `
 	},
-	materialApoyo: {
-		id: "materialApoyo",
-		titulo: "Material de apoyo",
-		type: "contenido",
-		contenido: `<section class="containerActividadAprendizajeFather">
-      <div class="textoTitulo clbktx">Material de apoyo</div>
-      <section class="gridActividadesAprendizaje">
-  
-          <!--Tarjeta 1-->
-          <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Lectura 1</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las organizaciones y la empresa</p>
-              <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div>
-          
-  
-      </section>
-  </section>`
-	},
-	actividadesAprendizaje: {
-		id: "actividadesAprendizaje",
-		titulo: "Actividades de aprendizaje",
-		type: "contenido",
-		contenido: `<!--Tarjeta con las actividades-->
-  <section class="containerActividadAprendizajeFather">
-      <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
-      <section class="gridActividadesAprendizaje">
-          <!--Tarjeta 1-->
-          <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.1</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa y su constitución jurídica</p>
-              <a href="./pdf/actividades/Actividad 1.1 La empresa y su constitucion juridica.pdf" target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div>
-  
-          <!--Tarjeta 2-->
-          <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.2</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las finanzas y su importancia</p>
-              <a href="./pdf/actividades/Actividad 1.2 Las finanzas y su importancia.pdf"  target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div>
-  
-          <!--Tarjeta 3-->
-          <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 1.3</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">La empresa, sus finanzas y su relación con el entorno</p>
-              <a href="./pdf/actividades/Actividad 1.3 La empresa, sus finanzas y su relacion con el entorno.pdf" target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div>
-  
-      </section>
-  </section>`
-	},
-	cierre: {
-		id: "cierre",
-		titulo: "Cierre de la unidad temática",
-		type: "contenido",
-		contenido: `<div class="shadow4 border1 clw">
+		materialApoyo: {
+			id: "materialApoyo",
+			titulo: "Material de apoyo",
+			type: "contenido",
+			contenido: `<section class="containerActividadAprendizajeFather">
+    <div class="textoTitulo clbktx">Material de apoyo</div>
+    <div class="shadow4 border1 clw">
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Por el momento no hay material de apoyo disponible para esta unidad.
+            </p>
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="notFound"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-searching" target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
+</section>`
+		},
+		actividadesAprendizaje: {
+			id: "actividadesAprendizaje",
+			titulo: "Actividades de aprendizaje",
+			type: "contenido",
+			contenido: `<section class="containerActividadAprendizajeFather">
+    <div class="textoTitulo clbktx">Material de apoyo</div>
+    <div class="shadow4 border1 clw">
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Por el momento no hay actividades de aprendizaje disponibles para esta unidad.
+            </p>
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="notFound"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-searching" target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
+</section>`
+		},
+		cierre: {
+			id: "cierre",
+			titulo: "Cierre de la unidad temática",
+			type: "contenido",
+			contenido: `<div class="shadow4 border1 clw">
       <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
       <div class="cardDesign clw border1Inf">
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              ¡Felicidades! Has concluido esta unidad temática. Ahora tienes más elementos que te ayudarán a reconocer la relevancia que tienen las finanzas en todas las organizaciones y en específico en las empresas, independientemente de su constitución, tamaño y giro.
+              ¡Enhorabuena! has abordado todos los contenidos de la Unidad de aprendizaje Formulación y evaluación de proyectos informáticos.
           </p>
-  
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              Recuerda que las empresas son indispensables en nuestras vidas y que constituyen la columna vertebral de la economía. En este sentido, la productividad, la rentabilidad y la competitividad se han convertido en tres de las principales pretensiones de muchas empresas. Para lograr dichas pretensiones se requiere, entre otros aspectos, de la toma de decisiones basadas en información financiera verídica, confiable y oportuna que se verá reflejada en los estados financieros, tema que estudiarás en la unidad temática 2.
-          </blockquote>
+          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+              Tal y como se mencionó antes, este RDD se construyó con la intención de apoyarte en tu proceso de aprendizaje y guiarte en el desarrollo de tu proyecto informático.
+          </p>
+          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+              Esperamos que este recurso didáctico haya sido de gran utilidad para tu aprendizaje y, sobre todo, te haya proporcionado una grata experiencia didáctica.
+          </p>
+          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+              Gracias.
+          </p>
   
           <div class="defaultImage">
               <div class="defaultImageContent" id="cierre"></div>
@@ -1044,7 +1021,7 @@ function actualizarMenuActivo(seccionId) {
     document.querySelectorAll('.mobileOption[seccion-id]').forEach(el => {
         if (el.getAttribute('seccion-id') === seccionId) {
             el.classList.add('activeButtonTextLateral');
-        } else {
+		} else {
             el.classList.remove('activeButtonTextLateral');
         }
     });

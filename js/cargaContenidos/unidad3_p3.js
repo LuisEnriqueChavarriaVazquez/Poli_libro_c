@@ -574,25 +574,24 @@ const contenidosUnidad = {
 		id: "materialApoyo",
 		titulo: "Material de apoyo",
 		icono: "auto_stories",
-		contenido: `<section class="containerActividadAprendizajeFather">
-<div class="textoTitulo clbktx">Material de apoyo</div>
-<section class="gridActividadesAprendizaje">
-
-    <!-- Tarjeta 1
-    <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-        <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Lectura 1</p>
-        <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las organizaciones y la empresa</p>
-        <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
-            <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                <i class="material-icons clbktx">download</i>
-                <span class="clbktx">Descargar</span>
+		contenido: `
+        <section class="containerActividadAprendizajeFather">
+    <div class="textoTitulo clbktx">Material de apoyo</div>
+    <div class="shadow4 border1 clw">
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Por el momento no hay material de apoyo disponible para esta unidad.
+            </p>
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="notFound"></div>
             </div>
-        </a>
-    </div> -->
-
-
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-searching" target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
 </section>
-</section>`,
+        `,
 	},
 	actividades: {
 		id: "actividades",
@@ -614,6 +613,17 @@ const contenidosUnidad = {
         </a>
     </div>
 
+    <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
+        <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 4</p>
+        <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Plan de desarrollo del software</p>
+        <a href="./pdf/actividades/ACTIVIDAD_4 Plan de desarrollo del software.pdf" target="_blank">
+            <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
+                <i class="material-icons clbktx">download</i>
+                <span class="clbktx">Descargar</span>
+            </div>
+        </a>
+    </div>
+
 </section>
 </section>`,
 	},
@@ -626,19 +636,15 @@ const contenidosUnidad = {
 </div>
 <div class="cardDesign clw border1Inf">
     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-        ¡Felicidades! Has concluido esta unidad temática. Ahora tienes más elementos que te ayudarán a reconocer la
-        relevancia que tienen las finanzas en todas las organizaciones y en específico en las empresas,
-        independientemente de su constitución, tamaño y giro.
+        Has concluido esta unidad temática, por lo que cuentas con los conocimientos básicos acerca de los aspectos técnicos y ambientales del proyecto, 
+        mismos que deberán ser incorporados en tu proyecto.
     </p>
-
-    <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-        Recuerda que las empresas son indispensables en nuestras vidas y que constituyen la columna vertebral de la
-        economía. En este sentido, la productividad, la rentabilidad y la competitividad se han convertido en tres
-        de las principales pretensiones de muchas empresas. Para lograr dichas pretensiones se requiere, entre otros
-        aspectos, de la toma de decisiones basadas en información financiera verídica, confiable y oportuna que se
-        verá reflejada en los estados financieros, tema que estudiarás en la unidad temática 2.
-    </blockquote>
-
+    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+        Con todo lo que has trabajado, ya tienes información suficiente e incluso ya la estás documentando en tu proyecto. 
+        Ha llegado el momento de que dicha información se represente en términos de dinero; es decir, ya estás preparado(a) para construir los presupuestos asociados a tu proyecto, 
+        tema que abordarás en la siguiente unidad temática.
+    </p>
+    
     <div class="defaultImage">
         <div class="defaultImageContent" id="cierre"></div>
     </div>

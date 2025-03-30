@@ -20,11 +20,13 @@ const contenidosUnidad = {
                 <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    Estimados estudiantes que cursan la unidad de aprendizaje Formulación y evaluación de proyectos informáticos, que se imparte en la
-                    <i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
-                    bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 2: Innovación y la gestión del mercado</i>.
-                    Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la unidad
-                    en cuestión, esperamos que les sea de gran ayuda.
+                En un mundo en constante evolución, la innovación se ha convertido en un diferenciador, en uno de los pilares para el éxito de las organizaciones. La innovación no solo consiste en desarrollar nuevos productos o servicios o en incorporarles mejoras; también se puede innovar en el modelo de negocios, en los procesos, en la relación con el cliente, en los canales de distribución y en cualquier otro aspecto. La innovación no tiene límites.
+            </p>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Toda innovación va dirigida a un mercado (usuario) específico, entonces para innovar es fundamental conocer bien al mercado en el que nos enfocaremos. En este sentido, cobran relevancia: la investigación de mercados, la identificación de tendencias, segmentación adecuada y el diseño de estrategias de comercialización, por mencionar algunas.
+            </p>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                A diferencia de lo que se pudiera pensar, la innovación puede ser aprendida y entrenada, por lo que está al alcance de todas las personas. Hoy día existen algunas metodologías que empresas exitosas han utilizado en sus procesos de innovación. En este curso nos enfocaremos en una de esas metodologías: la metodología Design Thinking que a través de sus cinco fases —empatizar, definir, idear, prototipar y testear— posibilita generar soluciones creativas e innovadoras centradas en las verdaderas necesidades del cliente; es decir, en aquello a lo que el cliente le da valor y está dispuesto a comprar.
                     </p>
                     <div class="defaultImage">
                         <div class="defaultImageContent" id="bienvenida"></div>
@@ -93,10 +95,6 @@ const contenidosUnidad = {
                                     <td class="cellCenter textoStandarTable" rowspan="2">Unidad II</td>
                                     <td class="cellCenter textoStandarTable">Actividad 2</td>
                                     <td class="textoStandarTable">Formulación de un proyecto informático</td>
-                                    <td class="cellCenter textoStandarTable">15%</td>
-                                </tr>
-                                <tr>
-                                    <td class="cellCenter textoStandarTable" colspan="2">Total</td>
                                     <td class="cellCenter textoStandarTable">15%</td>
                                 </tr>
                             </tbody>
@@ -400,7 +398,7 @@ const contenidosUnidad = {
         titulo: "2.2.1 Empatizar con el usuario y explorar el mercado",
         contenido: `
 <div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.1 Empatizar con el usuario y
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.2.1 Empatizar con el usuario y
         explorar el mercado </div>
     <div class="cardDesign clw border1Inf">
 
@@ -455,7 +453,7 @@ const contenidosUnidad = {
         titulo: "2.2.2 Definir necesidades del usuario",
         contenido: `
 <div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.2 Definir necesidades del
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.2.2 Definir necesidades del
         usuario</div>
     <div class="cardDesign clw border1Inf">
 
@@ -566,7 +564,7 @@ const contenidosUnidad = {
         titulo: "2.2.3 Idear con propuesta de valor",
         contenido: `
 <div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.3 Idear con propuesta de valor </div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.2.3 Idear con propuesta de valor </div>
     <div class="cardDesign clw border1Inf">
 
         <div class="shadow2 border1 clgreyl1">
@@ -700,7 +698,7 @@ const contenidosUnidad = {
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                     Una vez que ya tienes el problema definido, el siguiente paso es idear la solución. Para ello, es necesario que formules 
-                    previamente la pregunta “¿Cómo podríamos…?”. Seguramente ya tienes formulada la pregunta, porque fue parte de la 
+                    previamente la pregunta "¿Cómo podríamos…?" Seguramente ya tienes formulada la pregunta, porque fue parte de la 
                     actividad anterior.<br><br>
 
                     <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">  
@@ -722,7 +720,7 @@ const contenidosUnidad = {
         titulo: "2.2.4 Prototipar la idea",
         contenido: `
 <div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.4 Prototipar la idea</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.2.4 Prototipar la idea</div>
     <div class="cardDesign clw border1Inf">
 
         <div class="shadow2 border1 clgreyl1">
@@ -765,7 +763,7 @@ const contenidosUnidad = {
         titulo: "2.2.5 Testeo (validar)",
         contenido: `
 <div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.1.5 Testeo (validar)</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.2.5 Testeo (validar)</div>
     <div class="cardDesign clw border1Inf">
 
         <div class="shadow2 border1 clgreyl1">
@@ -812,13 +810,127 @@ const contenidosUnidad = {
 <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">2.3 Modelo de negocios Canvas</div>
     <div class="cardDesign clw border1Inf">
-        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            El Modelo de Negocios Canvas (Business Model Canvas) fue creado por Alexander Osterwaler; es una herramienta dinámica y visual en la que se describe de manera lógica la forma en la que las organizaciones crean, entregan y capturan valor para sus clientes (Serrano y Blázquez, 2016).
+        </p>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            El canvas model es un lienzo sumamente útil; en el que se plasma información muy concreta y clara, permitiéndonos observar y comprender a nuestro usuario, crear prototipos rápidamente para testear, evaluar en el mercado si se comportan como esperábamos y hacer los ajustes que sean necesarios.
+        </p>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            El modelo de negocios canvas se compone de nueve bloques, a continuación se detallan:
+        </p>
 
-            
+        <div class="cardDesign clgreyl2 border1">
+            <table class="striped highlight responsive-table clw border1 shadow2">
+                <thead>
+                    <tr>
+                        <th class="clbktx textoStandarTable" style="width: 5%">No.</th>
+                        <th class="clbktx textoStandarTable" style="width: 45%">BLOQUE</th>
+                        <th class="clbktx textoStandarTable" style="width: 50%">PREGUNTAS QUE DEBES CONTESTAR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="cellCenter textoStandarTable">1</td>
+                        <td class="textoStandarTable"><b>Segmento de clientes.</b> No olvides que el cliente es el centro del modelo y debemos conocer todo sobre él. En este bloque describirás el segmento o segmentos de mercado en los que te enfocarás, para ello puedes crear tu buyer persona.</td>
+                        <td class="textoStandarTable">
+                            <ul class="browser-default">
+                                <li>¿A quién ayudamos a resolver un problema?</li>
+                                <li>¿Qué necesidades funcionales podemos resolver?</li>
+                                <li>¿Para quién estamos creando valor?</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cellCenter textoStandarTable">2</td>
+                        <td class="textoStandarTable"><b>Propuesta de valor.</b> Debes explicar de forma detallada las características y bondades de tu producto o servicio, tienes que resaltar porqué es diferente al de otros negocios. La propuesta de valor es clave para tu negocio.</td>
+                        <td class="textoStandarTable">
+                            <ul class="browser-default">
+                                <li>¿De qué forma vas a solucionar su problema?</li>
+                                <li>¿Qué necesidad estas satisfaciendo?</li>
+                                <li>¿Qué valor estas ofreciendo a tus clientes?</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cellCenter textoStandarTable">3</td>
+                        <td class="textoStandarTable"><b>Canales.</b> Cómo vamos a hacer llegar nuestro producto/servicio al cliente.</td>
+                        <td class="textoStandarTable">¿Cómo te conocerá, comprará y evaluará el producto tu público objetivo?</td>
+                    </tr>
+                    <tr>
+                        <td class="cellCenter textoStandarTable">4</td>
+                        <td class="textoStandarTable"><b>Relación con los clientes.</b> Determina cuál es la mejor forma de comunicarte con tus clientes, si debe ser una relación personalizada y exclusiva o general.</td>
+                        <td class="textoStandarTable">
+                            <ul class="browser-default">
+                                <li>¿Qué tipo de relación vas a establecer con tus clientes?</li>
+                                <li>¿De qué manera vas a gestionar la relación con los clientes?</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cellCenter textoStandarTable">5</td>
+                        <td class="textoStandarTable"><b>Fuentes de ingresos.</b> Define la forma en que vas a monetizar tu producto ya que esta es la manera de cómo va a entrar el dinero a tu negocio. Podrás incluir el dinero que entre por la venta del producto y si es el caso las inversiones de los asociados claves.</td>
+                        <td class="textoStandarTable">¿Cuál es la forma en la que tu negocio se va a financiar y obtener ingresos?</td>
+                    </tr>
+                    <tr>
+                        <td class="cellCenter textoStandarTable">6</td>
+                        <td class="textoStandarTable"><b>Recursos clave.</b> Debes establecer cuáles son los recursos necesarios para producir el producto /servicio. Pueden ser espacios físicos, digitales, el equipo humano, entre otros.</td>
+                        <td class="textoStandarTable">
+                            <ul class="browser-default">
+                                <li>¿Cuáles son los recursos claves que requiere la idea de negocio?</li>
+                                <li>¿Cuáles son los recursos claves que requiere nuestra propuesta de valor?</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cellCenter textoStandarTable">7</td>
+                        <td class="textoStandarTable"><b>Actividades clave.</b> Aquí describe cuáles actividades realizarás para cumplir con tu propuesta de valor. Es decir, aquí debes definir en el conjunto de actividades, productos o servicios esenciales para la existencia y el éxito de tu negocio. Es lo que la empresa hace mejor y lo que la distingue de la competencia.</td>
+                        <td class="textoStandarTable">
+                            <ul class="browser-default">
+                                <li>¿Qué actividades son primordiales para hacer funcionar el negocio?</li>
+                                <li>¿Qué actividades clave requiere mi propuesta de valor?</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cellCenter textoStandarTable">8</td>
+                        <td class="textoStandarTable"><b>Socios clave.</b> Debes identificar en quienes te vas a apoyar para la producción, distribución y comercialización de tu producto o servicio. Por ejemplo, proveedores, empresas de logística, socios estratégicos en investigación y desarrollo, por mencionar algunos.</td>
+                        <td class="textoStandarTable">
+                            <ul class="browser-default">
+                                <li>¿Con quién te apoyas? (proveedores, aliados estratégicos, etc.)</li>
+                                <li>¿Quiénes serán los socios claves de tu modelo de negocio?</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cellCenter textoStandarTable">9</td>
+                        <td class="textoStandarTable"><b>Estructura de costos.</b> Debes definir cuáles son tus prioridades y los gastos fundamentales en el negocio de aquellos que no lo son.<br><br>Un consejo práctico para este tipo de elemento es usar herramientas en donde puedas llevar el control de estos ingresos y gastos.</td>
+                        <td class="textoStandarTable">
+                            <ul class="browser-default">
+                                <li>¿Cuáles son los costos más importantes dentro de nuestro modelo de negocio?</li>
+                                <li>¿Qué recursos claves son los más costosos?</li>
+                                <li>¿Qué actividades clave son las más costosas?</li>
+                                <li>¿Cuáles son los ingresos y egresos más importantes?</li>
+                                <li>¿Qué costos fijos y variables tengo?</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-        </p><br>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Al desarrollar el modelo de negocios canvas Figura 2.3.1 podrás realizar un análisis integral que te ayudará a definir estrategias efectivas para el éxito de tu proyecto
+        </p>
 
-
+        <div class="defaultImage" style="display: flex; justify-content: center; margin: 10px auto;">
+            <img src="../../img/contenidos/2.3.1.png" alt="Modelo de negocios canvas" class="defaultImageContent" style="width: auto; height: 400px; margin: 10px auto;">
+        </div>
+        <br>
+        <span class="referenciaIcono clgreyl1 border1 clbktx">
+            Recuperado de Modelo Canvas. (s.f.). Plantillas y ejemplos. &nbsp;
+            <a href="https://modelocanvas.net/descargar-plantillas-ejemplos/" target="_blank">https://modelocanvas.net/descargar-plantillas-ejemplos/</a>
+        </span>
     </div>
 </div>`,
     },
@@ -828,22 +940,19 @@ const contenidosUnidad = {
         contenido: `
 <section class="containerActividadAprendizajeFather">
     <div class="textoTitulo clbktx">Material de apoyo</div>
-    <section class="gridActividadesAprendizaje">
-
-        <!--Tarjeta 1-->
-        <!-- <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-            <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Lectura 1</p>
-            <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las organizaciones y la empresa</p>
-            <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
-                <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                    <i class="material-icons clbktx">download</i>
-                    <span class="clbktx">Descargar</span>
+    <div class="shadow4 border1 clw">
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Por el momento no hay material de apoyo disponible para esta unidad.
+            </p>
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="notFound"></div>
                 </div>
-            </a>
-        </div> -->
-
-
-    </section>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-searching" target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
 </section>
 `,
     },
@@ -880,18 +989,17 @@ const contenidosUnidad = {
     </div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            ¡Felicidades! Has concluido esta unidad temática. Ahora tienes más elementos que te ayudarán a reconocer la
-            relevancia que tienen las finanzas en todas las organizaciones y en específico en las empresas,
-            independientemente de su constitución, tamaño y giro.
+            En esta unidad temática empezaste a trabajar con la metodología Design Thinking e inclusive aplicaste algunas de sus herramientas.
         </p>
-
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            Recuerda que las empresas son indispensables en nuestras vidas y que constituyen la columna vertebral de la
-            economía. En este sentido, la productividad, la rentabilidad y la competitividad se han convertido en tres
-            de las principales pretensiones de muchas empresas. Para lograr dichas pretensiones se requiere, entre otros
-            aspectos, de la toma de decisiones basadas en información financiera verídica, confiable y oportuna que se
-            verá reflejada en los estados financieros, tema que estudiarás en la unidad temática 2.
-        </blockquote>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Te diste cuenta que es una metodología flexible en donde puedes regresar a alguna de sus fases, tantas veces como sea necesario para corregir, ajustar, mejorar, incorporar y seguir avanzando.
+        </p>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Como resultado seguramente ya construiste un prototipo "validado" por el usuario final, ya tienes información valiosa y ya sabes qué es lo que tu usuario quiere.
+        </p>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Con base en ello ahora desarrollarás tu proyecto informático. Para tal efecto necesitas una metodología, en la siguiente unidad temática encontrarás información sobre algunas de las metodologías que te permitirán gestionar el proyecto y desarrollar el software.
+        </p>
 
         <div class="defaultImage">
             <div class="defaultImageContent" id="cierre"></div>

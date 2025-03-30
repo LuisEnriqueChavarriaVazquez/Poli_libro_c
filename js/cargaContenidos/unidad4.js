@@ -20,12 +20,14 @@ const contenidosUnidad = {
                 <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    Estimados estudiantes que cursan la unidad de aprendizaje Formulación y evaluación de proyectos informáticos, que se imparte en la
-                    <i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
-                    bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 4: Gestión del presupuesto del proyecto</i>.
-                    Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la unidad
-                    en cuestión, esperamos que les sea de gran ayuda.
-                    </p>
+                Considera que un presupuesto es la estimación en términos monetarios tanto de los ingresos como de los egresos (costos y gastos), en este caso asociados al proyecto. No olvides que los presupuestos son estimaciones; sin embargo, es sumamente importe hacer dichas estimaciones lo más apegadas a la realidad.
+            </p>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Los presupuestos son una guía para que el proyecto se desarrolle e implemente dentro de los límites monetarios establecidos; adicionalmente, podrás ir comparando lo estimado contra lo real, esto te ayudará a tener un mejor control, detectar desviaciones, tomar decisiones, diseñar estrategias y en un momento dado realizar los ajustes correspondientes. En definitiva, una adecuada gestión del presupuesto impactará en la rentabilidad del proyecto.
+            </p>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Dada la relevancia de los presupuestos en esta unidad temática aprenderás a construir los presupuestos asociados a tu proyecto informático con el propósito de realizar una planificación financiera alineada con los objetivos establecidos.
+            </p>
                     <div class="defaultImage">
                         <div class="defaultImageContent" id="bienvenida"></div>
                     </div>
@@ -86,10 +88,6 @@ const contenidosUnidad = {
                                     <td class="cellCenter textoStandarTable" rowspan="2">Unidad IV<br>y<br>Unidad V</td>
                                     <td class="cellCenter textoStandarTable">Actividad 5</td>
                                     <td class="textoStandarTable">Los presupuestos y la evaluación financiera del proyecto</td>
-                                    <td class="cellCenter textoStandarTable">5%</td>
-                                </tr>
-                                <tr>
-                                    <td class="cellCenter textoStandarTable" colspan="2">Total</td>
                                     <td class="cellCenter textoStandarTable">5%</td>
                                 </tr>
                             </tbody>
@@ -188,6 +186,34 @@ const contenidosUnidad = {
 
 </div>
    `
+    },
+    introduccion: {
+        id: "introduccion",
+        titulo: "Introducción",
+        type: "contenido",
+        contenido: `
+    <div class="shadow4 border1 clw">
+        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Considera que un presupuesto es la estimación en términos monetarios tanto de los ingresos como de los egresos (costos y gastos), en este caso asociados al proyecto. No olvides que los presupuestos son estimaciones; sin embargo, es sumamente importe hacer dichas estimaciones lo más apegadas a la realidad.
+            </p>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Los presupuestos son una guía para que el proyecto se desarrolle e implemente dentro de los límites monetarios establecidos; adicionalmente, podrás ir comparando lo estimado contra lo real, esto te ayudará a tener un mejor control, detectar desviaciones, tomar decisiones, diseñar estrategias y en un momento dado realizar los ajustes correspondientes. En definitiva, una adecuada gestión del presupuesto impactará en la rentabilidad del proyecto.
+            </p>
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Dada la relevancia de los presupuestos en esta unidad temática aprenderás a construir los presupuestos asociados a tu proyecto informático con el propósito de realizar una planificación financiera alineada con los objetivos establecidos.
+            </p>
+                    <div class="defaultImage">
+                        <div class="defaultImageContent" id="bienvenida"></div>
+                    </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-welcome" target="_blank">Ouch!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>`,
     },
     unidad4_1_presupuesto_inversion: {
         id: "unidad4_1_presupuesto_inversion",
@@ -956,24 +982,21 @@ const contenidosUnidad = {
         type: "contenido",
         contenido: `
     <section class="containerActividadAprendizajeFather">
-      <div class="textoTitulo clbktx">Material de apoyo</div>
-      <section class="gridActividadesAprendizaje">
-  
-          <!--Tarjeta 1-->
-          <!-- <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Lectura 1</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Las organizaciones y la empresa</p>
-              <a href="./pdf/actividades/Lectura 1 las organizaciones y la empresa-1.pdf" target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div> -->
-          
-  
-      </section>
-  </section>
+    <div class="textoTitulo clbktx">Material de apoyo</div>
+    <div class="shadow4 border1 clw">
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Por el momento no hay material de apoyo disponible para esta unidad..
+            </p>
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="notFound"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-searching" target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
+</section>
   `
     },
     actividades_aprendizaje: {
@@ -981,24 +1004,22 @@ const contenidosUnidad = {
         titulo: "Actividades de aprendizaje",
         type: "contenido",
         contenido: `
-    <!--Tarjeta con las actividades-->
-  <section class="containerActividadAprendizajeFather">
-      <div class="textoTitulo clbktx">Actividades de aprendizaje</div>
-      <section class="gridActividadesAprendizaje">
-          <!--Tarjeta 1-->
-          <div class="actividadesAprendizaje border1 clgreyl2 shadow2 tarjetaActividades">
-              <p class="cardTitleActividad tituloActividadAprendizaje clgreyl1 clbktx">Actividad 4</p>
-              <p class="truncate descActividadAprendizaje clgreyl1 clbktx">Plan de desarrollo del software</p>
-              <a href="./pdf/actividades/ACTIVIDAD_4 Plan de desarrollo del software.pdf" target="_blank">
-                  <div class="buttonDownloadActividadAprendizaje clw border1 shadow2 waves-effect">
-                      <i class="material-icons clbktx">download</i>
-                      <span class="clbktx">Descargar</span>
-                  </div>
-              </a>
-          </div>
-  
-      </section>
-  </section>
+    <section class="containerActividadAprendizajeFather">
+    <div class="textoTitulo clbktx">Material de apoyo</div>
+    <div class="shadow4 border1 clw">
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                Por el momento no hay actividades de aprendizaje disponibles para esta unidad.
+            </p>
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="notFound"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-searching" target="_blank">Ouch!</a>
+            </span>
+        </div>
+    </div>
+</section>
   `
     },
     cierre: {
@@ -1010,13 +1031,14 @@ const contenidosUnidad = {
       <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
       <div class="cardDesign clw border1Inf">
           <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-              ¡Felicidades! Has concluido esta unidad temática. Ahora tienes más elementos que te ayudarán a reconocer la relevancia que tienen las finanzas en todas las organizaciones y en específico en las empresas, independientemente de su constitución, tamaño y giro.
+              Una vez que has abordado los temas de esta unidad temática y después de realizar las actividades de aprendizaje incluidas en este RDD, ya debes tener construidos los presupuestos asociados a tu proyecto.
           </p>
-  
-          <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-              Recuerda que las empresas son indispensables en nuestras vidas y que constituyen la columna vertebral de la economía. En este sentido, la productividad, la rentabilidad y la competitividad se han convertido en tres de las principales pretensiones de muchas empresas. Para lograr dichas pretensiones se requiere, entre otros aspectos, de la toma de decisiones basadas en información financiera verídica, confiable y oportuna que se verá reflejada en los estados financieros, tema que estudiarás en la unidad temática 2.
-          </blockquote>
-  
+          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+              Los presupuestos son la base para evaluar la viabilidad económica financiera y así determinar qué tan conveniente o no resultaría desarrollar y vender tu proyecto.
+          </p>
+          <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+              Para realizar dicha evaluación necesitas aplicar algún o algunos de los métodos de evaluación de proyectos, tema que aprenderás en la siguiente y última unidad temática.
+          </p>
           <div class="defaultImage">
               <div class="defaultImageContent" id="cierre"></div>
           </div>
@@ -1141,9 +1163,9 @@ function cargarContenido(seccionId) {
     // Evitar cargar la misma sección múltiples veces
     if (window.seccionActual === seccionId) {
         console.log("Ya está cargada esta sección:", seccionId);
-        return;
-    }
-
+                return;
+            }
+            
     console.log(`🔴 Cargando sección: ${seccionId}`);
 
     const contenedor = document.getElementById("lateralUnityContent");

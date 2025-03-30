@@ -21,12 +21,16 @@ const contenidosUnidad = {
 				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
 				<div class="cardDesign clw border1Inf">
 					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
-					Estimados estudiantes que cursan la unidad de aprendizaje Finanzas empresariales, que se imparte en la
-					<i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
-					bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 3: la empresa y su entorno</i>,
-					correspondiente a la unidad de aprendizaje Finanzas empresariales.
-					Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la unidad
-					en cuestión, esperamos que les sea de gran ayuda.
+					La gestión técnica y ambiental es clave para el desarrollo eficiente y sostenible de tu proyecto. Toma en cuenta que la correcta planificación y ejecución de los aspectos técnicos posibilitan que los recursos, procesos y tecnologías se utilicen de manera adecuada, en total alineación al cumpliendo con los objetivos establecidos.
+					</p>
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+					Por otro lado, la gestión ambiental es fundamental para minimizar el impacto ecológico del proyecto, asegurando el cumplimiento de la normatividad ambiental vigente y promoviendo prácticas responsables con el entorno. 
+					</p>
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+					La gestión técnica y ambiental permiten no solo el buen desarrollo del proyecto, sino también generar un impacto positivo en la sociedad y en el medio ambiente.
+					</p>
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+					Por su importancia, en esta unidad temática podrás estudiar aspectos sobre la gestión técnica y ambiental; también conocerás algunas estrategias y herramientas para su implementación efectiva en cualquier tipo de proyecto, pero sobre todo en los proyectos informáticos.
 					</p>
 					<div class="defaultImage">
 						<div class="defaultImageContent" id="bienvenida"></div>
@@ -101,10 +105,6 @@ const contenidosUnidad = {
 									<td class="cellCenter textoStandarTable">Actividad 4</td>
 									<td class="textoStandarTable">Plan de desarrollo del software<br>Documentación (reporte)<br>y<br>Sistema</td>
 									<td class="cellCenter textoStandarTable">15%</td>
-								</tr>
-								<tr>
-									<td class="cellCenter textoStandarTable" colspan="2">Total</td>
-									<td class="cellCenter textoStandarTable">25%</td>
 								</tr>
 							</tbody>
 						</table>
@@ -212,10 +212,6 @@ const contenidosUnidad = {
                             <td class="textoStandarTable">Plan de desarrollo del software<br>Documentación (reporte)<br>y<br>Sistema</td>
                             <td class="cellCenter textoStandarTable">15%</td>
                         </tr>
-                        <tr>
-                            <td class="cellCenter textoStandarTable" colspan="2">Total</td>
-                            <td class="cellCenter textoStandarTable">25%</td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -240,31 +236,18 @@ const contenidosUnidad = {
 <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
     <div class="cardDesign clw border1Inf">
-        <!--Card con un ejemplo-->
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            <i class="keyWord">Las empresas son la base del sistema económico</i>, debido a que se encargan de <i
-                class="keyWord">la producción, comercialización y distribución de bienes</i> que satisfacen las
-            múltiples necesidades la sociedad. Más allá de su infraestructura, tamaño y giro <i class="keyWord">toda
-                empresa debe constituirse de acuerdo con la legislación vigente</i> que le otorga una personalidad
-            jurídica propia e independiente de sus dueños; para su funcionamiento <i class="keyWord">requiere de
-                recursos financieros, tecnológicos y humanos</i> los cuales deben ser administrados eficientemente para
-            cumplir con sus objetivos.
-        </p>
-
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            Las empresas <i class="keyWord">juegan un papel fundamental en cualquier economía;</i> sin embargo, son
-            afectadas por diferentes <i class="keyWord">factores presentes en el micro y macroentorno</i> que las
-            obligan a tomar decisiones con el propósito de permanecer vigentes en el mercado. Por otro lado, <i
-                class="keyWord">una buena o mala administración de los recursos se verá reflejada en las finanzas,</i>
-            que se encargan de la distribución y el uso que se le da al dinero.
-        </blockquote>
-
-        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            Los contenidos abordados en este RDD están dirigidos a lograr la siguiente unidad de competencia o
-            aprendizajes esperados de la unidad 1: <i class="keyWord">reconoce el papel de las finanzas a partir del
-                contexto empresarial</i>, por lo que su construcción fue totalmente intencionada en aras de <i
-                class="keyWord">favorecer y apoyarte en tu proceso de aprendizaje</i>.
-        </p>
+					La gestión técnica y ambiental es clave para el desarrollo eficiente y sostenible de tu proyecto. Toma en cuenta que la correcta planificación y ejecución de los aspectos técnicos posibilitan que los recursos, procesos y tecnologías se utilicen de manera adecuada, en total alineación al cumpliendo con los objetivos establecidos.
+					</p>
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+					Por otro lado, la gestión ambiental es fundamental para minimizar el impacto ecológico del proyecto, asegurando el cumplimiento de la normatividad ambiental vigente y promoviendo prácticas responsables con el entorno. 
+					</p>
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+					La gestión técnica y ambiental permiten no solo el buen desarrollo del proyecto, sino también generar un impacto positivo en la sociedad y en el medio ambiente.
+					</p>
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+					Por su importancia, en esta unidad temática podrás estudiar aspectos sobre la gestión técnica y ambiental; también conocerás algunas estrategias y herramientas para su implementación efectiva en cualquier tipo de proyecto, pero sobre todo en los proyectos informáticos.
+					</p>
 
         <div class="defaultImage">
             <div class="defaultImageContent" id="intro"></div>
