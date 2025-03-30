@@ -16,15 +16,13 @@ const contenidosUnidad = {
 		</div>
 		
 		<div id="test-swipe-1" class="tabsContentContainerInfo">
-			<div class="shadow4 border1 clw">
+    <div class="shadow4 border1 clw">
 				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
-				<div class="cardDesign clw border1Inf">
-					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
-					Estimados estudiantes que cursan la unidad de aprendizaje Formulación y evaluación de proyectos informáticos, que se imparte en la
-					<i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
-					bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 1: Aspectos generales de un proyecto y el análisis del entorno</i>.
-					Este recurso educativo se construyó con la finalidad de apoyarlos en su proceso de aprendizaje de la unidad
-					en cuestión, esperamos que les sea de gran ayuda.
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+						Todo proyecto, independientemente de su naturaleza, requiere de una planificación adecuada y de un análisis detallado del entorno en el que se desarrollará. 
+						En la planificación deberás definir objetivos claros, establecer un alcance preciso y asignar tiempos y recursos de una manera eficiente; en tanto que el análisis del entorno te permitirá identificar factores internos y externos (económicos, tecnológicos, sociales, políticos, etc.) que representan oportunidades o amenazas para tu proyecto, al respecto deberás diseñar estrategias y planes de acción.   
+						En lo que a proyectos se refiere, conocer sus elementos y aspectos generales así como analizar el entorno se convierte en una tarea fundamental, razón por la que en esta primer unidad temática encontrarás una propuesta metodológica para la formulación de un proyecto informático (desde la identificación del problema hasta la implementación y mantenimiento del proyecto), enfatizando que los resultados no solo dependen de las habilidades técnicas del equipo de trabajo, sino también de una planificación detallada y de una gestión adecuada de tiempos, costos y recursos.
 					</p>
 					<div class="defaultImage">
 						<div class="defaultImageContent" id="bienvenida"></div>
@@ -43,15 +41,15 @@ const contenidosUnidad = {
 					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
 						Identifica los aspectos generales de la <i class="keyWord">formulación de proyectos informáticos</i> a partir del <i class="keyWord">análisis del entorno</i> del área de interés.
 					</p>
-					<div class="defaultImage">
-						<div class="defaultImageContent" id="unidadCompetencia"></div>
-					</div>
-					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-					<a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-					</span>
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="unidadCompetencia"></div>
+            </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
+            </span>
 				</div>
-			</div>
-		</div>
+        </div>
+    </div>
 
 		<div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
 			<div class="shadow4 border1 clw">
@@ -63,7 +61,7 @@ const contenidosUnidad = {
 					</p>
 					<div class="defaultImage">
 						<div class="defaultImageContent" id="metodologia"></div>
-					</div>
+</div>
 					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
 					<a href="https://icons8.com/illustrations/illustration/pixeltrue-idea" target="_blank">Ouch!</a>
 					</span>
@@ -90,14 +88,14 @@ const contenidosUnidad = {
 							</thead>
 							<tbody>
 								<tr>
-									<td class="cellCenter textoStandarTable" rowspan="4">Unidad 1</td>
-									<td class="cellCenter textoStandarTable">Actividad 1.1</td>
-									<td class="textoStandarTable">Infografía los proyectos informáticos</td>
-									<td class="cellCenter textoStandarTable">20 puntos</td>
+									<td class="cellCenter textoStandarTable" rowspan="2">Unidad 1</td>
+									<td class="cellCenter textoStandarTable">Actividad 1</td>
+									<td class="textoStandarTable">Infografía "Los proyectos informáticos y su ciclo de vida"</td>
+									<td class="cellCenter textoStandarTable">5%</td>
 								</tr>
 								<tr>
 									<td class="cellCenter textoStandarTable" colspan="2">Total</td>
-									<td class="cellCenter textoStandarTable">20 puntos</td>
+									<td class="cellCenter textoStandarTable">5%</td>
 								</tr>
 							</tbody>
 						</table>
@@ -147,28 +145,20 @@ const contenidosUnidad = {
 		titulo: "Unidad de competencia",
 		icono: "extension",
 		contenido: `
-<br>
-<div id="test-swipe-2" class="tabsContentContainerInfo">
-
-    <div class="shadow4 border1 clw">
-        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
-        <div class="cardDesign clw border1Inf">
-            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                Identifica los aspectos generales de la <i class="keyWord">formulación de proyectos informáticos</i> a
-                partir del <i class="keyWord">análisis del entorno</i> del área de interés.
-            </p>
-
-            <div class="defaultImage">
-                <div class="defaultImageContent" id="unidadCompetencia"></div>
-            </div>
-            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
-                <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-            </span>
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Identifica los aspectos generales de la formulación de proyectos informáticos a partir del planteamiento del problema.
+        </p>
+        <div class="defaultImage">
+            <div class="defaultImageContent" id="unidadCompetencia"></div>
         </div>
+        <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+            href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+            href="https://icons8.com/illustrations/">Ouch!</a></span>
     </div>
-
-</div>
-`,
+</div>`,
 	},
 	evaluacionAprendizajes: {
 		id: "evaluacionAprendizajes",
@@ -199,24 +189,14 @@ const contenidosUnidad = {
 
                     <tbody>
                         <tr>
-                            <td class="cellCenter textoStandarTable" rowspan="4">Unidad 1</td>
-                            <td class="cellCenter textoStandarTable">Actividad 1.1 </td>
-                            <td class="textoStandarTable"></td>
-                            <td class="cellCenter textoStandarTable"></td>
-                        </tr>
-                        <tr>
-                            <td class="cellCenter textoStandarTable">Actividad 1.2 </td>
-                            <td class="textoStandarTable"></td>
-                            <td class="cellCenter textoStandarTable"></td>
-                        </tr>
-                        <tr>
-                            <td class="cellCenter textoStandarTable">Actividad 1.3 </td>
-                            <td class="textoStandarTable"></td>
-                            <td class="cellCenter textoStandarTable"></td>
+                            <td class="cellCenter textoStandarTable" rowspan="2">Unidad 1</td>
+                            <td class="cellCenter textoStandarTable">Actividad 1</td>
+                            <td class="textoStandarTable">Infografía "Los proyectos informáticos y su ciclo de vida"</td>
+                            <td class="cellCenter textoStandarTable">5%</td>
                         </tr>
                         <tr>
                             <td class="cellCenter textoStandarTable" colspan="2">Total</td>
-                            <td class="cellCenter textoStandarTable"></td>
+                            <td class="cellCenter textoStandarTable">5%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -242,32 +222,11 @@ const contenidosUnidad = {
 <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
     <div class="cardDesign clw border1Inf">
-        <!--Card con un ejemplo-->
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            <i class="keyWord">Las empresas son la base del sistema económico</i>, debido a que se encargan de <i
-                class="keyWord">la producción, comercialización y distribución de bienes</i> que satisfacen las
-            múltiples necesidades la sociedad. Más allá de su infraestructura, tamaño y giro <i class="keyWord">toda
-                empresa debe constituirse de acuerdo con la legislación vigente</i> que le otorga una personalidad
-            jurídica propia e independiente de sus dueños; para su funcionamiento <i class="keyWord">requiere de
-                recursos financieros, tecnológicos y humanos</i> los cuales deben ser administrados eficientemente para
-            cumplir con sus objetivos.
+            Todo proyecto, independientemente de su naturaleza, requiere de una planificación adecuada y de un análisis detallado del entorno en el que se desarrollará. 
+            En la planificación deberás definir objetivos claros, establecer un alcance preciso y asignar tiempos y recursos de una manera eficiente; en tanto que el análisis del entorno te permitirá identificar factores internos y externos (económicos, tecnológicos, sociales, políticos, etc.) que representan oportunidades o amenazas para tu proyecto, al respecto deberás diseñar estrategias y planes de acción.   
+            En lo que a proyectos se refiere, conocer sus elementos y aspectos generales así como analizar el entorno se convierte en una tarea fundamental, razón por la que en esta primer unidad temática encontrarás una propuesta metodológica para la formulación de un proyecto informático (desde la identificación del problema hasta la implementación y mantenimiento del proyecto), enfatizando que los resultados no solo dependen de las habilidades técnicas del equipo de trabajo, sino también de una planificación detallada y de una gestión adecuada de tiempos, costos y recursos.
         </p>
-
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            Las empresas <i class="keyWord">juegan un papel fundamental en cualquier economía;</i> sin embargo, son
-            afectadas por diferentes <i class="keyWord">factores presentes en el micro y macroentorno</i> que las
-            obligan a tomar decisiones con el propósito de permanecer vigentes en el mercado. Por otro lado, <i
-                class="keyWord">una buena o mala administración de los recursos se verá reflejada en las finanzas,</i>
-            que se encargan de la distribución y el uso que se le da al dinero.
-        </blockquote>
-
-        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            Los contenidos abordados en este RDD están dirigidos a lograr la siguiente unidad de competencia o
-            aprendizajes esperados de la unidad 1: <i class="keyWord">reconoce el papel de las finanzas a partir del
-                contexto empresarial</i>, por lo que su construcción fue totalmente intencionada en aras de <i
-                class="keyWord">favorecer y apoyarte en tu proceso de aprendizaje</i>.
-        </p>
-
         <div class="defaultImage">
             <div class="defaultImageContent" id="intro"></div>
         </div>
@@ -517,158 +476,98 @@ const contenidosUnidad = {
 	},
 	unidad1_2_ciclo_vida_proyectos_software: {
 		id: "unidad1_2_ciclo_vida_proyectos_software",
-		titulo: "1.2 Ciclo de vida de los proyectos y del software",
+		titulo: "1.2 Ciclo de vida del proyecto informático y del software",
 		type: "contenido",
 		contenido: `
 <div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.2 Ciclo de vida de los proyectos y del software</div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.2 Ciclo de vida del proyecto informático y del software</div>
     <div class="cardDesign clw border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            Cuando desarrolles un proyecto de software es conveniente que dividas el proyecto en pequeños proyectos, 
-            a cada uno de estos <i class="keyWord">pequeños proyectos los llamaremos fases.</i> El conjunto de estas fases se conoce como <i class="keyWord">ciclo de vida del proyecto</i>, 
-            ya que conecta el inicio con el fin.<br><br>
-            <i class="keyWord">El ciclo de vida del software te permitirá identificar, administrar y planificar los recursos necesarios para desarrollar tu proyecto hasta alcanzar el objetivo propuesto</i>. 
-            La cantidad de fases en cada proyecto variará según sus requerimientos ya que cada proyecto es único.
-            Regularmente, en el desarrollo de un proyecto vamos a encontrar una fase de inicio, un proceso de desarrollo y un producto final.<br><br>
-            En cualquier proyecto de software, las fases las podrás <i class="keyWord">subdividir en etapas en función del tamaño, complejidad, nivel de riesgo y restricciones del presupuesto.</i>
-            Cada etapa la deberás alinear con uno o más productos entregables específicos con la finalidad de darle seguimiento y control al proyecto. 
-            La mayoría de estos productos entregables de las etapas los deberás relacionar con el producto entregable de la fase principal, 
-            y las fases normalmente toman el nombre de estos productos entregables de las etapas: <i class="keyWord">planeación, requisitos, diseño, construcción, 
-            prueba, entre otros</i>, según corresponda. (Guía PMBOK, 2017 )<br><br>
-            Para comprender como es la evolución del ciclo de vida de un proyecto de software analizaremos cada una de sus fases, 
-            lo cual te ayudara a planificar las actividades y tareas necesarias para el desarrollo del proyecto y concluir satisfactoriamente 
-            cada una de las fases y alcanzar los objetivos planteados.
-
+            No debes confundirte ya que el ciclo de vida del proyecto informático y el ciclo de vida del software son conceptos que se relacionan, pero distintos en su enfoque y aplicación.
         </p>
+
         <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">1- Fase de Planificación</div>
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">1. Ciclo de Vida del Proyecto Informático</div>
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    En esta primera fase, tienes que valorar las necesidades del proyecto y plantear los objetivos. 
-                    Las primeras tareas te deben conducir a realizar un estudio de viabilidad, analizar los riesgos que puede comprometer 
-                    el proyecto y posteriormente planificar las siguientes fases del proyecto.<br><br>
-
-                    <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
-                        <li><i class="keyWord">El estudio de viabilidad</i> te permitirá evaluar los aspectos técnicos, financieros y legales, para determinar si el proyecto podrá ser realizado en tiempo y con los recursos disponibles.</li>
-                        <li><i class="keyWord">Analizar los riesgos</i> te permitirá estar alerta para cualquier contratiempo y poder tener algunas otras alternativas de solución para realizar el proyecto.</li>
-                        <li><i class="keyWord">Planificar el proyecto</i> fase por fase lo que te permitirá desarrollar con éxito cada una de las actividades y tareas para llevar a buen término el proyecto. </li>
-                    </ul>
-
+                    El ciclo de vida de un proyecto informático se compone por fases, desde su concepción hasta su cierre. Se centra en la gestión del proyecto, incluyendo planificación, ejecución y control de los recursos, costos y tiempos. Generalmente sigue metodologías de gestión de proyectos como PMBOK o PRINCE2.
+                </p>
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    El ciclo de vida del software te permitirá identificar, administrar y planificar los recursos necesarios para desarrollar tu proyecto hasta alcanzar el objetivo propuesto. La cantidad de fases en cada proyecto variará según sus requerimientos ya que cada proyecto es único. Regularmente, en el desarrollo de un proyecto vamos a encontrar una fase de inicio, un proceso de desarrollo y una de cierre.
+                </p>
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    En cualquier proyecto de software, las fases las podrás subdividir en etapas en función del tamaño, complejidad, nivel de riesgo y restricciones del presupuesto. Cada etapa la deberás alinear con uno o más productos entregables específicos con la finalidad de darle seguimiento y control al proyecto. La mayoría de estos productos entregables de las etapas los deberás relacionar con el producto entregable de la fase principal, y las fases normalmente toman el nombre de estos productos entregables de las etapas: planeación, requisitos, diseño, construcción, prueba, entre otros, según corresponda.
                 </p>
             </div>
         </div><br>
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">2- Fase de Análisis</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    En la fase de análisis de un proyecto de software tendrás que definir cuales son las funciones que deberá ejecutará el software, 
-                    así como sus características específicas. Este aspecto es fundamental a la hora de que tengas que asignar los recursos y 
-                    estimar los costos para el desarrollo del proyecto. <br><br>
-                    <i class="keyWord">La asignación de los recursos</i> te permitirá determinar cuáles son los recursos necesarios para el desarrollo 
-                    de cada fase y al mismo tiempo establecer de manera formal los responsables de cada tarea.<br><br>
-                    <i class="keyWord">La estimación de costos</i> es una de las tareas que requiere mayor control y seguimiento dentro de un proyecto de desarrollo de software, ya que se deben presupuestar desde el inicio hasta el final, además se tendrá que considerar cualquier imprevisto, ya que cualquier evento que ocurra fuera del plan tendrá repercusiones en el tiempo, el alcance y sobre todo en los costos.
-                    
-                </p>
-            </div>
-        </div><br>
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">3- Fase de diseño y estructura del software</div>
-            <div class="cardDesign clgreyl1 border1Inf">
 
-                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    <b class="clgreyl3 subTitleCard">Estructura de la base de datos</b><br>
-                    Este proceso es fundamental en el ciclo de vida de un software. Deberás tomar decisiones apropiadas para que te faciliten la 
-                    implementación del proyecto. El acceso a los datos almacenados le permitirá al usuario poder gestionar la información que precisa.<br><br>
-                    <b class="clgreyl3 subTitleCard">Lógica del flujo de datos</b><br>
-                    Es importante que elabores un diagrama de flujo de datos, que te permitirá trazar el flujo de información de cualquier proceso o 
-                    sistema. Estos diagramas te proporcionan información detallada del proyecto de forma visual.<br><br>
-                    <b class="clgreyl3 subTitleCard">Interfaz de usuario</b><br>
-                    Es fundamental que diseñes un entorno intuitivo y fácil de usar, esta parte del proceso es clave en el desarrollo de 
-                    un proyecto de software que el usuario debe acceder a los datos de una manera fácil e intuitiva y navegar de manera ágil, 
-                    convirtiéndose un requisito indispensable del software a desarrollar.
-
-                </p>
-
-            </div>
-        </div><br>
         <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">4- Fase de desarrollo de un software</div>
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Fases del Ciclo de Vida del Proyecto Informático</div>
             <div class="cardDesign clgreyl1 border1Inf">
                 <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    Cuando hallas determinado cual es la estructura de tu software, llega el momento de que empieces con la tarea de programación. 
-                    Debe seleccionar el lenguaje de programación adecuado que sea compatible con tu proyecto, así mismo ya debes contar con un equipo 
-                    de programadores expertos, seguir el código de buenas prácticas te permitirá que el proyecto sea fácilmente escalable.
+                    Según el Project Management Institute (PMI, 2017), las fases principales son:
                 </p>
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li><b>Inicio:</b> Se define el objetivo, alcance y viabilidad del proyecto.</li>
+                    <li><b>Planificación:</b> Se detallan cronogramas, costos, recursos y estrategias de gestión de riesgos.</li>
+                    <li><b>Ejecución:</b> Desarrollo del producto o servicio con base en el plan establecido.</li>
+                    <li><b>Monitoreo y Control:</b> Evaluación constante del avance para garantizar que se cumplan los objetivos.</li>
+                    <li><b>Cierre:</b> Entrega del producto final y evaluación de los resultados.</li>
+                </ol>
             </div>
         </div><br>
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">5- Fase de pruebas</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    Una vez que hayas terminado con el proceso de desarrollo debes empezar con el testeo, así como con la fase de pruebas de la aplicación.
-                     En esta etapa debes poner a prueba los errores que pudieran aparecer en las etapas anteriores. 
-                     Esta fase se convierte en una fase de corrección, eliminación y perfeccionamiento de posibles fallos, no previsto en los 
-                     pasos anteriores.
-                </p>
-            </div>
-        </div><br>
-        <div class="shadow2 border1 clgreyl1">
-            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">6- Fase de mantenimiento</div>
-            <div class="cardDesign clgreyl1 border1Inf">
-                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                    En esta fase el software ya debe estar en funcionamiento. Es importante que tomes en cuenta que con el tiempo alguna función 
-                    quede obsoletas, pueden detectarse algunas limitaciones o que aparezcan propuestas que mejoren la estabilidad del proyecto.<br><br>
-                    En la práctica muchas empresas de desarrollo se identifican un ciclo de vida especifico para usarlo en todos sus proyectos (evotic, 2023).
 
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">2. Ciclo de Vida del Software</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    El ciclo de vida del software es un subconjunto del ciclo de vida del proyecto informático, y se centra en el desarrollo del software en sí. Existen varias metodologías de desarrollo, como cascada, ágil, iterativo e incremental, que te permitirán organizar, coordinar y establecen la forma de trabajo para el desarrollo de cada fase.
                 </p>
             </div>
         </div><br>
+
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">Fases del Ciclo de Vida del Software</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Según Pressman (2014) y Sommerville (2011), las fases principales son:
+                </p>
+                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li><b>Análisis de Requisitos:</b> Identificación de las necesidades del usuario y especificación del software.</li>
+                    <li><b>Diseño:</b> Estructuración de la arquitectura y componentes del software.</li>
+                    <li><b>Implementación:</b> Desarrollo y codificación del software.</li>
+                    <li><b>Pruebas:</b> Evaluación del software para detectar y corregir errores.</li>
+                    <li><b>Despliegue:</b> Instalación y puesta en marcha del software en un entorno productivo.</li>
+                    <li><b>Mantenimiento:</b> Actualización, corrección de errores y mejoras del software a lo largo del tiempo.</li>
+                </ol>
+            </div>
+        </div>
     </div>
 </div>`,
 	},
-	unidad1_3_formulacion_proyecto_informatico: {
-		id: "unidad1_3_formulacion_proyecto_informatico",
-		titulo: "1.3 Formulación de un proyecto informático",
-		type: "contenido",
+	unidad1_3_metodologia_formulacion_proyectos_software: {
+		id: "unidad1_3_metodologia_formulacion_proyectos_software",
+		titulo: "1.3 Metodología de formulación de proyectos de software",
 		contenido: `
 <div class="shadow4 border1 clw">
-    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Formulación de un proyecto informático </div>
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">1.3 Metodología de formulación de proyectos de software</div>
     <div class="cardDesign clw border1Inf">
-        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-            La formulación de un proyecto se puede entender como una metodología, ya que, deberás seguir una serie de pasos que te permitirán elaborar 
-            un proyecto de forma congruente y ordenada respondiendo a un objetivo y buscando un resultado único, preciso y medible.<br>
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Recuerda que siempre que haya una necesidad por satisfacer o un problema que resolver serán necesarios los proyectos. En este sentido y apegados a nuestra unidad de aprendizaje, cobra relevancia la metodología de formulación de un proyecto de software. Con base en dicha metodología, podrás definir el alcance del proyecto, realizar una mejor planeación y un plan de trabajo tan detallado como lo necesites.
         </p>
-
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            Cuando formules un proyecto de software, debes considerar que tendrás que hacer una asignación y un uso eficiente de los recursos 
-            (recursos humanos, recursos tecnológicos y recursos financieros).<br><br>
-
-            Así, puedes, cuando desarrollas esa serie de pasos que integran la metodología de formulación de un proyecto de software, 
-            se convierte en la planeación o definición del proyecto, la cual puede ser similar a un plan de trabajo que responderá a una necesidad 
-            humana y resolverá de manera puntual o parcial una problemática planteada.<br>
-        </blockquote>
-        
-        <p class=" clbktx textoDinamicoIdentificador textoReadingH2">
-            A continuación, encontrarás una propuesta de metodología de siete pasos que te permitirá formular un proyecto de software de manera 
-            coherente y ordenada y así alcanzar los objetivos planteados en tu proyecto:
-        </p><br>
-           
-            
-            <div class="shadow2 border1 clgreyl1 simpleCardText">
-            
-                <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2" >
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            A continuación, encontrarás una propuesta de metodología de ocho pasos que te permitirá formular un proyecto de software de manera coherente, ordenada que le dé dirección a tu proyecto y se alcancen los objetivos planteados:
+        </p>
+        <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
                     <li>Planteamiento del problema y alternativas de solución</li>
                     <li>Descripción del proyecto</li>
                     <li>Identificación de actividades y subtareas</li>
                     <li>Planificación del cronograma de actividades</li>
                     <li>Asignación de recursos</li>
+            <li>Análisis de riesgos del proyecto y el mercado</li>
                     <li>Elaboración del presupuesto</li>
                     <li>Seguimiento y control del proyecto</li>
                 </ol>
-               
-            </div>
-            
-        </p>
     </div>
 </div>`,
 	},
@@ -1065,6 +964,42 @@ const contenidosUnidad = {
 		type: "contenido",
 		contenido: `16`,
 	},
+	referencias: {
+		id: "referencias",
+		titulo: "Referencias",
+		type: "referencias",
+		contenido: `
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Referencias</div>
+    <div class="cardDesign clw border1Inf">
+        <ol class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+            <li>Project Management Institute. (2017). A Guide to the Project Management Body of Knowledge (PMBOK Guide) (6th ed.). Project Management Institute.</li>
+            <li>Pressman, R. S. (2014). Software Engineering: A Practitioner's Approach (8th ed.). McGraw-Hill Education.</li>
+            <li>Sommerville, I. (2011). Software Engineering (9th ed.). Pearson Education.</li>
+        </ol>
+    </div>
+</div>`,
+	},
+	cierre: {
+		id: "cierre",
+		titulo: "Cierre de la unidad temática",
+		type: "contenido",
+		contenido: `
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Cierre de la unidad temática</div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Hasta este momento ya conoces, a grandes rasgos, los aspectos generales acerca de la importancia que tiene la formulación de un proyecto informático y a solicitud de tu profesor(a) ya estás pensando qué proyecto desarrollarás a lo largo de esta unidad de aprendizaje, se pretende que tu proyecto sea innovador. Para lograrlo, necitas apoyarte en una metodología para innovar, una de las más utilizadas con buenos resultados es la metodología Design Thinking. Ésta será abordada en la siguiente unidad temática, en la que utilizarás algunas de sus herramientas con el propósito de construir un prototipo centrado en el usuario final, creativo y con posibilidades de ser innovador.
+        </p>
+        <div class="defaultImage">
+            <div class="defaultImageContent" id="cierre"></div>
+        </div>
+        <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+            <a href="https://icons8.com/illustrations/illustration/pixeltrue-success" target="_blank">Ouch!</a>
+        </span>
+    </div>
+</div>`,
+	},
 };
 
 console.log("contenidosUnidad: ", Object.keys(contenidosUnidad).length);
@@ -1123,11 +1058,11 @@ for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
 
 // Función para cargar contenido
 function cargarContenido(seccionId) {
-    const contenedor = document.getElementById("lateralUnityContent");
-    const seccion = contenidosUnidad[seccionId];
+	const contenedor = document.getElementById("lateralUnityContent");
+	const seccion = contenidosUnidad[seccionId];
 
-    if (seccion) {
-        contenedor.innerHTML = seccion.contenido;
+	if (seccion) {
+		contenedor.innerHTML = seccion.contenido;
         
         // Inicializar los tabs si estamos en la sección de inicio
         if (seccionId === 'inicio') {
@@ -1153,7 +1088,7 @@ function cargarContenido(seccionId) {
         }
 
         // Actualizar el título de la sección actual
-        document.title = `Unidad 1 - ${seccion.titulo}`;
+		document.title = `Unidad 1 - ${seccion.titulo}`;
         
         // Actualizar clases activas en el menú
         document.querySelectorAll('.navOptionsContent').forEach(el => {
@@ -1163,18 +1098,18 @@ function cargarContenido(seccionId) {
         if (elementoActivar) {
             elementoActivar.classList.add('activeLinkOptionsContentUnit1');
         }
-    } else {
-        console.warn(`Sección ${seccionId} no encontrada`);
-        contenedor.innerHTML = `
-            <div class="shadow4 border1 clw">
-                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Error</div>
-                <div class="cardDesign clw border1Inf">
-                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                        La sección solicitada no está disponible.
-                    </p>
-                </div>
-            </div>`;
-    }
+	} else {
+		console.warn(`Sección ${seccionId} no encontrada`);
+		contenedor.innerHTML = `
+			<div class="shadow4 border1 clw">
+				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Error</div>
+				<div class="cardDesign clw border1Inf">
+					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
+						La sección solicitada no está disponible.
+					</p>
+				</div>
+			</div>`;
+	}
 }
 
 // Cargar contenido inicial cuando se carga la página

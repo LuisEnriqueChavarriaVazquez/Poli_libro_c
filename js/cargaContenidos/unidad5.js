@@ -46,15 +46,15 @@ const contenidosUnidad = {
           <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
           <div class="cardDesign clw border1Inf">
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                  Reconoce el <i class="keyWord">papel de las finanzas</i> a partir del <i class="keyWord">contexto empresarial.</i>
+                  Evalúa el proyecto informático con base en los indicadores financieros y la matriz de análisis integral.
               </p>
   
               <div class="defaultImage">
                   <div class="defaultImageContent" id="unidadCompetencia"></div>
               </div>
-              <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-              <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-              </span>
+              <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+                  href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+                  href="https://icons8.com/illustrations/">Ouch!</a></span>
           </div>
       </div>
   
@@ -135,24 +135,14 @@ const contenidosUnidad = {
               
                       <tbody>
                           <tr>
-                              <td class="cellCenter textoStandarTable" rowspan="4">Unidad 1</td>
-                              <td class="cellCenter textoStandarTable">Actividad 1.1  La empresa y su constitución jurídica</td>
-                              <td class="textoStandarTable">Cuestionario en formato Tangram</td>
-                              <td class="cellCenter textoStandarTable">Sin valor para la evaluación</td>
-                          </tr>
-                          <tr>
-                              <td class="cellCenter textoStandarTable">Actividad 1.2  Las finanzas y su importancia</td>
-                              <td class="textoStandarTable">Infografía</td>
-                              <td class="cellCenter textoStandarTable">10 puntos</td>
-                          </tr>
-                          <tr>
-                              <td class="cellCenter textoStandarTable">Actividad 1.3  La empresa, sus finanzas y su relación con el entorno</td>
-                              <td class="textoStandarTable">Reporte</td>
-                              <td class="cellCenter textoStandarTable">10 puntos</td>
+                              <td class="cellCenter textoStandarTable" rowspan="2">Unidad IV<br>y<br>Unidad V</td>
+                              <td class="cellCenter textoStandarTable">Actividad 5</td>
+                              <td class="textoStandarTable">Los presupuestos y la evaluación financiera del proyecto</td>
+                              <td class="cellCenter textoStandarTable">5%</td>
                           </tr>
                           <tr>
                               <td class="cellCenter textoStandarTable" colspan="2">Total</td>
-                              <td class="cellCenter textoStandarTable">20 puntos</td>
+                              <td class="cellCenter textoStandarTable">5%</td>
                           </tr>
                       </tbody>
                   </table>

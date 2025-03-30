@@ -27,6 +27,9 @@ async function cargarContenidos() {
 
 		// Inicializar con el contenido por defecto una vez cargado todo
 		cargarContenidoInicial();
+
+		// Configurar los event listeners después de cargar los contenidos
+		configurarEventListeners();
 	} catch (error) {
 		console.error("Error al cargar los contenidos:", error);
 		// Mostrar mensaje de error en la interfaz
@@ -40,6 +43,46 @@ async function cargarContenidos() {
         </div>
             </div>`;
 	}
+}
+
+// Función para configurar los event listeners
+function configurarEventListeners() {
+	// Event listener para el menú de escritorio
+	const desktopMenu = document.getElementById("lateralUnityMenuSectionContainer");
+	if (desktopMenu) {
+		desktopMenu.addEventListener("click", function (event) {
+			const target = event.target.closest("[seccion-id]");
+			if (target) {
+				event.preventDefault();
+				const seccionId = target.getAttribute("seccion-id");
+				console.log("Desktop menu click on section:", seccionId);
+				cargarContenido(seccionId);
+			}
+		});
+	}
+
+	// Event listener para el menú móvil
+	const mobileMenus = document.querySelectorAll(".mobileOptionsContainer");
+	mobileMenus.forEach(menu => {
+		menu.addEventListener("click", function (event) {
+			const target = event.target.closest("[seccion-id]");
+			if (target) {
+				event.preventDefault();
+				const seccionId = target.getAttribute("seccion-id");
+				console.log("Mobile menu click on section:", seccionId);
+				cargarContenido(seccionId);
+				
+				// Cerrar el sidenav en móvil
+				const sidenav = document.querySelector(".sidenav");
+				if (sidenav && M && M.Sidenav) {
+					const instance = M.Sidenav.getInstance(sidenav);
+					if (instance) {
+						instance.close();
+					}
+				}
+			}
+		});
+	});
 }
 
 // Función para inicializar las tabs
@@ -145,31 +188,4 @@ function cargarContenido(seccionId) {
 // Iniciar la carga de los contenidos cuando se cargue el documento
 document.addEventListener("DOMContentLoaded", function () {
 	cargarContenidos();
-
-	// Event listener para el menú de escritorio
-	let buttonContaineChargeContent = document.getElementById(
-		"lateralUnityMenuSectionContainer"
-	);
-	buttonContaineChargeContent.addEventListener("click", function (event) {
-		if (event.target.classList.contains("deskOption")) {
-			const seccionId = event.target.getAttribute("seccion-id");
-			cargarContenido(seccionId);
-		}
-	});
-
-	// Event listener para el menú móvil
-	let buttonContaineChargeContentMobile = document.getElementsByClassName(
-		"mobileOptionsContainer"
-	);
-	for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
-		buttonContaineChargeContentMobile[i].addEventListener(
-			"click",
-			function (event) {
-				if (event.target.classList.contains("mobileOption")) {
-					const seccionId = event.target.getAttribute("seccion-id");
-					cargarContenido(seccionId);
-				}
-			}
-		);
-	}
 });

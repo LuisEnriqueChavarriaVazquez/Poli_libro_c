@@ -43,14 +43,14 @@ const contenidosUnidad = {
 				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
 				<div class="cardDesign clw border1Inf">
 					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
-						Reconoce el <i class="keyWord">papel de las finanzas</i> a partir del <i class="keyWord">contexto empresarial.</i>
+						Formula la estructura técnica y ambiental del proyecto con base en su metodología, plan desarrollo y sostenibilidad.
 					</p>
 					<div class="defaultImage">
 						<div class="defaultImageContent" id="unidadCompetencia"></div>
 					</div>
-					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-					<a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-					</span>
+					<span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+						href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+						href="https://icons8.com/illustrations/">Ouch!</a></span>
 				</div>
 			</div>
 		</div>
@@ -92,24 +92,19 @@ const contenidosUnidad = {
 							</thead>
 							<tbody>
 								<tr>
-									<td class="cellCenter textoStandarTable" rowspan="4">Unidad 3</td>
-									<td class="cellCenter textoStandarTable">Actividad 3.1</td>
-									<td class="textoStandarTable">Cuestionario en formato Tangram</td>
-									<td class="cellCenter textoStandarTable">Sin valor para la evaluación</td>
+									<td class="cellCenter textoStandarTable" rowspan="3">Unidad III</td>
+									<td class="cellCenter textoStandarTable">Actividad 3</td>
+									<td class="textoStandarTable">Plan de gestión para la dirección</td>
+									<td class="cellCenter textoStandarTable">10%</td>
 								</tr>
 								<tr>
-									<td class="cellCenter textoStandarTable">Actividad 3.2</td>
-									<td class="textoStandarTable">Infografía</td>
-									<td class="cellCenter textoStandarTable">10 puntos</td>
-								</tr>
-								<tr>
-									<td class="cellCenter textoStandarTable">Actividad 3.3</td>
-									<td class="textoStandarTable">Reporte</td>
-									<td class="cellCenter textoStandarTable">10 puntos</td>
+									<td class="cellCenter textoStandarTable">Actividad 4</td>
+									<td class="textoStandarTable">Plan de desarrollo del software<br>Documentación (reporte)<br>y<br>Sistema</td>
+									<td class="cellCenter textoStandarTable">15%</td>
 								</tr>
 								<tr>
 									<td class="cellCenter textoStandarTable" colspan="2">Total</td>
-									<td class="cellCenter textoStandarTable">20 puntos</td>
+									<td class="cellCenter textoStandarTable">25%</td>
 								</tr>
 							</tbody>
 						</table>
@@ -162,25 +157,19 @@ const contenidosUnidad = {
 		titulo: "Unidad de competencia",
 		icono: "extension",
 		contenido: `
-<br>
-<div id="test-swipe-2" class="tabsContentContainerInfo">
-    <div class="shadow4 border1 clw">
-        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
-        <div class="cardDesign clw border1Inf">
-            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                Reconoce el <i class="keyWord">papel de las finanzas</i> a partir del <i class="keyWord">contexto
-                    empresarial.</i>
-            </p>
-
-            <div class="defaultImage">
-                <div class="defaultImageContent" id="unidadCompetencia"></div>
-            </div>
-            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
-                <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-            </span>
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Formula la estructura técnica y ambiental del proyecto con base en su metodología, plan desarrollo y sostenibilidad.
+        </p>
+        <div class="defaultImage">
+            <div class="defaultImageContent" id="unidadCompetencia"></div>
         </div>
+        <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+            href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+            href="https://icons8.com/illustrations/">Ouch!</a></span>
     </div>
-
 </div>`,
 	},
 	evaluacionAprendizajes: {
@@ -213,25 +202,19 @@ const contenidosUnidad = {
 
                     <tbody>
                         <tr>
-                            <td class="cellCenter textoStandarTable" rowspan="4">Unidad 1</td>
-                            <td class="cellCenter textoStandarTable">
-                            </td>
-                            <td class="textoStandarTable"></td>
-                            <td class="cellCenter textoStandarTable"></td>
+                            <td class="cellCenter textoStandarTable" rowspan="3">Unidad III</td>
+                            <td class="cellCenter textoStandarTable">Actividad 3</td>
+                            <td class="textoStandarTable">Plan de gestión para la dirección</td>
+                            <td class="cellCenter textoStandarTable">10%</td>
                         </tr>
                         <tr>
-                            <td class="cellCenter textoStandarTable"></td>
-                            <td class="textoStandarTable"></td>
-                            <td class="cellCenter textoStandarTable">10 puntos</td>
-                        </tr>
-                        <tr>
-                            <td class="cellCenter textoStandarTable"></td>
-                            <td class="textoStandarTable"></td>
-                            <td class="cellCenter textoStandarTable">10 puntos</td>
+                            <td class="cellCenter textoStandarTable">Actividad 4</td>
+                            <td class="textoStandarTable">Plan de desarrollo del software<br>Documentación (reporte)<br>y<br>Sistema</td>
+                            <td class="cellCenter textoStandarTable">15%</td>
                         </tr>
                         <tr>
                             <td class="cellCenter textoStandarTable" colspan="2">Total</td>
-                            <td class="cellCenter textoStandarTable">20 puntos</td>
+                            <td class="cellCenter textoStandarTable">25%</td>
                         </tr>
                     </tbody>
                 </table>

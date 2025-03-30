@@ -16,10 +16,10 @@ const contenidosUnidad = {
         </div>
         
         <div id="test-swipe-1" class="tabsContentContainerInfo">
-            <div class="shadow4 border1 clw">
+    <div class="shadow4 border1 clw">
                 <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
-                <div class="cardDesign clw border1Inf">
-                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                     Estimados estudiantes que cursan la unidad de aprendizaje Formulación y evaluación de proyectos informáticos, que se imparte en la
                     <i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
                     bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 2: Innovación y la gestión del mercado</i>.
@@ -41,14 +41,14 @@ const contenidosUnidad = {
                 <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
                 <div class="cardDesign clw border1Inf">
                     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                        Identifica los aspectos generales de la <i class="keyWord">formulación de proyectos informáticos</i> a partir del <i class="keyWord">análisis del entorno</i> del área de interés.
+                        Formula un estudio de mercado con base en la metodología Design thinking.
                     </p>
-                    <div class="defaultImage">
-                        <div class="defaultImageContent" id="unidadCompetencia"></div>
-                    </div>
-                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-                    </span>
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="unidadCompetencia"></div>
+            </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+                        href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+                        href="https://icons8.com/illustrations/">Ouch!</a></span>
                 </div>
             </div>
         </div>
@@ -64,12 +64,12 @@ const contenidosUnidad = {
                     <div class="defaultImage">
                         <div class="defaultImageContent" id="metodologia"></div>
                     </div>
-                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
                     <a href="https://icons8.com/illustrations/illustration/pixeltrue-idea" target="_blank">Ouch!</a>
-                    </span>
+            </span>
                 </div>
-            </div>
         </div>
+    </div>
 
         <div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
             <div class="shadow4 border1 clw">
@@ -90,14 +90,14 @@ const contenidosUnidad = {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="cellCenter textoStandarTable" rowspan="4">Unidad 2</td>
-                                    <td class="cellCenter textoStandarTable">Actividad 2.1</td>
-                                    <td class="textoStandarTable">Infografía sobre innovación</td>
-                                    <td class="cellCenter textoStandarTable">20 puntos</td>
+                                    <td class="cellCenter textoStandarTable" rowspan="2">Unidad II</td>
+                                    <td class="cellCenter textoStandarTable">Actividad 2</td>
+                                    <td class="textoStandarTable">Formulación de un proyecto informático</td>
+                                    <td class="cellCenter textoStandarTable">15%</td>
                                 </tr>
                                 <tr>
                                     <td class="cellCenter textoStandarTable" colspan="2">Total</td>
-                                    <td class="cellCenter textoStandarTable">20 puntos</td>
+                                    <td class="cellCenter textoStandarTable">15%</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -147,25 +147,19 @@ const contenidosUnidad = {
         titulo: "Unidad de competencia",
         icono: "extension",
         contenido: `
-<br>
-<div id="test-swipe-2" class="tabsContentContainerInfo">
-    <div class="shadow4 border1 clw">
-        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
-        <div class="cardDesign clw border1Inf">
-            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                Reconoce el <i class="keyWord">papel de las finanzas</i> a partir del <i class="keyWord">contexto
-                    empresarial.</i>
-            </p>
-
-            <div class="defaultImage">
-                <div class="defaultImageContent" id="unidadCompetencia"></div>
-            </div>
-            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
-                <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-            </span>
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Formula un estudio de mercado con base en la metodología Design thinking.
+        </p>
+        <div class="defaultImage">
+            <div class="defaultImageContent" id="unidadCompetencia"></div>
         </div>
+        <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+            href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+            href="https://icons8.com/illustrations/">Ouch!</a></span>
     </div>
-
 </div>`,
     },
     evaluacionAprendizajes: {
@@ -242,31 +236,45 @@ const contenidosUnidad = {
 <div class="shadow4 border1 clw">
     <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
     <div class="cardDesign clw border1Inf">
-        <!--Card con un ejemplo-->
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            <i class="keyWord">Las empresas son la base del sistema económico</i>, debido a que se encargan de <i
-                class="keyWord">la producción, comercialización y distribución de bienes</i> que satisfacen las
-            múltiples necesidades la sociedad. Más allá de su infraestructura, tamaño y giro <i class="keyWord">toda
-                empresa debe constituirse de acuerdo con la legislación vigente</i> que le otorga una personalidad
-            jurídica propia e independiente de sus dueños; para su funcionamiento <i class="keyWord">requiere de
-                recursos financieros, tecnológicos y humanos</i> los cuales deben ser administrados eficientemente para
-            cumplir con sus objetivos.
+            La innovación y la gestión del mercado son considerados conceptos clave para la competitividad empresarial y el desarrollo económico. La innovación promueve en las empresas la creación de nuevos productos, servicios y procesos, mientras que la gestión del mercado es la encargada de posicionar esas innovaciones de manera efectiva para generar valor en sus productos y captar una mayor cantidad de clientes.
         </p>
 
-        <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-            Las empresas <i class="keyWord">juegan un papel fundamental en cualquier economía;</i> sin embargo, son
-            afectadas por diferentes <i class="keyWord">factores presentes en el micro y macroentorno</i> que las
-            obligan a tomar decisiones con el propósito de permanecer vigentes en el mercado. Por otro lado, <i
-                class="keyWord">una buena o mala administración de los recursos se verá reflejada en las finanzas,</i>
-            que se encargan de la distribución y el uso que se le da al dinero.
-        </blockquote>
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">1. Innovación</div>
+            <div class="cardDesign clgreyl1 border1Inf">
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    La innovación se define como la implementación de una idea nueva o mejorada que aporta valor a un producto, servicio o proceso (Schumpeter, 1934). Se puede clasificar en:
+                </p>
+                <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li><b>Innovación de producto:</b> introducción de bienes o servicios nuevos o mejorados.</li>
+                    <li><b>Innovación de proceso:</b> cambios en la producción o distribución para aumentar la eficiencia.</li>
+                    <li><b>Innovación organizativa:</b> modificaciones en la gestión o estructura empresarial.</li>
+                    <li><b>Innovación de marketing:</b> nuevas estrategias comerciales para mejorar la experiencia del cliente.</li>
+                </ul>
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Según la OCDE (2018, Manual de Oslo), la innovación es un motor clave del crecimiento empresarial y económico, impulsado por factores como la digitalización, la globalización y la sostenibilidad.
+                </p>
+            </div>
+        </div><br>
 
+        <div class="shadow2 border1 clgreyl1">
+            <div class="textoTitulo titleContainer clbktx clgreyl2 border1Sup">2. Gestión del Mercado</div>
+            <div class="cardDesign clgreyl1 border1Inf">
         <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-            Los contenidos abordados en este RDD están dirigidos a lograr la siguiente unidad de competencia o
-            aprendizajes esperados de la unidad 1: <i class="keyWord">reconoce el papel de las finanzas a partir del
-                contexto empresarial</i>, por lo que su construcción fue totalmente intencionada en aras de <i
-                class="keyWord">favorecer y apoyarte en tu proceso de aprendizaje</i>.
-        </p>
+                    La gestión del mercado se refiere a la planificación, ejecución y control de estrategias para satisfacer las necesidades del consumidor y lograr ventajas competitivas. Incluye aspectos como:
+                </p>
+                <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
+                    <li><b>Segmentación de mercado:</b> identificación de grupos de consumidores con características similares.</li>
+                    <li><b>Posicionamiento de marca:</b> creación de una imagen única y atractiva en la mente del consumidor.</li>
+                    <li><b>Estrategias de marketing:</b> uso del mix de marketing (producto, precio, plaza y promoción) para atraer clientes.</li>
+                    <li><b>Gestión de la innovación en el mercado:</b> implementación de estrategias para introducir y escalar innovaciones.</li>
+                </ul>
+                <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                    Kotler y Keller (2016) destacan que una gestión eficaz del mercado requiere un análisis constante de tendencias, competencia y comportamiento del consumidor.
+                </p>
+            </div>
+        </div>
 
         <div class="defaultImage">
             <div class="defaultImageContent" id="intro"></div>
@@ -977,6 +985,9 @@ function cargarContenidoInicial() {
 
 // Función para cargar contenido específico
 function cargarContenido(seccionId) {
+    // Accedemos al contenedor de los textos
+    let contenedorParaElContenidoDeLaUnidad = document.getElementById("lateralUnityContent");
+    
     if (!seccionId) return; // Si no hay seccionId, no hacemos nada
     
     const seccion = contenidosUnidad[seccionId];
@@ -1036,29 +1047,33 @@ document.addEventListener("DOMContentLoaded", function () {
     cargarContenidoInicial();
 
     // Event listener para el menú de escritorio
-    let buttonContaineChargeContent = document.getElementById(
-        "lateralUnityMenuSectionContainer"
-    );
-    buttonContaineChargeContent.addEventListener("click", function (event) {
-        if (event.target.classList.contains("deskOption")) {
-            const seccionId = event.target.getAttribute("seccion-id");
-            cargarContenido(seccionId);
-        }
-    });
+    let buttonContaineChargeContent = document.getElementById("lateralUnityMenuSectionContainer");
+    if (buttonContaineChargeContent) {
+        buttonContaineChargeContent.addEventListener("click", function (event) {
+            const target = event.target.closest('[seccion-id]');
+            if (target) {
+                const seccionId = target.getAttribute("seccion-id");
+                cargarContenido(seccionId);
+            }
+        });
+    }
 
     // Event listener para el menú móvil
-    let buttonContaineChargeContentMobile = document.getElementsByClassName(
-        "mobileOptionsContainer"
-    );
-    for (var i = 0; i < buttonContaineChargeContentMobile.length; i++) {
-        buttonContaineChargeContentMobile[i].addEventListener(
-            "click",
-            function (event) {
-                if (event.target.classList.contains("mobileOption")) {
-                    const seccionId = event.target.getAttribute("seccion-id");
+    let mobileOptionsContainers = document.getElementsByClassName("mobileOptionsContainer");
+    Array.from(mobileOptionsContainers).forEach(container => {
+        container.addEventListener("click", function (event) {
+            const target = event.target.closest('[seccion-id]');
+            if (target) {
+                const seccionId = target.getAttribute("seccion-id");
+                if (seccionId) {
                     cargarContenido(seccionId);
+                    // Cerrar el sidenav móvil después de seleccionar una opción
+                    const instance = M.Sidenav.getInstance(document.querySelector('#slide-out'));
+                    if (instance) {
+                        instance.close();
+                    }
                 }
             }
-        );
-    }
+        });
+    });
 });

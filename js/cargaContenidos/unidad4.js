@@ -16,10 +16,10 @@ const contenidosUnidad = {
         </div>
         
         <div id="test-swipe-1" class="tabsContentContainerInfo">
-            <div class="shadow4 border1 clw">
+    <div class="shadow4 border1 clw">
                 <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
-                <div class="cardDesign clw border1Inf">
-                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+        <div class="cardDesign clw border1Inf">
+            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                     Estimados estudiantes que cursan la unidad de aprendizaje Formulación y evaluación de proyectos informáticos, que se imparte en la
                     <i class="keyWord">Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN)</i>, reciban la mejor de las
                     bienvenidas a este <i class="keyWord">recurso didáctico digital (RDD) de la unidad temática 4: Gestión del presupuesto del proyecto</i>.
@@ -43,15 +43,15 @@ const contenidosUnidad = {
                     <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                         Gestiona el <i class="keyWord">presupuesto del proyecto</i> a partir del <i class="keyWord">análisis de costos y recursos</i> necesarios.
                     </p>
-                    <div class="defaultImage">
-                        <div class="defaultImageContent" id="unidadCompetencia"></div>
-                    </div>
-                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-                    <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-                    </span>
-                </div>
+            <div class="defaultImage">
+                <div class="defaultImageContent" id="unidadCompetencia"></div>
             </div>
+            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
+                <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
+            </span>
         </div>
+    </div>
+</div>
 
         <div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
             <div class="shadow4 border1 clw">
@@ -64,11 +64,43 @@ const contenidosUnidad = {
             </div>
         </div>
 
-        <div id="test-swipe-4" class="tabsContentContainerInfo">
+        <div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
             <div class="shadow4 border1 clw">
                 <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Evaluación de los aprendizajes</div>
                 <div class="cardDesign clw border1Inf">
-                    <p class="textoStandar">La evaluación se realizará mediante actividades prácticas y cuestionarios que permitirán verificar tu comprensión de los conceptos clave.</p>
+                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+                        La evaluación de los aprendizajes de esta unidad temática se llevará a cabo como se muestra a continuación:
+                    </p>
+                    <div class="cardDesign clgreyl2 border1">
+                        <table class="striped highlight responsive-table clw border1 shadow2">
+                            <thead>
+                                <tr>
+                                    <th class="clbktx textoStandarTable">Unidad</th>
+                                    <th class="clbktx textoStandarTable">Actividad de aprendizaje</th>
+                                    <th class="clbktx textoStandarTable">Evidencia de aprendizaje</th>
+                                    <th class="clbktx textoStandarTable">Valor en la evaluación</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="cellCenter textoStandarTable" rowspan="2">Unidad IV<br>y<br>Unidad V</td>
+                                    <td class="cellCenter textoStandarTable">Actividad 5</td>
+                                    <td class="textoStandarTable">Los presupuestos y la evaluación financiera del proyecto</td>
+                                    <td class="cellCenter textoStandarTable">5%</td>
+                                </tr>
+                                <tr>
+                                    <td class="cellCenter textoStandarTable" colspan="2">Total</td>
+                                    <td class="cellCenter textoStandarTable">5%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="defaultImage">
+                        <div class="defaultImageContent" id="evaluacionAprendizajes"></div>
+                    </div>
+                    <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
+                        <a href="https://icons8.com/illustrations/illustration/pixeltrue-teaching" target="_blank">Ouch!</a>
+                    </span>
                 </div>
             </div>
         </div>
@@ -78,35 +110,30 @@ const contenidosUnidad = {
                 <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
                 <div class="cardDesign clw border1Inf">
                     <p class="textoStandar">Para aprovechar al máximo esta unidad, es necesario tener conocimientos básicos de gestión de proyectos y contabilidad.</p>
-                </div>
-            </div>
-        </div>
-        `
-    },
-    unidadCompetencia: {
-        id: "unidadCompetencia",
-        titulo: "Unidad de competencia",
-        type: "contenido",
-        contenido: `
-  <br>
-  <div id="test-swipe-2" class="tabsContentContainerInfo">
-    <div class="shadow4 border1 clw">
-        <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
-        <div class="cardDesign clw border1Inf">
-            <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                Formula los presupuestos requeridos en el proyecto con base en la inversión, ingresos, egresos y ventas.
-            </p>
-
-            <div class="defaultImage">
-                <div class="defaultImageContent" id="unidadCompetencia"></div>
-            </div>
-            <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-                <a href="https://icons8.com/illustrations/illustration/pixeltrue-sleeping" target="_blank">Ouch!</a>
-            </span>
         </div>
     </div>
 </div>
 `
+    },
+    unidadCompetencia: {
+        id: "unidadCompetencia",
+        titulo: "Unidad de competencia",
+        icono: "extension",
+        contenido: `
+<div class="shadow4 border1 clw">
+    <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Unidad de competencia</div>
+    <div class="cardDesign clw border1Inf">
+        <p class="clbktx textoDinamicoIdentificador textoReadingH2">
+            Formula los presupuestos requeridos en el proyecto con base en la inversión, ingresos, egresos y ventas.
+        </p>
+        <div class="defaultImage">
+            <div class="defaultImageContent" id="unidadCompetencia"></div>
+        </div>
+        <span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
+            href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
+            href="https://icons8.com/illustrations/">Ouch!</a></span>
+    </div>
+</div>`,
     },
     evaluacionAprendizajes: {
         id: "evaluacionAprendizajes",
@@ -135,28 +162,16 @@ const contenidosUnidad = {
                             <th class="clbktx textoStandarTable">Valor en la evaluación</th>
                         </tr>
                     </thead>
-
                     <tbody>
                         <tr>
-                            <td class="cellCenter textoStandarTable" rowspan="4">Unidad 1</td>
-                            <td class="cellCenter textoStandarTable">
-                            </td>
-                            <td class="textoStandarTable"></td>
-                            <td class="cellCenter textoStandarTable"></td>
-                        </tr>
-                        <tr>
-                            <td class="cellCenter textoStandarTable"></td>
-                            <td class="textoStandarTable"></td>
-                            <td class="cellCenter textoStandarTable">10 puntos</td>
-                        </tr>
-                        <tr>
-                            <td class="cellCenter textoStandarTable"></td>
-                            <td class="textoStandarTable"></td>
-                            <td class="cellCenter textoStandarTable">10 puntos</td>
+                            <td class="cellCenter textoStandarTable" rowspan="2">Unidad IV<br>y<br>Unidad V</td>
+                            <td class="cellCenter textoStandarTable">Actividad 5</td>
+                            <td class="textoStandarTable">Los presupuestos y la evaluación financiera del proyecto</td>
+                            <td class="cellCenter textoStandarTable">5%</td>
                         </tr>
                         <tr>
                             <td class="cellCenter textoStandarTable" colspan="2">Total</td>
-                            <td class="cellCenter textoStandarTable">20 puntos</td>
+                            <td class="cellCenter textoStandarTable">5%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1120,7 +1135,7 @@ function cargarContenidoInicial() {
 
 // Función para cargar contenido específico
 function cargarContenido(seccionId) {
-    if (!seccionId) {
+            if (!seccionId) {
         console.warn('No se proporcionó ID de sección');
         return;
     }
@@ -1138,9 +1153,9 @@ function cargarContenido(seccionId) {
 
     if (!contenedor) {
         console.error("Contenedor de contenido no encontrado");
-        return;
-    }
-
+                return;
+            }
+            
     console.log(`Cargando contenido para sección: ${seccionId} (${section.titulo})`);
 
     // Restablecer la bandera de inicialización de tabs
