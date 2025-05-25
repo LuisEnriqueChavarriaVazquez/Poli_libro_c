@@ -1033,7 +1033,7 @@ contenido: `
         </p>
 
         <div class="defaultImage" style="display: flex; justify-content: center; margin: 10px auto;">
-            <img src="/img/contenidos/2.3.1.png" alt="Modelo de negocios canvas" class="defaultImageContent"
+            <img src="https://modelocanvas.net/wp-content/uploads/2022/08/ejemplo-modelo-canvas-vs-lean-canvas.jpg" alt="Modelo de negocios canvas" class="defaultImageContent"
                 style="width: auto; height: 400px; margin: 10px auto;">
         </div>
         <br>
