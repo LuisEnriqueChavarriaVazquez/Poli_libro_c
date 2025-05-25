@@ -8,17 +8,15 @@ const contenidosUnidad = {
 		<!--Menu para los contenidos en tiempo real-->
 		<div class="mainTabsContent" id="tabsContentID">
 			<ul id="tabs-swipe-demo" class="tabs clgreyl2 shadow4">
-				<li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Bienvenida</a></li>
-				<li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a></li>
+				<li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Introducción</a></li>
 				<li class="tab clgreyl2" id="a7tutorialButton"><a class="clbktx" href="#test-swipe-2">Unidad de competencia</a></li>
 				<li class="tab clgreyl2" id="a9tutorialButton"><a class="clbktx" href="#test-swipe-4">Evaluación de los aprendizajes</a></li>
-				<li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a></li>
 			</ul>
 		</div>
 		
 		<div id="test-swipe-1" class="tabsContentContainerInfo">
 			<div class="shadow4 border1 clw">
-				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
+				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
 				<div class="cardDesign clw border1Inf">
 					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
 					La gestión técnica y ambiental es clave para el desarrollo eficiente y sostenible de tu proyecto. Toma en cuenta que la correcta planificación y ejecución de los aspectos técnicos posibilitan que los recursos, procesos y tecnologías se utilicen de manera adecuada, en total alineación al cumpliendo con los objetivos establecidos.
@@ -55,24 +53,6 @@ const contenidosUnidad = {
 					<span class="referenciaIcono clgreyl1 border1 clbktx">Ilustración de &nbsp; <a
 						href="https://icons8.com/illustrations/style--pixeltrue">Pixel true</a> &nbsp;, &nbsp; <a
 						href="https://icons8.com/illustrations/">Ouch!</a></span>
-				</div>
-			</div>
-		</div>
-
-		<div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
-			<div class="shadow4 border1 clw">
-				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
-				<div class="cardDesign clw border1Inf">
-					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
-						<i class="keyWord">El uso de este RDD de la unidad 3: la empresa y su entorno</i>, te permitirá <i class="keyWord">estudiar los contenidos</i> en la secuencia indicada en el programa de estudios de <i class="keyWord">la Unidad de aprendizaje Finanzas empresariales</i>. Para abordar dicha unidad temática se requieren seis horas de teoría y dos horas de <i class="keyWord">aprendizaje autónomo</i>. 
-						Este RDD se construyó con la intención de <i class="keyWord">apoyarte en tu proceso de aprendizaje tanto dentro como fuera del aula</i>; está disponible en el momento que lo requieras consultar, adaptándose a tu propio ritmo de aprendizaje, con los que se pretende <i class="keyWord">facilitar el aprendizaje autónomo</i> con miras a lograr los objetivos de aprendizaje de esta unidad temática.
-					</p>
-					<div class="defaultImage">
-						<div class="defaultImageContent" id="metodologia"></div>
-					</div>
-					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-					<a href="https://icons8.com/illustrations/illustration/pixeltrue-idea" target="_blank">Ouch!</a>
-					</span>
 				</div>
 			</div>
 		</div>
@@ -114,37 +94,6 @@ const contenidosUnidad = {
 					</div>
 					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
 					<a href="https://icons8.com/illustrations/illustration/pixeltrue-teaching" target="_blank">Ouch!</a>
-					</span>
-				</div>
-			</div>
-		</div>
-
-		<div id="test-swipe-5" class="tabsContentContainerInfo" style="display: none;">
-			<div class="shadow4 border1 clw">
-				<div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
-				<div class="cardDesign clw border1Inf">
-					<p class="clbktx textoDinamicoIdentificador textoReadingH2">
-						Para acceder y hacer uso de este recurso se requiere:
-					</p>
-					<ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
-						<li>Conexión a internet</li>
-						<li>
-							Navegador de internet:
-							<ul class="browser-default">
-								<li>Microsoft Edge (version 85 o superior)</li>
-
-					<ul class="browser-default">
-						<li class="clbktx textoDinamicoIdentificador textoReadingH2">Conexión a internet</li>
-						<li class="clbktx textoDinamicoIdentificador textoReadingH2">Navegador web compatible (Chrome, Firefox, Safari, Edge)</li>
-						<li class="clbktx textoDinamicoIdentificador textoReadingH2">Dispositivo con pantalla de al menos 800x600 píxeles</li>
-						<li class="clbktx textoDinamicoIdentificador textoReadingH2">JavaScript habilitado en el navegador</li>
-					</ul>
-
-					<div class="defaultImage">
-						<div class="defaultImageContent" id="requerimientos"></div>
-					</div>
-					<span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp;
-						<a href="https://icons8.com/illustrations/illustration/pixeltrue-settings" target="_blank">Ouch!</a>
 					</span>
 				</div>
 			</div>

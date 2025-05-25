@@ -7,17 +7,15 @@ const contenidosUnidad = {
         <!--Menu para los contenidos en tiempo real-->
         <div class="mainTabsContent" id="tabsContentID">
             <ul id="tabs-swipe-demo" class="tabs clgreyl2 shadow4">
-                <li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Bienvenida</a></li>
-                <li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a></li>
+                <li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Introducción</a></li>
                 <li class="tab clgreyl2" id="a7tutorialButton"><a class="clbktx" href="#test-swipe-2">Unidad de competencia</a></li>
                 <li class="tab clgreyl2" id="a9tutorialButton"><a class="clbktx" href="#test-swipe-4">Evaluación de los aprendizajes</a></li>
-                <li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a></li>
             </ul>
         </div>
         
         <div id="test-swipe-1" class="tabsContentContainerInfo">
     <div class="shadow4 border1 clw">
-                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
+                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
         <div class="cardDesign clw border1Inf">
             <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                 Considera que un presupuesto es la estimación en términos monetarios tanto de los ingresos como de los egresos (costos y gastos), en este caso asociados al proyecto. No olvides que los presupuestos son estimaciones; sin embargo, es sumamente importe hacer dichas estimaciones lo más apegadas a la realidad.
@@ -55,17 +53,6 @@ const contenidosUnidad = {
     </div>
 </div>
 
-        <div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
-            <div class="shadow4 border1 clw">
-                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
-                <div class="cardDesign clw border1Inf">
-                    <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                        <i class="keyWord">El uso de este RDD de la unidad 4: Gestión del presupuesto del proyecto</i>, te permitirá <i class="keyWord">estudiar los contenidos</i> en la secuencia indicada en el programa de estudios de <i class="keyWord">la Unidad de aprendizaje Formulación y evaluación de proyectos informáticos</i>. 
-                    <p class="textoStandar">La metodología de esta unidad se basa en el aprendizaje práctico y la aplicación de conceptos en casos reales.</p>
-                </div>
-            </div>
-        </div>
-
         <div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
             <div class="shadow4 border1 clw">
                 <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Evaluación de los aprendizajes</div>
@@ -101,13 +88,6 @@ const contenidosUnidad = {
                     </span>
                 </div>
             </div>
-        </div>
-
-        <div id="test-swipe-5" class="tabsContentContainerInfo">
-            <div class="shadow4 border1 clw">
-                <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
-                <div class="cardDesign clw border1Inf">
-                    <p class="textoStandar">Para aprovechar al máximo esta unidad, es necesario tener conocimientos básicos de gestión de proyectos y contabilidad.</p>
         </div>
     </div>
 </div>

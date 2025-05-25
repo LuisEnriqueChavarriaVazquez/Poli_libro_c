@@ -7,18 +7,16 @@ const contenidosUnidad = {
   <!--Menu para los contenidos en tiempo real-->
   <div class="mainTabsContent" id="tabsContentID">
       <ul id="tabs-swipe-demo" class="tabs clgreyl2 shadow4">
-          <li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Bienvenida</a></li>
-          <li class="tab clgreyl2" id="a8tutorialButton"><a class="clbktx" href="#test-swipe-3">Metodología</a></li>
+          <li class="tab clgreyl2" id="a6tutorialButton"><a class="clbktx active" href="#test-swipe-1">Introducción</a></li>
           <li class="tab clgreyl2" id="a7tutorialButton"><a class="clbktx" href="#test-swipe-2">Unidad de competencia</a></li>
           <li class="tab clgreyl2" id="a9tutorialButton"><a class="clbktx" href="#test-swipe-4">Evaluación de los aprendizajes</a></li>
-          <li class="tab clgreyl2" id="a11tutorialButton"><a class="clbktx" href="#test-swipe-5">Requerimientos</a></li>
       </ul>
   </div>
   
   <div id="test-swipe-1" class="tabsContentContainerInfo">
   
       <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Bienvenida</div>
+          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Introducción</div>
           <div class="cardDesign clw border1Inf">
               <p class="clbktx textoDinamicoIdentificador textoReadingH2">
                   La evaluación financiera de un proyecto es un proceso fundamental para determinar su viabilidad económica y su rentabilidad.
@@ -63,60 +61,7 @@ const contenidosUnidad = {
       </div>
   
   </div>
-  <div id="test-swipe-3" class="tabsContentContainerInfo" style="display: none;">
   
-      <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Metodología</div>
-          <div class="cardDesign clw border1Inf">
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                  <i class="keyWord">El uso de este RDD de la unidad 1: la empresa y su entorno</i>, te permitirá <i class="keyWord">estudiar los contenidos</i> en la secuencia indicada en el programa de estudios de <i class="keyWord">la Unidad de aprendizaje Finanzas empresariales</i>. Para abordar dicha unidad temática se requieren seis horas de teoría y dos horas de <i class="keyWord">aprendizaje autónomo</i>. 
-                  Este RDD se construyó con la intención de <i class="keyWord">apoyarte en tu proceso de aprendizaje tanto dentro como fuera del aula</i>; está disponible en el momento que lo requieras consultar, adaptándose a tu propio ritmo de aprendizaje, con los que se pretende <i class="keyWord">facilitar el aprendizaje autónomo</i> con miras a lograr los objetivos de aprendizaje de esta unidad temática 1: la empresa y su entorno.
-                  
-              
-                  <blockquote class="clgreyl1 clgreytx textoDinamicoIdentificador textoReadingH2">
-                      El menú de navegación está conformado por: <i class="keyWord">inicio, manual de usuario, contenidos, glosario, material de apoyo, actividades de aprendizaje, evaluación, cierre de la unidad temática, referencias y contacto</i>. ¿Qué encontrarás al hacer clic en cada uno de los botones antes mencionados?
-                  </blockquote>
-  
-                  <div class="cardDesign clgreyl1 border1 shadow2">
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Inicio.</b> Aquí encontrarás el encuadre del curso conformado por la bienvenida, la metodología de trabajo, la unidad de competencia que desarrollarás, la evaluación de los aprendizajes y los requerimientos para acceder y hacer uso de este recurso didáctico digital (RDD).</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Manual de usuario.</b> Al dar clic en este botón podrás visualizar o bien descargar el manual de usuario que te guiará en el uso de este recurso didáctico digital.</p>
-  
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Contenidos.</b> En este apartado encontrarás los fundamentos teóricos y algunas figuras alusivas al tema tratado.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Glosario.</b> Esta parte del menú encontrarás el significado de algunos términos debidamente referenciados que
-                          te facilitarán la comprensión del tema.</p>
-  
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Material de apoyo.</b> En esta sección podrás leer y descargar una lectura, en la que encontrarás información relevante y
-                          de interés sobre las organizaciones y en particular sobre la empresa.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Actividades de aprendizaje.</b> 
-                          En esta parte podrás visualizar y descargar las actividades de aprendizaje que se realizarán en el aula (en el horario de clases); se desarrollarán en forma individual o en equipo en función de la estrategia didáctica, y la evidencia de aprendizaje se subirá a la plataforma indicada por el profesor(a). Es importante mencionar que la actividad 1.1 es formativa (no tendrá valor para la evaluación), en tanto que las actividades 1.2 y 1.3 sí tienen valor para la evaluación. 
-                      </p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Evaluación.</b> En este apartado encontrarás reactivos de tres tipos (opción múltiple, falso y verdadero y de arrastrar conceptos); al comprobar tus respuestas podrás visualizar la retroalimentación respectiva. Una vez terminada la evaluación podrás descargar tus resultados en formato PDF, mismo que enviarás a tu profesor(a) por el medio que te indique.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Cierre de la unidad temática.</b> Aquí podrás leer un texto en el que se indica que has concluido con el estudio de los contenidos de la unidad temática 1, enfatizando la importancia que tienen las empresas en nuestra vida cotidiana y finalmente, se hace mención de los temas que abordarás en la unidad temática 2.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Referencias.</b> En esta opción del menú están enlistadas las fuentes de consulta que se utilizaron para el
-                          desarrollo de esta unidad temática.</p>
-                      
-                      <p class="clbktx textoDinamicoIdentificador textoReadingH2"><b class="clgreyl3 subTitleCard">⚫ Contacto.</b> En este último apartado encontrarás los datos de contacto y una breve semblanza  de los coautores de este RDD.</p>
-  
-                  </div>
-              </p>
-  
-              <div class="defaultImage">
-                  <div class="defaultImageContent" id="metodologia"></div>
-              </div>
-              <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-              <a href="https://icons8.com/illustrations/illustration/pixeltrue-idea" target="_blank">Ouch!</a>
-              </span>
-          </div>
-  
-      </div>
-  
-  </div>
   <div id="test-swipe-4" class="tabsContentContainerInfo" style="display: none;">
   
       <div class="shadow4 border1 clw">
@@ -156,42 +101,6 @@ const contenidosUnidad = {
               </span>
           </div>
       </div>
-  
-  </div>
-  <div id="test-swipe-5" class="tabsContentContainerInfo" style="display: none;">
-  
-      <div class="shadow4 border1 clw">
-          <div class="textoTitulo titleContainer white-text colorCardTitleContent border1Sup">Requerimientos</div>
-          <div class="cardDesign clw border1Inf">
-              <p class="clbktx textoDinamicoIdentificador textoReadingH2">
-                  Para acceder y hacer uso de este recurso se requiere:
-              </p>
-                  <ul class="browser-default clbktx textoDinamicoIdentificador textoReadingH2">
-                      <li>Conexión a internet</li>
-                      <li>
-                          Navegador de internet:
-                          <ul class="browser-default">
-                              <li>Microsoft Edge (version 85 o superior)</li>
-                              <li>Google Chrome (version 85 o superior)</li>
-                              <li>Mozilla Firefox (version 80 o superior)</li>
-                              <li>Vivaldi (version 3.3 o superior)</li>
-                              <li>Opera 70 o superior</li>
-                          </ul>
-                      </li>
-  
-                  </ul>
-  
-              
-              
-              <div class="defaultImage">
-                  <div class="defaultImageContent" id="requerimientos"></div>
-              </div>
-              <span class="referenciaIcono clgreyl1 border1 clbktx">Retomado de Pixeltrue proveniente de &nbsp; 
-              <a href="https://icons8.com/illustrations/illustration/pixeltrue-web-development" target="_blank">Ouch!</a>
-              </span>
-          </div>
-      </div>
-  
   
   </div>`,
 	},
